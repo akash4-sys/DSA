@@ -1,5 +1,6 @@
 #include "../../headers.h"
 
+// Manacher's Algorithm
 class Solution
 {
 public:
@@ -8,6 +9,9 @@ public:
         int N = s.length();
         if (N == 0)
             return "";
+        if (N == 1)
+            return s;
+            
         // Pos count considering string length to be even as well
         N = 2 * N + 1;
         vector<int> lps(N);
@@ -41,7 +45,12 @@ public:
         }
         start = (maxLpsCenterPos - maxLpsLen) / 2;
         end = start + maxLpsLen - 1;
-        return s;
+        string ans = "";
+        for(int i=start; i<=end; i++)
+        {
+            ans += s[i];
+        }
+        return ans;
     }
 };
 
