@@ -16,6 +16,10 @@
 |  12.  | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                                       |   Yes    |    Medium    |
 |  13.  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                       |   Yes    |    Easy    |
 |  14.  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/submissions/)                                       |   Yes    |    Easy    |
+|  15.  | [3Sum](https://leetcode.com/problems/3sum)                                       |   Yes    |    Medium    |
+|  16.  | [3Sum Closest](https://leetcode.com/problems/3sum-closest/)                                       |   Yes    |    Medium    |
+|  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                       |   Yes    |    Medium    |
+|  92.  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)                                       |   Yes    |    Medium    |
 | 118.  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                                            |   Yes    |    Easy    |
 | 629.  | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/k-inverse-pairs-array/)                                |    No    |    Hard    |
 | 792.  | [ Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                              |   Yes    |   Medium   |
