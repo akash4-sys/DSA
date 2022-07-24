@@ -23,6 +23,11 @@
 |  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                 |   Yes    |   Medium   |
 |  92.  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)                                                  |   Yes    |   Medium   |
 | 118.  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                                            |   Yes    |    Easy    |
+| 315.  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)                       |   Yes    |    Hard    |
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                   |    No    |    Hard    |
 | 792.  | [ Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                              |   Yes    |   Medium   |
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)             |    No    |    Hard    |
+| 2351. | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)                                     |   Yes    |    Easy    |
+| 2352. | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)                                         |   Yes    |   Medium   |
+| 2353. | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)                                       |   Yes    |   Medium   |
+| 2354. | [Number of Excellent Pairs](https://leetcode.com/problems/number-of-excellent-pairs/)                                           |   Yes    |    Hard    |
