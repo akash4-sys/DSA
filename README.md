@@ -23,6 +23,7 @@
 |  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                 |   Yes    |   Medium   |
 |  92.  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)                                                  |   Yes    |   Medium   |
 | 118.  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                                            |   Yes    |    Easy    |
+| 240.  | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                                   |   Yes    |    Easy    |
 | 315.  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)                       |   Yes    |    Hard    |
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                   |    No    |    Hard    |
 | 792.  | [ Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                              |   Yes    |   Medium   |
