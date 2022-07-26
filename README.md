@@ -26,7 +26,11 @@
 |  22.  | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/)                                                                        |   Yes    |   Medium   |
 |  23.  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                                                        |   Yes    |    Hard    |
 |  24.  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)                                                                          |   Yes    |   Medium   |
+|  25.  | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)                                                                |   Yes    |    Hard    |
 |  26.  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)                                          |   Yes    |    Easy    |
+|  27.  | [Remove Element](https://leetcode.com/problems/remove-element/)                                                                                    |   Yes    |    Easy    |
+|  28.  | [Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                                                              |   Yes    |    Easy    |
+|  29.  | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)                                                                          |   Yes    |   Medium   |
 |  33.  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                    |   Yes    |   Medium   |
 |  34.  | [ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |   Yes    |   Medium   |
 |  54.  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                      |   Yes    |   Medium   |
@@ -34,6 +38,8 @@
 |  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                                    |   Yes    |   Medium   |
 |  92.  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)                                                                     |   Yes    |   Medium   |
 | 118.  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                                                               |   Yes    |    Easy    |
+| 153.  | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                        |   Yes    |   Medium   |
+| 162.  | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                                                              |   Yes    |   Medium   |
 | 200.  | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                              |   Yes    |   Medium   |
 | 202.  | [Happy Number](https://leetcode.com/problems/happy-number/)                                                                                        |   Yes    |    Easy    |
 | 236.  | [ Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)                                 |   Yes    |   Medium   |

@@ -22,7 +22,9 @@ where referee_id != 2
 Select name as Customers
 From Customers
     Left Join Orders On (Customers.id = Orders.customerId)
-Where Orders.customerId is NULL -- 175
+Where Orders.customerId is NULL
+
+ -- 175
 Select firstName,
     lastName,
     city,
@@ -57,3 +59,30 @@ Select score,
     Dense_Rank() Over(Order By score Desc) 'rank'
     From Scores
     Order By score Desc;
+
+-- 180
+Select Distinct
+    L1.Num As ConsecutiveNums
+    From
+        Logs L1,
+        Logs L2,
+        Logs L3
+    Where
+        L1.Id = L2.Id - 1
+        And L2.Id = L3.Id - 1
+        And L1.Num = L2.Num
+        And L2.Num = L3.Num
+
+--181
+Select E.name as Employee
+    From Employee as E, Employee as M
+    Where E.ManagerId  = M.Id
+    And E.salary > M.Salary
+
+-- 182
+Select Distinct E1.email as Email
+    From Person as E1, Person as E2
+    Where E1.Email = E2.Email
+    And E1.Id != E2.Id
+
+-- 184
