@@ -27,13 +27,20 @@
 |  23.  | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                                                                        |   Yes    |    Hard    |
 |  24.  | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)                                                                          |   Yes    |   Medium   |
 |  26.  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)                                          |   Yes    |    Easy    |
+|  33.  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                    |   Yes    |   Medium   |
 |  34.  | [ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |   Yes    |   Medium   |
+|  54.  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                      |   Yes    |   Medium   |
+|  74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                            |   Yes    |   Medium   |
 |  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                                    |   Yes    |   Medium   |
 |  92.  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)                                                                     |   Yes    |   Medium   |
 | 118.  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                                                               |   Yes    |    Easy    |
-| 240.  | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                                                      |   Yes    |    Easy    |
+| 200.  | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                              |   Yes    |   Medium   |
+| 202.  | [Happy Number](https://leetcode.com/problems/happy-number/)                                                                                        |   Yes    |    Easy    |
+| 236.  | [ Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)                                 |   Yes    |   Medium   |
+| 240.  | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                                                      |   Yes    |   Medium   |
 | 315.  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)                                          |   Yes    |    Hard    |
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                                      |    No    |    Hard    |
+| 733.  | [Flood Fill](https://leetcode.com/problems/flood-fill/)                                                                                            |   Yes    |    Easy    |
 | 792.  | [ Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                                                 |   Yes    |   Medium   |
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)                                |    No    |    Hard    |
 | 2351. | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)                                                        |   Yes    |    Easy    |
