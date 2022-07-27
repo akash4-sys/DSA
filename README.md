@@ -31,12 +31,14 @@
 |  27.  | [Remove Element](https://leetcode.com/problems/remove-element/)                                                                                    |   Yes    |    Easy    |
 |  28.  | [Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                                                              |   Yes    |    Easy    |
 |  29.  | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)                                                                          |   Yes    |   Medium   |
+|  30.  | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)                                                    |   Yes    |    Hard    |
 |  33.  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                    |   Yes    |   Medium   |
 |  34.  | [ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |   Yes    |   Medium   |
 |  54.  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                      |   Yes    |   Medium   |
 |  74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                            |   Yes    |   Medium   |
 |  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                                    |   Yes    |   Medium   |
 |  92.  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)                                                                     |   Yes    |   Medium   |
+| 118.  | [Flatten Binary Tree To Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                                            |   Yes    |   Medium   |
 | 118.  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                                                               |   Yes    |    Easy    |
 | 153.  | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                        |   Yes    |   Medium   |
 | 162.  | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                                                              |   Yes    |   Medium   |
