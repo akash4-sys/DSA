@@ -33,6 +33,7 @@
 |  29.  | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)                                                                          |   Yes    |   Medium   |
 |  30.  | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)                              |   Yes    |    Hard    |
 |  31.  | [Next Permutation](https://leetcode.com/problems/next-permutation/)                                                                                |   Yes    |   Medium   |
+|  31.  | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)                                                              |   Yes    |    Hard    |
 |  33.  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                    |   Yes    |   Medium   |
 |  34.  | [ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |   Yes    |   Medium   |
 |  54.  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                      |   Yes    |   Medium   |
@@ -55,6 +56,7 @@
 | 1020. | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)                                                                            |    No    |   Medium   |
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)                                |    No    |    Hard    |
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                |   Yes    |   Medium   |
+| 1706. | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)                                                                |   Yes    |   Medium   |
 | 1905. | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)                                                                              |   Yes    |   Medium   |
 | 2351. | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)                                                        |   Yes    |    Easy    |
 | 2352. | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)                                                            |   Yes    |   Medium   |
