@@ -53,6 +53,7 @@
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                                      |    No    |    Hard    |
 | 733.  | [Flood Fill](https://leetcode.com/problems/flood-fill/)                                                                                            |   Yes    |    Easy    |
 | 792.  | [ Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                                                 |   Yes    |   Medium   |
+| 890.  | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)                                                                |   Yes    |   Medium   |
 | 1020. | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)                                                                            |    No    |   Medium   |
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)                                |    No    |    Hard    |
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                |   Yes    |   Medium   |
