@@ -36,6 +36,7 @@
 |  31.  | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)                                                              |   Yes    |    Hard    |
 |  33.  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                    |   Yes    |   Medium   |
 |  34.  | [ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |   Yes    |   Medium   |
+|  43.  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)                                                                                |   Yes    |   Medium   |
 |  54.  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                      |   Yes    |   Medium   |
 |  74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                            |   Yes    |   Medium   |
 |  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                                    |   Yes    |   Medium   |
