@@ -41,6 +41,8 @@
 |  74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                            |   Yes    |   Medium   |
 |  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                                    |   Yes    |   Medium   |
 |  92.  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)                                                                     |   Yes    |   Medium   |
+|  94.  | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                      |   Yes    |    Easy    |
+| 100.  | [Same Tree](https://leetcode.com/problems/same-tree/)                                                                                              |   Yes    |    Easy    |
 | 118.  | [Flatten Binary Tree To Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                                            |   Yes    |   Medium   |
 | 118.  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                                                               |   Yes    |    Easy    |
 | 153.  | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                        |   Yes    |   Medium   |
@@ -50,6 +52,7 @@
 | 236.  | [ Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)                                 |   Yes    |   Medium   |
 | 240.  | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                                                      |   Yes    |   Medium   |
 | 242.  | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                                                      |   Yes    |    Easy    |
+| 307.  | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)                                                                |   Yes    |   Medium   |
 | 315.  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)                                          |   Yes    |    Hard    |
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                                      |    No    |    Hard    |
 | 733.  | [Flood Fill](https://leetcode.com/problems/flood-fill/)                                                                                            |   Yes    |    Easy    |
