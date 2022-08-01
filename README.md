@@ -38,6 +38,7 @@
 |  34.  | [ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |   Yes    |   Medium   |
 |  43.  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)                                                                                |   Yes    |   Medium   |
 |  54.  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                      |   Yes    |   Medium   |
+|  62.  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                                        |   Yes    |   Medium   |
 |  74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                            |   Yes    |   Medium   |
 |  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                                    |   Yes    |   Medium   |
 |  92.  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)                                                                     |   Yes    |   Medium   |
@@ -63,6 +64,7 @@
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                |   Yes    |   Medium   |
 | 1706. | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)                                                                |   Yes    |   Medium   |
 | 1905. | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)                                                                              |   Yes    |   Medium   |
+| 2290. | [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)                                |   Yes    |    Hard    |
 | 2351. | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)                                                        |   Yes    |    Easy    |
 | 2352. | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)                                                            |   Yes    |   Medium   |
 | 2353. | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)                                                          |   Yes    |   Medium   |
