@@ -85,4 +85,29 @@ Select Distinct E1.email as Email
     Where E1.Email = E2.Email
     And E1.Id != E2.Id
 
--- 184
+
+-- 1873
+Select employee_id, 
+    IF(
+        name Not like 'M%'
+        And
+        employee_id % 2 != 0,
+        salary,
+        0
+    )
+    As
+    bonus
+    From Employees ORDER BY employee_id;
+
+
+--627
+UPDATE Salary
+SET sex  = 
+    IF(sex = 'm', 'f', 'm');
+
+
+--196
+DELETE P1 FROM Person P1, Person P2
+    WHERE
+    P1.email = P2.email 
+    AND P1.id > P2.id;
