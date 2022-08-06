@@ -40,6 +40,7 @@
 |  54.  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                      |   Yes    |   Medium   |
 |  62.  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                                        |   Yes    |   Medium   |
 |  74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                            |   Yes    |   Medium   |
+|  82.  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/partition-list/)                                                             |   Yes    |   Medium   |
 |  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                                    |   Yes    |   Medium   |
 |  92.  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)                                                                     |   Yes    |   Medium   |
 |  94.  | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                      |   Yes    |    Easy    |
@@ -55,7 +56,9 @@
 | 242.  | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                                                      |   Yes    |    Easy    |
 | 307.  | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)                                                                |   Yes    |   Medium   |
 | 315.  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)                                          |   Yes    |    Hard    |
+| 377.  | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                                                                            |   Yes    |   Medium   |
 | 378.  | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)                                  |   Yes    |   Medium   |
+| 458.  | [Poor Pigs](https://leetcode.com/problems/poor-pigs/)                                                                                              |   Yes    |    Hard    |
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                                      |    No    |    Hard    |
 | 733.  | [Flood Fill](https://leetcode.com/problems/flood-fill/)                                                                                            |   Yes    |    Easy    |
 | 733.  | [My Calender I](https://leetcode.com/problems/my-calendar-i/)                                                                                      |   Yes    |   Medium   |
@@ -72,3 +75,4 @@
 | 2352. | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)                                                            |   Yes    |   Medium   |
 | 2353. | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)                                                          |   Yes    |   Medium   |
 | 2354. | [Number of Excellent Pairs](https://leetcode.com/problems/number-of-excellent-pairs/)                                                              |   Yes    |    Hard    |
+| 2357. | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)                        |   Yes    |    Easy    |
