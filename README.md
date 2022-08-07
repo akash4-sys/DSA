@@ -36,7 +36,11 @@
 |  31.  | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)                                                              |   Yes    |    Hard    |
 |  33.  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                    |   Yes    |   Medium   |
 |  34.  | [ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |   Yes    |   Medium   |
+|  36.  | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                                                                        |   Yes    |   Medium   |
+|  37.  | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)                                                                                      |   Yes    |    Hard    |
 |  43.  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)                                                                                |   Yes    |   Medium   |
+|  51.  | [N-Queens](https://leetcode.com/problems/n-queens/)                                                                                                |   Yes    |    Hard    |
+|  52.  | [N-Queens II](https://leetcode.com/problems/n-queens-ii/)                                                                                          |   Yes    |    Hard    |
 |  54.  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                      |   Yes    |   Medium   |
 |  62.  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                                        |   Yes    |   Medium   |
 |  74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                            |   Yes    |   Medium   |
@@ -51,6 +55,7 @@
 | 162.  | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                                                              |   Yes    |   Medium   |
 | 200.  | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                              |   Yes    |   Medium   |
 | 202.  | [Happy Number](https://leetcode.com/problems/happy-number/)                                                                                        |   Yes    |    Easy    |
+| 234.  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                                    |   Yes    |    Easy    |
 | 236.  | [ Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)                                 |   Yes    |   Medium   |
 | 240.  | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                                                      |   Yes    |   Medium   |
 | 242.  | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                                                      |   Yes    |    Easy    |
@@ -68,6 +73,7 @@
 | 1020. | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)                                                                            |    No    |   Medium   |
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)                                |    No    |    Hard    |
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                |   Yes    |   Medium   |
+| 1584. | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)                                                    |    No    |   Medium   |
 | 1706. | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)                                                                |   Yes    |   Medium   |
 | 1905. | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)                                                                              |   Yes    |   Medium   |
 | 2290. | [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)                                |   Yes    |    Hard    |
@@ -76,3 +82,7 @@
 | 2353. | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)                                                          |   Yes    |   Medium   |
 | 2354. | [Number of Excellent Pairs](https://leetcode.com/problems/number-of-excellent-pairs/)                                                              |   Yes    |    Hard    |
 | 2357. | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)                        |   Yes    |    Easy    |
+| 2363. | [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)                                                                          |   Yes    |    Easy    |
+| 2364. | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)                                                              |    No    |   Medium   |
+| 2367. | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)                                                      |   Yes    |    Easy    |
+| 2368. | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)                                              |   Yes    |   Medium   |
