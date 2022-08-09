@@ -8,14 +8,59 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
-
-
 // Merge Sort
 class Solution {
 public:
+
+    ListNode* mid(ListNode *head)
+    {
+        ListNode *slow = head, *fast = head->next;
+        while(fast && fast->next)
+        {
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+        return slow;
+    }
+
+    ListNode *merge(ListNode *left, ListNode *right)
+    {
+        ListNode *ans = new ListNode(), *head = ans;
+        while(left && right)
+        {
+            if(left->val < right->val)
+            {
+                head->next = left;
+                left = left->next;
+            }
+            else
+            {
+                head->next = right;
+                right = right->next;
+            }
+            head = head->next;
+        }
+        if(left)
+            head->next = left;
+        if(right)
+            head->next = right;
+        return head->next;
+    }
+
     ListNode* sortList(ListNode* head) 
     {
-             
+        if(!head || !head->next)
+            return head;
+        
+        ListNode *left = head;
+        ListNode *right = mid(head);
+        ListNode *temp = right->next;
+        right->next = NULL;
+        right = temp;
+
+        left = sortList(left);
+        right = sortList(right);
+        return merge(left, right);
     }
 };
 

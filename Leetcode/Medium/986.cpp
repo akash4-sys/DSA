@@ -10,21 +10,18 @@ public:
             return ans;
 
         int i = 0, j = 0;
-        while (i < list1.size())
+        while (i < list1.size() && j < list2.size())
         {
-            int cx, cy;
-            if (i != 0 && list2[i - 1][1] == list1[i][0])
-                ans.push_back({list1[i][0], list1[i][0]});
+            int x = max(list1[i][0], list2[j][0]);
+            int y = min(list1[i][1], list2[j][1]);
 
-            if (list1[i][0] <= list2[i][0] && list1[i][1] >= list2[i][0])
-            {
-                cx = list2[i][0];
-                cy = list2[i][1];
-                ans.push_back({cx, cy});
-            }
-
+            if(x <= y)
+                ans.push_back({x, y});
             
-            i++;
+            if(list1[i][1] < list2[j][1])
+                i++;
+            else
+                j++;
         }
         return ans;
     }
