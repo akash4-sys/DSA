@@ -42,20 +42,28 @@
 |  51.  | [N-Queens](https://leetcode.com/problems/n-queens/)                                                                                                |   Yes    |    Hard    |
 |  52.  | [N-Queens II](https://leetcode.com/problems/n-queens-ii/)                                                                                          |   Yes    |    Hard    |
 |  54.  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                      |   Yes    |   Medium   |
+|  61.  | [Rotate List](https://leetcode.com/problems/rotate-list/)                                                                                          |   Yes    |   Medium   |
 |  62.  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                                        |   Yes    |   Medium   |
 |  74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                            |   Yes    |   Medium   |
-|  82.  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/partition-list/)                                                             |   Yes    |   Medium   |
+|  82.  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)                                      |   Yes    |   Medium   |
+|  83.  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)                                            |   Yes    |    Easy    |
 |  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                                    |   Yes    |   Medium   |
 |  92.  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)                                                                     |   Yes    |   Medium   |
 |  94.  | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                      |   Yes    |    Easy    |
 | 100.  | [Same Tree](https://leetcode.com/problems/same-tree/)                                                                                              |   Yes    |    Easy    |
 | 114.  | [Flatten Binary Tree To Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                                            |   Yes    |   Medium   |
+| 108.  | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)                            |   Yes    |    Easy    |
 | 118.  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                                                               |   Yes    |    Easy    |
+| 138.  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                                   |   Yes    |   Medium   |
+| 141.  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                                                                              |   Yes    |    Easy    |
+| 147.  | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)                                                                          |   Yes    |   Medium   |
 | 148.  | [Sort List](https://leetcode.com/problems/sort-list/)                                                                                              |   Yes    |   Medium   |
 | 153.  | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                        |   Yes    |   Medium   |
+| 160.  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)                                                |   Yes    |    Easy    |
 | 162.  | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                                                              |   Yes    |   Medium   |
 | 200.  | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                              |   Yes    |   Medium   |
 | 202.  | [Happy Number](https://leetcode.com/problems/happy-number/)                                                                                        |   Yes    |    Easy    |
+| 203.  | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)                                                          |   Yes    |    Easy    |
 | 206.  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                                                                          |   Yes    |    Easy    |
 | 234.  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                                    |   Yes    |    Easy    |
 | 236.  | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)                                  |   Yes    |   Medium   |
