@@ -50,11 +50,12 @@
 |  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                                    |   Yes    |   Medium   |
 |  92.  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)                                                                     |   Yes    |   Medium   |
 |  94.  | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                      |   Yes    |    Easy    |
+|  98.  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                                                          |   Yes    |   Medium   |
 | 100.  | [Same Tree](https://leetcode.com/problems/same-tree/)                                                                                              |   Yes    |    Easy    |
 | 114.  | [Flatten Binary Tree To Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                                            |   Yes    |   Medium   |
 | 108.  | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)                            |   Yes    |    Easy    |
 | 118.  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                                                               |   Yes    |    Easy    |
-| 138.  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                                   |   Yes    |   Medium   |
+| 138.  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                      |   Yes    |   Medium   |
 | 141.  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                                                                              |   Yes    |    Easy    |
 | 147.  | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)                                                                          |   Yes    |   Medium   |
 | 148.  | [Sort List](https://leetcode.com/problems/sort-list/)                                                                                              |   Yes    |   Medium   |
@@ -74,6 +75,7 @@
 | 307.  | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)                                                                |   Yes    |   Medium   |
 | 315.  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)                                          |   Yes    |    Hard    |
 | 328.  | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                                                                        |   Yes    |   Medium   |
+| 355.  | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                                                    |   Yes    |   Medium   |
 | 377.  | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                                                                            |   Yes    |   Medium   |
 | 378.  | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)                                  |   Yes    |   Medium   |
 | 458.  | [Poor Pigs](https://leetcode.com/problems/poor-pigs/)                                                                                              |   Yes    |    Hard    |
