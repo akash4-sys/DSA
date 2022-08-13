@@ -122,3 +122,36 @@ SELECT u.name,
     FROM users u
     ORDER BY travelled_distance DESC, 
     u.name ASC
+
+--197
+SELECT DISTINCT WA.id
+    FROM WEATHER WA, WEATHER WB
+    WHERE WA.Temperature > WB.Temperature
+    AND DATEDIFF(WA.Recorddate, WB.Recorddate) = 1
+
+--1527
+SELECT * FROM Patients
+    WHERE conditions LIKE '% DIAB1%'
+    OR CONDITIONS LIKE 'DIAB1%';
+
+--511
+SELECT player_id, MIN(event_date) AS first_login
+    FROM Activity
+    GROUP BY player_id;
+
+--586
+SELECT customer_number
+    FROM Orders
+    GROUP BY customer_number
+    ORDER BY count(*) DESC limit 1;
+
+--596
+SELECT class
+    FROM Courses
+    GROUP BY class
+    HAVING COUNT(class) >= 5;
+
+
+
+--607
+-try
