@@ -45,6 +45,7 @@
 |  61.  | [Rotate List](https://leetcode.com/problems/rotate-list/)                                                                                                                   |   Yes    |   Medium   |
 |  62.  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                                                                 |   Yes    |   Medium   |
 |  74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                                                     |   Yes    |   Medium   |
+|  76.  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                                                                         |   Yes    |    Hard    |
 |  82.  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)                                                               |   Yes    |   Medium   |
 |  83.  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)                                                                     |   Yes    |    Easy    |
 |  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                                                             |   Yes    |   Medium   |
@@ -53,7 +54,6 @@
 |  98.  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                                                                                   |   Yes    |   Medium   |
 | 100.  | [Same Tree](https://leetcode.com/problems/same-tree/)                                                                                                                       |   Yes    |    Easy    |
 | 114.  | [Flatten Binary Tree To Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                                                                     |   Yes    |   Medium   |
-| 108.  | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)                                                     |   Yes    |    Easy    |
 | 118.  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                                                                                        |   Yes    |    Easy    |
 | 138.  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                                               |   Yes    |   Medium   |
 | 141.  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                                                                                                       |   Yes    |    Easy    |
@@ -80,6 +80,7 @@
 | 355.  | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                                                                             |   Yes    |   Medium   |
 | 377.  | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                                                                                                     |   Yes    |   Medium   |
 | 378.  | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)                                                           |   Yes    |   Medium   |
+| 382.  | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)                                                                                           |   Yes    |   Medium   |
 | 458.  | [Poor Pigs](https://leetcode.com/problems/poor-pigs/)                                                                                                                       |   Yes    |    Hard    |
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                                                               |    No    |    Hard    |
 | 705.  | [Design HashSet](https://leetcode.com/problems/design-hashset/)                                                                                                             |   Yes    |    Easy    |
@@ -104,6 +105,7 @@
 | 2058. | [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) |   Yes    |   Medium   |
 | 2074. | [Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)                                                                   |   Yes    |   Medium   |
 | 2290. | [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)                                                         |   Yes    |    Hard    |
+| 2326. | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)                                                                                                         |   Yes    |   Medium   |
 | 2351. | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)                                                                                 |   Yes    |    Easy    |
 | 2352. | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)                                                                                     |   Yes    |   Medium   |
 | 2353. | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)                                                                                   |   Yes    |   Medium   |

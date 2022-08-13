@@ -85,7 +85,6 @@ Select Distinct E1.email as Email
     Where E1.Email = E2.Email
     And E1.Id != E2.Id
 
-
 -- 1873
 Select employee_id, 
     IF(
@@ -111,3 +110,15 @@ DELETE P1 FROM Person P1, Person P2
     WHERE
     P1.email = P2.email 
     AND P1.id > P2.id;
+
+--1407
+SELECT u.name, 
+    (
+        SELECT IFNULL(SUM(r.distance), 0)
+        FROM Rides r
+        WHERE u.id = r.user_id
+    )
+    AS travelled_distance
+    FROM users u
+    ORDER BY travelled_distance DESC, 
+    u.name ASC
