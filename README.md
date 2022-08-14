@@ -55,6 +55,8 @@
 | 100.  | [Same Tree](https://leetcode.com/problems/same-tree/)                                                                                                                       |   Yes    |    Easy    |
 | 114.  | [Flatten Binary Tree To Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                                                                     |   Yes    |   Medium   |
 | 118.  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                                                                                        |   Yes    |    Easy    |
+| 126.  | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)                                                                                                             |   Yes    |    Hard    |
+| 127.  | [Word Ladder](https://leetcode.com/problems/word-ladder/)                                                                                                                   |   Yes    |    Hard    |
 | 138.  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                                               |   Yes    |   Medium   |
 | 141.  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                                                                                                       |   Yes    |    Easy    |
 | 143.  | [Reorder List](https://leetcode.com/problems/reorder-list/)                                                                                                                 |   Yes    |   Medium   |
