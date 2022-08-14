@@ -152,6 +152,9 @@ SELECT class
     HAVING COUNT(class) >= 5;
 
 
+--1667
+SELECT user_id, 
+CONCAT(UPPER(LEFT(name, 1)), LOWER(SUBSTRING(name, 2, LENGTH(name)))) AS name
+FROM Users
+ORDER BY user_id;
 
---607
--try

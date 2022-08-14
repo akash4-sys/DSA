@@ -70,6 +70,7 @@
 | 234.  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                                                             |   Yes    |    Easy    |
 | 236.  | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)                                                           |   Yes    |   Medium   |
 | 237.  | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)                                                                                 |   Yes    |    Easy    |
+| 239.  | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                                                             |   Yes    |    Hard    |
 | 240.  | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                                                                               |   Yes    |   Medium   |
 | 235.  | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)                                             |   Yes    |    Easy    |
 | 242.  | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                                                                               |   Yes    |    Easy    |
@@ -78,6 +79,7 @@
 | 315.  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)                                                                   |   Yes    |    Hard    |
 | 328.  | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                                                                                                 |   Yes    |   Medium   |
 | 355.  | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                                                                             |   Yes    |   Medium   |
+| 357.  | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)                                                                         |   Yes    |   Medium   |
 | 377.  | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                                                                                                     |   Yes    |   Medium   |
 | 378.  | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)                                                           |   Yes    |   Medium   |
 | 382.  | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)                                                                                           |   Yes    |   Medium   |
@@ -115,3 +117,4 @@
 | 2364. | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)                                                                                       |    No    |   Medium   |
 | 2367. | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)                                                                               |   Yes    |    Easy    |
 | 2368. | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)                                                                       |   Yes    |   Medium   |
+| 2375. | [ Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)                                                        |   Yes    |   Medium   |
