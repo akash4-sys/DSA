@@ -10,7 +10,7 @@ public:
         return n * factorial(n - 1);
     }
 
-    int countSpecialNumbers(int n)
+    int numDupDigitsAtMostN(int n)
     {
         string s = to_string(n);
         int digits = s.length(), dig = digits, ans = 0, fact9 = 362880;
@@ -44,6 +44,8 @@ public:
 
         if (accumulate(begin(visited), end(visited), 0) == digits)
             ans++;
+        
+        ans = n - ans;
         return ans;
     }
 };

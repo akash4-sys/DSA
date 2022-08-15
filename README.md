@@ -33,7 +33,7 @@
 |  29.  | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/)                                                                                                   |   Yes    |   Medium   |
 |  30.  | [Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/)                                                       |   Yes    |    Hard    |
 |  31.  | [Next Permutation](https://leetcode.com/problems/next-permutation/)                                                                                                         |   Yes    |   Medium   |
-|  31.  | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)                                                                                       |   Yes    |    Hard    |
+|  32.  | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)                                                                                       |   Yes    |    Hard    |
 |  33.  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                                             |   Yes    |   Medium   |
 |  34.  | [ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)                          |   Yes    |   Medium   |
 |  36.  | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                                                                                                 |   Yes    |   Medium   |
@@ -98,6 +98,7 @@
 | 890.  | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)                                                                                         |   Yes    |   Medium   |
 | 986.  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)                                                                                   |   Yes    |   Medium   |
 | 1020. | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)                                                                                                     |    No    |   Medium   |
+| 1012. | [Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/)                                                                                 |   Yes    |    Hard    |
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)                                                         |    No    |    Hard    |
 | 1171. | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)                                     |   Yes    |   Medium   |
 | 1220. | [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/submissions/)                                                                             |   Yes    |    Hard    |
@@ -119,4 +120,5 @@
 | 2364. | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)                                                                                       |    No    |   Medium   |
 | 2367. | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)                                                                               |   Yes    |    Easy    |
 | 2368. | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)                                                                       |   Yes    |   Medium   |
-| 2375. | [ Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)                                                        |   Yes    |   Medium   |
+| 2375. | [Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)                                                         |   Yes    |   Medium   |
+| 2376. | [Count Special Integers](https://leetcode.com/problems/count-special-integers/)                                                                                             |   Yes    |    Hard    |
