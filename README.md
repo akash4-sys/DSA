@@ -105,12 +105,15 @@
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                                         |   Yes    |   Medium   |
 | 1290. | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)                                       |   Yes    |    Easy    |
 | 1584. | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)                                                                             |    No    |   Medium   |
+| 1669. | [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)                                                                               |   Yes    |   Medium   |
 | 1706. | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)                                                                                         |   Yes    |   Medium   |
 | 1721. | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)                                                                           |   Yes    |   Medium   |
 | 1905. | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)                                                                                                       |   Yes    |   Medium   |
 | 2058. | [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) |   Yes    |   Medium   |
 | 2074. | [Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)                                                                   |   Yes    |   Medium   |
 | 2130. | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)                                                                       |   Yes    |   Medium   |
+| 2181. | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)                                                                                 |   Yes    |   Medium   |
+| 2289. | [Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)                                                                     |   Yes    |   Medium   |
 | 2290. | [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)                                                         |   Yes    |    Hard    |
 | 2326. | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)                                                                                                         |   Yes    |   Medium   |
 | 2351. | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)                                                                                 |   Yes    |    Easy    |
