@@ -92,6 +92,7 @@
 | 729.  | [My Calender I](https://leetcode.com/problems/my-calendar-i/)                                                                                                               |   Yes    |   Medium   |
 | 733.  | [Flood Fill](https://leetcode.com/problems/flood-fill/)                                                                                                                     |   Yes    |    Easy    |
 | 792.  | [ Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                                                                          |   Yes    |   Medium   |
+| 804.  | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)                                                                                           |   Yes    |    Easy    |
 | 823.  | [Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)                                                                                       |   Yes    |   Medium   |
 | 858.  | [Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)                                                                                                       |   Yes    |   Medium   |
 | 876.  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                       |   Yes    |    Easy    |
@@ -104,6 +105,7 @@
 | 1220. | [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/submissions/)                                                                             |   Yes    |    Hard    |
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                                         |   Yes    |   Medium   |
 | 1290. | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)                                       |   Yes    |    Easy    |
+| 1338. | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)                                                                               |   Yes    |   Medium   |
 | 1584. | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)                                                                             |    No    |   Medium   |
 | 1669. | [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)                                                                               |   Yes    |   Medium   |
 | 1706. | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)                                                                                         |   Yes    |   Medium   |
@@ -115,6 +117,7 @@
 | 2181. | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)                                                                                 |   Yes    |   Medium   |
 | 2289. | [Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)                                                                     |   Yes    |   Medium   |
 | 2290. | [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)                                                         |   Yes    |    Hard    |
+| 2296. | [Design a Text Editor](https://leetcode.com/problems/design-a-text-editor/)                                                                                                 |   Yes    |    Hard    |
 | 2326. | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)                                                                                                         |   Yes    |   Medium   |
 | 2351. | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)                                                                                 |   Yes    |    Easy    |
 | 2352. | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)                                                                                     |   Yes    |   Medium   |
