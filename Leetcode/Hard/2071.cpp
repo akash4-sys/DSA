@@ -5,21 +5,34 @@ class Solution
 public:
     int maxTaskAssign(vector<int> &t, vector<int> &w, int pills, int strength)
     {
-        sort(t.begin(), t.end(), greater<int>());
-        sort(w.begin(), w.end(), greater<int>());
+        sort(t.begin(), t.end());
+        int l = 0, r = min(t.size(), w.size());
 
-        int ans = 0, i = 0;
-        while(i < w.size() && i < t.size())
+        while (l < r)
         {
-            if (w[i] >= t[i])
-                ans++;
-            else if (pills > 0 && (w[i] + strength) >= t[i])
+            int m = (l + r + 1) / 2, need = 0;
+            bool flag = true;
+            multiset<int> ms(w.begin(), w.end());
+
+            for (int i = m - 1; i >= 0; i--)
             {
-                pills--;
-                ans++;
+                auto it = prev(end(ms));
+                if(t[i] <= *it)
+                    ms.erase(it);
+                else
+                {
+                    auto it = ms.lower_bound(t[i] - strength);
+                    if(it != ms.end() && need++ < pills)
+                        ms.erase(it);
+                    else
+                    {
+                        flag = false;
+                        break;
+                    }
+                }
             }
-            i++;
+            (flag) ? l = m : r = m - 1;
         }
-        return ans;
+        return l;
     }
 };

@@ -38,6 +38,7 @@
 |  34.  | [ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)                          |   Yes    |   Medium   |
 |  36.  | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                                                                                                 |   Yes    |   Medium   |
 |  37.  | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)                                                                                                               |   Yes    |    Hard    |
+|  38.  | [Count and Say](https://leetcode.com/problems/count-and-say/)                                                                                                               |   Yes    |   Medium   |
 |  43.  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)                                                                                                         |   Yes    |   Medium   |
 |  51.  | [N-Queens](https://leetcode.com/problems/n-queens/)                                                                                                                         |   Yes    |    Hard    |
 |  52.  | [N-Queens II](https://leetcode.com/problems/n-queens-ii/)                                                                                                                   |   Yes    |    Hard    |
@@ -60,6 +61,7 @@
 | 138.  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                                               |   Yes    |   Medium   |
 | 141.  | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                                                                                                       |   Yes    |    Easy    |
 | 143.  | [Reorder List](https://leetcode.com/problems/reorder-list/)                                                                                                                 |   Yes    |   Medium   |
+| 146.  | [LRU Cache](https://leetcode.com/problems/lru-cache/)                                                                                                                       |   Yes    |   Medium   |
 | 147.  | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)                                                                                                   |   Yes    |   Medium   |
 | 148.  | [Sort List](https://leetcode.com/problems/sort-list/)                                                                                                                       |   Yes    |   Medium   |
 | 153.  | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                                                 |   Yes    |   Medium   |
@@ -86,7 +88,9 @@
 | 378.  | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)                                                           |   Yes    |   Medium   |
 | 382.  | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)                                                                                           |   Yes    |   Medium   |
 | 458.  | [Poor Pigs](https://leetcode.com/problems/poor-pigs/)                                                                                                                       |   Yes    |    Hard    |
+| 460.  | [LFU Cache](https://leetcode.com/problems/lfu-cache/)                                                                                                                       |   Yes    |    Hard    |
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                                                               |    No    |    Hard    |
+| 659.  | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)                                                       |   Yes    |   Medium   |
 | 705.  | [Design HashSet](https://leetcode.com/problems/design-hashset/)                                                                                                             |   Yes    |    Easy    |
 | 706.  | [Design HashMap](https://leetcode.com/problems/design-hashmap/)                                                                                                             |   Yes    |    Easy    |
 | 729.  | [My Calender I](https://leetcode.com/problems/my-calendar-i/)                                                                                                               |   Yes    |   Medium   |
@@ -98,7 +102,7 @@
 | 876.  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                       |   Yes    |    Easy    |
 | 890.  | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)                                                                                         |   Yes    |   Medium   |
 | 986.  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)                                                                                   |   Yes    |   Medium   |
-| 1020. | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)                                                                                                     |    No    |   Medium   |
+| 1020. | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)                                                                                                     |   Yes    |   Medium   |
 | 1012. | [Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/)                                                                                 |   Yes    |    Hard    |
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)                                                         |    No    |    Hard    |
 | 1171. | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)                                     |   Yes    |   Medium   |
@@ -110,8 +114,10 @@
 | 1669. | [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)                                                                               |   Yes    |   Medium   |
 | 1706. | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)                                                                                         |   Yes    |   Medium   |
 | 1721. | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)                                                                           |   Yes    |   Medium   |
+| 1791. | [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)                                                                                       |   Yes    |    Easy    |
 | 1905. | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)                                                                                                       |   Yes    |   Medium   |
 | 2058. | [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/) |   Yes    |   Medium   |
+| 2071. | [Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)                                                             |   Yes    |    Hard    |
 | 2074. | [Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)                                                                   |   Yes    |   Medium   |
 | 2130. | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)                                                                       |   Yes    |   Medium   |
 | 2181. | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)                                                                                 |   Yes    |   Medium   |
