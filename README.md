@@ -39,7 +39,9 @@
 |  36.  | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                                                                                                 |   Yes    |   Medium   |
 |  37.  | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)                                                                                                               |   Yes    |    Hard    |
 |  38.  | [Count and Say](https://leetcode.com/problems/count-and-say/)                                                                                                               |   Yes    |   Medium   |
+|  42.  | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                                                                                                   |   Yes    |    Hard    |
 |  43.  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)                                                                                                         |   Yes    |   Medium   |
+|  50.  | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                                                                                                                          |   Yes    |   Medium   |
 |  51.  | [N-Queens](https://leetcode.com/problems/n-queens/)                                                                                                                         |   Yes    |    Hard    |
 |  52.  | [N-Queens II](https://leetcode.com/problems/n-queens-ii/)                                                                                                                   |   Yes    |    Hard    |
 |  54.  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                                               |   Yes    |   Medium   |
@@ -99,6 +101,7 @@
 | 804.  | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)                                                                                           |   Yes    |    Easy    |
 | 823.  | [Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)                                                                                       |   Yes    |   Medium   |
 | 858.  | [Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)                                                                                                       |   Yes    |   Medium   |
+| 871.  | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)                                                                       |   Yes    |    Hard    |
 | 876.  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                       |   Yes    |    Easy    |
 | 890.  | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)                                                                                         |   Yes    |   Medium   |
 | 986.  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)                                                                                   |   Yes    |   Medium   |
@@ -120,6 +123,7 @@
 | 2071. | [Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)                                                             |   Yes    |    Hard    |
 | 2074. | [Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)                                                                   |   Yes    |   Medium   |
 | 2130. | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)                                                                       |   Yes    |   Medium   |
+| 2131. | [Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)                                 |   Yes    |   Medium   |
 | 2181. | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)                                                                                 |   Yes    |   Medium   |
 | 2289. | [Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)                                                                     |   Yes    |   Medium   |
 | 2290. | [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)                                                         |   Yes    |    Hard    |
