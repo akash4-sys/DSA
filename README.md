@@ -58,6 +58,7 @@
 | 100.  | [Same Tree](https://leetcode.com/problems/same-tree/)                                                                                                                       |   Yes    |    Easy    |
 | 114.  | [Flatten Binary Tree To Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                                                                     |   Yes    |   Medium   |
 | 118.  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                                                                                        |   Yes    |    Easy    |
+| 118.  | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)                                                                                                        |   Yes    |    Easy    |
 | 126.  | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)                                                                                                             |   Yes    |    Hard    |
 | 127.  | [Word Ladder](https://leetcode.com/problems/word-ladder/)                                                                                                                   |   Yes    |    Hard    |
 | 138.  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                                               |   Yes    |   Medium   |
@@ -84,6 +85,7 @@
 | 307.  | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)                                                                                         |   Yes    |   Medium   |
 | 315.  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)                                                                   |   Yes    |    Hard    |
 | 328.  | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                                                                                                 |   Yes    |   Medium   |
+| 338.  | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                                                                                               |   Yes    |    Easy    |
 | 355.  | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                                                                             |   Yes    |   Medium   |
 | 357.  | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)                                                                         |   Yes    |   Medium   |
 | 377.  | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                                                                                                     |   Yes    |   Medium   |
@@ -91,6 +93,8 @@
 | 382.  | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)                                                                                           |   Yes    |   Medium   |
 | 458.  | [Poor Pigs](https://leetcode.com/problems/poor-pigs/)                                                                                                                       |   Yes    |    Hard    |
 | 460.  | [LFU Cache](https://leetcode.com/problems/lfu-cache/)                                                                                                                       |   Yes    |    Hard    |
+| 509.  | [https://leetcode.com/problems/fibonacci-number/](https://leetcode.com/problems/fibonacci-number/)                                                                          |   Yes    |    Easy    |
+| 621.  | [Task Scheduler](https://leetcode.com/problems/task-scheduler/)                                                                                                             |   Yes    |   Medium   |
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                                                               |    No    |    Hard    |
 | 659.  | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)                                                       |   Yes    |   Medium   |
 | 705.  | [Design HashSet](https://leetcode.com/problems/design-hashset/)                                                                                                             |   Yes    |    Easy    |
@@ -104,9 +108,11 @@
 | 871.  | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)                                                                       |   Yes    |    Hard    |
 | 876.  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                       |   Yes    |    Easy    |
 | 890.  | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)                                                                                         |   Yes    |   Medium   |
+| 936.  | [Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/submissions/)                                                                                         |   Yes    |   Hard   |
 | 986.  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)                                                                                   |   Yes    |   Medium   |
-| 1020. | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)                                                                                                     |   Yes    |   Medium   |
 | 1012. | [Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/)                                                                                 |   Yes    |    Hard    |
+| 1020. | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)                                                                                                     |   Yes    |   Medium   |
+| 1025. | [Divisor Game](https://leetcode.com/problems/divisor-game/)                                                                                                                 |   Yes    |    Easy    |
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)                                                         |    No    |    Hard    |
 | 1171. | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)                                     |   Yes    |   Medium   |
 | 1220. | [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/submissions/)                                                                             |   Yes    |    Hard    |
@@ -140,3 +146,7 @@
 | 2368. | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)                                                                       |   Yes    |   Medium   |
 | 2375. | [Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)                                                         |   Yes    |   Medium   |
 | 2376. | [Count Special Integers](https://leetcode.com/problems/count-special-integers/)                                                                                             |   Yes    |    Hard    |
+| 2379. | [Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)                                     |   Yes    |    Easy    |
+| 2380. | [Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/)                                                         |   Yes    |   Medium   |
+| 2383. | [Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)                                             |   Yes    |    Easy    |
+| 2384. | [Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/)                                                                                     |   Yes    |   Medium   |
