@@ -47,6 +47,7 @@
 |  54.  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                                               |   Yes    |   Medium   |
 |  61.  | [Rotate List](https://leetcode.com/problems/rotate-list/)                                                                                                                   |   Yes    |   Medium   |
 |  62.  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                                                                 |   Yes    |   Medium   |
+|  70.  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                                                           |   Yes    |    Easy    |
 |  74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                                                     |   Yes    |   Medium   |
 |  76.  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                                                                         |   Yes    |    Hard    |
 |  82.  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)                                                               |   Yes    |   Medium   |
@@ -58,7 +59,8 @@
 | 100.  | [Same Tree](https://leetcode.com/problems/same-tree/)                                                                                                                       |   Yes    |    Easy    |
 | 114.  | [Flatten Binary Tree To Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                                                                     |   Yes    |   Medium   |
 | 118.  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                                                                                        |   Yes    |    Easy    |
-| 118.  | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)                                                                                                        |   Yes    |    Easy    |
+| 118.  | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)                                                                                                  |   Yes    |    Easy    |
+| 121.  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock//)                                                                          |   Yes    |    Easy    |
 | 126.  | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)                                                                                                             |   Yes    |    Hard    |
 | 127.  | [Word Ladder](https://leetcode.com/problems/word-ladder/)                                                                                                                   |   Yes    |    Hard    |
 | 138.  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                                               |   Yes    |   Medium   |
@@ -74,6 +76,7 @@
 | 202.  | [Happy Number](https://leetcode.com/problems/happy-number/)                                                                                                                 |   Yes    |    Easy    |
 | 203.  | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)                                                                                   |   Yes    |    Easy    |
 | 206.  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                                                                                                   |   Yes    |    Easy    |
+| 231.  | [Power of Two](https://leetcode.com/problems/power-of-two/)                                                                                                                 |   Yes    |    Easy    |
 | 234.  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                                                             |   Yes    |    Easy    |
 | 236.  | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)                                                           |   Yes    |   Medium   |
 | 237.  | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)                                                                                 |   Yes    |    Easy    |
@@ -84,13 +87,16 @@
 | 300.  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                                                                             |   Yes    |   Medium   |
 | 307.  | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)                                                                                         |   Yes    |   Medium   |
 | 315.  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)                                                                   |   Yes    |    Hard    |
+| 342.  | [Power of Three](https://leetcode.com/problems/power-of-three/)                                                                                                               |   Yes    |    Easy    |
 | 328.  | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                                                                                                 |   Yes    |   Medium   |
 | 338.  | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                                                                                               |   Yes    |    Easy    |
+| 342.  | [Power of Four](https://leetcode.com/problems/power-of-four/)                                                                                                               |   Yes    |    Easy    |
 | 355.  | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                                                                             |   Yes    |   Medium   |
 | 357.  | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)                                                                         |   Yes    |   Medium   |
 | 377.  | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                                                                                                     |   Yes    |   Medium   |
 | 378.  | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)                                                           |   Yes    |   Medium   |
 | 382.  | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)                                                                                           |   Yes    |   Medium   |
+| 392.  | [Is Subsequence](https://leetcode.com/problems/is-subsequence/)                                                                                                             |   Yes    |    Easy    |
 | 458.  | [Poor Pigs](https://leetcode.com/problems/poor-pigs/)                                                                                                                       |   Yes    |    Hard    |
 | 460.  | [LFU Cache](https://leetcode.com/problems/lfu-cache/)                                                                                                                       |   Yes    |    Hard    |
 | 509.  | [https://leetcode.com/problems/fibonacci-number/](https://leetcode.com/problems/fibonacci-number/)                                                                          |   Yes    |    Easy    |
@@ -101,6 +107,7 @@
 | 706.  | [Design HashMap](https://leetcode.com/problems/design-hashmap/)                                                                                                             |   Yes    |    Easy    |
 | 729.  | [My Calender I](https://leetcode.com/problems/my-calendar-i/)                                                                                                               |   Yes    |   Medium   |
 | 733.  | [Flood Fill](https://leetcode.com/problems/flood-fill/)                                                                                                                     |   Yes    |    Easy    |
+| 746.  | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)                                                                                         |   Yes    |    Easy    |
 | 792.  | [ Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                                                                          |   Yes    |   Medium   |
 | 804.  | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)                                                                                           |   Yes    |    Easy    |
 | 823.  | [Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)                                                                                       |   Yes    |   Medium   |
@@ -108,18 +115,20 @@
 | 871.  | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)                                                                       |   Yes    |    Hard    |
 | 876.  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                       |   Yes    |    Easy    |
 | 890.  | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)                                                                                         |   Yes    |   Medium   |
-| 936.  | [Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/submissions/)                                                                                         |   Yes    |   Hard   |
+| 936.  | [Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/submissions/)                                                                                   |   Yes    |    Hard    |
 | 986.  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)                                                                                   |   Yes    |   Medium   |
 | 1012. | [Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/)                                                                                 |   Yes    |    Hard    |
 | 1020. | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)                                                                                                     |   Yes    |   Medium   |
 | 1025. | [Divisor Game](https://leetcode.com/problems/divisor-game/)                                                                                                                 |   Yes    |    Easy    |
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)                                                         |    No    |    Hard    |
 | 1171. | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)                                     |   Yes    |   Medium   |
+| 1137. | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)                                                                                             |   Yes    |    Easy    |
 | 1220. | [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/submissions/)                                                                             |   Yes    |    Hard    |
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                                         |   Yes    |   Medium   |
 | 1290. | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)                                       |   Yes    |    Easy    |
 | 1338. | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)                                                                               |   Yes    |   Medium   |
 | 1584. | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)                                                                             |    No    |   Medium   |
+| 1646. | [Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)                                                                             |   Yes    |    Easy    |
 | 1669. | [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)                                                                               |   Yes    |   Medium   |
 | 1706. | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)                                                                                         |   Yes    |   Medium   |
 | 1721. | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)                                                                           |   Yes    |   Medium   |
