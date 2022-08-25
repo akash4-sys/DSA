@@ -41,10 +41,12 @@
 |  38.  | [Count and Say](https://leetcode.com/problems/count-and-say/)                                                                                                               |   Yes    |   Medium   |
 |  42.  | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                                                                                                   |   Yes    |    Hard    |
 |  43.  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)                                                                                                         |   Yes    |   Medium   |
+|  45.  | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                                                                                                                 |   Yes    |   Medium   |
 |  50.  | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                                                                                                                          |   Yes    |   Medium   |
 |  51.  | [N-Queens](https://leetcode.com/problems/n-queens/)                                                                                                                         |   Yes    |    Hard    |
 |  52.  | [N-Queens II](https://leetcode.com/problems/n-queens-ii/)                                                                                                                   |   Yes    |    Hard    |
 |  54.  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                                               |   Yes    |   Medium   |
+|  55.  | [Jump Game](https://leetcode.com/problems/jump-game/)                                                                                                                       |   Yes    |   Medium   |
 |  61.  | [Rotate List](https://leetcode.com/problems/rotate-list/)                                                                                                                   |   Yes    |   Medium   |
 |  62.  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                                                                 |   Yes    |   Medium   |
 |  70.  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                                                           |   Yes    |    Easy    |
@@ -98,11 +100,14 @@
 | 377.  | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                                                                                                     |   Yes    |   Medium   |
 | 378.  | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)                                                           |   Yes    |   Medium   |
 | 382.  | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)                                                                                           |   Yes    |   Medium   |
+| 383.  | [Ransom Note](https://leetcode.com/problems/ransom-note/)                                                                                                                   |   Yes    |    Easy    |
 | 392.  | [Is Subsequence](https://leetcode.com/problems/is-subsequence/)                                                                                                             |   Yes    |    Easy    |
 | 407.  | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)                                                                                             |   Yes    |    Hard    |
+| 413.  | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)                                                                                                       |   Yes    |   Medium   |
 | 458.  | [Poor Pigs](https://leetcode.com/problems/poor-pigs/)                                                                                                                       |   Yes    |    Hard    |
 | 460.  | [LFU Cache](https://leetcode.com/problems/lfu-cache/)                                                                                                                       |   Yes    |    Hard    |
-| 509.  | [https://leetcode.com/problems/fibonacci-number/](https://leetcode.com/problems/fibonacci-number/)                                                                          |   Yes    |    Easy    |
+| 509.  | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)                                                                                                         |   Yes    |    Easy    |
+| 509.  | [Coin Change 2](https://leetcode.com/problems/coin-change-2/)                                                                                                               |   Yes    |   Medium   |
 | 621.  | [Task Scheduler](https://leetcode.com/problems/task-scheduler/)                                                                                                             |   Yes    |   Medium   |
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                                                               |    No    |    Hard    |
 | 659.  | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)                                                       |   Yes    |   Medium   |
@@ -130,6 +135,8 @@
 | 1220. | [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/submissions/)                                                                             |   Yes    |    Hard    |
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                                         |   Yes    |   Medium   |
 | 1290. | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)                                       |   Yes    |    Easy    |
+| 1306. | [Jump Game III](https://leetcode.com/problems/jump-game-iii/)                                                                                                               |   Yes    |   Medium   |
+| 1345. | [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                                                                                                 |   Yes    |    Hard    |
 | 1338. | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)                                                                               |   Yes    |   Medium   |
 | 1584. | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)                                                                             |    No    |   Medium   |
 | 1646. | [Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)                                                                             |   Yes    |    Easy    |
