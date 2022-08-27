@@ -45,6 +45,7 @@
 |  50.  | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                                                                                                                                      |   Yes    |   Medium   |
 |  51.  | [N-Queens](https://leetcode.com/problems/n-queens/)                                                                                                                                     |   Yes    |    Hard    |
 |  52.  | [N-Queens II](https://leetcode.com/problems/n-queens-ii/)                                                                                                                               |   Yes    |    Hard    |
+|  53.  | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                                                                                                     |   Yes    |   Medium   |
 |  54.  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                                                           |   Yes    |   Medium   |
 |  55.  | [Jump Game](https://leetcode.com/problems/jump-game/)                                                                                                                                   |   Yes    |   Medium   |
 |  61.  | [Rotate List](https://leetcode.com/problems/rotate-list/)                                                                                                                               |   Yes    |   Medium   |
@@ -54,6 +55,7 @@
 |  76.  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                                                                                     |   Yes    |    Hard    |
 |  82.  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)                                                                           |   Yes    |   Medium   |
 |  83.  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)                                                                                 |   Yes    |    Easy    |
+|  84.  | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)                                                                                         |   Yes    |    Hard    |
 |  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                                                                         |   Yes    |   Medium   |
 |  92.  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)                                                                                                          |   Yes    |   Medium   |
 |  94.  | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                                                           |   Yes    |    Easy    |
@@ -97,6 +99,7 @@
 | 342.  | [Power of Four](https://leetcode.com/problems/power-of-four/)                                                                                                                           |   Yes    |    Easy    |
 | 355.  | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                                                                                         |   Yes    |   Medium   |
 | 357.  | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)                                                                                     |   Yes    |   Medium   |
+| 363.  | [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)                                                                           |   Yes    |    Hard    |
 | 377.  | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                                                                                                                 |   Yes    |   Medium   |
 | 378.  | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)                                                                       |   Yes    |   Medium   |
 | 382.  | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)                                                                                                       |   Yes    |   Medium   |
@@ -108,6 +111,7 @@
 | 460.  | [LFU Cache](https://leetcode.com/problems/lfu-cache/)                                                                                                                                   |   Yes    |    Hard    |
 | 509.  | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)                                                                                                                     |   Yes    |    Easy    |
 | 509.  | [Coin Change 2](https://leetcode.com/problems/coin-change-2/)                                                                                                                           |   Yes    |   Medium   |
+| 560.  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                                                                                                           |   Yes    |   Medium   |
 | 621.  | [Task Scheduler](https://leetcode.com/problems/task-scheduler/)                                                                                                                         |   Yes    |   Medium   |
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                                                                           |    No    |    Hard    |
 | 659.  | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)                                                                   |   Yes    |   Medium   |
@@ -141,6 +145,7 @@
 | 1345. | [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                                                                                                             |   Yes    |    Hard    |
 | 1338. | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)                                                                                           |   Yes    |   Medium   |
 | 1438. | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) |   Yes    |   Medium   |
+| 1475. | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)                                                         |   Yes    |    Easy    |
 | 1584. | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)                                                                                         |    No    |   Medium   |
 | 1646. | [Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)                                                                                         |   Yes    |    Easy    |
 | 1669. | [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)                                                                                           |   Yes    |   Medium   |
