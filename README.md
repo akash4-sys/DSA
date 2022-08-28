@@ -56,6 +56,7 @@
 |  82.  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)                                                                           |   Yes    |   Medium   |
 |  83.  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)                                                                                 |   Yes    |    Easy    |
 |  84.  | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)                                                                                         |   Yes    |    Hard    |
+|  85.  | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)                                                                                                                   |   Yes    |    Hard    |
 |  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                                                                         |   Yes    |   Medium   |
 |  92.  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)                                                                                                          |   Yes    |   Medium   |
 |  94.  | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                                                           |   Yes    |    Easy    |
@@ -141,9 +142,10 @@
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                                                     |   Yes    |   Medium   |
 | 1290. | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)                                                   |   Yes    |    Easy    |
 | 1306. | [Jump Game III](https://leetcode.com/problems/jump-game-iii/)                                                                                                                           |   Yes    |   Medium   |
-| 1345. | [Jump Game V](https://leetcode.com/problems/jump-game-v/)                                                                                                                               |   Yes    |    Hard    |
-| 1345. | [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                                                                                                             |   Yes    |    Hard    |
+| 1329. | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)                                                                                                 |   Yes    |   Medium   |
 | 1338. | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)                                                                                           |   Yes    |   Medium   |
+| 1345. | [Jump Game V](https://leetcode.com/problems/jump-game-v/)                                                                                                                               |   Yes    |    Hard    |
+| 1346. | [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                                                                                                             |   Yes    |    Hard    |
 | 1438. | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) |   Yes    |   Medium   |
 | 1475. | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)                                                         |   Yes    |    Easy    |
 | 1584. | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)                                                                                         |    No    |   Medium   |
@@ -180,3 +182,6 @@
 | 2380. | [Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/)                                                                     |   Yes    |   Medium   |
 | 2383. | [Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)                                                         |   Yes    |    Easy    |
 | 2384. | [Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/)                                                                                                 |   Yes    |   Medium   |
+| 2389. | [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)                                                                             |   Yes    |    Easy    |
+| 2390. | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)                                                                                             |   Yes    |   Medium   |
+| 2391. | [Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)                                                                   |   Yes    |   Medium   |
