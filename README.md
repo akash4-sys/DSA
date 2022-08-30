@@ -42,6 +42,7 @@
 |  42.  | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                                                                                                               |   Yes    |    Hard    |
 |  43.  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)                                                                                                                     |   Yes    |   Medium   |
 |  45.  | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                                                                                                                             |   Yes    |   Medium   |
+|  48.  | [Rotate Image](https://leetcode.com/problems/rotate-image/)                                                                                                                             |   Yes    |   Medium   |
 |  50.  | [Pow(x, n)](https://leetcode.com/problems/powx-n/)                                                                                                                                      |   Yes    |   Medium   |
 |  51.  | [N-Queens](https://leetcode.com/problems/n-queens/)                                                                                                                                     |   Yes    |    Hard    |
 |  52.  | [N-Queens II](https://leetcode.com/problems/n-queens-ii/)                                                                                                                               |   Yes    |    Hard    |
@@ -149,6 +150,7 @@
 | 1338. | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)                                                                                           |   Yes    |   Medium   |
 | 1345. | [Jump Game V](https://leetcode.com/problems/jump-game-v/)                                                                                                                               |   Yes    |    Hard    |
 | 1346. | [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                                                                                                             |   Yes    |    Hard    |
+| 1425. | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/)                                                                                               |   Yes    |    Hard    |
 | 1438. | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) |   Yes    |   Medium   |
 | 1475. | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)                                                         |   Yes    |    Easy    |
 | 1584. | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)                                                                                         |    No    |   Medium   |
@@ -159,6 +161,7 @@
 | 1721. | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)                                                                                       |   Yes    |   Medium   |
 | 1780. | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)                                                               |   Yes    |   Medium   |
 | 1791. | [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)                                                                                                   |   Yes    |    Easy    |
+| 1886. | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)                                             |   Yes    |    Easy    |
 | 1905. | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)                                                                                                                   |   Yes    |   Medium   |
 | 2058. | [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)             |   Yes    |   Medium   |
 | 2071. | [Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)                                                                         |   Yes    |    Hard    |
