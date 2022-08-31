@@ -5,16 +5,13 @@ class Solution
 public:
     bool wordBreak(string s, vector<string> &wordDict)
     {
-        unordered_map<char, int> ump;
-        for(char c: s)
-            ump[c]++;
-
-        for(string s: wordDict)
-            for(char c: s)
-                if(!ump.count(c) || !ump[c])
-                    return false;
-                else
-                    ump[c]--;
-        return true;
+        unordered_set<string> ump(begin(wordDict), end(wordDict));
+        int n = s.length();
+        vector<bool> dp(n + 1);
+        dp[0] = true;
+        for(int i = 1; i <= n; i++)
+            for(int j = 0; j < i && !dp[i]; ++j)
+                dp[i] = dp[j] && ump.count(s.substr(j, i - j));
+        return dp[n];
     }
 };
