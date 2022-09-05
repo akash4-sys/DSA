@@ -97,6 +97,7 @@
 | 202.  | [Happy Number](https://leetcode.com/problems/happy-number/)                                                                                                                             |   Yes    |    Easy    |
 | 203.  | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)                                                                                               |   Yes    |    Easy    |
 | 206.  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                                                                                                               |   Yes    |    Easy    |
+| 209.  | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)                                                                                                   |   Yes    |   Medium   |
 | 213.  | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                                                                                                                       |   Yes    |   Medium   |
 | 231.  | [Power of Two](https://leetcode.com/problems/power-of-two/)                                                                                                                             |   Yes    |    Easy    |
 | 234.  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                                                                         |   Yes    |    Easy    |
@@ -125,6 +126,8 @@
 | 407.  | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)                                                                                                         |   Yes    |    Hard    |
 | 413.  | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)                                                                                                                   |   Yes    |   Medium   |
 | 417.  | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                                                                               |   Yes    |   Medium   |
+| 429.  | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)                                                                                     |   Yes    |   Medium   |
+| 438.  | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)                                                                                           |   Yes    |   Medium   |
 | 458.  | [Poor Pigs](https://leetcode.com/problems/poor-pigs/)                                                                                                                                   |   Yes    |    Hard    |
 | 460.  | [LFU Cache](https://leetcode.com/problems/lfu-cache/)                                                                                                                                   |   Yes    |    Hard    |
 | 472.  | [Concatenated Words](https://leetcode.com/problems/concatenated-words/)                                                                                                                 |   Yes    |    Hard    |
@@ -136,6 +139,7 @@
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                                                                           |    No    |    Hard    |
 | 637.  | [Average of Level in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)                                                                                      |   Yes    |    Easy    |
 | 659.  | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)                                                                   |   Yes    |   Medium   |
+| 673.  | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)                                                                     |   Yes    |   Medium   |
 | 705.  | [Design HashSet](https://leetcode.com/problems/design-hashset/)                                                                                                                         |   Yes    |    Easy    |
 | 706.  | [Design HashMap](https://leetcode.com/problems/design-hashmap/)                                                                                                                         |   Yes    |    Easy    |
 | 729.  | [My Calender I](https://leetcode.com/problems/my-calendar-i/)                                                                                                                           |   Yes    |   Medium   |
@@ -160,8 +164,9 @@
 | 1025. | [Divisor Game](https://leetcode.com/problems/divisor-game/)                                                                                                                             |   Yes    |    Easy    |
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)                                                                     |    No    |    Hard    |
 | 1091. | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)                                                                                         |   Yes    |   Medium   |
-| 1171. | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)                                                 |   Yes    |   Medium   |
 | 1137. | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)                                                                                                         |   Yes    |    Easy    |
+| 1143. | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                                                                                 |   No    |   Medium   |
+| 1171. | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)                                                 |   Yes    |   Medium   |
 | 1220. | [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/submissions/)                                                                                         |   Yes    |    Hard    |
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                                                     |   Yes    |   Medium   |
 | 1290. | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)                                                   |   Yes    |    Easy    |
@@ -216,4 +221,5 @@
 | 2396. | [Strictly Palindromic Number](https://leetcode.com/problems/strictly-palindromic-number/)                                                                                               |   Yes    |   Medium   |
 | 2397. | [Maximum Rows Covered by Columns](https://leetcode.com/problems/maximum-rows-covered-by-columns/)                                                                                       |   Yes    |   Medium   |
 | 2399. | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)                                                                             |   Yes    |    Easy    |
+| 2400. | [Number of Ways to Reach a Position After Exactly k Steps](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/)                                     |   Yes    |   Medium   |
 | 2401. | [Longest Nice Subarray](https://leetcode.com/problems/longest-nice-subarray/)                                                                                                           |   Yes    |   Medium   |
