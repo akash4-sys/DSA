@@ -115,6 +115,7 @@
 | 328.  | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                                                                                                             |   Yes    |   Medium   |
 | 338.  | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                                                                                                           |   Yes    |    Easy    |
 | 342.  | [Power of Four](https://leetcode.com/problems/power-of-four/)                                                                                                                           |   Yes    |    Easy    |
+| 343.  | [Integer Break](https://leetcode.com/problems/integer-break/)                                                                                                                           |   Yes    |    Medium    |
 | 355.  | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                                                                                         |   Yes    |   Medium   |
 | 357.  | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)                                                                                     |   Yes    |   Medium   |
 | 363.  | [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)                                                                           |   Yes    |    Hard    |
@@ -135,6 +136,7 @@
 | 509.  | [Coin Change 2](https://leetcode.com/problems/coin-change-2/)                                                                                                                           |   Yes    |   Medium   |
 | 547.  | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)                                                                                                               |   Yes    |   Medium   |
 | 560.  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                                                                                                           |   Yes    |   Medium   |
+| 583.  | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)                                                                                     |   Yes    |   Medium   |
 | 621.  | [Task Scheduler](https://leetcode.com/problems/task-scheduler/)                                                                                                                         |   Yes    |   Medium   |
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                                                                           |    No    |    Hard    |
 | 637.  | [Average of Level in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)                                                                                      |   Yes    |    Easy    |
@@ -148,6 +150,7 @@
 | 792.  | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                                                                                       |   Yes    |   Medium   |
 | 797.  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)                                                                                       |   Yes    |   Medium   |
 | 804.  | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)                                                                                                       |   Yes    |    Easy    |
+| 814.  | [Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)                                                                                                               |   Yes    |   Medium   |
 | 823.  | [Binary Trees With Factors](https://leetcode.com/problems/binary-trees-with-factors/)                                                                                                   |   Yes    |   Medium   |
 | 844.  | [Backspace String Compare](https://leetcode.com/problems/mirror-reflection/)                                                                                                            |   Yes    |    Easy    |
 | 858.  | [Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)                                                                                                                   |   Yes    |   Medium   |
@@ -165,7 +168,7 @@
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)                                                                     |    No    |    Hard    |
 | 1091. | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)                                                                                         |   Yes    |   Medium   |
 | 1137. | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)                                                                                                         |   Yes    |    Easy    |
-| 1143. | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                                                                                 |   No    |   Medium   |
+| 1143. | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                                                                                 |   Yes    |   Medium   |
 | 1171. | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)                                                 |   Yes    |   Medium   |
 | 1220. | [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/submissions/)                                                                                         |   Yes    |    Hard    |
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                                                     |   Yes    |   Medium   |
