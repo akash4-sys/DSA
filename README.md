@@ -56,6 +56,7 @@
 |  61.  | [Rotate List](https://leetcode.com/problems/rotate-list/)                                                                                                                               |   Yes    |   Medium   |
 |  62.  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                                                                             |   Yes    |   Medium   |
 |  70.  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                                                                       |   Yes    |    Easy    |
+|  72.  | [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                                                                                           |   Yes    |    Hard    |
 |  74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                                                                 |   Yes    |   Medium   |
 |  76.  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                                                                                     |   Yes    |    Hard    |
 |  78.  | [Subsets](https://leetcode.com/problems/subsets/)                                                                                                                                       |   Yes    |   Medium   |
@@ -89,6 +90,7 @@
 | 146.  | [LRU Cache](https://leetcode.com/problems/lru-cache/)                                                                                                                                   |   Yes    |   Medium   |
 | 147.  | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)                                                                                                               |   Yes    |   Medium   |
 | 148.  | [Sort List](https://leetcode.com/problems/sort-list/)                                                                                                                                   |   Yes    |   Medium   |
+| 149.  | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)                                                                                                                                   |   Yes    |   Hard   |
 | 153.  | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                                                             |   Yes    |   Medium   |
 | 160.  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)                                                                                     |   Yes    |    Easy    |
 | 162.  | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                                                                                                   |   Yes    |   Medium   |
@@ -115,7 +117,7 @@
 | 328.  | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                                                                                                             |   Yes    |   Medium   |
 | 338.  | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                                                                                                           |   Yes    |    Easy    |
 | 342.  | [Power of Four](https://leetcode.com/problems/power-of-four/)                                                                                                                           |   Yes    |    Easy    |
-| 343.  | [Integer Break](https://leetcode.com/problems/integer-break/)                                                                                                                           |   Yes    |    Medium    |
+| 343.  | [Integer Break](https://leetcode.com/problems/integer-break/)                                                                                                                           |   Yes    |   Medium   |
 | 355.  | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                                                                                         |   Yes    |   Medium   |
 | 357.  | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)                                                                                     |   Yes    |   Medium   |
 | 363.  | [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)                                                                           |   Yes    |    Hard    |
@@ -123,6 +125,7 @@
 | 378.  | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)                                                                       |   Yes    |   Medium   |
 | 382.  | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)                                                                                                       |   Yes    |   Medium   |
 | 383.  | [Ransom Note](https://leetcode.com/problems/ransom-note/)                                                                                                                               |   Yes    |    Easy    |
+| 384.  | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)                                                                                                                     |   Yes    |   Medium   |
 | 392.  | [Is Subsequence](https://leetcode.com/problems/is-subsequence/)                                                                                                                         |   Yes    |    Easy    |
 | 407.  | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)                                                                                                         |   Yes    |    Hard    |
 | 413.  | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)                                                                                                                   |   Yes    |   Medium   |
@@ -137,6 +140,7 @@
 | 547.  | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)                                                                                                               |   Yes    |   Medium   |
 | 560.  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                                                                                                           |   Yes    |   Medium   |
 | 583.  | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)                                                                                     |   Yes    |   Medium   |
+| 606.  | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)                                                                                   |   Yes    |    Easy    |
 | 621.  | [Task Scheduler](https://leetcode.com/problems/task-scheduler/)                                                                                                                         |   Yes    |   Medium   |
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                                                                           |    No    |    Hard    |
 | 637.  | [Average of Level in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)                                                                                      |   Yes    |    Easy    |
