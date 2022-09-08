@@ -1,6 +1,7 @@
 #include "../../headers.h"
 
-struct TreeNode {
+struct TreeNode
+{
     int val;
     TreeNode *left;
     TreeNode *right;
@@ -9,22 +10,18 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-class Solution {
-public:
+
+class Solution
+{
     vector<int> ans;
-    
-    void dfs(TreeNode* root){
-        if(root)
-        {
-            dfs(root->left);
-            ans.push_back(root->val);
-            dfs(root->right);
-        }
-        return;
-    }
-    
-    vector<int> inorderTraversal(TreeNode* root) {
-        dfs(root);
+public:
+    vector<int> inorderTraversal(TreeNode *root)
+    {
+        if(!root)
+            return ans;
+        inorderTraversal(root->left);
+        ans.push_back(root->val);
+        inorderTraversal(root->right);
         return ans;
     }
 };
