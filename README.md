@@ -90,7 +90,7 @@
 | 146.  | [LRU Cache](https://leetcode.com/problems/lru-cache/)                                                                                                                                   |   Yes    |   Medium   |
 | 147.  | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)                                                                                                               |   Yes    |   Medium   |
 | 148.  | [Sort List](https://leetcode.com/problems/sort-list/)                                                                                                                                   |   Yes    |   Medium   |
-| 149.  | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)                                                                                                                                   |   Yes    |   Hard   |
+| 149.  | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)                                                                                                             |   Yes    |    Hard    |
 | 153.  | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                                                             |   Yes    |   Medium   |
 | 160.  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)                                                                                     |   Yes    |    Easy    |
 | 162.  | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                                                                                                   |   Yes    |   Medium   |
@@ -150,6 +150,7 @@
 | 706.  | [Design HashMap](https://leetcode.com/problems/design-hashmap/)                                                                                                                         |   Yes    |    Easy    |
 | 729.  | [My Calender I](https://leetcode.com/problems/my-calendar-i/)                                                                                                                           |   Yes    |   Medium   |
 | 733.  | [Flood Fill](https://leetcode.com/problems/flood-fill/)                                                                                                                                 |   Yes    |    Easy    |
+| 749.  | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)                                                                                                                       |   Yes    |   Medium   |
 | 746.  | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)                                                                                                     |   Yes    |    Easy    |
 | 792.  | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                                                                                       |   Yes    |   Medium   |
 | 797.  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)                                                                                       |   Yes    |   Medium   |
@@ -162,6 +163,7 @@
 | 871.  | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)                                                                                   |   Yes    |    Hard    |
 | 876.  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                                   |   Yes    |    Easy    |
 | 890.  | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)                                                                                                     |   Yes    |   Medium   |
+| 918.  | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)                                                                                           |   Yes    |   Medium   |
 | 936.  | [Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)                                                                                                           |   Yes    |    Hard    |
 | 967.  | [Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)                                                                   |   Yes    |   Medium   |
 | 987.  | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)                                                                   |   Yes    |    Hard    |
