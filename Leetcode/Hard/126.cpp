@@ -1,6 +1,6 @@
 #include "../../headers.h"
 
-// perfectly fine preffered solution gives TLE on Leetcode for last TC
+// perfectly fine preferred solution gives TLE on Leetcode for last TC
 class Solution
 {
 public:

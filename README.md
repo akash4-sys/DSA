@@ -41,6 +41,7 @@
 |  38.  | [Count and Say](https://leetcode.com/problems/count-and-say/)                                                                                                                           |   Yes    |   Medium   |
 |  39.  | [Combination Sum](https://leetcode.com/problems/combination-sum/)                                                                                                                       |   Yes    |   Medium   |
 |  40.  | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)                                                                                                                 |   Yes    |   Medium   |
+|  41.  | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)                                                                                                         |   Yes    |    Hard    |
 |  42.  | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                                                                                                               |   Yes    |    Hard    |
 |  43.  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)                                                                                                                     |   Yes    |   Medium   |
 |  45.  | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                                                                                                                             |   Yes    |   Medium   |
@@ -79,6 +80,7 @@
 | 119.  | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)                                                                                                              |   Yes    |    Easy    |
 | 121.  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)                                                                                       |   Yes    |    Easy    |
 | 122.  | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)                                                                                 |   Yes    |   Medium   |
+| 123.  | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)                                                                               |   Yes    |    Hard    |
 | 126.  | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)                                                                                                                         |   Yes    |    Hard    |
 | 127.  | [Word Ladder](https://leetcode.com/problems/word-ladder/)                                                                                                                               |   Yes    |    Hard    |
 | 127.  | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)                                                                                                                 |   Yes    |   Medium   |
@@ -94,6 +96,7 @@
 | 153.  | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                                                             |   Yes    |   Medium   |
 | 160.  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)                                                                                     |   Yes    |    Easy    |
 | 162.  | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                                                                                                   |   Yes    |   Medium   |
+| 188.  | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)                                                                                 |   Yes    |    Hard    |
 | 198.  | [House Robber](https://leetcode.com/problems/house-robber/)                                                                                                                             |   Yes    |   Medium   |
 | 200.  | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                                                                   |   Yes    |   Medium   |
 | 202.  | [Happy Number](https://leetcode.com/problems/happy-number/)                                                                                                                             |   Yes    |    Easy    |
