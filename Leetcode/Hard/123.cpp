@@ -100,9 +100,9 @@ class Solution
             return 0;
         if (dp[i][buy][cap] != -1)
             return dp[i][buy][cap];
-        if (buy) // buy                                    //don't buy
+        if (buy)                                        // buy                                    //don't buy
             return dp[i][buy][cap] = max(-p[i] + profit(p, i + 1, false, cap, dp), 0 + profit(p, i + 1, true, cap, dp));
-        // sell                                      //don't sell
+                                                    // sell                                      //don't sell
         return dp[i][buy][cap] = max(p[i] + profit(p, i + 1, true, cap - 1, dp), 0 + profit(p, i + 1, false, cap, dp));
     }
 

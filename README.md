@@ -93,6 +93,7 @@
 | 147.  | [Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/)                                                                                                               |   Yes    |   Medium   |
 | 148.  | [Sort List](https://leetcode.com/problems/sort-list/)                                                                                                                                   |   Yes    |   Medium   |
 | 149.  | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)                                                                                                             |   Yes    |    Hard    |
+| 152.  | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)                                                                                                     |   Yes    |   Medium   |
 | 153.  | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                                                             |   Yes    |   Medium   |
 | 160.  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)                                                                                     |   Yes    |    Easy    |
 | 162.  | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                                                                                                   |   Yes    |   Medium   |
@@ -114,6 +115,7 @@
 | 242.  | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                                                                                           |   Yes    |    Easy    |
 | 300.  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                                                                                         |   Yes    |   Medium   |
 | 307.  | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)                                                                                                     |   Yes    |   Medium   |
+| 309.  | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)                                                           |   Yes    |   Medium   |
 | 315.  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)                                                                               |   Yes    |    Hard    |
 | 322.  | [Coin Change](https://leetcode.com/problems/coin-change/)                                                                                                                               |   Yes    |   Medium   |
 | 326.  | [Power of Three](https://leetcode.com/problems/power-of-three/)                                                                                                                         |   Yes    |    Easy    |
@@ -151,10 +153,11 @@
 | 673.  | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)                                                                     |   Yes    |   Medium   |
 | 705.  | [Design HashSet](https://leetcode.com/problems/design-hashset/)                                                                                                                         |   Yes    |    Easy    |
 | 706.  | [Design HashMap](https://leetcode.com/problems/design-hashmap/)                                                                                                                         |   Yes    |    Easy    |
+| 714.  | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)                                             |   Yes    |   Medium   |
 | 729.  | [My Calender I](https://leetcode.com/problems/my-calendar-i/)                                                                                                                           |   Yes    |   Medium   |
 | 733.  | [Flood Fill](https://leetcode.com/problems/flood-fill/)                                                                                                                                 |   Yes    |    Easy    |
-| 749.  | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)                                                                                                                       |   Yes    |   Medium   |
 | 746.  | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)                                                                                                     |   Yes    |    Easy    |
+| 749.  | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)                                                                                                                       |   Yes    |   Medium   |
 | 792.  | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                                                                                       |   Yes    |   Medium   |
 | 797.  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)                                                                                       |   Yes    |   Medium   |
 | 804.  | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)                                                                                                       |   Yes    |    Easy    |
@@ -187,6 +190,7 @@
 | 1338. | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)                                                                                           |   Yes    |   Medium   |
 | 1345. | [Jump Game V](https://leetcode.com/problems/jump-game-v/)                                                                                                                               |   Yes    |    Hard    |
 | 1346. | [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                                                                                                             |   Yes    |    Hard    |
+| 1383. | [](https://leetcode.com/problems/maximum-performance-of-a-team/)                                                                                                                           |   Yes    |   Hard   |
 | 1425. | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/)                                                                                               |   Yes    |    Hard    |
 | 1438. | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) |   Yes    |   Medium   |
 | 1448. | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)                                                                                       |   Yes    |   Medium   |
