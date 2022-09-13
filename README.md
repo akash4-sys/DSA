@@ -132,6 +132,7 @@
 | 383.  | [Ransom Note](https://leetcode.com/problems/ransom-note/)                                                                                                                               |   Yes    |    Easy    |
 | 384.  | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)                                                                                                                     |   Yes    |   Medium   |
 | 392.  | [Is Subsequence](https://leetcode.com/problems/is-subsequence/)                                                                                                                         |   Yes    |    Easy    |
+| 393.  | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)                                                                                                                     |   Yes    |   Medium   |
 | 407.  | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)                                                                                                         |   Yes    |    Hard    |
 | 413.  | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)                                                                                                                   |   Yes    |   Medium   |
 | 417.  | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                                                                               |   Yes    |   Medium   |
@@ -176,6 +177,7 @@
 | 987.  | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)                                                                   |   Yes    |    Hard    |
 | 986.  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)                                                                                               |   Yes    |   Medium   |
 | 1012. | [Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/)                                                                                             |   Yes    |    Hard    |
+| 1014. | [Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)                                                                                                           |   Yes    |   Medium   |
 | 1020. | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)                                                                                                                 |   Yes    |   Medium   |
 | 1025. | [Divisor Game](https://leetcode.com/problems/divisor-game/)                                                                                                                             |   Yes    |    Easy    |
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)                                                                     |    No    |    Hard    |
@@ -196,6 +198,7 @@
 | 1438. | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) |   Yes    |   Medium   |
 | 1448. | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)                                                                                       |   Yes    |   Medium   |
 | 1475. | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)                                                         |   Yes    |    Easy    |
+| 1567. | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)                                                     |   Yes    |   Medium   |
 | 1584. | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)                                                                                         |    No    |   Medium   |
 | 1646. | [Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)                                                                                         |   Yes    |    Easy    |
 | 1669. | [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)                                                                                           |   Yes    |   Medium   |
