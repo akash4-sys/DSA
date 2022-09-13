@@ -171,6 +171,7 @@
 | 890.  | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)                                                                                                     |   Yes    |   Medium   |
 | 918.  | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)                                                                                           |   Yes    |   Medium   |
 | 936.  | [Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)                                                                                                           |   Yes    |    Hard    |
+| 948.  | [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)                                                                                                                           |   Yes    |   Medium   |
 | 967.  | [Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)                                                                   |   Yes    |   Medium   |
 | 987.  | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)                                                                   |   Yes    |    Hard    |
 | 986.  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)                                                                                               |   Yes    |   Medium   |
@@ -190,7 +191,7 @@
 | 1338. | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)                                                                                           |   Yes    |   Medium   |
 | 1345. | [Jump Game V](https://leetcode.com/problems/jump-game-v/)                                                                                                                               |   Yes    |    Hard    |
 | 1346. | [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                                                                                                             |   Yes    |    Hard    |
-| 1383. | [](https://leetcode.com/problems/maximum-performance-of-a-team/)                                                                                                                           |   Yes    |   Hard   |
+| 1383. | [](https://leetcode.com/problems/maximum-performance-of-a-team/)                                                                                                                        |   Yes    |    Hard    |
 | 1425. | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/)                                                                                               |   Yes    |    Hard    |
 | 1438. | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) |   Yes    |   Medium   |
 | 1448. | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)                                                                                       |   Yes    |   Medium   |
@@ -239,3 +240,6 @@
 | 2399. | [Check Distances Between Same Letters](https://leetcode.com/problems/check-distances-between-same-letters/)                                                                             |   Yes    |    Easy    |
 | 2400. | [Number of Ways to Reach a Position After Exactly k Steps](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/)                                     |   Yes    |   Medium   |
 | 2401. | [Longest Nice Subarray](https://leetcode.com/problems/longest-nice-subarray/)                                                                                                           |   Yes    |   Medium   |
+| 2404. | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/)                                                                                                 |   Yes    |    Easy    |
+| 2405. | [Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/)                                                                                               |   Yes    |   Medium   |
+| 2406. | [Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)                                                         |   Yes    |   Medium   |
