@@ -152,6 +152,8 @@
 | 637.  | [Average of Level in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)                                                                                      |   Yes    |    Easy    |
 | 659.  | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)                                                                   |   Yes    |   Medium   |
 | 673.  | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)                                                                     |   Yes    |   Medium   |
+| 684.  | [Redundant Connection](https://leetcode.com/problems/redundant-connection/)                                                                                                             |   Yes    |   Medium   |
+| 685.  | [Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)                                                                                                       |   Yes    |    Hard    |
 | 705.  | [Design HashSet](https://leetcode.com/problems/design-hashset/)                                                                                                                         |   Yes    |    Easy    |
 | 706.  | [Design HashMap](https://leetcode.com/problems/design-hashmap/)                                                                                                                         |   Yes    |    Easy    |
 | 714.  | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)                                             |   Yes    |   Medium   |
@@ -215,6 +217,7 @@
 | 1905. | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)                                                                                                                   |   Yes    |   Medium   |
 | 1971. | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)                                                                                             |   Yes    |    Easy    |
 | 2058. | [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)             |   Yes    |   Medium   |
+| 2007. | [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)                                                                         |   Yes    |   Medium   |
 | 2071. | [Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)                                                                         |   Yes    |    Hard    |
 | 2074. | [Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)                                                                               |   Yes    |   Medium   |
 | 2130. | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)                                                                                   |   Yes    |   Medium   |
