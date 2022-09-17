@@ -121,6 +121,7 @@
 | 326.  | [Power of Three](https://leetcode.com/problems/power-of-three/)                                                                                                                         |   Yes    |    Easy    |
 | 328.  | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                                                                                                             |   Yes    |   Medium   |
 | 338.  | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                                                                                                           |   Yes    |    Easy    |
+| 336.  | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)                                                                                                                     |   Yes    |    Hard    |
 | 342.  | [Power of Four](https://leetcode.com/problems/power-of-four/)                                                                                                                           |   Yes    |    Easy    |
 | 343.  | [Integer Break](https://leetcode.com/problems/integer-break/)                                                                                                                           |   Yes    |   Medium   |
 | 355.  | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                                                                                         |   Yes    |   Medium   |
@@ -133,6 +134,7 @@
 | 384.  | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)                                                                                                                     |   Yes    |   Medium   |
 | 392.  | [Is Subsequence](https://leetcode.com/problems/is-subsequence/)                                                                                                                         |   Yes    |    Easy    |
 | 393.  | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)                                                                                                                     |   Yes    |   Medium   |
+| 399.  | [Evaluate Division](https://leetcode.com/problems/evaluate-division/)                                                                                                                   |   Yes    |   Medium   |
 | 407.  | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)                                                                                                         |   Yes    |    Hard    |
 | 413.  | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)                                                                                                                   |   Yes    |   Medium   |
 | 417.  | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                                                                               |   Yes    |   Medium   |
@@ -202,10 +204,12 @@
 | 1438. | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) |   Yes    |   Medium   |
 | 1448. | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)                                                                                       |   Yes    |   Medium   |
 | 1457. | [Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)                                                                   |   Yes    |   Medium   |
+| 1466. | [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)                                         |   Yes    |   Medium   |
 | 1475. | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)                                                         |   Yes    |    Easy    |
 | 1557. | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)                                                           |   Yes    |   Medium   |
 | 1567. | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)                                                     |   Yes    |   Medium   |
 | 1584. | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)                                                                                         |    No    |   Medium   |
+| 1615. | [Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)                                                                                                             |   Yes    |   Medium   |
 | 1646. | [Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)                                                                                         |   Yes    |    Easy    |
 | 1669. | [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)                                                                                           |   Yes    |   Medium   |
 | 1696. | [Jump Game VI](https://leetcode.com/problems/jump-game-vi/)                                                                                                                             |   Yes    |   Medium   |
@@ -223,6 +227,7 @@
 | 2130. | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)                                                                                   |   Yes    |   Medium   |
 | 2131. | [Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)                                             |   Yes    |   Medium   |
 | 2181. | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)                                                                                             |   Yes    |   Medium   |
+| 2285. | [Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)                                                                                   |   Yes    |   Medium   |
 | 2289. | [Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)                                                                                 |   Yes    |   Medium   |
 | 2290. | [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)                                                                     |   Yes    |    Hard    |
 | 2296. | [Design a Text Editor](https://leetcode.com/problems/design-a-text-editor/)                                                                                                             |   Yes    |    Hard    |
