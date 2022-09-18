@@ -197,6 +197,7 @@
 | 1306. | [Jump Game III](https://leetcode.com/problems/jump-game-iii/)                                                                                                                           |   Yes    |   Medium   |
 | 1329. | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)                                                                                                 |   Yes    |   Medium   |
 | 1338. | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)                                                                                           |   Yes    |   Medium   |
+| 1342. | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)                                                                 |   Yes    |    Easy    |
 | 1345. | [Jump Game V](https://leetcode.com/problems/jump-game-v/)                                                                                                                               |   Yes    |    Hard    |
 | 1346. | [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                                                                                                             |   Yes    |    Hard    |
 | 1383. | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)                                                                                           |   Yes    |    Hard    |
@@ -214,6 +215,7 @@
 | 1669. | [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)                                                                                           |   Yes    |   Medium   |
 | 1696. | [Jump Game VI](https://leetcode.com/problems/jump-game-vi/)                                                                                                                             |   Yes    |   Medium   |
 | 1706. | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)                                                                                                     |   Yes    |   Medium   |
+| 1720. | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)                                                                                                                 |   Yes    |    Easy    |
 | 1721. | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)                                                                                       |   Yes    |   Medium   |
 | 1780. | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)                                                               |   Yes    |   Medium   |
 | 1791. | [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)                                                                                                   |   Yes    |    Easy    |
@@ -259,3 +261,7 @@
 | 2404. | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/)                                                                                                 |   Yes    |    Easy    |
 | 2405. | [Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/)                                                                                               |   Yes    |   Medium   |
 | 2406. | [Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)                                                         |   Yes    |   Medium   |
+| 2411. | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/)                                                                 |   Yes    |   Medium   |
+| 2413. | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)                                                                                                         |   Yes    |    Easy    |
+| 2414. | [Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)                                       |   Yes    |   Medium   |
+| 2415. | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)                                                                                   |   Yes    |   Medium   |
