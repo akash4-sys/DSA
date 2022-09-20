@@ -107,12 +107,14 @@
 | 213.  | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                                                                                                                       |   Yes    |   Medium   |
 | 231.  | [Power of Two](https://leetcode.com/problems/power-of-two/)                                                                                                                             |   Yes    |    Easy    |
 | 234.  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                                                                         |   Yes    |    Easy    |
+| 235.  | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)                                                         |   Yes    |    Easy    |
 | 236.  | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)                                                                       |   Yes    |   Medium   |
 | 237.  | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)                                                                                             |   Yes    |    Easy    |
 | 239.  | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                                                                         |   Yes    |    Hard    |
 | 240.  | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                                                                                           |   Yes    |   Medium   |
-| 235.  | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)                                                         |   Yes    |    Easy    |
 | 242.  | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                                                                                           |   Yes    |    Easy    |
+| 263.  | [Ugly Number](https://leetcode.com/problems/ugly-number/)                                                                                                                               |   Yes    |    Easy    |
+| 264.  | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)                                                                                                                         |   Yes    |   Medium   |
 | 300.  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                                                                                         |   Yes    |   Medium   |
 | 307.  | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)                                                                                                     |   Yes    |   Medium   |
 | 309.  | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)                                                           |   Yes    |   Medium   |
@@ -149,6 +151,7 @@
 | 560.  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                                                                                                           |   Yes    |   Medium   |
 | 583.  | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)                                                                                     |   Yes    |   Medium   |
 | 606.  | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)                                                                                   |   Yes    |    Easy    |
+| 609.  | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)                                                                                           |   Yes    |   Medium   |
 | 621.  | [Task Scheduler](https://leetcode.com/problems/task-scheduler/)                                                                                                                         |   Yes    |   Medium   |
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                                                                           |    No    |    Hard    |
 | 637.  | [Average of Level in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)                                                                                      |   Yes    |    Easy    |
@@ -159,6 +162,7 @@
 | 705.  | [Design HashSet](https://leetcode.com/problems/design-hashset/)                                                                                                                         |   Yes    |    Easy    |
 | 706.  | [Design HashMap](https://leetcode.com/problems/design-hashmap/)                                                                                                                         |   Yes    |    Easy    |
 | 714.  | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)                                             |   Yes    |   Medium   |
+| 718.  | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)                                                                               |   Yes    |   Medium   |
 | 729.  | [My Calender I](https://leetcode.com/problems/my-calendar-i/)                                                                                                                           |   Yes    |   Medium   |
 | 733.  | [Flood Fill](https://leetcode.com/problems/flood-fill/)                                                                                                                                 |   Yes    |    Easy    |
 | 746.  | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)                                                                                                     |   Yes    |    Easy    |
@@ -224,6 +228,7 @@
 | 1971. | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)                                                                                             |   Yes    |    Easy    |
 | 2058. | [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)             |   Yes    |   Medium   |
 | 2007. | [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)                                                                         |   Yes    |   Medium   |
+| 2039. | [The Time When the Network Becomes Idle](https://leetcode.com/problems/the-time-when-the-network-becomes-idle/)                                                                         |   Yes    |   Medium   |
 | 2071. | [Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)                                                                         |   Yes    |    Hard    |
 | 2074. | [Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)                                                                               |   Yes    |   Medium   |
 | 2130. | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)                                                                                   |   Yes    |   Medium   |
@@ -265,3 +270,4 @@
 | 2413. | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)                                                                                                         |   Yes    |    Easy    |
 | 2414. | [Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)                                       |   Yes    |   Medium   |
 | 2415. | [Reverse Odd Levels of Binary Tree](https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/)                                                                                   |   Yes    |   Medium   |
+| 2416. | [Sum of Prefix Scores of Strings](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/)                                                                                       |   Yes    |    Hard    |
