@@ -70,6 +70,7 @@
 |  91.  | [Decode Ways](https://leetcode.com/problems/decode-ways/)                                                                                                                               |   Yes    |   Medium   |
 |  92.  | [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii)                                                                                                          |   Yes    |   Medium   |
 |  94.  | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                                                           |   Yes    |    Easy    |
+|  96.  | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)                                                                                                 |   Yes    |   Medium   |
 |  98.  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                                                                                               |   Yes    |   Medium   |
 | 100.  | [Same Tree](https://leetcode.com/problems/same-tree/)                                                                                                                                   |   Yes    |    Easy    |
 | 101.  | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)                                                                                                                         |   Yes    |    Easy    |
@@ -184,6 +185,7 @@
 | 948.  | [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)                                                                                                                           |   Yes    |   Medium   |
 | 967.  | [Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)                                                                   |   Yes    |   Medium   |
 | 986.  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)                                                                                               |   Yes    |   Medium   |
+| 985.  | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)                                                                                   |   Yes    |   Medium   |
 | 987.  | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)                                                                   |   Yes    |    Hard    |
 | 997.  | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)                                                                                                               |   Yes    |   Medium   |
 | 1012. | [Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/)                                                                                             |   Yes    |    Hard    |
@@ -199,6 +201,7 @@
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                                                     |   Yes    |   Medium   |
 | 1290. | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)                                                   |   Yes    |    Easy    |
 | 1306. | [Jump Game III](https://leetcode.com/problems/jump-game-iii/)                                                                                                                           |   Yes    |   Medium   |
+| 1314. | [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)                                                                                                                     |   Yes    |   Medium   |
 | 1329. | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)                                                                                                 |   Yes    |   Medium   |
 | 1338. | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)                                                                                           |   Yes    |   Medium   |
 | 1342. | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)                                                                 |   Yes    |    Easy    |
