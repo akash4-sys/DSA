@@ -169,6 +169,7 @@
 | 733.  | [Flood Fill](https://leetcode.com/problems/flood-fill/)                                                                                                                                 |   Yes    |    Easy    |
 | 746.  | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)                                                                                                     |   Yes    |    Easy    |
 | 749.  | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)                                                                                                                       |   Yes    |   Medium   |
+| 787.  | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)                                                                                       |   Yes    |   Medium   |
 | 792.  | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                                                                                       |   Yes    |   Medium   |
 | 797.  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)                                                                                       |   Yes    |   Medium   |
 | 804.  | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)                                                                                                       |   Yes    |    Easy    |
@@ -219,8 +220,10 @@
 | 1567. | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)                                                     |   Yes    |   Medium   |
 | 1584. | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)                                                                                         |    No    |   Medium   |
 | 1615. | [Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)                                                                                                             |   Yes    |   Medium   |
+| 1631. | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)                                                                                                     |   Yes    |   Medium   |
 | 1646. | [Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)                                                                                         |   Yes    |    Easy    |
 | 1669. | [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)                                                                                           |   Yes    |   Medium   |
+| 1680. | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)                                                               |   Yes    |   Medium   |
 | 1696. | [Jump Game VI](https://leetcode.com/problems/jump-game-vi/)                                                                                                                             |   Yes    |   Medium   |
 | 1706. | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)                                                                                                     |   Yes    |   Medium   |
 | 1720. | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)                                                                                                                 |   Yes    |    Easy    |

@@ -36,6 +36,7 @@
         "system_error": "cpp",
         "xiosbase": "cpp",
         "unordered_set": "cpp",
-        "cstdio": "cpp"
+        "cstdio": "cpp",
+        "tuple": "cpp"
     }
 }
