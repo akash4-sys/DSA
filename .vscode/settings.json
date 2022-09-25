@@ -37,6 +37,12 @@
         "xiosbase": "cpp",
         "unordered_set": "cpp",
         "cstdio": "cpp",
-        "tuple": "cpp"
+        "tuple": "cpp",
+        "complex": "cpp",
+        "functional": "cpp",
+        "optional": "cpp",
+        "xlocmon": "cpp",
+        "xlocnum": "cpp",
+        "xtr1common": "cpp"
     }
 }
