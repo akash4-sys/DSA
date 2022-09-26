@@ -1,7 +1,7 @@
 # Leetcode Solved Problems
 
 |  No.  | Title                                                                                                                                                                                     | Accepted | Difficulty |
-| :---: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :--------: |
+| :---: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :--------: | --- |
 |  1.   | [Two Sum](https://leetcode.com/problems/two-sum)                                                                                                                                          |   Yes    |    Easy    |
 |  2.   | [Add Two Numbers](https://leetcode.com/add-two-numbers)                                                                                                                                   |   Yes    |   Medium   |
 |  3.   | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                                                           |   Yes    |   Medium   |
@@ -185,13 +185,15 @@
 | 871.  | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)                                                                                     |   Yes    |    Hard    |
 | 876.  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                                     |   Yes    |    Easy    |
 | 890.  | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)                                                                                                       |   Yes    |   Medium   |
+| 912.  | [Sort an Array](https://leetcode.com/problems/sort-an-array/)                                                                                                                             |   Yes    |   Medium   |
 | 918.  | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)                                                                                             |   Yes    |   Medium   |
 | 936.  | [Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)                                                                                                             |   Yes    |    Hard    |
 | 948.  | [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)                                                                                                                             |   Yes    |   Medium   |
 | 967.  | [Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)                                                                     |   Yes    |   Medium   |
-| 986.  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)                                                                                                 |   Yes    |   Medium   |
 | 985.  | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)                                                                                     |   Yes    |   Medium   |
+| 986.  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)                                                                                                 |   Yes    |   Medium   |
 | 987.  | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)                                                                     |   Yes    |    Hard    |
+| 990.  | [Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)                                                                               |   Yes    |   Medium   |
 | 997.  | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)                                                                                                                 |   Yes    |   Medium   |
 | 1012. | [Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/)                                                                                               |   Yes    |    Hard    |
 | 1014. | [Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)                                                                                                             |   Yes    |   Medium   |
