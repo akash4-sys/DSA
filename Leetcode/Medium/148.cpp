@@ -8,18 +8,16 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
-// Merge Sort
-class Solution {
-public:
+// @lc app=leetcode id=148 lang=cpp
 
-    ListNode* mid(ListNode *head)
+// Merge Sort
+class Solution
+{
+    ListNode *mid(ListNode *head)
     {
         ListNode *slow = head, *fast = head->next;
         while(fast && fast->next)
-        {
-            slow = slow->next;
-            fast = fast->next->next;
-        }
+            slow = slow->next, fast = fast->next->next;
         return slow;
     }
 
@@ -29,32 +27,26 @@ public:
         while(left && right)
         {
             if(left->val < right->val)
-            {
-                head->next = left;
-                left = left->next;
-            }
+                head->next = left, left = left->next;
             else
-            {
-                head->next = right;
-                right = right->next;
-            }
+                head->next = right, right = right->next;
             head = head->next;
         }
+
         if(left)
             head->next = left;
         if(right)
             head->next = right;
-        return head->next;
+        return ans->next;
     }
 
-    ListNode* sortList(ListNode* head) 
+public:
+    ListNode *sortList(ListNode *head)
     {
         if(!head || !head->next)
             return head;
-        
-        ListNode *left = head;
-        ListNode *right = mid(head);
-        ListNode *temp = right->next;
+
+        ListNode *left = head, *right = mid(head), *temp = right->next;
         right->next = NULL;
         right = temp;
 
