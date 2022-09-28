@@ -1,7 +1,7 @@
 # Leetcode Solved Problems
 
 |  No.  | Title                                                                                                                                                                                     | Accepted | Difficulty |
-| :---: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :--------: | --- |
+| :---: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------: | :--------: |
 |  1.   | [Two Sum](https://leetcode.com/problems/two-sum)                                                                                                                                          |   Yes    |    Easy    |
 |  2.   | [Add Two Numbers](https://leetcode.com/add-two-numbers)                                                                                                                                   |   Yes    |   Medium   |
 |  3.   | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                                                           |   Yes    |   Medium   |
@@ -230,6 +230,7 @@
 | 1615. | [Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)                                                                                                               |   Yes    |   Medium   |
 | 1631. | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)                                                                                                       |   Yes    |   Medium   |
 | 1646. | [Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)                                                                                           |   Yes    |    Easy    |
+| 1649. | [Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)                                                                       |   Yes    |    Hard    |
 | 1669. | [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)                                                                                             |   Yes    |   Medium   |
 | 1680. | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)                                                                 |   Yes    |   Medium   |
 | 1696. | [Jump Game VI](https://leetcode.com/problems/jump-game-vi/)                                                                                                                               |   Yes    |   Medium   |
@@ -249,9 +250,10 @@
 | 2058. | [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)               |   Yes    |   Medium   |
 | 2071. | [Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)                                                                           |   Yes    |    Hard    |
 | 2074. | [Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)                                                                                 |   Yes    |   Medium   |
-| 2100. | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)                                                                                           |   Yes    |   Medium   | z   |
+| 2100. | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)                                                                                           |   Yes    |   Medium   |
 | 2130. | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)                                                                                     |   Yes    |   Medium   |
 | 2131. | [Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)                                               |   Yes    |   Medium   |
+| 2179. | [Count Good Triplets in an Array](https://leetcode.com/problems/count-good-triplets-in-an-array/)                                                                                         |   Yes    |    Hard    |
 | 2181. | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)                                                                                               |   Yes    |   Medium   |
 | 2192. | [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)                                                 |   Yes    |   Medium   |
 | 2285. | [Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)                                                                                     |   Yes    |   Medium   |

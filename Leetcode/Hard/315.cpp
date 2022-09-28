@@ -1,4 +1,55 @@
 #include "../../headers.h"
+
+// Time complexity O(NlogN)
+// Space Complexity O(N)
+
+class Solution 
+{
+    void mergeCount(vector<pair<int, int>> &vidx, vector<pair<int, int>> &merged, vector<int> &ans, int low, int high)
+    {
+        if(low >= high)
+            return;
+        int mid = low + ((high - low) / 2);
+        mergeCount(vidx, merged, ans, low, mid);
+        mergeCount(vidx, merged, ans, mid + 1, high);
+
+        // enhanced merge without function
+        int l = low,  r = mid + 1, inverse = 0, i = low;
+        while(l <= mid && r <= high)
+            if(vidx[r].first < vidx[l].first)
+                ++inverse, merged[i++] = vidx[r++];
+            else
+                ans[vidx[l].second] += inverse, merged[i++] = vidx[l++];
+
+        while(l <= mid)
+            ans[vidx[l].second] += inverse, merged[i++] = vidx[l++];
+
+        while(r <= high)
+            merged[i++] = vidx[r++];
+
+        for(int i = low; i <= high; i++)
+            vidx[i] = merged[i];
+    }
+
+public:
+    vector<int> countSmaller(vector<int>& v) 
+    {
+        if(v.empty())
+            return v;
+        vector<int> ans(v.size(), 0);
+        vector<pair<int, int>> vidx, merged;
+
+        for(int i = 0; i < v.size(); i++)
+            vidx.push_back({v[i], i}), merged.push_back({v[i], i});
+
+        mergeCount(vidx, merged, ans, 0, v.size() - 1);
+        return ans;
+    }
+};
+
+
+
+// Simple way
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 
@@ -17,92 +68,3 @@ public:
         return ans;
     }
 };
-
-
-// Something is wrong, can't find it
-class Solution
-{
-public:
-    vector<int> ans;
-
-    void merge(vector<pair<int, int>> p, int l, int mid, int r)
-    {
-        int lsize = mid - l + 1, rsize = r - mid;
-        vector<pair<int, int>> left(lsize), right(rsize);
-
-        for (int i = 0; i < lsize; i++)
-            left[i] = p[l + i];
-        for(int i = 0; i < rsize; i++)
-            right[i] = p[mid + i + 1];
-
-        int i = 0, j = 0, k = l, count = 0;
-
-        while(i < lsize && j < rsize)
-        {
-            if(left[i].second <= right[j].second)
-            {
-                ans[left[i].first] += count;
-                p[k] = left[i];
-                i++;
-            }
-            else
-            {
-                count++;
-                p[k] = right[j];
-                j++;
-            }
-            k++;
-        }
-
-        while(i < lsize)
-        {
-            ans[left[i].first] += count;
-            p[k] = left[i];
-            k++;
-            i++;
-        }
-
-        while(j < rsize)
-        {
-            p[k] = right[j];
-            k++;
-            j++;
-        }
-    }
-
-    void mergesort(vector<pair<int, int>> p, int l, int r)
-    {
-        if (l >= r)
-            return;
-        int mid = (l + r) / 2;
-        mergesort(p, l, mid);
-        mergesort(p, mid + 1, r);
-        merge(p, l, mid, r);
-    }
-
-    vector<int> countSmaller(vector<int> &nums)
-    {
-        int n = nums.size();
-        vector<pair<int, int>> vp(n);
-
-        vector<int> t(n, 0);
-        ans = t;
-
-        for (int i = 0; i < n; i++)
-        {
-            vp[i].first = i;
-            vp[i].second = nums[i];
-        }
-
-        mergesort(vp, 0, n - 1);
-        return ans;
-    }
-};
-
-int main()
-{
-    Solution sol;
-    vector<int> nums = {10, 9, 5, 2, 7, 6, 11, 0, 2};
-    sol.countSmaller(nums);
-    return 0;
-}
