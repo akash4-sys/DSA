@@ -30,3 +30,15 @@ int d; //the length of substring
 
 }
 ```
+
+<!-- @ Important note related to bitwise -->
+
+binary representation of a number x
+let x = 9
+
+so 9 is 2^3 + 1
+
+
+1    0   0   1
+_    _   _   _
+2^3 2^2 2^1 2^0
