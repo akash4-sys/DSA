@@ -44,6 +44,7 @@
         "xlocmon": "cpp",
         "xlocnum": "cpp",
         "xtr1common": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "compare": "cpp"
     }
 }

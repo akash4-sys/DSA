@@ -107,6 +107,7 @@
 | 203.  | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)                                                                                                 |   Yes    |    Easy    |
 | 206.  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                                                                                                                 |   Yes    |    Easy    |
 | 207.  | [Course Schedule](https://leetcode.com/problems/course-schedule/)                                                                                                                         |   Yes    |   Medium   |
+| 208.  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                                                                     |   Yes    |   Medium   |
 | 209.  | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)                                                                                                     |   Yes    |   Medium   |
 | 210.  | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                                                                                                   |   Yes    |   Medium   |
 | 213.  | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                                                                                                                         |   Yes    |   Medium   |
@@ -164,6 +165,7 @@
 | 609.  | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)                                                                                             |   Yes    |   Medium   |
 | 621.  | [Task Scheduler](https://leetcode.com/problems/task-scheduler/)                                                                                                                           |   Yes    |   Medium   |
 | 622.  | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)                                                                                                             |   Yes    |   Medium   |
+| 623.  | [Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/description/)                                                                                                     |   Yes    |   Medium   |
 | 629.  | [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)                                                                                                             |    No    |    Hard    |
 | 630.  | [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/description/)                                                                                                     |   Yes    |    Hard    |
 | 637.  | [Average of Level in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)                                                                                        |   Yes    |    Easy    |
@@ -241,7 +243,7 @@
 | 1557. | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)                                                             |   Yes    |   Medium   |
 | 1567. | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)                                                       |   Yes    |   Medium   |
 | 1578. | [Minimum Time to Make Rope Colorful](https://leetcode.com/problems/minimum-time-to-make-rope-colorful/description/)                                                                       |   Yes    |   Medium   |
-| 1584. | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)                                                                                           |    No    |   Medium   |
+| 1584. | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)                                                                                           |   Yes    |   Medium   |
 | 1615. | [Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)                                                                                                               |   Yes    |   Medium   |
 | 1631. | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)                                                                                                       |   Yes    |   Medium   |
 | 1646. | [Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)                                                                                           |   Yes    |    Easy    |
