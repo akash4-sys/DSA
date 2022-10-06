@@ -204,6 +204,7 @@
 | 936.  | [Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)                                                                                                             |   Yes    |    Hard    |
 | 948.  | [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)                                                                                                                             |   Yes    |   Medium   |
 | 967.  | [Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)                                                                     |   Yes    |   Medium   |
+| 981.  | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)                                                                                                   |   Yes    |   Medium   |
 | 985.  | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)                                                                                     |   Yes    |   Medium   |
 | 986.  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)                                                                                                 |   Yes    |   Medium   |
 | 987.  | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)                                                                     |   Yes    |    Hard    |
