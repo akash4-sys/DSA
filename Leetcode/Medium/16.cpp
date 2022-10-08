@@ -1,28 +1,23 @@
 #include "../../headers.h"
 
-class Solution {
+class Solution
+{
 public:
-    int threeSumClosest(vector<int>& nums, int target) {
-        int ans = nums[0] + nums[1] + nums[2];
-        int n = nums.size();
-        sort(begin(nums), end(nums));
-        for(int i = 0; i < n; i++) 
+    int threeSumClosest(vector<int> &v, int target)
+    {
+        sort(v.begin(), v.end());
+        int ans = v[0] + v[1] + v[2];
+        for(int i = 0; i < v.size(); i++)
         {
-            int st = i+1, en = n-1, sum;
-            while(st < en)
+            int l = i + 1, r = v.size() - 1, sum;
+            while(l < r)
             {
-                sum = nums[i] + nums[en] + nums[st];
-                if(sum < target)
-                    st++;
-                else if(sum > target)
-                    en--;
-                else
+                sum = v[l] + v[r] + v[i];
+                if(sum == target)
                     return sum;
+                (sum < target) ? l++ : r--;
             }
-            if(ans < target)
-                ans = max(ans, sum);   
-            else
-                ans = min(ans, sum);
+            ans = ans < target ? max(ans, sum) : min(sum, ans);
         }
         return ans;
     }
