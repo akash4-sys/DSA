@@ -1,5 +1,7 @@
 #include "../../headers.h"
 
+// @ Minimum Spanning Tree
+
 // Prim's algorithm
 // Not Pure
 // Time complexity O(E * log(V))
@@ -45,7 +47,6 @@ public:
 class DSU
 {
     vector<int> par;
-    int sz;
 public:
     DSU(int n) : par(n)
     {
@@ -63,7 +64,6 @@ public:
         if(xp == yp)
             return;
         par[xp] = yp;
-        --sz;
     }
 };
 

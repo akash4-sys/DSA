@@ -125,6 +125,7 @@
 | 300.  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                                                                                           |   Yes    |   Medium   |
 | 307.  | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)                                                                                                       |   Yes    |   Medium   |
 | 309.  | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)                                                             |   Yes    |   Medium   |
+| 312.  | [Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)                                                                                                               |   Yes    |    Hard    |
 | 315.  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)                                                                                 |   Yes    |    Hard    |
 | 322.  | [Coin Change](https://leetcode.com/problems/coin-change/)                                                                                                                                 |   Yes    |   Medium   |
 | 326.  | [Power of Three](https://leetcode.com/problems/power-of-three/)                                                                                                                           |   Yes    |    Easy    |
@@ -170,6 +171,7 @@
 | 630.  | [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/description/)                                                                                                     |   Yes    |    Hard    |
 | 637.  | [Average of Level in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)                                                                                        |   Yes    |    Easy    |
 | 639.  | [Decode Ways II](https://leetcode.com/problems/decode-ways-ii/description/)                                                                                                               |   Yes    |    Hard    |
+| 653.  | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                                                                                       |   Yes    |    Easy    |
 | 658.  | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)                                                                                                         |   Yes    |   Medium   |
 | 659.  | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)                                                                     |   Yes    |   Medium   |
 | 673.  | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)                                                                       |   Yes    |   Medium   |
@@ -219,6 +221,7 @@
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)                                                                       |    No    |    Hard    |
 | 1091. | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)                                                                                           |   Yes    |   Medium   |
 | 1094. | [Car Pooling](https://leetcode.com/problems/car-pooling/)                                                                                                                                 |   Yes    |   Medium   |
+| 1109. | [Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings/description/)                                                                                         |   Yes    |   Medium   |
 | 1137. | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)                                                                                                           |   Yes    |    Easy    |
 | 1155. | [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/)                                                                   |   Yes    |   Medium   |
 | 1143. | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                                                                                   |   Yes    |   Medium   |
@@ -243,6 +246,7 @@
 | 1462. | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/description/)                                                                                                       |   Yes    |   Medium   |
 | 1466. | [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)                                           |   Yes    |   Medium   |
 | 1475. | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)                                                           |   Yes    |    Easy    |
+| 1489. | [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)                       |   Yes    |    Hard    |
 | 1514. | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)                                                                                             |   Yes    |   Medium   |
 | 1557. | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)                                                             |   Yes    |   Medium   |
 | 1567. | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)                                                       |   Yes    |   Medium   |
@@ -322,3 +326,7 @@
 | 2427. | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/description/)                                                                                           |   Yes    |    Easy    |
 | 2428. | [Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/)                                                                                                 |   Yes    |   Medium   |
 | 2429. | [Minimize XOR](https://leetcode.com/problems/minimize-xor/description/)                                                                                                                   |   Yes    |   Medium   |
+| 2432. | [The Employee That Worked on the Longest Task](https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/)                                                               |   Yes    |    Easy    |
+| 2433. | [Find The Original Array of Prefix Xor](https://leetcode.com/problems/find-the-original-array-of-prefix-xor/description/)                                                                 |   Yes    |   Medium   |
+| 2434. | [Using a Robot to Print the Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/description/)                   |   Yes    |   Medium   |
+| 2435. | [Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)                                                                 |    No    |    Hard    |
