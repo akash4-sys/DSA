@@ -5,6 +5,30 @@
 
 // Usually we find min in chain matrix multiplication but for this question it wants maximum
 
+
+class Solution 
+{
+public:
+    int maxCoins(vector<int>& v)
+    {
+        int n = v.size() + 1;
+        v.insert(v.begin(), 1);
+        v.push_back(1);
+        vector<vector<int>> dp(n, vector<int>(n, 0));
+
+        for(int d = 1; d < n - 1; d++)
+            for(int i = 1; i < n - d; i++)
+            {
+                int j = i + d, mini = INT_MAX;
+                for(int k = i; k <= j - 1; k++)
+                    mini = min(dp[i][k] + dp[k + 1][j] + (v[i - 1] * v[k] * v[j]), mini);
+                dp[i][j] = mini;
+            }
+        return dp[1][n - 1];
+    }
+};
+
+
 // Recursive with memoization
 // Time Complexity O(N^3)
 // Space Complexity O(N^2)
