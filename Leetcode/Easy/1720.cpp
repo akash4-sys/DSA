@@ -5,9 +5,9 @@ class Solution
 public:
     vector<int> decode(vector<int> &v, int f)
     {
-        vector<int> ans = {f};
-        for(int n: v)
-            ans.push_back(ans.back() ^ n);
-        return ans;
+        v.insert(v.begin(), f);
+        for(int i = 1; i < v.size(); i++)
+            v[i] ^= v[i - 1];
+        return v;
     }
 };
