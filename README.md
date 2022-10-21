@@ -111,7 +111,10 @@
 | 209.  | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)                                                                                                     |   Yes    |   Medium   |
 | 210.  | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                                                                                                   |   Yes    |   Medium   |
 | 213.  | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                                                                                                                         |   Yes    |   Medium   |
+| 217.  | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)                                                                                                       |   Yes    |    Easy    |
 | 218.  | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)                                                                                                                 |   Yes    |    Hard    |
+| 219.  | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)                                                                                                 |   Yes    |    Easy    |
+| 220.  | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/)                                                                                               |   Yes    |    Hard    |
 | 231.  | [Power of Two](https://leetcode.com/problems/power-of-two/)                                                                                                                               |   Yes    |    Easy    |
 | 234.  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                                                                           |   Yes    |    Easy    |
 | 235.  | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)                                                           |   Yes    |    Easy    |
@@ -180,6 +183,7 @@
 | 673.  | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)                                                                       |   Yes    |   Medium   |
 | 684.  | [Redundant Connection](https://leetcode.com/problems/redundant-connection/)                                                                                                               |   Yes    |   Medium   |
 | 685.  | [Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)                                                                                                         |   Yes    |    Hard    |
+| 692.  | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                                                   |   Yes    |   Medium   |
 | 705.  | [Design HashSet](https://leetcode.com/problems/design-hashset/)                                                                                                                           |   Yes    |    Easy    |
 | 706.  | [Design HashMap](https://leetcode.com/problems/design-hashmap/)                                                                                                                           |   Yes    |    Easy    |
 | 714.  | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)                                               |   Yes    |   Medium   |
@@ -244,6 +248,7 @@
 | 1342. | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)                                                                   |   Yes    |    Easy    |
 | 1345. | [Jump Game V](https://leetcode.com/problems/jump-game-v/)                                                                                                                                 |   Yes    |    Hard    |
 | 1346. | [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                                                                                                               |   Yes    |    Hard    |
+| 1368. | [Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/)                               |   Yes    |    Hard    |
 | 1383. | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)                                                                                             |   Yes    |    Hard    |
 | 1425. | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/)                                                                                                 |   Yes    |    Hard    |
 | 1438. | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)   |   Yes    |   Medium   |
@@ -273,6 +278,7 @@
 | 1780. | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)                                                                 |   Yes    |   Medium   |
 | 1786. | [Number of Restricted Paths From First to Last Node](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)                                                   |   Yes    |   Medium   |
 | 1791. | [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)                                                                                                     |   Yes    |    Easy    |
+| 1832. | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/)                                                                           |   Yes    |    Easy    |
 | 1886. | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)                                               |   Yes    |    Easy    |
 | 1905. | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)                                                                                                                     |   Yes    |   Medium   |
 | 1971. | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)                                                                                               |   Yes    |    Easy    |
