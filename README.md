@@ -101,6 +101,8 @@
 | 160.  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)                                                                                       |   Yes    |    Easy    |
 | 162.  | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                                                                                                     |   Yes    |   Medium   |
 | 188.  | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)                                                                                   |   Yes    |    Hard    |
+| 190.  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)                                                                                                                   |   Yes    |    Easy    |
+| 191.  | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                                                                                                           |   Yes    |    Easy    |
 | 198.  | [House Robber](https://leetcode.com/problems/house-robber/)                                                                                                                               |   Yes    |   Medium   |
 | 200.  | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                                                                     |   Yes    |   Medium   |
 | 202.  | [Happy Number](https://leetcode.com/problems/happy-number/)                                                                                                                               |   Yes    |    Easy    |
@@ -178,6 +180,7 @@
 | 630.  | [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/description/)                                                                                                     |   Yes    |    Hard    |
 | 637.  | [Average of Level in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)                                                                                        |   Yes    |    Easy    |
 | 639.  | [Decode Ways II](https://leetcode.com/problems/decode-ways-ii/description/)                                                                                                               |   Yes    |    Hard    |
+| 645.  | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                                                   |   Yes    |    Easy    |
 | 653.  | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                                                                                       |   Yes    |    Easy    |
 | 658.  | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)                                                                                                         |   Yes    |   Medium   |
 | 659.  | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)                                                                     |   Yes    |   Medium   |
@@ -185,6 +188,7 @@
 | 684.  | [Redundant Connection](https://leetcode.com/problems/redundant-connection/)                                                                                                               |   Yes    |   Medium   |
 | 685.  | [Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)                                                                                                         |   Yes    |    Hard    |
 | 692.  | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                                                   |   Yes    |   Medium   |
+| 693.  | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)                                                                     |   Yes    |    Easy    |
 | 705.  | [Design HashSet](https://leetcode.com/problems/design-hashset/)                                                                                                                           |   Yes    |    Easy    |
 | 706.  | [Design HashMap](https://leetcode.com/problems/design-hashmap/)                                                                                                                           |   Yes    |    Easy    |
 | 714.  | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)                                               |   Yes    |   Medium   |
@@ -223,6 +227,7 @@
 | 987.  | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)                                                                     |   Yes    |    Hard    |
 | 990.  | [Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)                                                                               |   Yes    |   Medium   |
 | 997.  | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)                                                                                                                 |   Yes    |   Medium   |
+| 1009. | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/description/)                                                                                 |   Yes    |    Easy    |
 | 1012. | [Numbers With Repeated Digits](https://leetcode.com/problems/numbers-with-repeated-digits/)                                                                                               |   Yes    |    Hard    |
 | 1014. | [Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)                                                                                                             |   Yes    |   Medium   |
 | 1020. | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)                                                                                                                   |   Yes    |   Medium   |
@@ -249,6 +254,7 @@
 | 1342. | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)                                                                   |   Yes    |    Easy    |
 | 1345. | [Jump Game V](https://leetcode.com/problems/jump-game-v/)                                                                                                                                 |   Yes    |    Hard    |
 | 1346. | [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                                                                                                               |   Yes    |    Hard    |
+| 1356. | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                                                                 |   Yes    |    Easy    |
 | 1368. | [Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/)                               |   Yes    |    Hard    |
 | 1383. | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)                                                                                             |   Yes    |    Hard    |
 | 1425. | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/)                                                                                                 |   Yes    |    Hard    |
@@ -354,3 +360,4 @@
 | 2441. | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/)                               |   Yes    |    Easy    |
 | 2442. | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/description/)                       |   Yes    |   Medium   |
 | 2443. | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/description/)                                                                                 |   Yes    |   Medium   |
+| 2446. | [Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/)                                                                             |   Yes    |    Easy    |
