@@ -147,6 +147,7 @@
 | 355.  | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                                                                                           |   Yes    |   Medium   |
 | 357.  | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)                                                                                       |   Yes    |   Medium   |
 | 363.  | [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)                                                                             |   Yes    |    Hard    |
+| 371.  | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                                                                     |   Yes    |   Medium   |
 | 377.  | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                                                                                                                   |   Yes    |   Medium   |
 | 378.  | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)                                                                         |   Yes    |   Medium   |
 | 382.  | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)                                                                                                         |   Yes    |   Medium   |
@@ -206,6 +207,8 @@
 | 733.  | [Flood Fill](https://leetcode.com/problems/flood-fill/)                                                                                                                                   |   Yes    |    Easy    |
 | 746.  | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)                                                                                                       |   Yes    |    Easy    |
 | 749.  | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)                                                                                                                         |   Yes    |   Medium   |
+| 766.  | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)                                                                                                             |   Yes    |    Easy    |
+| 784.  | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)                                                                                             |   Yes    |   Medium   |
 | 787.  | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)                                                                                         |   Yes    |   Medium   |
 | 792.  | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                                                                                         |   Yes    |   Medium   |
 | 797.  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)                                                                                         |   Yes    |   Medium   |
@@ -224,6 +227,7 @@
 | 871.  | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)                                                                                     |   Yes    |    Hard    |
 | 876.  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                                     |   Yes    |    Easy    |
 | 890.  | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)                                                                                                       |   Yes    |   Medium   |
+| 898.  | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/description/)                                                                                           |   Yes    |   Medium   |
 | 912.  | [Sort an Array](https://leetcode.com/problems/sort-an-array/)                                                                                                                             |   Yes    |   Medium   |
 | 918.  | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)                                                                                             |   Yes    |   Medium   |
 | 936.  | [Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)                                                                                                             |   Yes    |    Hard    |
@@ -254,6 +258,7 @@
 | 1290. | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)                                                     |   Yes    |    Easy    |
 | 1293. | [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/description/)                                       |   Yes    |    Hard    |
 | 1306. | [Jump Game III](https://leetcode.com/problems/jump-game-iii/)                                                                                                                             |   Yes    |   Medium   |
+| 1310. | [XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/description/)                                                                                         |   Yes    |   Medium   |
 | 1312. | [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/)                                     |   Yes    |    Hard    |
 | 1314. | [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)                                                                                                                       |   Yes    |   Medium   |
 | 1328. | [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)                                                                                                                   |   Yes    |   Medium   |
@@ -278,6 +283,7 @@
 | 1486. | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/description/)                                                                                         |   Yes    |    Easy    |
 | 1489. | [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)                       |   Yes    |    Hard    |
 | 1514. | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)                                                                                             |   Yes    |   Medium   |
+| 1525. | [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/description/)                                                                 |   Yes    |   Medium   |
 | 1531. | [String Compression II](https://leetcode.com/problems/string-compression-ii/description/)                                                                                                 |   Yes    |    Hard    |
 | 1557. | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)                                                             |   Yes    |   Medium   |
 | 1567. | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)                                                       |   Yes    |   Medium   |
