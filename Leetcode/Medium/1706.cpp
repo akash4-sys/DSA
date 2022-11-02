@@ -1,32 +1,52 @@
 #include "../../headers.h"
 
+
+// iterative
 class Solution
 {
 public:
-    int dfs(vector<vector<int>> &grid, int i, int j)
-    {
-        if (i >= grid.size())
-            return j;
-
-        if ((j <= 0 && !grid[i][j]) || (j == grid[0].size() - 1 && grid[i][j]))
-            return -1;
-
-        if (grid[i][j])
-            return (grid[i][j + 1]) ? dfs(grid, i + 1, j + 1) : -1;
-        else
-            return (!grid[i][j-1]) ?dfs(grid, i + 1, j - 1) : -1;
-        return 10;
-    }
-
-    vector<int> findBall(vector<vector<int>> &grid)
+    vector<int> findBall(vector<vector<int>> &m)
     {
         vector<int> ans;
-        int enter = 0;
-        while (enter < grid[0].size())
+        for (int k = 0; k < m[0].size(); k++)
         {
-            ans.push_back(dfs(grid, 0, enter));
-            enter++;
+            int j = k, y;
+            for(int i = 0; i < m.size(); i++)
+            {
+                y = j + m[i][j];
+                if(y < 0 || y >= m[0].size() || m[i][y] != m[i][j])
+                {
+                    j = -1;
+                    break;
+                }
+                j = y;
+            }
+            ans.push_back(j);
         }
+        return ans;
+    }
+};
+
+
+class Solution
+{
+    int dfs(vector<vector<int>> &m, int i, int j)
+    {
+        if (i == m.size())
+            return j;
+        if ((j <= 0 && m[i][j] == -1) || (j == m[0].size() - 1 && m[i][j] == 1))
+            return -1;
+        if (m[i][j] == 1)
+            return m[i][j + 1] == 1 ? dfs(m, i + 1, j + 1) : -1;
+        return m[i][j - 1] == -1 ? dfs(m, i + 1, j - 1) : -1;
+    }
+
+public:
+    vector<int> findBall(vector<vector<int>> &m)
+    {
+        vector<int> ans;
+        for (int j = 0; j < m[0].size(); j++)
+            ans.push_back(dfs(m, 0, j));
         return ans;
     }
 };

@@ -103,6 +103,7 @@
 | 153.  | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)                                                                               |   Yes    |   Medium   |
 | 160.  | [Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)                                                                                       |   Yes    |    Easy    |
 | 162.  | [Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                                                                                                     |   Yes    |   Medium   |
+| 187.  | [Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/description/)                                                                                               |   Yes    |   Medium   |
 | 188.  | [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)                                                                                   |   Yes    |    Hard    |
 | 190.  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)                                                                                                                   |   Yes    |    Easy    |
 | 191.  | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                                                                                                           |   Yes    |    Easy    |
@@ -136,6 +137,7 @@
 | 309.  | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)                                                             |   Yes    |   Medium   |
 | 312.  | [Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)                                                                                                               |   Yes    |    Hard    |
 | 315.  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)                                                                                 |   Yes    |    Hard    |
+| 319.  | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/description/)                                                                                                                 |   Yes    |   Medium   |
 | 322.  | [Coin Change](https://leetcode.com/problems/coin-change/)                                                                                                                                 |   Yes    |   Medium   |
 | 326.  | [Power of Three](https://leetcode.com/problems/power-of-three/)                                                                                                                           |   Yes    |    Easy    |
 | 328.  | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                                                                                                               |   Yes    |   Medium   |
@@ -162,6 +164,7 @@
 | 413.  | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)                                                                                                                     |   Yes    |   Medium   |
 | 417.  | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                                                                                 |   Yes    |   Medium   |
 | 429.  | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)                                                                                       |   Yes    |   Medium   |
+| 433.  | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)                                                                                           |   Yes    |   Medium   |
 | 438.  | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)                                                                                             |   Yes    |   Medium   |
 | 443.  | [String Compression](https://leetcode.com/problems/string-compression/description/)                                                                                                       |   Yes    |   Medium   |
 | 458.  | [Poor Pigs](https://leetcode.com/problems/poor-pigs/)                                                                                                                                     |   Yes    |    Hard    |
@@ -169,6 +172,7 @@
 | 461.  | [Hamming Distance](https://leetcode.com/problems/hamming-distance/description/)                                                                                                           |   Yes    |    Easy    |
 | 472.  | [Concatenated Words](https://leetcode.com/problems/concatenated-words/)                                                                                                                   |   Yes    |    Hard    |
 | 476.  | [Number Complement](https://leetcode.com/problems/number-complement/)                                                                                                                     |   Yes    |    Easy    |
+| 477.  | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/description/)                                                                                               |   Yes    |   Medium   |
 | 509.  | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)                                                                                                                       |   Yes    |    Easy    |
 | 518.  | [Coin Change 2](https://leetcode.com/problems/coin-change-2/)                                                                                                                             |   Yes    |   Medium   |
 | 516.  | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)                                                                             |   Yes    |   Medium   |
