@@ -44,6 +44,7 @@
 |  41.  | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/)                                                                                                           |   Yes    |    Hard    |
 |  42.  | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)                                                                                                                 |   Yes    |    Hard    |
 |  43.  | [Multiply Strings](https://leetcode.com/problems/multiply-strings/)                                                                                                                       |   Yes    |   Medium   |
+|  44.  | [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/description/)                                                                                                         |   Yes    |    Hard    |
 |  45.  | [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                                                                                                                               |   Yes    |   Medium   |
 |  46.  | [Permutations](https://leetcode.com/problems/permutations/)                                                                                                                               |   Yes    |   Medium   |
 |  47.  | [Permutations II](https://leetcode.com/problems/permutations-ii/)                                                                                                                         |   Yes    |   Medium   |
@@ -60,8 +61,10 @@
 |  70.  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                                                                         |   Yes    |    Easy    |
 |  72.  | [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                                                                                             |   Yes    |    Hard    |
 |  74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                                                                   |   Yes    |   Medium   |
+|  75.  | [Sort Colors](https://leetcode.com/problems/sort-colors/description/)                                                                                                                     |   Yes    |   Medium   |
 |  76.  | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)                                                                                                       |   Yes    |    Hard    |
 |  78.  | [Subsets](https://leetcode.com/problems/subsets/)                                                                                                                                         |   Yes    |   Medium   |
+|  79.  | [Word Search](https://leetcode.com/problems/word-search/description/)                                                                                                                     |   Yes    |   Medium   |
 |  82.  | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)                                                                             |   Yes    |   Medium   |
 |  83.  | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)                                                                                   |   Yes    |    Easy    |
 |  84.  | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)                                                                                           |   Yes    |    Hard    |
@@ -116,6 +119,7 @@
 | 208.  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                                                                     |   Yes    |   Medium   |
 | 209.  | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)                                                                                                     |   Yes    |   Medium   |
 | 210.  | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                                                                                                   |   Yes    |   Medium   |
+| 212.  | [Word Search II](https://leetcode.com/problems/word-search-ii/description/)                                                                                                                         |   Yes    |   Hard   |
 | 213.  | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                                                                                                                         |   Yes    |   Medium   |
 | 217.  | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)                                                                                                       |   Yes    |    Easy    |
 | 218.  | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)                                                                                                                 |   Yes    |    Hard    |
@@ -146,6 +150,7 @@
 | 338.  | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                                                                                                             |   Yes    |    Easy    |
 | 342.  | [Power of Four](https://leetcode.com/problems/power-of-four/)                                                                                                                             |   Yes    |    Easy    |
 | 343.  | [Integer Break](https://leetcode.com/problems/integer-break/)                                                                                                                             |   Yes    |   Medium   |
+| 345.  | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)                                                                                       |   Yes    |    Easy    |
 | 355.  | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                                                                                           |   Yes    |   Medium   |
 | 357.  | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)                                                                                       |   Yes    |   Medium   |
 | 363.  | [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)                                                                             |   Yes    |    Hard    |
@@ -259,6 +264,7 @@
 | 1171. | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)                                                   |   Yes    |   Medium   |
 | 1220. | [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/submissions/)                                                                                           |   Yes    |    Hard    |
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                                                       |   Yes    |   Medium   |
+| 1255. | [Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/description/)                                                                 |   Yes    |    Hard    |
 | 1290. | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)                                                     |   Yes    |    Easy    |
 | 1293. | [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/description/)                                       |   Yes    |    Hard    |
 | 1306. | [Jump Game III](https://leetcode.com/problems/jump-game-iii/)                                                                                                                             |   Yes    |   Medium   |

@@ -47,6 +47,7 @@
         "cstdlib": "cpp",
         "compare": "cpp",
         "xlocinfo": "cpp",
-        "numeric": "cpp"
+        "numeric": "cpp",
+        "locale": "cpp"
     }
 }
