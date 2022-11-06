@@ -119,7 +119,7 @@
 | 208.  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)                                                                                     |   Yes    |   Medium   |
 | 209.  | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)                                                                                                     |   Yes    |   Medium   |
 | 210.  | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)                                                                                                                   |   Yes    |   Medium   |
-| 212.  | [Word Search II](https://leetcode.com/problems/word-search-ii/description/)                                                                                                                         |   Yes    |   Hard   |
+| 212.  | [Word Search II](https://leetcode.com/problems/word-search-ii/description/)                                                                                                               |   Yes    |    Hard    |
 | 213.  | [House Robber II](https://leetcode.com/problems/house-robber-ii/)                                                                                                                         |   Yes    |   Medium   |
 | 217.  | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)                                                                                                       |   Yes    |    Easy    |
 | 218.  | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)                                                                                                                 |   Yes    |    Hard    |
@@ -237,6 +237,7 @@
 | 876.  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                                     |   Yes    |    Easy    |
 | 890.  | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)                                                                                                       |   Yes    |   Medium   |
 | 898.  | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/description/)                                                                                           |   Yes    |   Medium   |
+| 899.  | [Orderly Queue](https://leetcode.com/problems/orderly-queue/description/)                                                                                                                 |   Yes    |    Hard    |
 | 912.  | [Sort an Array](https://leetcode.com/problems/sort-an-array/)                                                                                                                             |   Yes    |   Medium   |
 | 918.  | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)                                                                                             |   Yes    |   Medium   |
 | 936.  | [Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)                                                                                                             |   Yes    |    Hard    |
@@ -398,3 +399,6 @@
 | 2455. | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/description/)                         |   Yes    |    Easy    |
 | 2456. | [Most Popular Video Creator](https://leetcode.com/problems/most-popular-video-creator/description/)                                                                                       |   Yes    |   Medium   |
 | 2457. | [Minimum Addition to Make Integer Beautiful](https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/description/)                                                       |   Yes    |   Medium   |
+| 2460. | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/)                                                                                   |   Yes    |    Easy    |
+| 2461  | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/)                                             |   Yes    |   Medium   |
+| 2462  | [Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/description/)                                                                                   |   Yes    |   Medium   |
