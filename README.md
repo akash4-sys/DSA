@@ -137,6 +137,7 @@
 | 260.  | [Single Number III](https://leetcode.com/problems/single-number-iii/description/)                                                                                                         |   Yes    |   Medium   |
 | 263.  | [Ugly Number](https://leetcode.com/problems/ugly-number/)                                                                                                                                 |   Yes    |    Easy    |
 | 264.  | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)                                                                                                                           |   Yes    |   Medium   |
+| 295.  | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)                                                                                   |   Yes    |    Hard    |
 | 300.  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                                                                                           |   Yes    |   Medium   |
 | 307.  | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)                                                                                                       |   Yes    |   Medium   |
 | 309.  | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)                                                             |   Yes    |   Medium   |
@@ -185,6 +186,7 @@
 | 521.  | [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/description/)                                                                               |   Yes    |   Medium   |
 | 522.  | [Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/description/)                                                                             |   Yes    |   Medium   |
 | 523.  | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)                                                                                             |   Yes    |   Medium   |
+| 526.  | [Beautiful Arrangement](https://leetcode.com/problems/continuous-subarray-sum/description/)                                                                                               |   Yes    |   Medium   |
 | 543.  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)                                                                                             |   Yes    |    Easy    |
 | 547.  | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)                                                                                                                 |   Yes    |   Medium   |
 | 557.  | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)                                                                                             |   Yes    |    Easy    |
@@ -418,3 +420,6 @@
 | 2461  | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/)                                             |   Yes    |   Medium   |
 | 2462  | [Total Cost to Hire K Workers](https://leetcode.com/problems/total-cost-to-hire-k-workers/description/)                                                                                   |   Yes    |   Medium   |
 | 2463  | [Minimum Total Distance Traveled](https://leetcode.com/problems/minimum-total-distance-traveled/description/)                                                                             |   Yes    |    Hard    |
+| 2465  | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/description/)                                                                                     |   Yes    |    Easy    |
+| 2466  | [Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/description/)                                                                           |   Yes    |   Medium   |
+| 2467  | [Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/description/)                                                                               |   Yes    |   Medium   |
