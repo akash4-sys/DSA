@@ -3,21 +3,16 @@
 class Solution
 {
 public:
-    int removeDuplicates(vector<int> &nums)
+    int removeDuplicates(vector<int> &v, int j = 0)
     {
-        int i = 0;
-        while (i < nums.size())
-        {
-            if (nums[i] == nums[i + 1])
-            {
-                nums.erase(nums.begin() + i);
-                continue;
-            }
-            i++;
-        }
-        return nums.size();
+        for (int i = 1; i < v.size(); i++)
+            if (v[i] != v[i - 1])
+                v[j++] = v[i - 1];
+        v[j++] = v.back();
+        return j;
     }
 };
+
 
 // STL APPROACH:
 class Solution
@@ -25,8 +20,7 @@ class Solution
 public:
     int removeDuplicates(vector<int> &nums)
     {
-        vector<int>::iterator it;
-        it = unique(nums.begin(), nums.end());
+        auto it = unique(nums.begin(), nums.end());
         nums.resize(distance(nums.begin(), it));
         return nums.size();
     }
