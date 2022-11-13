@@ -186,7 +186,7 @@
 | 521.  | [Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/description/)                                                                               |   Yes    |   Medium   |
 | 522.  | [Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/description/)                                                                             |   Yes    |   Medium   |
 | 523.  | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)                                                                                             |   Yes    |   Medium   |
-| 526.  | [Beautiful Arrangement](https://leetcode.com/problems/continuous-subarray-sum/description/)                                                                                               |   Yes    |   Medium   |
+| 526.  | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/description/)                                                                                                 |   Yes    |   Medium   |
 | 543.  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)                                                                                             |   Yes    |    Easy    |
 | 547.  | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)                                                                                                                 |   Yes    |   Medium   |
 | 557.  | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)                                                                                             |   Yes    |    Easy    |
@@ -205,6 +205,7 @@
 | 653.  | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                                                                                       |   Yes    |    Easy    |
 | 658.  | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)                                                                                                         |   Yes    |   Medium   |
 | 659.  | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)                                                                     |   Yes    |   Medium   |
+| 668.  | [Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement/description/)                                                                                              |   Yes    |   Medium   |
 | 673.  | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)                                                                       |   Yes    |   Medium   |
 | 684.  | [Redundant Connection](https://leetcode.com/problems/redundant-connection/)                                                                                                               |   Yes    |   Medium   |
 | 685.  | [Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)                                                                                                         |   Yes    |    Hard    |
@@ -335,6 +336,7 @@
 | 1879. | [Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)                                                                                             |    No    |    Hard    |
 | 1886. | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)                                               |   Yes    |    Easy    |
 | 1905. | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)                                                                                                                     |   Yes    |   Medium   |
+| 1947. | [Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/description/)                                                                             |   Yes    |   Medium   |
 | 1971. | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)                                                                                               |   Yes    |    Easy    |
 | 1976. | [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)                                                                         |   Yes    |   Medium   |
 | 2007. | [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)                                                                           |   Yes    |   Medium   |
@@ -359,6 +361,7 @@
 | 2289. | [Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)                                                                                   |   Yes    |   Medium   |
 | 2290. | [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)                                                                       |   Yes    |    Hard    |
 | 2296. | [Design a Text Editor](https://leetcode.com/problems/design-a-text-editor/)                                                                                                               |   Yes    |    Hard    |
+| 2305. | [Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/description/)                                                                                   |   Yes    |   Medium   |
 | 2317. | [Maximum XOR After Operations ](https://leetcode.com/problems/maximum-xor-after-operations/description/)                                                                                  |   Yes    |   Medium   |
 | 2326. | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)                                                                                                                       |   Yes    |   Medium   |
 | 2351. | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)                                                                                               |   Yes    |    Easy    |
@@ -423,3 +426,6 @@
 | 2465  | [Number of Distinct Averages](https://leetcode.com/problems/number-of-distinct-averages/description/)                                                                                     |   Yes    |    Easy    |
 | 2466  | [Count Ways To Build Good Strings](https://leetcode.com/problems/count-ways-to-build-good-strings/description/)                                                                           |   Yes    |   Medium   |
 | 2467  | [Most Profitable Path in a Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/description/)                                                                               |   Yes    |   Medium   |
+| 2469  | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/)                                                                                                         |   Yes    |    Easy    |
+| 2470  | [Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/)                                                                         |   Yes    |   Medium   |
+| 2471  | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/)                                 |   Yes    |   Medium   |
