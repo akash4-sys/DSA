@@ -177,6 +177,7 @@
 | 458.  | [Poor Pigs](https://leetcode.com/problems/poor-pigs/)                                                                                                                                     |   Yes    |    Hard    |
 | 460.  | [LFU Cache](https://leetcode.com/problems/lfu-cache/)                                                                                                                                     |   Yes    |    Hard    |
 | 461.  | [Hamming Distance](https://leetcode.com/problems/hamming-distance/description/)                                                                                                           |   Yes    |    Easy    |
+| 464.  | [Can I Win](https://leetcode.com/problems/can-i-win/description/)                                                                                                                         |   Yes    |   Medium   |
 | 472.  | [Concatenated Words](https://leetcode.com/problems/concatenated-words/)                                                                                                                   |   Yes    |    Hard    |
 | 476.  | [Number Complement](https://leetcode.com/problems/number-complement/)                                                                                                                     |   Yes    |    Easy    |
 | 477.  | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/description/)                                                                                               |   Yes    |   Medium   |
@@ -250,6 +251,7 @@
 | 912.  | [Sort an Array](https://leetcode.com/problems/sort-an-array/)                                                                                                                             |   Yes    |   Medium   |
 | 918.  | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)                                                                                             |   Yes    |   Medium   |
 | 936.  | [Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)                                                                                                             |   Yes    |    Hard    |
+| 947.  | [Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/description/)                                                     |   Yes    |   Medium   |
 | 948.  | [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)                                                                                                                             |   Yes    |   Medium   |
 | 967.  | [Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)                                                                     |   Yes    |   Medium   |
 | 976.  | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/)                                                                                       |   Yes    |    Easy    |
@@ -353,6 +355,7 @@
 | 2130. | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)                                                                                     |   Yes    |   Medium   |
 | 2131. | [Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)                                               |   Yes    |   Medium   |
 | 2136. | [Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/description/)                                                                     |   Yes    |    Hard    |
+| 2172. | [Maximum AND Sum of Array](https://leetcode.com/problems/maximum-and-sum-of-array/description/)                                                                                           |   Yes    |    Hard    |
 | 2179. | [Count Good Triplets in an Array](https://leetcode.com/problems/count-good-triplets-in-an-array/)                                                                                         |   Yes    |    Hard    |
 | 2181. | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)                                                                                               |   Yes    |   Medium   |
 | 2192. | [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)                                                 |   Yes    |   Medium   |
