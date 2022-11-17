@@ -10,12 +10,11 @@ struct TreeNode
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
-
-// Iterative Inorder Traversal
+// Iterative postorder traversal
 class Solution
 {
 public:
-    vector<int> inorderTraversal(TreeNode *root)
+    vector<int> postorderTraversal(TreeNode *root)
     {
         vector<int> ans;
         stack<int> auxSt{{0}};
@@ -29,9 +28,9 @@ public:
                     break;
                 case 1: st.push(root->left), auxSt.push(0);
                     break;
-                case 2: ans.push_back(root->val);
+                case 2: st.push(root->right), auxSt.push(0);
                     break;
-                case 3: st.push(root->right), auxSt.push(0);
+                case 3: ans.push_back(root->val);
                     break;
                 default: st.pop(), auxSt.pop();
             }
@@ -45,13 +44,13 @@ class Solution
 {
     vector<int> ans;
 public:
-    vector<int> inorderTraversal(TreeNode *root)
+    vector<int> postorderTraversal(TreeNode *root)
     {
         if(!root)
-            return ans;
-        inorderTraversal(root->left);
+            return {};
+        postorderTraversal(root->left);
+        postorderTraversal(root->right);
         ans.push_back(root->val);
-        inorderTraversal(root->right);
         return ans;
     }
 };
