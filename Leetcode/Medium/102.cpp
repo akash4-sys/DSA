@@ -42,7 +42,7 @@ class Solution
 {
     vector<vector<int>> ans;
 public:
-    vector<vector<int>> levelOrder(TreeNode *root, int lvl = 1)
+    vector<vector<int>> levelOrder(TreeNode *root, int lvl = 0)
     {
         if(!root)
             return {};
