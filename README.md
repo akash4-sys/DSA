@@ -134,8 +134,9 @@
 | 218.  | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)                                                                                                                 |   Yes    |    Hard    |
 | 219.  | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)                                                                                                 |   Yes    |    Easy    |
 | 220.  | [Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/)                                                                                               |   Yes    |    Hard    |
-| 226.  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)                                                                                                       |   Yes    |    Easy    |
 | 223.  | [Rectangle Area](https://leetcode.com/problems/rectangle-area/description/)                                                                                                               |   Yes    |   Medium   |
+| 224.  | [Basic Calculator](https://leetcode.com/problems/basic-calculator/description/)                                                                                                           |   Yes    |    Hard    |
+| 226.  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)                                                                                                       |   Yes    |    Easy    |
 | 231.  | [Power of Two](https://leetcode.com/problems/power-of-two/)                                                                                                                               |   Yes    |    Easy    |
 | 234.  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                                                                           |   Yes    |    Easy    |
 | 235.  | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)                                                           |   Yes    |    Easy    |
@@ -205,6 +206,7 @@
 | 560.  | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)                                                                                                             |   Yes    |   Medium   |
 | 563.  | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/description/)                                                                                                           |   Yes    |    Easy    |
 | 583.  | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)                                                                                       |   Yes    |   Medium   |
+| 587.  | [Erect the Fence](https://leetcode.com/problems/erect-the-fence/description/)                                                                                                             |   Yes    |    Hard    |
 | 606.  | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)                                                                                     |   Yes    |    Easy    |
 | 609.  | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)                                                                                             |   Yes    |   Medium   |
 | 617.  | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)                                                                                               |   Yes    |    Easy    |
@@ -258,6 +260,7 @@
 | 869.  | [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)                                                                                                               |   Yes    |   Medium   |
 | 871.  | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)                                                                                     |   Yes    |    Hard    |
 | 876.  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                                     |   Yes    |    Easy    |
+| 877.  | [Stone Game](https://leetcode.com/problems/stone-game/description/)                                                                                                                       |   Yes    |   Medium   |
 | 890.  | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)                                                                                                       |   Yes    |   Medium   |
 | 898.  | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/description/)                                                                                           |   Yes    |   Medium   |
 | 899.  | [Orderly Queue](https://leetcode.com/problems/orderly-queue/description/)                                                                                                                 |   Yes    |    Hard    |
@@ -353,6 +356,7 @@
 | 1879. | [Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)                                                                                             |    No    |    Hard    |
 | 1886. | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)                                               |   Yes    |    Easy    |
 | 1905. | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)                                                                                                                     |   Yes    |   Medium   |
+| 1926. | [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/)                                                                       |   Yes    |   Medium   |
 | 1947. | [Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/description/)                                                                             |   Yes    |   Medium   |
 | 1971. | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)                                                                                               |   Yes    |    Easy    |
 | 1976. | [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)                                                                         |   Yes    |   Medium   |
@@ -447,3 +451,6 @@
 | 2469  | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/)                                                                                                         |   Yes    |    Easy    |
 | 2470  | [Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/)                                                                         |   Yes    |   Medium   |
 | 2471  | [Minimum Number of Operations to Sort a Binary Tree by Level](https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/)                                 |   Yes    |   Medium   |
+| 2475  | [Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/description/)                                                                     |   Yes    |    Easy    |
+| 2476  | [Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/)                                                             |   Yes    |   Medium   |
+| 2477  | [Minimum Fuel Cost to Report to the Capital](https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/)                                                                   |   Yes    |   Medium   |

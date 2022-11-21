@@ -48,6 +48,7 @@
         "compare": "cpp",
         "xlocinfo": "cpp",
         "numeric": "cpp",
-        "locale": "cpp"
+        "locale": "cpp",
+        "limits": "cpp"
     }
 }
