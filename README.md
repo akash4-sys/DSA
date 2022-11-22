@@ -137,6 +137,7 @@
 | 223.  | [Rectangle Area](https://leetcode.com/problems/rectangle-area/description/)                                                                                                               |   Yes    |   Medium   |
 | 224.  | [Basic Calculator](https://leetcode.com/problems/basic-calculator/description/)                                                                                                           |   Yes    |    Hard    |
 | 226.  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)                                                                                                       |   Yes    |    Easy    |
+| 230.  | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                                                                 |   Yes    |   Medium   |
 | 231.  | [Power of Two](https://leetcode.com/problems/power-of-two/)                                                                                                                               |   Yes    |    Easy    |
 | 234.  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                                                                           |   Yes    |    Easy    |
 | 235.  | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)                                                           |   Yes    |    Easy    |
@@ -148,6 +149,7 @@
 | 260.  | [Single Number III](https://leetcode.com/problems/single-number-iii/description/)                                                                                                         |   Yes    |   Medium   |
 | 263.  | [Ugly Number](https://leetcode.com/problems/ugly-number/)                                                                                                                                 |   Yes    |    Easy    |
 | 264.  | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)                                                                                                                           |   Yes    |   Medium   |
+| 279.  | [Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)                                                                                                             |   Yes    |   Medium   |
 | 295.  | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)                                                                                   |   Yes    |    Hard    |
 | 300.  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                                                                                           |   Yes    |   Medium   |
 | 307.  | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)                                                                                                       |   Yes    |   Medium   |
@@ -185,6 +187,7 @@
 | 433.  | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)                                                                                           |   Yes    |   Medium   |
 | 438.  | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)                                                                                             |   Yes    |   Medium   |
 | 443.  | [String Compression](https://leetcode.com/problems/string-compression/description/)                                                                                                       |   Yes    |   Medium   |
+| 450.  | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)                                                                                                   |   Yes    |   Medium   |
 | 458.  | [Poor Pigs](https://leetcode.com/problems/poor-pigs/)                                                                                                                                     |   Yes    |    Hard    |
 | 460.  | [LFU Cache](https://leetcode.com/problems/lfu-cache/)                                                                                                                                     |   Yes    |    Hard    |
 | 461.  | [Hamming Distance](https://leetcode.com/problems/hamming-distance/description/)                                                                                                           |   Yes    |    Easy    |
@@ -218,6 +221,7 @@
 | 637.  | [Average of Level in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)                                                                                        |   Yes    |    Easy    |
 | 639.  | [Decode Ways II](https://leetcode.com/problems/decode-ways-ii/description/)                                                                                                               |   Yes    |    Hard    |
 | 645.  | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                                                   |   Yes    |    Easy    |
+| 669.  | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)                                                                                                     |   Yes    |   Medium   |
 | 653.  | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                                                                                       |   Yes    |    Easy    |
 | 658.  | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)                                                                                                         |   Yes    |   Medium   |
 | 659.  | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)                                                                     |   Yes    |   Medium   |
@@ -228,6 +232,7 @@
 | 692.  | [Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/)                                                                                                   |   Yes    |   Medium   |
 | 693.  | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)                                                                     |   Yes    |    Easy    |
 | 700.  | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)                                                                               |   Yes    |    Easy    |
+| 701.  | [Insert in a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)                                                                                         |   Yes    |   Medium   |
 | 705.  | [Design HashSet](https://leetcode.com/problems/design-hashset/)                                                                                                                           |   Yes    |    Easy    |
 | 706.  | [Design HashMap](https://leetcode.com/problems/design-hashmap/)                                                                                                                           |   Yes    |    Easy    |
 | 714.  | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)                                               |   Yes    |   Medium   |
