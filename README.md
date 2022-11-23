@@ -97,7 +97,8 @@
 | 124.  | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/)                                                                                   |   Yes    |    Hard    |
 | 126.  | [Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)                                                                                                                           |   Yes    |    Hard    |
 | 127.  | [Word Ladder](https://leetcode.com/problems/word-ladder/)                                                                                                                                 |   Yes    |    Hard    |
-| 127.  | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)                                                                                                                   |   Yes    |   Medium   |
+| 129.  | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)                                                                                           |   Yes    |   Medium   |
+| 130.  | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)                                                                                                                   |   Yes    |   Medium   |
 | 136.  | [Single Number I](https://leetcode.com/problems/single-number-i/description/)                                                                                                             |   Yes    |    Easy    |
 | 137.  | [Single Number II](https://leetcode.com/problems/single-number-ii/description/)                                                                                                           |   Yes    |   Medium   |
 | 138.  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                                                             |   Yes    |   Medium   |
@@ -120,6 +121,7 @@
 | 190.  | [Reverse Bits](https://leetcode.com/problems/reverse-bits/description/)                                                                                                                   |   Yes    |    Easy    |
 | 191.  | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/)                                                                                                           |   Yes    |    Easy    |
 | 198.  | [House Robber](https://leetcode.com/problems/house-robber/)                                                                                                                               |   Yes    |   Medium   |
+| 199.  | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/)                                                                                     |   Yes    |   Medium   |
 | 200.  | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                                                                     |   Yes    |   Medium   |
 | 202.  | [Happy Number](https://leetcode.com/problems/happy-number/)                                                                                                                               |   Yes    |    Easy    |
 | 203.  | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)                                                                                                 |   Yes    |    Easy    |
@@ -146,6 +148,7 @@
 | 239.  | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                                                                                                           |   Yes    |    Hard    |
 | 240.  | [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                                                                                             |   Yes    |   Medium   |
 | 242.  | [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                                                                                             |   Yes    |    Easy    |
+| 257.  | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)                                                                                                         |   Yes    |    Easy    |
 | 260.  | [Single Number III](https://leetcode.com/problems/single-number-iii/description/)                                                                                                         |   Yes    |   Medium   |
 | 263.  | [Ugly Number](https://leetcode.com/problems/ugly-number/)                                                                                                                                 |   Yes    |    Easy    |
 | 264.  | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)                                                                                                                           |   Yes    |   Medium   |
@@ -185,6 +188,7 @@
 | 417.  | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                                                                                 |   Yes    |   Medium   |
 | 429.  | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)                                                                                       |   Yes    |   Medium   |
 | 433.  | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)                                                                                           |   Yes    |   Medium   |
+| 437.  | [Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)                                                                                                                   |   Yes    |   Medium   |
 | 438.  | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)                                                                                             |   Yes    |   Medium   |
 | 443.  | [String Compression](https://leetcode.com/problems/string-compression/description/)                                                                                                       |   Yes    |   Medium   |
 | 450.  | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)                                                                                                   |   Yes    |   Medium   |
@@ -305,6 +309,7 @@
 | 1284. | [ Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/description/)            |   Yes    |    Hard    |
 | 1290. | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)                                                     |   Yes    |    Easy    |
 | 1293. | [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/description/)                                       |   Yes    |    Hard    |
+| 1305. | [All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/)                                                             |   Yes    |   Medium   |
 | 1306. | [Jump Game III](https://leetcode.com/problems/jump-game-iii/)                                                                                                                             |   Yes    |   Medium   |
 | 1310. | [XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/description/)                                                                                         |   Yes    |   Medium   |
 | 1312. | [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/)                                     |   Yes    |    Hard    |
