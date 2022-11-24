@@ -11,27 +11,14 @@ struct TreeNode
 class Solution
 {
 public:
-    bool recurse(TreeNode *root, TreeNode *t, vector<TreeNode *> &path)
-    {
-        if (!root)
-            return false;
-        path.push_back(root);
-        if (root == t)
-            return true;
-        if (recurse(root->left, t, path) || recurse(root->right, t, path))
-            return true;
-        path.pop_back();
-        return false;
-    }
-
     TreeNode *lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q)
     {
-        vector<TreeNode *> a, b;
-        recurse(root, p, a);
-        recurse(root, q, b);
-        TreeNode *ans;
-        for (int i = 0; i < a.size() && i < b.size() && a[i] == b[i]; i++)
-            ans = a[i];
-        return ans;
+        if(!root || root == p || root == q)
+            return root;
+        auto l = lowestCommonAncestor(root->left, p, q);
+        auto r = lowestCommonAncestor(root->right, p, q);
+        if(l && r)
+            return root;
+        return l ? l : r;
     }
 };
