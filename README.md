@@ -232,7 +232,7 @@
 | 653.  | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                                                                                       |   Yes    |    Easy    |
 | 658.  | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)                                                                                                         |   Yes    |   Medium   |
 | 659.  | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)                                                                     |   Yes    |   Medium   |
-| 662.  | [Maximum Width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)                                                                                   |   Yes    |   Medium   |
+| 662.  | [Maximum z of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)                                                                                       |   Yes    |   Medium   |
 | 668.  | [Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement/description/)                                                                                              |   Yes    |   Medium   |
 | 673.  | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)                                                                       |   Yes    |   Medium   |
 | 684.  | [Redundant Connection](https://leetcode.com/problems/redundant-connection/)                                                                                                               |   Yes    |   Medium   |
@@ -286,6 +286,7 @@
 | 938.  | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)                                                                                                           |   Yes    |   Medium   |
 | 947.  | [Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/description/)                                                     |   Yes    |   Medium   |
 | 948.  | [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)                                                                                                                             |   Yes    |   Medium   |
+| 958.  | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/)                                                                     |   Yes    |   Medium   |
 | 967.  | [Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)                                                                     |   Yes    |   Medium   |
 | 976.  | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/)                                                                                       |   Yes    |    Easy    |
 | 981.  | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)                                                                                                   |   Yes    |   Medium   |
