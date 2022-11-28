@@ -49,6 +49,7 @@
         "xlocinfo": "cpp",
         "numeric": "cpp",
         "locale": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "sstream": "cpp"
     }
 }
