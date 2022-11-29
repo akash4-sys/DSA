@@ -177,6 +177,7 @@
 | 371.  | [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)                                                                                                     |   Yes    |   Medium   |
 | 377.  | [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/)                                                                                                                   |   Yes    |   Medium   |
 | 378.  | [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/)                                                                         |   Yes    |   Medium   |
+| 380.  | [Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/description/)                                                                                     |   Yes    |   Medium   |
 | 382.  | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)                                                                                                         |   Yes    |   Medium   |
 | 383.  | [Ransom Note](https://leetcode.com/problems/ransom-note/)                                                                                                                                 |   Yes    |    Easy    |
 | 384.  | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)                                                                                                                       |   Yes    |   Medium   |
@@ -270,6 +271,7 @@
 | 851.  | [Loud and Rich](https://leetcode.com/problems/loud-and-rich/)                                                                                                                             |   Yes    |   Medium   |
 | 858.  | [Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)                                                                                                                     |   Yes    |   Medium   |
 | 861.  | [Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/description/)                                                                                     |   Yes    |   Medium   |
+| 865.  | [Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/)                                                     |   Yes    |   Medium   |
 | 869.  | [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)                                                                                                               |   Yes    |   Medium   |
 | 871.  | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)                                                                                     |   Yes    |    Hard    |
 | 876.  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                                     |   Yes    |    Easy    |
@@ -294,6 +296,7 @@
 | 986.  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)                                                                                                 |   Yes    |   Medium   |
 | 987.  | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)                                                                     |   Yes    |    Hard    |
 | 990.  | [Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)                                                                               |   Yes    |   Medium   |
+| 993.  | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/)                                                                                               |   Yes    |    Easy    |
 | 997.  | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)                                                                                                                 |   Yes    |   Medium   |
 | 1008. | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)                                   |   Yes    |   Medium   |
 | 1009. | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/description/)                                                                                 |   Yes    |    Easy    |
@@ -301,6 +304,7 @@
 | 1014. | [Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)                                                                                                             |   Yes    |   Medium   |
 | 1020. | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)                                                                                                                   |   Yes    |   Medium   |
 | 1025. | [Divisor Game](https://leetcode.com/problems/divisor-game/)                                                                                                                               |   Yes    |    Easy    |
+| 1026. | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/)                                                   |   Yes    |   Medium   |
 | 1047. | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)                                                           |   Yes    |    Easy    |
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)                                                                       |    No    |    Hard    |
 | 1091. | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)                                                                                           |   Yes    |   Medium   |
@@ -348,6 +352,7 @@
 | 1494. | [Parallel Courses II](https://leetcode.com/problems/parallel-courses-ii/)                                                                                                                 |    No    |    Hard    |
 | 1514. | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)                                                                                             |   Yes    |   Medium   |
 | 1525. | [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/description/)                                                                 |   Yes    |   Medium   |
+| 1530. | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/description/)                                                                             |   Yes    |   Medium   |
 | 1531. | [String Compression II](https://leetcode.com/problems/string-compression-ii/description/)                                                                                                 |   Yes    |    Hard    |
 | 1544. | [Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)                                                                                                 |   Yes    |    Easy    |
 | 1557. | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)                                                             |   Yes    |   Medium   |
