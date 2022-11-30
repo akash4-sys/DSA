@@ -14,6 +14,41 @@ class Solution
 public:
     void reorderList(ListNode *head)
     {
+        if (!head || !head->next || !head->next->next) 
+            return;
+        
+        ListNode *slow = head, *fast = head->next;
+        while(fast && fast->next)
+            slow = slow->next, fast = fast->next->next;
+        
+        auto h = slow->next;
+        slow->next = NULL;
+        fast = h->next;
+        h->next = NULL;
+
+        while(fast)
+        {
+            slow = fast->next;
+            fast->next = h;
+            h = fast;
+            fast = slow;
+        }
+
+        for(slow = head, fast = h; slow;)
+        {
+            auto t = slow->next;
+            slow = slow->next = fast;
+            fast = t;
+        }
+    }
+};
+
+
+class Solution
+{
+public:
+    void reorderList(ListNode *head)
+    {
         vector<ListNode*> v;
         ListNode *h = head;
         while (head)
