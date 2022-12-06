@@ -167,6 +167,7 @@
 | 322.  | [Coin Change](https://leetcode.com/problems/coin-change/)                                                                                                                                 |   Yes    |   Medium   |
 | 326.  | [Power of Three](https://leetcode.com/problems/power-of-three/)                                                                                                                           |   Yes    |    Easy    |
 | 328.  | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                                                                                                               |   Yes    |   Medium   |
+| 331.  | [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/description/)                                               |   Yes    |   Medium   |
 | 334.  | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/)                                                                               |   Yes    |   Medium   |
 | 336.  | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)                                                                                                                       |   Yes    |    Hard    |
 | 338.  | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                                                                                                             |   Yes    |    Easy    |
@@ -259,6 +260,7 @@
 | 749.  | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)                                                                                                                         |   Yes    |   Medium   |
 | 766.  | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)                                                                                                             |   Yes    |    Easy    |
 | 784.  | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)                                                                                             |   Yes    |   Medium   |
+| 785.  | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/description/)                                                                                                      |   Yes    |   Medium   |
 | 787.  | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)                                                                                         |   Yes    |   Medium   |
 | 792.  | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                                                                                         |   Yes    |   Medium   |
 | 797.  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)                                                                                         |   Yes    |   Medium   |
@@ -413,6 +415,7 @@
 | 2192. | [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)                                                 |   Yes    |   Medium   |
 | 2206. | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/description/)                                                                                 |   Yes    |    Easy    |
 | 2225. | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                                                   |   Yes    |   Medium   |
+| 2226. | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/description/)                                                                                       |   Yes    |   Medium   |
 | 2285. | [Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)                                                                                     |   Yes    |   Medium   |
 | 2289. | [Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)                                                                                   |   Yes    |   Medium   |
 | 2290. | [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)                                                                       |   Yes    |    Hard    |
@@ -496,3 +499,7 @@
 | 2486  | [Append Characters to String to Make Subsequence](https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/)                                                         |   Yes    |   Medium   |
 | 2487  | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/)                                                                                             |   Yes    |   Medium   |
 | 2488  | [Count Subarrays With Median K](https://leetcode.com/problems/count-subarrays-with-median-k/)                                                                                             |   Yes    |    Hard    |
+| 2490  | [Circular Sentence](https://leetcode.com/problems/circular-sentence/)                                                                                                                     |   Yes    |    Easy    |
+| 2491  | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/description/)                                                           |   Yes    |   Medium   |
+| 2492  | [Minimum Score of a Path Between Two Cities](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/)                                                                   |   Yes    |   Medium   |
+| 2493  | [Divide Nodes Into the Maximum Number of Groups](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/description/)                                               |   Yes    |    Hard    |
