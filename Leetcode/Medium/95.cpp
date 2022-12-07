@@ -1,24 +1,27 @@
 #include "../../headers.h"
+#include "../../treestructure.h"
 
-struct TreeNode {
-    int val;
-    TreeNode *left;
-    TreeNode *right;
-    TreeNode() : val(0), left(nullptr), right(nullptr) {}
-    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
-};
-
-class Solution {
-    int dp[9] = {0};
-    void gen(int n)
-    {
-        if(n <= 1)
-    }
-
+class Solution
+{
 public:
-    vector<TreeNode*> generateTrees(int n) 
+    vector<TreeNode*> generateTrees(int n, int s = 1)
     {
-        gen(n);   
+        if(s > n)
+            return {NULL};
+        vector<TreeNode *> ans;
+        for(int rootVal = s; rootVal <= n; rootVal++)
+        {
+            auto left_subtrees = generateTrees(rootVal - 1, s);
+            auto right_subtrees = generateTrees(n, rootVal + 1);
+            for(auto ls: left_subtrees)
+                for(auto rs: right_subtrees)
+                {
+                    auto root = new TreeNode(rootVal);
+                    root->left = ls;
+                    root->right = rs;
+                    ans.push_back(root);
+                }
+        }
+        return ans;
     }
 };

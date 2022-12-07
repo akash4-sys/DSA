@@ -170,6 +170,7 @@
 | 331.  | [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/description/)                                               |   Yes    |   Medium   |
 | 334.  | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/)                                                                               |   Yes    |   Medium   |
 | 336.  | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)                                                                                                                       |   Yes    |    Hard    |
+| 337.  | [House Robber III](https://leetcode.com/problems/house-robber-iii/)                                                                                                                       |   Yes    |   Medium   |
 | 338.  | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                                                                                                             |   Yes    |    Easy    |
 | 342.  | [Power of Four](https://leetcode.com/problems/power-of-four/)                                                                                                                             |   Yes    |    Easy    |
 | 343.  | [Integer Break](https://leetcode.com/problems/integer-break/)                                                                                                                             |   Yes    |   Medium   |
@@ -216,6 +217,7 @@
 | 523.  | [Continuous Subarray Sum](https://leetcode.com/problems/continuous-subarray-sum/description/)                                                                                             |   Yes    |   Medium   |
 | 526.  | [Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/description/)                                                                                                 |   Yes    |   Medium   |
 | 530.  | [Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/description/)                                                                       |   Yes    |    Easy    |
+| 542.  | [01 Matrix](https://leetcode.com/problems/01-matrix/description/)                                                                                                                         |   Yes    |   Medium   |
 | 543.  | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)                                                                                             |   Yes    |    Easy    |
 | 547.  | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)                                                                                                                 |   Yes    |   Medium   |
 | 557.  | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)                                                                                             |   Yes    |    Easy    |
@@ -311,6 +313,7 @@
 | 1014. | [Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)                                                                                                             |   Yes    |   Medium   |
 | 1020. | [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)                                                                                                                   |   Yes    |   Medium   |
 | 1025. | [Divisor Game](https://leetcode.com/problems/divisor-game/)                                                                                                                               |   Yes    |    Easy    |
+| 1028. | [Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description/)                                                               |   Yes    |   Medium   |
 | 1026. | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/)                                                   |   Yes    |   Medium   |
 | 1047. | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)                                                           |   Yes    |    Easy    |
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)                                                                       |    No    |    Hard    |
@@ -468,6 +471,7 @@
 | 2435. | [Paths in Matrix Whose Sum Is Divisible by K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/)                                                                 |    No    |    Hard    |
 | 2437. | [Number of Valid Clock Times](https://leetcode.com/problems/number-of-valid-clock-times/description/)                                                                                     |   Yes    |    Easy    |
 | 2438. | [Range Product Queries of Powers](https://leetcode.com/problems/range-product-queries-of-powers/)                                                                                         |   Yes    |   Medium   |
+| 2440. | [Create Components With Same Value](https://leetcode.com/problems/create-components-with-same-value/description/)                                                                         |   Yes    |    Hard    |
 | 2441. | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/)                               |   Yes    |    Easy    |
 | 2442. | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/description/)                       |   Yes    |   Medium   |
 | 2443. | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/description/)                                                                                 |   Yes    |   Medium   |
