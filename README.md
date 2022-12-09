@@ -301,6 +301,7 @@
 | 948.  | [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)                                                                                                                             |   Yes    |   Medium   |
 | 958.  | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/)                                                                     |   Yes    |   Medium   |
 | 967.  | [Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)                                                                     |   Yes    |   Medium   |
+| 968.  | [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/description/)                                                                                                     |   Yes    |    Hard    |
 | 976.  | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/)                                                                                       |   Yes    |    Easy    |
 | 979.  | [Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/description/)                                                                             |   Yes    |   Medium   |
 | 981.  | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)                                                                                                   |   Yes    |   Medium   |
@@ -351,6 +352,7 @@
 | 1346. | [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                                                                                                               |   Yes    |    Hard    |
 | 1356. | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                                                                 |   Yes    |    Easy    |
 | 1368. | [Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/)                               |   Yes    |    Hard    |
+| 1372. | [Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/description/)                                                                   |   Yes    |   Medium   |
 | 1379. | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/)       |   Yes    |    Easy    |
 | 1383. | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)                                                                                             |   Yes    |    Hard    |
 | 1425. | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/)                                                                                                 |   Yes    |    Hard    |
