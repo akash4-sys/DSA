@@ -1,18 +1,18 @@
 #include "../../headers.h"
 
-class Solution
+class Solution 
 {
 public:
-    int climbStairs(int n)
+    int climbStairs(int n) 
     {
-        int ans = 1, last = 1, latest = 2;
-        for (int i = 3; i <= n; i++)
+        int curr = 1, last = 1;
+        while(n-- > 1)
         {
-            ans = last + latest;
-            last = latest;
-            latest = ans;
+            int next = curr + last;
+            last = curr;
+            curr = next;
         }
-        return ans;
+        return curr;
     }
 };
 
