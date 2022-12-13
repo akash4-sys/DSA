@@ -191,7 +191,9 @@
 | 399.  | [Evaluate Division](https://leetcode.com/problems/evaluate-division/)                                                                                                                     |   Yes    |   Medium   |
 | 402.  | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/description/)                                                                                                             |   Yes    |   Medium   |
 | 405.  | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/)                                                                             |   Yes    |    Easy    |
+| 406.  | [Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)                                                                               |   Yes    |   Medium   |
 | 407.  | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)                                                                                                           |   Yes    |    Hard    |
+| 410.  | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/description/)                                                                                             |   Yes    |    Hard    |
 | 413.  | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)                                                                                                                     |   Yes    |   Medium   |
 | 417.  | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                                                                                 |   Yes    |   Medium   |
 | 429.  | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)                                                                                       |   Yes    |   Medium   |
@@ -296,6 +298,7 @@
 | 907.  | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/)                                                                                           |   Yes    |   Medium   |
 | 912.  | [Sort an Array](https://leetcode.com/problems/sort-an-array/)                                                                                                                             |   Yes    |   Medium   |
 | 918.  | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)                                                                                             |   Yes    |   Medium   |
+| 931.  | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/)                                                                                           |   Yes    |   Medium   |
 | 936.  | [Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/)                                                                                                             |   Yes    |    Hard    |
 | 938.  | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)                                                                                                           |   Yes    |   Medium   |
 | 947.  | [Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/description/)                                                     |   Yes    |   Medium   |
@@ -330,6 +333,7 @@
 | 1123. | [Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/description/)                                                           |   Yes    |   Medium   |
 | 1143. | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                                                                                   |   Yes    |   Medium   |
 | 1171. | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)                                                   |   Yes    |   Medium   |
+| 1192. | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)                                                                                     |   Yes    |    Hard    |
 | 1209. | [Remove All Adjacent Duplicates In String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/)                                                     |   Yes    |   Medium   |
 | 1220. | [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/submissions/)                                                                                           |   Yes    |    Hard    |
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                                                       |   Yes    |   Medium   |
@@ -357,6 +361,7 @@
 | 1372. | [Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/description/)                                                                   |   Yes    |   Medium   |
 | 1379. | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/)       |   Yes    |    Easy    |
 | 1383. | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)                                                                                             |   Yes    |    Hard    |
+| 1409. | [Queries on Permuations with Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/description/)                                                                           |   Yes    |   Medium   |
 | 1425. | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/)                                                                                                 |   Yes    |    Hard    |
 | 1438. | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)   |   Yes    |   Medium   |
 | 1442. | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/description/)                                   |   Yes    |   Medium   |
@@ -426,6 +431,7 @@
 | 2206. | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/description/)                                                                                 |   Yes    |    Easy    |
 | 2225. | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                                                   |   Yes    |   Medium   |
 | 2226. | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/description/)                                                                                       |   Yes    |   Medium   |
+| 2270. | [Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/description/)                                                                                 |   Yes    |   Medium   |
 | 2285. | [Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)                                                                                     |   Yes    |   Medium   |
 | 2289. | [Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)                                                                                   |   Yes    |   Medium   |
 | 2290. | [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)                                                                       |   Yes    |    Hard    |
