@@ -212,6 +212,8 @@
 | 472.  | [Concatenated Words](https://leetcode.com/problems/concatenated-words/)                                                                                                                   |   Yes    |    Hard    |
 | 476.  | [Number Complement](https://leetcode.com/problems/number-complement/)                                                                                                                     |   Yes    |    Easy    |
 | 477.  | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/description/)                                                                                               |   Yes    |   Medium   |
+| 496.  | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                                                                               |   Yes    |    Easy    |
+| 503.  | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)                                                                                             |   Yes    |   Medium   |
 | 509.  | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)                                                                                                                       |   Yes    |    Easy    |
 | 518.  | [Coin Change 2](https://leetcode.com/problems/coin-change-2/)                                                                                                                             |   Yes    |   Medium   |
 | 516.  | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)                                                                             |   Yes    |   Medium   |
@@ -371,6 +373,7 @@
 | 1466. | [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)                                           |   Yes    |   Medium   |
 | 1475. | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)                                                           |   Yes    |    Easy    |
 | 1486. | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/description/)                                                                                         |   Yes    |    Easy    |
+| 1483. | [Kth Ancestor of a Tree Node](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/description/)                                                                                     |   Yes    |    Hard    |
 | 1489. | [Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/)                       |   Yes    |    Hard    |
 | 1494. | [Parallel Courses II](https://leetcode.com/problems/parallel-courses-ii/)                                                                                                                 |    No    |    Hard    |
 | 1514. | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)                                                                                             |   Yes    |   Medium   |
@@ -407,6 +410,7 @@
 | 1886. | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)                                               |   Yes    |    Easy    |
 | 1905. | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)                                                                                                                     |   Yes    |   Medium   |
 | 1926. | [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/)                                                                       |   Yes    |   Medium   |
+| 1932. | [Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst/description/)                                                                             |   Yes    |    Hard    |
 | 1947. | [Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/description/)                                                                             |   Yes    |   Medium   |
 | 1971. | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)                                                                                               |   Yes    |    Easy    |
 | 1976. | [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)                                                                         |   Yes    |   Medium   |
