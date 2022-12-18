@@ -1,5 +1,57 @@
 #include "../../headers.h"
 
+class BinaryIndexedTree
+{
+    vector<int> bit;
+
+public:
+    BinaryIndexedTree() {};
+    BinaryIndexedTree(int n): bit(n + 1, 0) {}
+
+    void update(int i, int val)
+    {
+        for(; i < bit.size(); i += i & (-i))
+            bit[i] += val;
+    }
+
+    int getSum(int i)
+    {
+        int sum = 0;
+        for(; i > 0; i -= i & (-i))
+            sum += bit[i];
+        return sum;
+    }
+};
+
+class NumArray
+{
+    BinaryIndexedTree bit;
+    vector<int> v;
+public:
+    NumArray(vector<int> &v)
+    {
+        this->bit = BinaryIndexedTree(v.size());
+        this->v = v;
+        for(int i = 0; i < v.size(); i++)
+            bit.update(i + 1, v[i]);
+    }
+
+    void update(int i, int val)
+    {
+        int d = val - v[i];
+        bit.update(i + 1, d);
+        v[i] = val;
+    }
+
+    int sumRange(int left, int right)
+    {
+        return bit.getSum(right + 1) - bit.getSum(left);
+    }
+};
+
+
+
+
 class NumArray
 {
 public:
