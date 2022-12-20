@@ -244,6 +244,7 @@
 | 637.  | [Average of Level in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)                                                                                        |   Yes    |    Easy    |
 | 639.  | [Decode Ways II](https://leetcode.com/problems/decode-ways-ii/description/)                                                                                                               |   Yes    |    Hard    |
 | 645.  | [Set Mismatch](https://leetcode.com/problems/set-mismatch/description/)                                                                                                                   |   Yes    |    Easy    |
+| 648.  | [Replace Words](https://leetcode.com/problems/replace-words/description/)                                                                                                                 |   Yes    |   Medium   |
 | 669.  | [Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)                                                                                                     |   Yes    |   Medium   |
 | 653.  | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                                                                                       |   Yes    |    Easy    |
 | 658.  | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)                                                                                                         |   Yes    |   Medium   |
@@ -261,6 +262,7 @@
 | 706.  | [Design HashMap](https://leetcode.com/problems/design-hashmap/)                                                                                                                           |   Yes    |    Easy    |
 | 714.  | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)                                               |   Yes    |   Medium   |
 | 718.  | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)                                                                                 |   Yes    |   Medium   |
+| 720.  | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/description/)                                                                                       |   Yes    |   Medium   |
 | 729.  | [My Calender I](https://leetcode.com/problems/my-calendar-i/)                                                                                                                             |   Yes    |   Medium   |
 | 731.  | [My Calender II](https://leetcode.com/problems/my-calendar-ii/)                                                                                                                           |   Yes    |   Medium   |
 | 732.  | [My Calender III](https://leetcode.com/problems/my-calendar-iii/)                                                                                                                         |   Yes    |    Hard    |
@@ -343,6 +345,7 @@
 | 1220. | [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/submissions/)                                                                                           |   Yes    |    Hard    |
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                                                       |   Yes    |   Medium   |
 | 1255. | [Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/description/)                                                                 |   Yes    |    Hard    |
+| 1268. | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                                                         |   Yes    |   Medium   |
 | 1284. | [ Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/description/)            |   Yes    |    Hard    |
 | 1290. | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)                                                     |   Yes    |    Easy    |
 | 1293. | [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/description/)                                       |   Yes    |    Hard    |
@@ -476,6 +479,7 @@
 | 2404. | [Most Frequent Even Element](https://leetcode.com/problems/most-frequent-even-element/)                                                                                                   |   Yes    |    Easy    |
 | 2405. | [Optimal Partition of String](https://leetcode.com/problems/optimal-partition-of-string/)                                                                                                 |   Yes    |   Medium   |
 | 2406. | [Divide Intervals Into Minimum Number of Groups](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/)                                                           |   Yes    |   Medium   |
+| 2407. | [Longest Increasing Subsequence II](https://leetcode.com/problems/longest-increasing-subsequence-ii/description/)                                                                         |   Yes    |    Hard    |
 | 2411. | [Smallest Subarrays With Maximum Bitwise OR](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/)                                                                   |   Yes    |   Medium   |
 | 2413. | [Smallest Even Multiple](https://leetcode.com/problems/smallest-even-multiple/)                                                                                                           |   Yes    |    Easy    |
 | 2414. | [Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/)                                         |   Yes    |   Medium   |
