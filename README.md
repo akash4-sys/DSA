@@ -199,6 +199,7 @@
 | 410.  | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/description/)                                                                                             |   Yes    |    Hard    |
 | 413.  | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)                                                                                                                     |   Yes    |   Medium   |
 | 417.  | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                                                                                 |   Yes    |   Medium   |
+| 421.  | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)                                                               |   Yes    |   Medium   |
 | 429.  | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)                                                                                       |   Yes    |   Medium   |
 | 433.  | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)                                                                                           |   Yes    |   Medium   |
 | 437.  | [Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)                                                                                                                   |   Yes    |   Medium   |
@@ -270,6 +271,7 @@
 | 739.  | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                                                       |   Yes    |   Medium   |
 | 746.  | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)                                                                                                       |   Yes    |    Easy    |
 | 749.  | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)                                                                                                                         |   Yes    |   Medium   |
+| 753.  | [Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/description/)                                                                                                         |   Yes    |    Hard    |
 | 766.  | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)                                                                                                             |   Yes    |    Easy    |
 | 784.  | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)                                                                                             |   Yes    |   Medium   |
 | 785.  | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/description/)                                                                                                      |   Yes    |   Medium   |
@@ -296,6 +298,7 @@
 | 872.  | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/description/)                                                                                                       |   Yes    |    Easy    |
 | 876.  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                                     |   Yes    |    Easy    |
 | 877.  | [Stone Game](https://leetcode.com/problems/stone-game/description/)                                                                                                                       |   Yes    |   Medium   |
+| 886.  | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/description/)                                                                                                   |   Yes    |   Medium   |
 | 889.  | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/description/)                     |   Yes    |   Medium   |
 | 890.  | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)                                                                                                       |   Yes    |   Medium   |
 | 894.  | [All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/description/)                                                                               |   Yes    |   Medium   |
@@ -419,6 +422,7 @@
 | 1926. | [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/)                                                                       |   Yes    |   Medium   |
 | 1932. | [Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst/description/)                                                                             |   Yes    |    Hard    |
 | 1947. | [Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/description/)                                                                             |   Yes    |   Medium   |
+| 1948. | [Delete Duplicate Folders in System](https://leetcode.com/problems/delete-duplicate-folders-in-system/description/)                                                                       |   Yes    |    Hard    |
 | 1971. | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)                                                                                               |   Yes    |    Easy    |
 | 1976. | [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)                                                                         |   Yes    |   Medium   |
 | 2007. | [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)                                                                           |   Yes    |   Medium   |
