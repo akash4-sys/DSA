@@ -50,6 +50,7 @@
         "numeric": "cpp",
         "locale": "cpp",
         "limits": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "iosfwd": "cpp"
     }
 }

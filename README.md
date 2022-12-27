@@ -171,6 +171,7 @@
 | 326.  | [Power of Three](https://leetcode.com/problems/power-of-three/)                                                                                                                           |   Yes    |    Easy    |
 | 328.  | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                                                                                                               |   Yes    |   Medium   |
 | 331.  | [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/description/)                                               |   Yes    |   Medium   |
+| 332.  | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/description/)                                                                                                 |   Yes    |    Hard    |
 | 334.  | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/)                                                                               |   Yes    |   Medium   |
 | 336.  | [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)                                                                                                                       |   Yes    |    Hard    |
 | 337.  | [House Robber III](https://leetcode.com/problems/house-robber-iii/)                                                                                                                       |   Yes    |   Medium   |
@@ -434,6 +435,7 @@
 | 2071. | [Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)                                                                           |   Yes    |    Hard    |
 | 2074. | [Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)                                                                                 |   Yes    |   Medium   |
 | 2095. | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)                                                             |   Yes    |   Medium   |
+| 2097. | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs/)                                                                                                   |   Yes    |    Hard    |
 | 2100. | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)                                                                                           |   Yes    |   Medium   |
 | 2115. | [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/)                                                 |   Yes    |   Medium   |
 | 2130. | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)                                                                                     |   Yes    |   Medium   |
@@ -450,6 +452,7 @@
 | 2250. | [Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/description/)                                           |   Yes    |   Medium   |
 | 2270. | [Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/description/)                                                                                 |   Yes    |   Medium   |
 | 2285. | [Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)                                                                                     |   Yes    |   Medium   |
+| 2279. | [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/description/)                                                           |   Yes    |   Medium   |
 | 2289. | [Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)                                                                                   |   Yes    |   Medium   |
 | 2290. | [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)                                                                       |   Yes    |    Hard    |
 | 2296. | [Design a Text Editor](https://leetcode.com/problems/design-a-text-editor/)                                                                                                               |   Yes    |    Hard    |
@@ -551,3 +554,10 @@
 | 2507  | [Smallest Value After Replacing With Sum of Prime Factors](https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/)                                       |   Yes    |   Medium   |
 | 2508  | [Add Edges to Make Degrees of All Nodes Even](https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even/)                                                                 |   Yes    |    Hard    |
 | 2509  | [Cycle Length Queries in a Tree](https://leetcode.com/problems/cycle-length-queries-in-a-tree/)                                                                                           |   Yes    |    Hard    |
+| 2511  | [Maximum Enemy Forts That Can Be Captured](https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/)                                                                       |   Yes    |    Easy    |
+| 2512  | [Reward Top K Students](https://leetcode.com/problems/reward-top-k-students/)                                                                                                             |   Yes    |   Medium   |
+| 2513  | [Minimize the Maximum of Two Arrays](https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/)                                                                                   |   Yes    |   Medium   |
+| 2514  | [Count Anagrams](https://leetcode.com/problems/count-anagrams/)                                                                                                                           |   Yes    |    Hard    |
+| 2515  | [Shortest Distance to Target String in a Circular Array](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/)                                           |   Yes    |    Easy    |
+| 2516  | [Take K of Each Character From Left and Right](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/)                                                               |   Yes    |   Medium   |
+| 2517  | [Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)                                                                                     |   Yes    |   Medium   |
