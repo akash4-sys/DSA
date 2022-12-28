@@ -235,6 +235,7 @@
 | 563.  | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/description/)                                                                                                           |   Yes    |    Easy    |
 | 583.  | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)                                                                                       |   Yes    |   Medium   |
 | 587.  | [Erect the Fence](https://leetcode.com/problems/erect-the-fence/description/)                                                                                                             |   Yes    |    Hard    |
+| 576.  | [Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/description/)                                                                                                 |   Yes    |   Medium   |
 | 606.  | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)                                                                                     |   Yes    |    Easy    |
 | 609.  | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)                                                                                             |   Yes    |   Medium   |
 | 617.  | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)                                                                                               |   Yes    |    Easy    |
@@ -424,6 +425,7 @@
 | 1932. | [Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst/description/)                                                                             |   Yes    |    Hard    |
 | 1947. | [Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/description/)                                                                             |   Yes    |   Medium   |
 | 1948. | [Delete Duplicate Folders in System](https://leetcode.com/problems/delete-duplicate-folders-in-system/description/)                                                                       |   Yes    |    Hard    |
+| 1962. | [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)                                                                     |   Yes    |   Medium   |
 | 1971. | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)                                                                                               |   Yes    |    Easy    |
 | 1976. | [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)                                                                         |   Yes    |   Medium   |
 | 2007. | [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)                                                                           |   Yes    |   Medium   |
