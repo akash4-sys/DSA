@@ -18,7 +18,7 @@
 #define fi first
 #define sc second
 #define all(v) v.begin(), v.end()
-#define rall(v) v.begin(), v.end()
+#define rall(v) v.rbegin(), v.rend()
 #define directions {{0, 1}, {0, -1}, {1, 0}, {-1, 0}}
 #define UMP unordered_map
 

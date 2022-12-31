@@ -58,6 +58,7 @@
 |  55.  | [Jump Game](https://leetcode.com/problems/jump-game/)                                                                                                                                     |   Yes    |   Medium   |
 |  61.  | [Rotate List](https://leetcode.com/problems/rotate-list/)                                                                                                                                 |   Yes    |   Medium   |
 |  62.  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                                                                               |   Yes    |   Medium   |
+|  63.  | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)                                                                                                                         |   Yes    |   Medium   |
 |  70.  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                                                                         |   Yes    |    Easy    |
 |  72.  | [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                                                                                             |   Yes    |    Hard    |
 |  74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                                                                   |   Yes    |   Medium   |
@@ -210,6 +211,7 @@
 | 449.  | [Serialize and Deserialize BST](https://leetcode.com/problems/serialize-and-deserialize-bst/description/)                                                                                 |   Yes    |   Medium   |
 | 450.  | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/)                                                                                                   |   Yes    |   Medium   |
 | 451.  | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                                                                                   |   Yes    |   Medium   |
+| 459.  | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)                                                                                       |   Yes    |    Easy    |
 | 458.  | [Poor Pigs](https://leetcode.com/problems/poor-pigs/)                                                                                                                                     |   Yes    |    Hard    |
 | 460.  | [LFU Cache](https://leetcode.com/problems/lfu-cache/)                                                                                                                                     |   Yes    |    Hard    |
 | 461.  | [Hamming Distance](https://leetcode.com/problems/hamming-distance/description/)                                                                                                           |   Yes    |    Easy    |
@@ -320,6 +322,7 @@
 | 968.  | [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/description/)                                                                                                     |   Yes    |    Hard    |
 | 976.  | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/)                                                                                       |   Yes    |    Easy    |
 | 979.  | [Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/description/)                                                                             |   Yes    |   Medium   |
+| 980.  | [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/)                                                                                                           |   Yes    |    Hard    |
 | 981.  | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)                                                                                                   |   Yes    |   Medium   |
 | 985.  | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)                                                                                     |   Yes    |   Medium   |
 | 986.  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)                                                                                                 |   Yes    |   Medium   |

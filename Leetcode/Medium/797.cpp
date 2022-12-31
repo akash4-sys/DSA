@@ -29,25 +29,26 @@ public:
 
 // DFS
 
+#define vv vector<vector<int>>
+#define vec vector<int>
+
 class Solution
 {
-    vector<vector<int>> ans;
-    vector<int> path;
-    void dfs(vector<vector<int>> &graph, int i)
+    void dfs(vv &g, vv &ans, vec path, int u)
     {
-        path.push_back(i);
-        if(i == graph.size() - 1)
-            ans.push_back(path);
-        else
-            for(auto e: graph[i])
-                dfs(graph, e);
-        path.pop_back();
+        path.push_back(u);
+        for (int v : g[u])
+            dfs(g, ans, path, v);
+        if (g.size() - 1 == u)
+            ans.push_back(path), path.pop_back();
     }
 
 public:
-    vector<vector<int>> allPathsSourceTarget(vector<vector<int>> &graph)
+    vv allPathsSourceTarget(vv& g) 
     {
-        dfs(graph, 0);
+        vv ans;
+        vec path;
+        dfs(g, ans, path, 0);
         return ans;
     }
 };
