@@ -51,6 +51,8 @@
         "locale": "cpp",
         "limits": "cpp",
         "sstream": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "ranges": "cpp",
+        "span": "cpp"
     }
 }
