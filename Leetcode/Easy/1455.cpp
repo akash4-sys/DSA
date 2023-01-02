@@ -1,17 +1,5 @@
 #include "../../headers.h"
 
-
-
-class Solution
-{
-public:
-    int isPrefixOfWord(string s, string w)
-    {
-    }
-};
-
-
-
 class Solution
 {
 public:
