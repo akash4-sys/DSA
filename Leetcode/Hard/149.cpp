@@ -3,35 +3,30 @@
 class Solution
 {
 public:
-    int maxPoints(vector<vector<int>> &p)
+    int maxPoints(vector<vector<int>> &points)
     {
-        if(p.size() <= 2)
-            return p.size();
-        
         int ans = 0;
-        for(int i = 0; i < p.size(); i++)
+        for (auto &p : points)
         {
-            unordered_map<double, int> mp;
+            unordered_map<double, int> ump;
             int dup = 0;
-            double slope = 0.0;
-            for(int j = 0; j < p.size(); j++)
+            for (auto &q : points)
             {
-                int dx = p[j][0] - p[i][0];
-                int dy = p[j][1] - p[i][1];
-                if(!dy && !dx)
+                int dx = q[0] - p[0], dy = q[1] - p[1];
+                if (!dx && !dy)
                 {
                     dup++;
                     continue;
                 }
-                slope = dx ? dy * 1.0 / dx : INT_MAX;
-                mp[slope]++;
+                double slope = dx ? (dy * 1.0) / dx : INT_MAX;
+                ump[slope]++;
             }
 
-            if(!mp.size())
-                ans = dup;
+            if (ump.size())
+                for (auto &[slp, c] : ump)
+                    ans = max(ans, c + dup);
             else
-                for(auto x: mp)
-                    ans = max(ans, x.second + dup);
+                ans = dup;
         }
         return ans;
     }
