@@ -1,5 +1,29 @@
 #include "../../headers.h"
 
+#define ll long long
+class Solution
+{
+    ll mod = 1e9 + 7, ch = 26;
+    ll patternHash(string &p)
+    {
+        ll hash = 0;
+        for (ll i = p.size() - 1, pw = 1; i >= 0; i--)
+        {
+            hash = (hash + ((p[i] - 'a') * pw)) % mod;
+            pw *= 26;
+        }
+        return hash;
+    }
+
+public:
+    int strStr(string s, string p)
+    {
+        return patternHash(p);
+    }
+};
+
+
+
 class KMP
 {
     void generateLPS(string &p, vector<int> &lps)
@@ -34,21 +58,20 @@ public:
     }
 };
 
-class Solution 
+class Solution
 {
 public:
-    int strStr(string s, string p) 
+    int strStr(string s, string p)
     {
         KMP kmp;
         return kmp.strAt(s, p);
     }
 };
 
-
-class Solution 
+class Solution
 {
 public:
-    int strStr(string s, string p) 
+    int strStr(string s, string p)
     {
         auto it = s.find(p);
         return (it == string::npos) ? -1 : it;
