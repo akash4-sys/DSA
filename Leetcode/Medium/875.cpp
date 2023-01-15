@@ -2,32 +2,33 @@
 
 class Solution
 {
-    bool canReach(vector<int> &v, double time, int speed)
+    bool canEat(vector<int> &v, int speed, int time)
     {
         double t = 0;
         for (int n : v)
         {
             t = ceil(t);
             t += (double)n / speed;
-            if (t > time)
+            if (time < t)
                 return 0;
         }
         return 1;
     }
 
 public:
-    int minSpeedOnTime(vector<int> &v, double time)
+    int minEatingSpeed(vector<int> &v, int h)
     {
-        int l = 1, r = 1e7;
+        int r = *max_element(v.begin(), v.end()), l = 0, ans = 0;
         while (l <= r)
         {
             int mid = l + ((r - l) / 2);
-            if (canReach(v, time, mid))
-                r = mid - 1;
+            if (canEat(v, mid, h))
+                ans = mid, r = mid - 1;
             else
                 l = mid + 1;
         }
-        return l > 1e7 ? -1 : l;
+        return ans;
     }
 };
 
+// @lc app=leetcode id=875 lang=cpp
