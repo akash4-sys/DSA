@@ -1,62 +1,59 @@
 #include "../../headers.h"
 
-class UnionFind
+class DSU
 {
-    vector<int> par;
+    vector<int> parent;
 public:
-    UnionFind(int n) : par(n)
+    DSU(int n) : parent(n)
     {
-        iota(par.begin(), par.end(), 0);
+        iota(parent.begin(), parent.end(), 0);
     }
 
-    int find(int i)
+    int find(int u)
     {
-        if (par[i] != i)
-            par[i] = find(par[i]);
-        return par[i];
+        return parent[u] == u ? u : parent[u] = find(parent[u]);
     }
 
-    void connect(int i, int j)
+    void Union(int u, int v)
     {
-        int p1 = find(i), p2 = find(j);
-        if (p1 != p2)
-            par[p1] = par[p2];
+        int up = find(u), vp = find(v);
+        if (up != vp)
+            parent[up] = vp;
     }
 };
 
 class Solution
 {
 public:
-    int numberOfGoodPaths(vector<int> &v, vector<vector<int>> &edges)
+    int numberOfGoodPaths(vector<int>& v, vector<vector<int>>& edges) 
     {
-        int n = v.size();
         map<int, vector<int>> mp;
-        vector<vector<int>> g(n);
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < v.size(); i++)
             mp[v[i]].push_back(i);
-
-        for (auto &e : edges)
+        
+        vector<vector<int>> g(v.size());
+        for (auto e : edges)
             if (v[e[0]] >= v[e[1]])
-                g[e[0]].push_back(e[1]); 
+                g[e[0]].push_back(e[1]);
             else
                 g[e[1]].push_back(e[0]);
         
+        DSU dsu(v.size());
         int ans = 0;
-        UnionFind uf(n);
         for (auto &[val, nodes]: mp)
         {
             for (int u : nodes)
                 for (int v : g[u])
-                    uf.connect(u, v);
+                    dsu.Union(u, v);
             
             unordered_map<int, int> grp;
             for (int u : nodes)
-                grp[uf.find(u)]++;
-            ans += nodes.size();
-            for (auto &[_, c]: grp)
+                grp[dsu.find(u)]++;
+
+            for (auto &[_, c] : grp)
                 ans += (c * (c - 1) / 2);
         }
-        return ans;
+        return ans + v.size();
     }
 };
 
