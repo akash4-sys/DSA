@@ -2,6 +2,7 @@
 
 #include "vector"
 #include "cmath"
+#include "unordered_set"
 
 using namespace std;
 
@@ -10,27 +11,32 @@ class Prime
 public:
     bool isPrime(int n)
     {
-        for (int i = 2; i <= sqrt(n); i++)
+        if (n == 1)
+            return 0;
+        for (int i = 2, sq = sqrt(n); i <= sq; i++)
             if (n % i == 0)
                 return 0;
         return 1;
     }
 
+    // p * p == sqrt(n)
     // Time Complexity - O(Nlog(log(N)))
+    // sqrt(n) > log(n)  // hence sieve algo is faster than isPrime -- check (204)
+
     void sieve(int n)
     {
         vector<int> prime(n + 1, 1);
         for (int p = 2; p * p <= n; p++)
-            if (prime[p])
-                for (int i = p * p; i <= n; i += p)
-                    prime[i] = 0;
+            for (int i = p * p; i <= n && prime[p]; i += p)
+                prime[i] = 0;
     }
 
 
     // Time Complexity - O(N)
     void msieve(int n)
     {
-        vector<long long> isprime(100, true), prime, SPF(100);
+        vector<long long> isprime(100, true), SPF(100);
+        vector<long long>  prime;
         isprime[0] = isprime[1] = false;
         for (long long int i = 2; i < n; i++)
         {
@@ -42,5 +48,18 @@ public:
                 SPF[i * prime[j]] = prime[j];
             }
         }
+    }
+
+    // Time Complexity - O(sqrt(n))
+    void distinctPrimeFactors(int n)
+    {
+        unordered_set<int> s;
+        if (n == 2)
+            s.insert(n);
+        for (int i = 2, sq = sqrt(n); i <= sq; i++)
+            for (; !(n % i); n /= i)
+                s.insert(i);
+        if (n > 2)
+            s.insert(n);
     }
 };
