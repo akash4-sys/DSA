@@ -35,7 +35,7 @@
 |  31.  | [Next Permutation](https://leetcode.com/problems/next-permutation/)                                                                                                                       |   Yes    |   Medium   |
 |  32.  | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)                                                                                                     |   Yes    |    Hard    |
 |  33.  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)                                                                                           |   Yes    |   Medium   |
-|  34.  | [ Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)                                        |   Yes    |   Medium   |
+|  34.  | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)                                         |   Yes    |   Medium   |
 |  36.  | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                                                                                                               |   Yes    |   Medium   |
 |  37.  | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)                                                                                                                             |   Yes    |    Hard    |
 |  38.  | [Count and Say](https://leetcode.com/problems/count-and-say/)                                                                                                                             |   Yes    |   Medium   |
@@ -634,4 +634,4 @@
 | 2544  | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)                                                                                                             |   Yes    |    Easy    |
 | 2545  | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/)                                                                               |   Yes    |   Medium   |
 | 2546  | [Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)                                                           |   Yes    |   Medium   |
-| 2547  | []()                                                                                                                                                                                      |   Yes    |    Hard    |
+| 2547  | [Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/description/)                                                                               |   Yes    |    Hard    |
