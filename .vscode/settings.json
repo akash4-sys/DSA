@@ -53,6 +53,7 @@
         "sstream": "cpp",
         "iosfwd": "cpp",
         "ranges": "cpp",
-        "span": "cpp"
+        "span": "cpp",
+        "ostream": "cpp"
     }
 }

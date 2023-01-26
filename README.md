@@ -105,6 +105,7 @@
 | 127.  | [Word Ladder](https://leetcode.com/problems/word-ladder/)                                                                                                                                 |   Yes    |    Hard    |
 | 129.  | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/)                                                                                           |   Yes    |   Medium   |
 | 130.  | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)                                                                                                                   |   Yes    |   Medium   |
+| 131.  | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)                                                                                                         |   Yes    |   Medium   |
 | 134.  | [Gas Station](https://leetcode.com/problems/gas-station/description/)                                                                                                                     |   Yes    |   Medium   |
 | 136.  | [Single Number I](https://leetcode.com/problems/single-number-i/description/)                                                                                                             |   Yes    |    Easy    |
 | 137.  | [Single Number II](https://leetcode.com/problems/single-number-ii/description/)                                                                                                           |   Yes    |   Medium   |
@@ -305,6 +306,7 @@
 | 844.  | [Backspace String Compare](https://leetcode.com/problems/mirror-reflection/)                                                                                                              |   Yes    |    Easy    |
 | 847.  | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)                                                                           |   Yes    |    Hard    |
 | 851.  | [Loud and Rich](https://leetcode.com/problems/loud-and-rich/)                                                                                                                             |   Yes    |   Medium   |
+| 857.  | [Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/description/)                                                                               |   Yes    |    Hard    |
 | 858.  | [Mirror Reflection](https://leetcode.com/problems/mirror-reflection/)                                                                                                                     |   Yes    |   Medium   |
 | 861.  | [Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/description/)                                                                                     |   Yes    |   Medium   |
 | 863.  | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/)                                                                     |   Yes    |   Medium   |
@@ -323,6 +325,7 @@
 | 899.  | [Orderly Queue](https://leetcode.com/problems/orderly-queue/description/)                                                                                                                 |   Yes    |    Hard    |
 | 901.  | [Online Stock Span](https://leetcode.com/problems/online-stock-span/description/)                                                                                                         |   Yes    |   Medium   |
 | 907.  | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/)                                                                                           |   Yes    |   Medium   |
+| 909.  | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/description/)                                                                                                       |   Yes    |   Medium   |
 | 912.  | [Sort an Array](https://leetcode.com/problems/sort-an-array/)                                                                                                                             |   Yes    |   Medium   |
 | 914.  | [X of a Kind in a Deck of Cards](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/description/)                                                                               |   Yes    |    Easy    |
 | 918.  | [Maximum Sum Circular Subarray](https://leetcode.com/problems/maximum-sum-circular-subarray/)                                                                                             |   Yes    |   Medium   |
@@ -496,6 +499,7 @@
 | 2250. | [Count Number of Rectangles Containing Each Point](https://leetcode.com/problems/count-number-of-rectangles-containing-each-point/description/)                                           |   Yes    |   Medium   |
 | 2270. | [Number of Ways to Split Array](https://leetcode.com/problems/number-of-ways-to-split-array/description/)                                                                                 |   Yes    |   Medium   |
 | 2279. | [Maximum Bags With Full Capacity of Rocks](https://leetcode.com/problems/maximum-bags-with-full-capacity-of-rocks/description/)                                                           |   Yes    |   Medium   |
+| 2280. | [Minimum Lines to Represent a Line Chart](https://leetcode.com/problems/minimum-lines-to-represent-a-line-chart/description/)                                                             |   Yes    |   Medium   |
 | 2285. | [Maximum Total Importance of Roads](https://leetcode.com/problems/maximum-total-importance-of-roads/)                                                                                     |   Yes    |   Medium   |
 | 2289. | [Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)                                                                                   |   Yes    |   Medium   |
 | 2290. | [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)                                                                       |   Yes    |    Hard    |
@@ -508,6 +512,7 @@
 | 2353. | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)                                                                                                 |   Yes    |   Medium   |
 | 2354. | [Number of Excellent Pairs](https://leetcode.com/problems/number-of-excellent-pairs/)                                                                                                     |   Yes    |    Hard    |
 | 2357. | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)                                                               |   Yes    |    Easy    |
+| 2359. | [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)                                                                               |   Yes    |   Medium   |
 | 2363. | [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)                                                                                                                 |   Yes    |    Easy    |
 | 2364. | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)                                                                                                     |    No    |   Medium   |
 | 2367. | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)                                                                                             |   Yes    |    Easy    |
@@ -622,3 +627,11 @@
 | 2535  | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/)                                       |   Yes    |    Easy    |
 | 2536  | [Increment Submatrices by One](https://leetcode.com/problems/increment-submatrices-by-one/)                                                                                               |   Yes    |   Medium   |
 | 2537  | [Count the Number of Good Subarrays](https://leetcode.com/problems/count-the-number-of-good-subarrays/)                                                                                   |   Yes    |   Medium   |
+| 2540  | [Minimum Common Value](https://leetcode.com/problems/minimum-common-value/description/)                                                                                                   |   Yes    |    Easy    |
+| 2541  | [Minimum Operations to Make Array Equal II](https://leetcode.com/problems/minimum-operations-to-make-array-equal-ii/description/)                                                         |   Yes    |   Medium   |
+| 2542  | [Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score/)                                                                                                     |   Yes    |   Medium   |
+| 2543  | [Check if Point Is Reachable](https://leetcode.com/problems/check-if-point-is-reachable/)                                                                                                 |   Yes    |    Hard    |
+| 2544  | [Alternating Digit Sum](https://leetcode.com/problems/alternating-digit-sum/)                                                                                                             |   Yes    |    Easy    |
+| 2545  | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/)                                                                               |   Yes    |   Medium   |
+| 2546  | [Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)                                                           |   Yes    |   Medium   |
+| 2547  | []()                                                                                                                                                                                      |   Yes    |    Hard    |
