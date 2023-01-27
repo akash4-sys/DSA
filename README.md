@@ -376,6 +376,7 @@
 | 1201. | [Ugly Number III](https://leetcode.com/problems/ugly-number-iii/description/)                                                                                                             |   Yes    |   Medium   |
 | 1209. | [Remove All Adjacent Duplicates In String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/description/)                                                     |   Yes    |   Medium   |
 | 1220. | [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/submissions/)                                                                                           |   Yes    |    Hard    |
+| 1250. | [Check If It Is a Good Array](https://leetcode.com/problems/check-if-it-is-a-good-array/description/)                                                                                     |   Yes    |    Hard    |
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                                                       |   Yes    |   Medium   |
 | 1255. | [Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/description/)                                                                 |   Yes    |    Hard    |
 | 1268. | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                                                         |   Yes    |   Medium   |
