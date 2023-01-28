@@ -186,6 +186,7 @@
 | 342.  | [Power of Four](https://leetcode.com/problems/power-of-four/)                                                                                                                             |   Yes    |    Easy    |
 | 343.  | [Integer Break](https://leetcode.com/problems/integer-break/)                                                                                                                             |   Yes    |   Medium   |
 | 345.  | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)                                                                                       |   Yes    |    Easy    |
+| 352.  | [Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/description/)                                                                         |   Yes    |    Hard    |
 | 355.  | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                                                                                           |   Yes    |   Medium   |
 | 357.  | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)                                                                                       |   Yes    |   Medium   |
 | 363.  | [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)                                                                             |   Yes    |    Hard    |
@@ -508,6 +509,7 @@
 | 2305. | [Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/description/)                                                                                   |   Yes    |   Medium   |
 | 2317. | [Maximum XOR After Operations ](https://leetcode.com/problems/maximum-xor-after-operations/description/)                                                                                  |   Yes    |   Medium   |
 | 2326. | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)                                                                                                                       |   Yes    |   Medium   |
+| 2344. | [Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/description/)                                                         |   Yes    |    Hard    |
 | 2351. | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)                                                                                               |   Yes    |    Easy    |
 | 2352. | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)                                                                                                   |   Yes    |   Medium   |
 | 2353. | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)                                                                                                 |   Yes    |   Medium   |
