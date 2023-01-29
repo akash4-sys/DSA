@@ -2,16 +2,15 @@
 
 void factors(long long n)
 {
-    set<int> s;
+    long long ans = LLONG_MIN;
     if (n == 2)
-        s.insert(n);
-    for (int i = 2, sq = sqrt(n); i <= sq; i++)
+        ans = max(ans, n);
+    for (long long i = 2, sq = sqrt(n); i <= sq; i++)
         for (; !(n % i); n /= i)
-            s.insert(i);
+            ans = max(ans, i);
     if (n > 2)
-        s.insert(n);
-
-    cout<<*s.rbegin()<<endl;
+        ans = max(ans, n);
+    cout << ans << endl;
 }
 
 int main()

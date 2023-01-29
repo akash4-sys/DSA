@@ -26,7 +26,7 @@ int commonFactors(int a, int b)
 }
 
 // Common factors
-void commonFactors(int x)
+void factors(int x)
 {
     for (int i = 1, sq = sqrt(x); i <= sq; i++)
         if (x % i == 0)
@@ -36,4 +36,19 @@ void commonFactors(int x)
             else
                 cout << " " << i << " " << x / i;
         }
+}
+
+
+// Binary Exponentiation
+// For very large values
+int power(long base, long n)
+{
+    long ans = 1, mod = (long)1e9 + 7;
+    for (; n; n /= 2)
+    {
+        if (n % 2 == 1)
+            ans = (ans * base) % mod;
+        base = (base * base) % mod;
+    }
+    return (ans - 2 + mod) % mod;
 }

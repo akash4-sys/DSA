@@ -638,3 +638,6 @@
 | 2545  | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/)                                                                               |   Yes    |   Medium   |
 | 2546  | [Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)                                                           |   Yes    |   Medium   |
 | 2547  | [Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/description/)                                                                               |   Yes    |    Hard    |
+| 2550  | [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)                                                                                         |   Yes    |    Easy    |
+| 2551  | [Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)                                                                       |   Yes    |   Medium   |
+| 2552  | [Put Marbles in Bags](https://leetcode.com/problems/put-marbles-in-bags/)                                                                                                                 |   Yes    |    Hard    |
