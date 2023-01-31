@@ -72,6 +72,7 @@
 |  84.  | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)                                                                                           |   Yes    |    Hard    |
 |  85.  | [Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)                                                                                                                     |   Yes    |    Hard    |
 |  86.  | [Partition List](https://leetcode.com/problems/partition-list/)                                                                                                                           |   Yes    |   Medium   |
+|  87.  | [Scramble String](https://leetcode.com/problems/scramble-string/description/)                                                                                                             |   Yes    |    Hard    |
 |  90.  | [Subsets II](https://leetcode.com/problems/subsets-ii/)                                                                                                                                   |   Yes    |   Medium   |
 |  91.  | [Decode Ways](https://leetcode.com/problems/decode-ways/)                                                                                                                                 |   Yes    |   Medium   |
 |  93.  | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/description/)                                                                                                   |   Yes    |   Medium   |
@@ -220,6 +221,7 @@
 | 452.  | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)                                                                   |   Yes    |   Medium   |
 | 451.  | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/description/)                                                                                   |   Yes    |   Medium   |
 | 459.  | [Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/description/)                                                                                       |   Yes    |    Easy    |
+| 456.  | [132 Pattern](https://leetcode.com/problems/132-pattern/description/)                                                                                                                     |   Yes    |   Medium   |
 | 458.  | [Poor Pigs](https://leetcode.com/problems/poor-pigs/)                                                                                                                                     |   Yes    |    Hard    |
 | 460.  | [LFU Cache](https://leetcode.com/problems/lfu-cache/)                                                                                                                                     |   Yes    |    Hard    |
 | 461.  | [Hamming Distance](https://leetcode.com/problems/hamming-distance/description/)                                                                                                           |   Yes    |    Easy    |
@@ -438,6 +440,7 @@
 | 1588. | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/description/)                                                                             |   Yes    |    Easy    |
 | 1615. | [Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)                                                                                                               |   Yes    |   Medium   |
 | 1617. | [Count Subtrees With Max Distance Between Cities](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/description/)                                             |   Yes    |    Hard    |
+| 1626. | [Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/description/)                                                                                     |   Yes    |   Medium   |
 | 1631. | [Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/)                                                                                                       |   Yes    |   Medium   |
 | 1646. | [Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)                                                                                           |   Yes    |    Easy    |
 | 1649. | [Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)                                                                       |   Yes    |    Hard    |
@@ -638,6 +641,7 @@
 | 2545  | [Sort the Students by Their Kth Score](https://leetcode.com/problems/sort-the-students-by-their-kth-score/)                                                                               |   Yes    |   Medium   |
 | 2546  | [Apply Bitwise Operations to Make Strings Equal](https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/)                                                           |   Yes    |   Medium   |
 | 2547  | [Minimum Cost to Split an Array](https://leetcode.com/problems/minimum-cost-to-split-an-array/description/)                                                                               |   Yes    |    Hard    |
-| 2550  | [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)                                                                                         |   Yes    |    Easy    |
-| 2551  | [Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)                                                                       |   Yes    |   Medium   |
-| 2552  | [Put Marbles in Bags](https://leetcode.com/problems/put-marbles-in-bags/)                                                                                                                 |   Yes    |    Hard    |
+| 2549  | [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)                                                                                         |   Yes    |    Easy    |
+| 2550  | [Count Collisions of Monkeys on a Polygon](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/)                                                                       |   Yes    |   Medium   |
+| 2551  | [Put Marbles in Bags](https://leetcode.com/problems/put-marbles-in-bags/)                                                                                                                 |   Yes    |    Hard    |
+| 2552  | [Count Increasing Quadruplets](https://leetcode.com/problems/count-increasing-quadruplets/description/)                                                                                   |   Yes    |    Hard    |
