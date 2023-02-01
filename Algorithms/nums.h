@@ -38,7 +38,6 @@ void factors(int x)
         }
 }
 
-
 // Binary Exponentiation
 // For very large values
 int power(long base, long n)
@@ -51,4 +50,19 @@ int power(long base, long n)
         base = (base * base) % mod;
     }
     return (ans - 2 + mod) % mod;
+}
+
+// factorial of a number
+long long fact(int x)
+{
+    int mod = 1e9 + 7;
+    long long res = 1;
+    for (long long i = 1; i <= x; i++)
+        res = (res * i) % mod;
+    return res;
+}
+
+int nCr(int n, int r)
+{
+    return fact(n) / (fact(r) * fact(n - r));
 }

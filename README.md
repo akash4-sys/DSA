@@ -57,6 +57,7 @@
 |  54.  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                                                             |   Yes    |   Medium   |
 |  55.  | [Jump Game](https://leetcode.com/problems/jump-game/)                                                                                                                                     |   Yes    |   Medium   |
 |  57.  | [Insert Interval](https://leetcode.com/problems/insert-interval/description/)                                                                                                             |   Yes    |   Medium   |
+|  60.  | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/)                                                                                                   |   Yes    |    Hard    |
 |  61.  | [Rotate List](https://leetcode.com/problems/rotate-list/)                                                                                                                                 |   Yes    |   Medium   |
 |  62.  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                                                                               |   Yes    |   Medium   |
 |  63.  | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)                                                                                                                         |   Yes    |   Medium   |
@@ -454,6 +455,7 @@
 | 1706. | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)                                                                                                       |   Yes    |   Medium   |
 | 1720. | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)                                                                                                                   |   Yes    |    Easy    |
 | 1721. | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)                                                                                         |   Yes    |   Medium   |
+| 1735. | [Count Ways to Make Array With Product](https://leetcode.com/problems/count-ways-to-make-array-with-product/description/)                                                                 |   Yes    |    Hard    |
 | 1764. | [Form Array by Concatenating Subarrays of Another Array](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/description/)                               |   Yes    |   Medium   |
 | 1780. | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)                                                                 |   Yes    |   Medium   |
 | 1786. | [Number of Restricted Paths From First to Last Node](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)                                                   |   Yes    |   Medium   |
