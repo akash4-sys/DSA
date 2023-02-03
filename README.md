@@ -340,6 +340,7 @@
 | 944.  | [Delete Columns to Make Sorted](https://leetcode.com/problems/delete-columns-to-make-sorted/description/)                                                                                 |   Yes    |    Easy    |
 | 947.  | [Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/description/)                                                     |   Yes    |   Medium   |
 | 948.  | [Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)                                                                                                                             |   Yes    |   Medium   |
+| 953.  | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/description/)                                                                                 |   Yes    |    Easy    |
 | 958.  | [Check Completeness of a Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/description/)                                                                     |   Yes    |   Medium   |
 | 967.  | [Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/)                                                                     |   Yes    |   Medium   |
 | 968.  | [Binary Tree Cameras](https://leetcode.com/problems/binary-tree-cameras/description/)                                                                                                     |   Yes    |    Hard    |
@@ -460,6 +461,7 @@
 | 1780. | [Check if Number is a Sum of Powers of Three](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three/)                                                                 |   Yes    |   Medium   |
 | 1786. | [Number of Restricted Paths From First to Last Node](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)                                                   |   Yes    |   Medium   |
 | 1791. | [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)                                                                                                     |   Yes    |    Easy    |
+| 1799. | [Maximize Score After N Operations](https://leetcode.com/problems/maximize-score-after-n-operations/description/)                                                                         |   Yes    |    Hard    |
 | 1829. | [Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/description/)                                                                                       |   Yes    |   Medium   |
 | 1832. | [Check if the Sentence Is Pangram](https://leetcode.com/problems/check-if-the-sentence-is-pangram/description/)                                                                           |   Yes    |    Easy    |
 | 1833. | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                                                                               |   Yes    |   Medium   |
@@ -521,6 +523,7 @@
 | 2354. | [Number of Excellent Pairs](https://leetcode.com/problems/number-of-excellent-pairs/)                                                                                                     |   Yes    |    Hard    |
 | 2357. | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/)                                                               |   Yes    |    Easy    |
 | 2359. | [Find Closest Node to Given Two Nodes](https://leetcode.com/problems/find-closest-node-to-given-two-nodes/)                                                                               |   Yes    |   Medium   |
+| 2360. | [Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/description/)                                                                                           |   Yes    |    Hard    |
 | 2363. | [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)                                                                                                                 |   Yes    |    Easy    |
 | 2364. | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)                                                                                                     |    No    |   Medium   |
 | 2367. | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)                                                                                             |   Yes    |    Easy    |

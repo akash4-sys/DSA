@@ -1,5 +1,33 @@
 #include "../../headers.h"
 
+// Time Complexity - O(N)
+// Space Complexity - O(N)
+
+class Solution 
+{
+public:
+    string convert(string s, int n) 
+    {
+        if (s.size() == 1 || n == 1)
+            return s;
+        string ans = "";
+        for (int i = 0, c = 0; i < n; i++, c += 2)
+        {
+            int it = (2 * n) - (2 * i) - 2;
+            for (int j = i, x = 0; j < s.size(); x ^= 1)
+            {
+                ans += s[j];
+                if (c && x)
+                    j += c;
+                else
+                    j += it ? it : c;
+            }
+        }
+        return ans;
+    }
+};
+
+
 // Solution 1
 // By creating a matrix for the zig zag
 class Solution
