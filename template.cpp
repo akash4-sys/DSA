@@ -2,6 +2,7 @@
 // #include "../headers.h"
 
 #define ll long long
+#define vec vector<int>
 #define vv vector<vector<int>>
 #define vvv vector<vector<vector<int>>>
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);

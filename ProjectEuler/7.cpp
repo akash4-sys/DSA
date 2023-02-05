@@ -10,14 +10,14 @@ bool isPrime(int n)
     return 1;
 }
 
+// doesn't always works
 void nthPrime(int n)
 {
     int c = 2, x = 0;
     while (c < n)
     {
         x += 6;
-        c += isPrime(x + 1);
-        c += isPrime(x - 1);
+        c += isPrime(x + 1) + isPrime(x - 1);
     }
     cout << x + 1 << endl;
 }
