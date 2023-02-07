@@ -1,21 +1,38 @@
-#define vv vector<vector<int>>
+// Data structures
 #define vec vector<int>
-#define vvv vector<vector<vector<int>>>
+#define vv vector<vec>
+#define vvv vector<vv>
 #define pb push_back
 #define p pair<int, int>
 #define ll long long
 #define vp vector<p>
 #define pp pop_back
 #define t tuple<int, int, int>
+#define minHeap(type) priority_queue<type, vector<type>, greater<type>>
+
+// Loops
 #define loop(i, n) for (int i = 0; i < n; i++)
 #define eloop(i, n) for (int i = 0; i <= n; i++)
 #define rloop(i, n) for (int i = n; i >= 0; i--)
 #define gloop(i, n) for (int i = n; i > 0; i--)
+
+// Fast
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+
+// I/O
+#define II ({ int a; cin>>a; a; })
+#define LL ({ Long a; cin>>a ; a; })
+#define SS ({ string s; cin>>s; s; })
+#define pf(x) cout<<x
+#define pl(x) cout<<x<<"\n"
+#define br cout<<"\n"
+#define pv(v) ({ for(auto &x : v) pf(x)<<" "; })
+#define pvv(vv) ({ for(auto &v : vv) pv(v), br; })
+
+// Misc
+#define directions {{1,0},{0,1},{-1,0},{0,-1},{1,1},{1,-1},{-1,1},{-1,-1}}      // last 4 are diagonal
+#define dfsExit(v, i, j) if (i < 0 || j < 0 || i >= v.size() || j >= v[0].size())
 #define fs first
 #define sc second
 #define all(v) v.begin(), v.end()
-#define rall(v) v.begin(), v.end()
-#define directions {{0, 1}, {0, -1}, {1, 0}, {-1, 0}}
-#define II ( { int a ; read(a) ; a; } )
-#define LL ( { Long a ; read(a) ; a; } )
+#define rall(v) v.rbegin(), v.rend()

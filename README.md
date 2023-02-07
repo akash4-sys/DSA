@@ -329,6 +329,7 @@
 | 898.  | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/description/)                                                                                           |   Yes    |   Medium   |
 | 899.  | [Orderly Queue](https://leetcode.com/problems/orderly-queue/description/)                                                                                                                 |   Yes    |    Hard    |
 | 901.  | [Online Stock Span](https://leetcode.com/problems/online-stock-span/description/)                                                                                                         |   Yes    |   Medium   |
+| 904.  | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/description/)                                                                                                       |   Yes    |   Medium   |
 | 907.  | [Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/description/)                                                                                           |   Yes    |   Medium   |
 | 909.  | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/description/)                                                                                                       |   Yes    |   Medium   |
 | 912.  | [Sort an Array](https://leetcode.com/problems/sort-an-array/)                                                                                                                             |   Yes    |   Medium   |
@@ -491,6 +492,7 @@
 | 2074. | [Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)                                                                                 |   Yes    |   Medium   |
 | 2095. | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)                                                             |   Yes    |   Medium   |
 | 2097. | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs/)                                                                                                   |   Yes    |    Hard    |
+| 2197. | [Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/description/)                                                                   |   Yes    |    Hard    |
 | 2100. | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)                                                                                           |   Yes    |   Medium   |
 | 2115. | [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/)                                                 |   Yes    |   Medium   |
 | 2130. | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)                                                                                     |   Yes    |   Medium   |

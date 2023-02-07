@@ -64,3 +64,6 @@
 #include <chrono>
 
 using namespace std;
+
+#pragma diag_suppress 28
+#pragma diag_suppress 29
