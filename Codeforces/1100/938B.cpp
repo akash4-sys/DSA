@@ -19,17 +19,24 @@ using namespace std;
 #define br cout << "\n"
 #define pv(v) { for(auto &x : v) pf(x)<<" "; }
 #define pvv(vv) { for(auto &v : vv) pv(v), br; }
-#define iv(v, n) { for(int i = 0; i < n; i++) cin >> v[i]; }
-
-int solve()
-{
-}
 
 int main()
 {
     fast;
-    int tc = II;
-    while (tc--)
-        pl(solve());
+    int n = II, x = 1000000, ans = INT_MAX;
+    vec v(n);
+    for (int i = 0; i < n; i++)
+        v[i] = II;
+    
+    for (int i = 0; i <= n; i++)
+    {
+        int c = 0;
+        if (i)
+            c = max(c, v[i - 1] - 1);
+        if (i != n)
+            c = max(c, x - v[i]);
+        ans = min(ans, c);
+    }
+    pf(ans);
     return 0;
 }

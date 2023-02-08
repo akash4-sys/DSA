@@ -1,5 +1,5 @@
 #ifdef __INTELLISENSE__
-#include "../../headers.h"
+#include "../headers.h"
 #else
 #include <bits/stdc++.h>
 using namespace std;
@@ -19,17 +19,26 @@ using namespace std;
 #define br cout << "\n"
 #define pv(v) { for(auto &x : v) pf(x)<<" "; }
 #define pvv(vv) { for(auto &v : vv) pv(v), br; }
-#define iv(v, n) { for(int i = 0; i < n; i++) cin >> v[i]; }
 
-int solve()
+int solve(string &s)
 {
+    if (s.size() % 2)
+        return -1;
+    int i = 0, j = 0;
+    for (char &c : s)
+    {
+        i += (c == 'U');
+        i -= (c == 'D');
+        j += (c == 'R');
+        j -= (c == 'L');
+    }
+    return ((abs(i) + abs(j)) / 2);
 }
 
 int main()
 {
     fast;
-    int tc = II;
-    while (tc--)
-        pl(solve());
+    string s = SS;
+    pf(solve(s));
     return 0;
 }

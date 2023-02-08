@@ -28,6 +28,7 @@
 #define br cout<<"\n"
 #define pv(v) ({ for(auto &x : v) pf(x)<<" "; })
 #define pvv(vv) ({ for(auto &v : vv) pv(v), br; })
+#define iv(v, n) { for(int i = 0; i < n; i++) cin >> v[i]; }
 
 // Misc
 #define directions {{1,0},{0,1},{-1,0},{0,-1},{1,1},{1,-1},{-1,1},{-1,-1}}      // last 4 are diagonal

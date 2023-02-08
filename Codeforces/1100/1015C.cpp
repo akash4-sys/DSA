@@ -23,13 +23,28 @@ using namespace std;
 
 int solve()
 {
+    ll n = LL, m = LL, sum = -m;
+    vector<int> v(n);
+    for (int i = 0; i < n; i++)
+    {
+        int x = II, y = II;
+        sum += (ll)x;
+        v[i] = x - y;
+    }
+
+    sort(all(v), greater<int>());
+    int i = 0;
+    for (; sum > 0 && i < n; i++)
+        sum -= v[i];
+    
+    if (sum > 0 && i == n)
+        return -1;
+    return i;
 }
 
 int main()
 {
     fast;
-    int tc = II;
-    while (tc--)
-        pl(solve());
+    pf(solve());
     return 0;
 }

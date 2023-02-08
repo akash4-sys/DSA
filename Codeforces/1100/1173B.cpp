@@ -21,15 +21,19 @@ using namespace std;
 #define pvv(vv) { for(auto &v : vv) pv(v), br; }
 #define iv(v, n) { for(int i = 0; i < n; i++) cin >> v[i]; }
 
-int solve()
+void solve()
 {
+    int n = II, ans = n / 2 + 1;
+    pl(ans);
+    for (int i = 1; i <= ans; i++)
+        cout<<1<<" "<<i<<endl;
+    for (int i = 2; i <= n - ans + 1; i++)
+        cout<<ans<<" "<<i<<endl;
 }
 
 int main()
 {
     fast;
-    int tc = II;
-    while (tc--)
-        pl(solve());
+    solve();
     return 0;
 }

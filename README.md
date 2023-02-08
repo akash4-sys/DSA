@@ -505,6 +505,7 @@
 | 2193. | [Minimum Number of Moves to Make Palindrome](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/description/)                                                       |   Yes    |    Hard    |
 | 2200. | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/)                                                                     |   Yes    |    Easy    |
 | 2206. | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/description/)                                                                                 |   Yes    |    Easy    |
+| 2221. | [Find Triangular Sum of an Array](https://leetcode.com/problems/find-triangular-sum-of-an-array/description/)                                                                             |   Yes    |   Medium   |
 | 2225. | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/)                                                                   |   Yes    |   Medium   |
 | 2226. | [Minimum Average Difference](https://leetcode.com/problems/minimum-average-difference/description/)                                                                                       |   Yes    |   Medium   |
 | 2244. | [Minimum Rounds to Complete All Tasks](https://leetcode.com/problems/minimum-rounds-to-complete-all-tasks/description/)                                                                   |   Yes    |   Medium   |

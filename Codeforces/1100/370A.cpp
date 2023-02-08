@@ -19,17 +19,15 @@ using namespace std;
 #define br cout << "\n"
 #define pv(v) { for(auto &x : v) pf(x)<<" "; }
 #define pvv(vv) { for(auto &v : vv) pv(v), br; }
-#define iv(v, n) { for(int i = 0; i < n; i++) cin >> v[i]; }
-
-int solve()
-{
-}
 
 int main()
 {
     fast;
-    int tc = II;
-    while (tc--)
-        pl(solve());
+    int x1 = II, y1 = II, x2 = II, y2 = II, b = 0;
+    if (abs(x1 + x2) % 2 == abs(y1 + y2) % 2)
+        b = (abs(x1 - x2) == abs(y1 - y2)) ? 1 : 2;
+    int r = (x1 - x2 && y1 - y2) ? 2 : 1;
+    int k = max(abs(x1 - x2), abs(y1 - y2));
+    cout<<r<<" "<<b<<" "<<k<<endl;
     return 0;
 }

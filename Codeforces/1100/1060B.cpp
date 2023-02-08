@@ -19,17 +19,16 @@ using namespace std;
 #define br cout << "\n"
 #define pv(v) { for(auto &x : v) pf(x)<<" "; }
 #define pvv(vv) { for(auto &v : vv) pv(v), br; }
-#define iv(v, n) { for(int i = 0; i < n; i++) cin >> v[i]; }
-
-int solve()
-{
-}
 
 int main()
 {
     fast;
-    int tc = II;
-    while (tc--)
-        pl(solve());
+    ll n = LL, ans = 0;
+    for (; n > 9; n /= 10)
+    {
+        n -= 9;
+        ans += (n % 10) + 9;
+    }
+    pf(ans + n);
     return 0;
 }

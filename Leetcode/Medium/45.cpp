@@ -1,17 +1,16 @@
 #include "../../headers.h"
 
-class Solution
+class Solution 
 {
 public:
-    int jump(vector<int> &nums)
+    int jump(vector<int>& v) 
     {
-        int ans = 0, maxR = 0, l = 0, i = 0;
-        while (l < nums.size() - 1)
+        int ans = 0, currIdx = 0, maxJump = 0;
+        for (int i = 0; i < v.size() - 1; i++)
         {
-            maxR = max(maxR, i + nums[i]);
-            if (i == l)
-                l = maxR, ans++;
-            i++;
+            maxJump = max(maxJump, v[i] + i);
+            if (currIdx == i)
+                currIdx = maxJump, ans++;
         }
         return ans;
     }
