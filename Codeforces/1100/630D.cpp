@@ -18,18 +18,21 @@ using namespace std;
 #define pl(x) cout << x << "\n"
 #define br cout << "\n"
 #define pv(v) { for(auto &x : v) pf(x)<<" "; }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pvv(vv) { for(auto &v : vv) pv(v), br; }
 #define iv(v, n) { for(int i = 0; i < n; i++) cin >> v[i]; }
 
-int solve()
+ll solve()
 {
+    ll n = II, ans = 1;
+    for (ll i = 1; i <= n; i++)
+        ans += (i * 6LL);
+    return ans;
+    // return (3 * n * (n + 1)) + 1;
 }
 
 int main()
 {
     fast;
-    int tc = II;
-    while (tc--)
-        pl(solve());
+    pl(solve());
     return 0;
 }

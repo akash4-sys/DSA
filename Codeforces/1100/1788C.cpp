@@ -18,11 +18,27 @@ using namespace std;
 #define pl(x) cout << x << "\n"
 #define br cout << "\n"
 #define pv(v) { for(auto &x : v) pf(x)<<" "; }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pvv(a) { for(auto &v : a) pv(v) br; }
 #define iv(v, n) { for(int i = 0; i < n; i++) cin >> v[i]; }
 
-int solve()
+void solve()
 {
+    int n = II;
+    if (n % 2 == 0)
+    {
+        pl("NO");
+        return;
+    }
+    
+    pl("YES");
+    int m = (n - 1) / 2, l = (2 * m) + 1, r = l + 1;
+    for (; r <= (4 * m) + 2; r++)
+    {
+        if (l < 0)
+            l += (2 * m) + 1;
+        pf(l)<<" "<<r<<endl;
+        l -= 2;
+    }
 }
 
 int main()
@@ -30,6 +46,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl(solve());
+        solve();
     return 0;
 }

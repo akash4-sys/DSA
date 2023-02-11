@@ -18,18 +18,40 @@ using namespace std;
 #define pl(x) cout << x << "\n"
 #define br cout << "\n"
 #define pv(v) { for(auto &x : v) pf(x)<<" "; }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pvv(vv) { for(auto &v : vv) pv(v), br; }
 #define iv(v, n) { for(int i = 0; i < n; i++) cin >> v[i]; }
 
-int solve()
+ll solve()
 {
+    ll n = LL, K = LL, ans = 0, k = 2 * K;
+    vector<ll> v(n);
+    iv(v, n);
+    sort(all(v));
+    for (int i = 0; i < n;)
+    {
+        if (k < v[i])
+        {
+            v[i] -= k;
+            k = 2 * K;
+            ans++;
+        }
+        else if (k >= v[i])
+        {
+            k -= v[i];
+            v[i] = 0;
+            if ((k < K || !k) && i != n - 1)
+                ans++, k = 2 * K;
+            else
+                k = K;
+            i++;
+        }
+    }
+    return ans + 1;
 }
 
 int main()
 {
     fast;
-    int tc = II;
-    while (tc--)
-        pl(solve());
+    pl(solve());
     return 0;
 }

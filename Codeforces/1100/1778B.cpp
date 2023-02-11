@@ -1,5 +1,5 @@
 #ifdef __INTELLISENSE__
-#include "../../headers.h"
+#include "../headers.h"
 #else
 #include <bits/stdc++.h>
 using namespace std;
@@ -21,8 +21,25 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v, n) { for(int i = 0; i < n; i++) cin >> v[i]; }
 
-int solve()
+void solve()
 {
+    string s = to_string(II);
+    int x = 0, y = 0, t = 0;
+    for (char &c : s)
+    {
+        int d = c - '0';
+        if (d % 2 == 0)
+            x = (x * 10) + (d / 2), y = (y * 10) + (d / 2);
+        else
+        {
+            int a = (d + 1) / 2, b = (d - 1) / 2;
+            if (t)
+                swap(a, b);
+            t ^= 1;
+            x = (x * 10) + a, y = (y * 10) + b;
+        }
+    }
+    pf(x)<<" "<<y<<endl;
 }
 
 int main()
@@ -30,6 +47,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl(solve());
+        solve();
     return 0;
 }
