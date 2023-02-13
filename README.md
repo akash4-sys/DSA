@@ -435,6 +435,7 @@
 | 1519. | [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/description/)                                     |   Yes    |   Medium   |
 | 1525. | [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/description/)                                                                 |   Yes    |   Medium   |
 | 1530. | [Number of Good Leaf Nodes Pairs](https://leetcode.com/problems/number-of-good-leaf-nodes-pairs/description/)                                                                             |   Yes    |   Medium   |
+| 1523. | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/)                                                               |   Yes    |   Medium   |
 | 1531. | [String Compression II](https://leetcode.com/problems/string-compression-ii/description/)                                                                                                 |   Yes    |    Hard    |
 | 1544. | [Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)                                                                                                 |   Yes    |    Easy    |
 | 1552. | [Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/description/)                                                                           |   Yes    |   Medium   |
@@ -490,6 +491,7 @@
 | 2045. | [Second Minimum Time to Reach Destination](https://leetcode.com/problems/second-minimum-time-to-reach-destination/)                                                                       |   Yes    |    Hard    |
 | 2054. | [Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/description/)                                                                             |   Yes    |   Medium   |
 | 2058. | [Find the Minimum and Maximum Number of Nodes Between Critical Points](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/)               |   Yes    |   Medium   |
+| 2063. | [Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/description/)                                                                                           |   Yes    |   Medium   |
 | 2071. | [Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)                                                                           |   Yes    |    Hard    |
 | 2074. | [Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)                                                                                 |   Yes    |   Medium   |
 | 2095. | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)                                                             |   Yes    |   Medium   |
@@ -666,3 +668,7 @@
 | 2559  | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)                                                                                             |   Yes    |   Medium   |
 | 2560  | [House Robber IV](https://leetcode.com/problems/house-robber-iv/description/)                                                                                                             |   Yes    |   Medium   |
 | 2561  | [Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/submissions/)                                                                                                       |   Yes    |    Hard    |
+| 2562  | [ Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/)                                                                                  |   Yes    |    Easy    |
+| 2563  | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/)                                                                                           |   Yes    |   Medium   |
+| 2564  | [Substring XOR Queries](https://leetcode.com/problems/substring-xor-queries/description/)                                                                                                 |   Yes    |   Medium   |
+| 2565  | [Subsequence With the Minimum Score](https://leetcode.com/problems/subsequence-with-the-minimum-score/description/)                                                                       |   Yes    |    Hard    |
