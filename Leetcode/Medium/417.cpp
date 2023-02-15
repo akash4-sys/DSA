@@ -1,36 +1,41 @@
 #include "../../headers.h"
 
+#define vv vector<vector<int>>
 class Solution
 {
-    int dirs[4][2] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
-    vector<vector<bool>> atl, pac;
-    vector<vector<int>> ans;
-
-    void dfs(vector<vector<int>> &h, int i, int j, vector<vector<bool>>& ocean)
+    int n, m;
+    vv pac, atl, ans;
+    void dfs(vv &grid, int i, int j, vv &ocean)
     {
         if (ocean[i][j])
             return;
-        ocean[i][j] = true;
-        if(atl[i][j] && pac[i][j])
+        ocean[i][j] = 1;
+        if (atl[i][j] == pac[i][j])
             ans.push_back({i, j});
-        for (auto [dx, dy] : dirs)
-            if (i + dx >= 0 && j + dy >= 0 && i + dx < h.size() && j + dy < h[0].size() && h[i][j] <= h[i + dx][j + dy])
-                dfs(h, i + dx, j + dy, ocean);
-        return;
+        for (int dirs[4][2] = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}}; auto [dx, dy]: dirs)
+        {
+            int x = i + dx, y = j + dy;
+            if (x >= 0 && y >= 0 && x < n && y < m && grid[i][j] <= grid[x][y])
+                dfs(grid, x, y, ocean);
+        }
     }
 
 public:
-    vector<vector<int>> pacificAtlantic(vector<vector<int>> &h)
+    vv pacificAtlantic(vv &grid)
     {
-        int m = h[0].size(), n = h.size();
-        if(!n)
-            return {{}};
+        n = grid.size(), m = grid[0].size();
+        pac = atl = vv(n, vector<int>(m));
 
-        atl = pac = vector<vector<bool>>(n, vector<bool>(m, false));
         for (int i = 0; i < m; i++)
-            dfs(h, 0, i, pac), dfs(h, n - 1, i, atl);
+        {
+            dfs(grid, 0, i, pac); 
+            dfs(grid, n - 1, i, atl);
+        }
         for (int i = 0; i < n; i++)
-            dfs(h, i, 0, pac), dfs(h, i, m - 1, atl);
+        {
+            dfs(grid, i, 0, pac);
+            dfs(grid, i, m - 1, atl);
+        }
         return ans;
     }
 };

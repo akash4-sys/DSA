@@ -354,6 +354,7 @@
 | 985.  | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)                                                                                     |   Yes    |   Medium   |
 | 986.  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)                                                                                                 |   Yes    |   Medium   |
 | 987.  | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)                                                                     |   Yes    |    Hard    |
+| 989.  | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/description/)                                                                                   |   Yes    |    Easy    |
 | 990.  | [Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/)                                                                               |   Yes    |   Medium   |
 | 993.  | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/)                                                                                               |   Yes    |    Easy    |
 | 997.  | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)                                                                                                                 |   Yes    |   Medium   |
