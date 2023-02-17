@@ -293,6 +293,7 @@
 | 749.  | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)                                                                                                                         |   Yes    |   Medium   |
 | 753.  | [Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/description/)                                                                                                         |   Yes    |    Hard    |
 | 766.  | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)                                                                                                             |   Yes    |    Easy    |
+| 778.  | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/description/)                                                                                                   |   Yes    |    Hard    |
 | 784.  | [Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/description/)                                                                                             |   Yes    |   Medium   |
 | 785.  | [Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/description/)                                                                                                      |   Yes    |   Medium   |
 | 787.  | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)                                                                                         |   Yes    |   Medium   |
