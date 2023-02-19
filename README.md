@@ -81,6 +81,7 @@
 |  94.  | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                                                             |   Yes    |    Easy    |
 |  96.  | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/)                                                                                                   |   Yes    |   Medium   |
 |  98.  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                                                                                                 |   Yes    |   Medium   |
+|  99.  | [Recover Binary Search Tree](https://leetcode.com/problems/recover-binary-search-tree/description/)                                                                                       |   Yes    |   Medium   |
 | 100.  | [Same Tree](https://leetcode.com/problems/same-tree/)                                                                                                                                     |   Yes    |    Easy    |
 | 101.  | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)                                                                                                                           |   Yes    |    Easy    |
 | 102.  | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/)                                                                         |   Yes    |   Medium   |
