@@ -23,20 +23,27 @@ using namespace std;
 
 void solve()
 {
-    int n = II;
+    ll n = LL;
     string s = SS;
-    int q = II, p = 0, m = 0;
+    ll q = LL, p = 0, m = 0;
     for (char &c : s)
         p += c == '+', m += c == '-';
-    for (int i = 0; i < q; i++)
+
+    while (q--)
     {
-        int a = II, b = II;
-        if (a == b && p != m)
-            pl("NO");
-        else if (!(a % b) || !(b % a) || p == m || (a == m && b == p) || (a == p && b == m))
-            pl("YES");
+        ll x = LL, y = LL, t = (p - m) * y;
+        if (x == y)
+            cout<<(t ? "no" : "yes")<<endl;
         else
-            pl("NO");
+        {
+            ll v = t / (y - x);
+            if (t != v * (y - x))
+                pl("no");
+            else if ((t && v >= -m && v <= p) || !t)
+                pl("yes");
+            else
+                pl("no");
+        }
     }
 }
 

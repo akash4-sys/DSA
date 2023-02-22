@@ -23,11 +23,18 @@ using namespace std;
 
 int solve()
 {
-    int n = II;
+    int n = II, i = n - 1, j = i;
     vec a(n), b(n);
     iv(a, n);
     iv(b, n);
-    
+
+    for (; i >= 0; i--)
+    {
+        for (; j >= 0 && b[i] != a[j]; j--);
+        if (j < 0)
+            return i + 1;
+    }
+    return 0;
 }
 
 int main()
