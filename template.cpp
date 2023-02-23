@@ -19,7 +19,7 @@ using namespace std;
 #define br cout << "\n"
 #define pv(v) { for(auto &x : v) pf(x)<<" "; }
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
-#define iv(v, n) { for(int i = 0; i < n; i++) cin >> v[i]; }
+#define iv(v) { for(auto &x : v) cin >> x; }
 
 int solve()
 {

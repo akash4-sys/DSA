@@ -18,6 +18,30 @@ class Solution
 public:
     Node *connect(Node *root)
     {
+        Node *rightMost = new Node(0);
+        rightMost->next = root;
+        while (rightMost->next)
+        {
+            auto tail = rightMost, r = rightMost->next;
+            rightMost->next = NULL;
+            for (; r; r = r->next)
+            {
+                if (r->left)
+                    tail->next = r->left, tail = tail->next;
+                if (r->right)
+                    tail->next = r->right, tail = tail->next;
+            }
+        }
+        return root;
+    }
+};
+
+
+class Solution
+{
+public:
+    Node *connect(Node *root)
+    {
         if (!root)
             return NULL;
         queue<Node *> q{{root}};

@@ -234,6 +234,7 @@
 | 491.  | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)                                                                                     |   Yes    |   Medium   |
 | 496.  | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                                                                               |   Yes    |    Easy    |
 | 503.  | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)                                                                                             |   Yes    |   Medium   |
+| 502.  | [IPO](https://leetcode.com/problems/ipo/description/)                                                                                                                                     |   Yes    |    Hard    |
 | 509.  | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)                                                                                                                       |   Yes    |    Easy    |
 | 518.  | [Coin Change 2](https://leetcode.com/problems/coin-change-2/)                                                                                                                             |   Yes    |   Medium   |
 | 516.  | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)                                                                             |   Yes    |   Medium   |
@@ -672,7 +673,7 @@
 | 2559  | [Count Vowel Strings in Ranges](https://leetcode.com/problems/count-vowel-strings-in-ranges/)                                                                                             |   Yes    |   Medium   |
 | 2560  | [House Robber IV](https://leetcode.com/problems/house-robber-iv/description/)                                                                                                             |   Yes    |   Medium   |
 | 2561  | [Rearranging Fruits](https://leetcode.com/problems/rearranging-fruits/submissions/)                                                                                                       |   Yes    |    Hard    |
-| 2562  | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/)                                                                                  |   Yes    |    Easy    |
+| 2562  | [Find the Array Concatenation Value](https://leetcode.com/problems/find-the-array-concatenation-value/)                                                                                   |   Yes    |    Easy    |
 | 2563  | [Count the Number of Fair Pairs](https://leetcode.com/problems/count-the-number-of-fair-pairs/)                                                                                           |   Yes    |   Medium   |
 | 2564  | [Substring XOR Queries](https://leetcode.com/problems/substring-xor-queries/description/)                                                                                                 |   Yes    |   Medium   |
 | 2565  | [Subsequence With the Minimum Score](https://leetcode.com/problems/subsequence-with-the-minimum-score/description/)                                                                       |   Yes    |    Hard    |

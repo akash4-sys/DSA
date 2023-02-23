@@ -1,5 +1,5 @@
 #ifdef __INTELLISENSE__
-#include "../headers.h"
+#include "../../headers.h"
 #else
 #include <bits/stdc++.h>
 using namespace std;
@@ -21,13 +21,35 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v, n) { for(int i = 0; i < n; i++) cin >> v[i]; }
 
-int solve()
+bool high(int mp[], int k)
 {
-    int n = II;
-    vec a(n), b(n);
-    iv(a, n);
-    iv(b, n);
-    
+    int c = 0;
+    for (int i = 0; i < 51; i++)
+    {
+        if (mp[i] >= mp[k] && i != k)
+            return 0;
+        c += mp[i] == 1;
+    }
+    if (mp[k] == 1)
+        return c == 1;
+    return mp[k];
+}
+
+string solve()
+{
+    int n = II, k = II, mp[51] = {0};
+    vector<pair<int, int>> v;
+    for (int i = 0; i < n; i++)
+    {
+        int x = II, y = II;
+        v.push_back({x, y});
+        if (x <= k && k <= y)
+            for (; x <= y; x++)
+                mp[x]++;
+    }
+    if(high(mp, k))
+        return "YES";
+    return "NO";
 }
 
 int main()
