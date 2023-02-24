@@ -459,6 +459,7 @@
 | 1657. | [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/description/)                                                                       |   Yes    |   Medium   |
 | 1668. | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)                                                                                                 |   Yes    |    Easy    |
 | 1669. | [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)                                                                                             |   Yes    |   Medium   |
+| 1675. | [Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/description/)                                                                                     |   Yes    |    Hard    |
 | 1680. | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)                                                                 |   Yes    |   Medium   |
 | 1684. | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                                               |   Yes    |    Easy    |
 | 1696. | [Jump Game VI](https://leetcode.com/problems/jump-game-vi/)                                                                                                                               |   Yes    |   Medium   |
