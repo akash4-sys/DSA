@@ -684,3 +684,7 @@
 | 2570  | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)                                                                             |   Yes    |    Easy    |
 | 2571  | [Minimum Operations to Reduce an Integer to 0](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/)                                                               |   Yes    |    Easy    |
 | 2572  | [Count the Number of Square-Free Subsets](https://leetcode.com/problems/count-the-number-of-square-free-subsets/)                                                                         |    No    |   Medium   |
+| 2574  | [Left and Right Sum Differences](https://leetcode.com/problems/left-and-right-sum-differences/)                                                                                           |   Yes    |    Easy    |
+| 2575  | [Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/)                                                                         |   Yes    |   Medium   |
+| 2576  | [Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/description/)                                                         |   Yes    |   Medium   |
+| 2577  | [Minimum Time to Visit a Cell In a Grid](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/)                                                                           |   Yes    |    Hard    |
