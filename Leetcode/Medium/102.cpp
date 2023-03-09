@@ -40,23 +40,16 @@ public:
 
 class Solution
 {
-    vector<vector<int>> levelOrder(TreeNode *root, int lvl = 0)
-    {
-        if(!root)
-            return {};
-        if(lvl >= ans.size()) ans.push_back({root->val});
-        else ans[lvl].push_back(root->val);
-        levelOrder(root->left, lvl + 1);
-        levelOrder(root->right, lvl + 1);
-        return ans;
-    }
+    vector<vector<int>> ans;
 public:
     vector<vector<int>> levelOrder(TreeNode *root, int lvl = 0)
     {
         if(!root)
             return {};
-        if(lvl >= ans.size()) ans.push_back({root->val});
-        else ans[lvl].push_back(root->val);
+        if(lvl >= ans.size())
+            ans.push_back({root->val});
+        else
+            ans[lvl].push_back(root->val);
         levelOrder(root->left, lvl + 1);
         levelOrder(root->right, lvl + 1);
         return ans;

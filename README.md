@@ -56,6 +56,7 @@
 |  53.  | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                                                                                                       |   Yes    |   Medium   |
 |  54.  | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                                                                                                                             |   Yes    |   Medium   |
 |  55.  | [Jump Game](https://leetcode.com/problems/jump-game/)                                                                                                                                     |   Yes    |   Medium   |
+|  56.  | [Merge Intervals](https://leetcode.com/problems/merge-intervals/description/)                                                                                                             |   Yes    |   Medium   |
 |  57.  | [Insert Interval](https://leetcode.com/problems/insert-interval/description/)                                                                                                             |   Yes    |   Medium   |
 |  60.  | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/)                                                                                                   |   Yes    |    Hard    |
 |  61.  | [Rotate List](https://leetcode.com/problems/rotate-list/)                                                                                                                                 |   Yes    |   Medium   |
@@ -511,6 +512,7 @@
 | 2172. | [Maximum AND Sum of Array](https://leetcode.com/problems/maximum-and-sum-of-array/description/)                                                                                           |   Yes    |    Hard    |
 | 2179. | [Count Good Triplets in an Array](https://leetcode.com/problems/count-good-triplets-in-an-array/)                                                                                         |   Yes    |    Hard    |
 | 2181. | [Merge Nodes in Between Zeros](https://leetcode.com/problems/merge-nodes-in-between-zeros/)                                                                                               |   Yes    |   Medium   |
+| 2187. | [Minimum Time to Complete Trips](https://leetcode.com/problems/minimum-time-to-complete-trips/description/)                                                                               |   Yes    |   Medium   |
 | 2192. | [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)                                                 |   Yes    |   Medium   |
 | 2193. | [Minimum Number of Moves to Make Palindrome](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/description/)                                                       |   Yes    |    Hard    |
 | 2200. | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/)                                                                     |   Yes    |    Easy    |
@@ -688,3 +690,4 @@
 | 2575  | [Find the Divisibility Array of a String](https://leetcode.com/problems/find-the-divisibility-array-of-a-string/)                                                                         |   Yes    |   Medium   |
 | 2576  | [Find the Maximum Number of Marked Indices](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/description/)                                                         |   Yes    |   Medium   |
 | 2577  | [Minimum Time to Visit a Cell In a Grid](https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/)                                                                           |   Yes    |    Hard    |
+| 2580  | [Count Ways to Group Overlapping Ranges](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/description/)                                                               |   Yes    |   Medium   |

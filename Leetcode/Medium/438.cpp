@@ -3,68 +3,28 @@
 // Time Complexity - O(N * 26)
 // Space Complexity - O(1)
 
-class Solution
+class Solution 
 {
-    bool checkMap(int smap[], int pmap[])
-    {
-        for (int i = 0; i < 26; i++)
-            if (pmap[i] - smap[i] != 0)
-                return false;
-        return true;
-    }
-
 public:
-    vector<int> findAnagrams(string s, string p)
+    vector<int> findAnagrams(string s, string p) 
     {
-        if (p.length() > s.length())
+        if (p.size() > s.size())
             return {};
 
-        vector<int> ans;
-        int r = p.length(), pmap[26], smap[26];
-        memset(pmap, 0, sizeof(pmap));
-        memset(smap, 0, sizeof(pmap));
-
-        for (int i = 0; i < r; i++)
-            pmap[p[i] - 'a']++, smap[s[i] - 'a']++;
-
-        if (checkMap(smap, pmap))
-            ans.push_back(0);
-
-        for (int i = 1; i <= s.size() - r; i++)
+        vector<int> ans, a(26, 0), b(26, 0);
+        for (int i = 0; i < p.size(); i++)
         {
-            smap[s[i - 1] - 'a'] -= 1;
-            smap[s[i + r - 1] - 'a'] += 1;
-            if (checkMap(smap, pmap))
-                ans.push_back(i);
+            a[s[i] - 'a']++; 
+            b[p[i] - 'a']++;
         }
-        return ans;
-    }
-};
-
-
-// Same Time Complexity Cleaner Code
-class Solution
-{
-public:
-    vector<int> findAnagrams(string s, string p)
-    {
-        if (p.length() > s.length())
-            return {};
-
-        vector<int> ans, smap(26, 0), pmap(26, 0);
-        int r = p.length();     
-
-        for (int i = 0; i < r; i++)
-            pmap[p[i] - 'a']++, smap[s[i] - 'a']++;
-
-        if (smap == pmap)
+        
+        if (a == b)
             ans.push_back(0);
-
-        for (int i = 1; i <= s.size() - r; i++)
+        for (int i = 1; i <= s.size() - p.size(); i++)
         {
-            smap[s[i - 1] - 'a'] -= 1;
-            smap[s[i + r - 1] - 'a'] += 1;
-            if (smap == pmap)
+            a[s[i - 1] - 'a']--;
+            a[s[i + p.size() - 1] - 'a']++;
+            if (a == b)
                 ans.push_back(i);
         }
         return ans;
