@@ -5,6 +5,17 @@ class Solution
 public:
     int passThePillow(int n, int t)
     {
+        int r = t % (--n), q = t / n;
+        return q % 2 ? (n - r) + 1 : r + 1;
+    }
+};
+
+
+class Solution
+{
+public:
+    int passThePillow(int n, int t)
+    {
         int d = 1, i = 1;
         while (t)
         {

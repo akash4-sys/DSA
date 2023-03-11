@@ -9,9 +9,8 @@ class Solution
         if(!root)
             return;
         if(lvl >= v.size())
-            v.push_back(root->val);
-        else
-            v[lvl] += (long long)root->val;
+            v.push_back(0);
+        v[lvl] += root->val;
         levelOrder(root->left, lvl + 1);
         levelOrder(root->right, lvl + 1);
     }
