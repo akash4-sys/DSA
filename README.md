@@ -423,6 +423,7 @@
 | 1397. | [Find All Good Strings](https://leetcode.com/problems/find-all-good-strings/description/)                                                                                                 |   Yes    |    Hard    |
 | 1408. | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)                                                                                                 |   Yes    |    Easy    |
 | 1409. | [Queries on Permuations with Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/description/)                                                                           |   Yes    |   Medium   |
+| 1411. | [Number of Ways to Paint N × 3 Grid](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/)                                                                                     |   Yes    |    Hard    |
 | 1425. | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/)                                                                                                 |   Yes    |    Hard    |
 | 1438. | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)   |   Yes    |   Medium   |
 | 1442. | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/description/)                                   |   Yes    |   Medium   |
@@ -485,6 +486,7 @@
 | 1886. | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)                                               |   Yes    |    Easy    |
 | 1905. | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)                                                                                                                     |   Yes    |   Medium   |
 | 1926. | [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/)                                                                       |   Yes    |   Medium   |
+| 1931. | [Painting a Grid With Three Different Colors](https://leetcode.com/problems/painting-a-grid-with-three-different-colors/description/)                                                     |   Yes    |    Hard    |
 | 1932. | [Merge BSTs to Create Single BST](https://leetcode.com/problems/merge-bsts-to-create-single-bst/description/)                                                                             |   Yes    |    Hard    |
 | 1947. | [Maximum Compatibility Score Sum](https://leetcode.com/problems/maximum-compatibility-score-sum/description/)                                                                             |   Yes    |   Medium   |
 | 1948. | [Delete Duplicate Folders in System](https://leetcode.com/problems/delete-duplicate-folders-in-system/description/)                                                                       |   Yes    |    Hard    |
@@ -699,3 +701,6 @@
 | 2583  | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/description/)                                                                           |   Yes    |   Medium   |
 | 2584  | [Split the Array to Make Coprime Products](https://leetcode.com/problems/split-the-array-to-make-coprime-products/)                                                                       |   Yes    |    Hard    |
 | 2585  | [Number of Ways to Earn Points](https://leetcode.com/problems/number-of-ways-to-earn-points/)                                                                                             |   Yes    |    Hard    |
+| 2586  | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/)                                                                   |   Yes    |    Easy    |
+| 2587  | [Rearrange Array to Maximize Prefix Score](https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/)                                                                       |   Yes    |   Medium   |
+| 2588  | [Count the Number of Beautiful Subarrays](https://leetcode.com/problems/count-the-number-of-beautiful-subarrays/description/)                                                             |   Yes    |   Medium   |

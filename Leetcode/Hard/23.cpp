@@ -1,12 +1,40 @@
 #include "../../headers.h"
+#include "../../LinkedList.h"
 
-struct ListNode
+// @ N^2 or NlogN can be used interchangebly
+
+// Time complexity - O(NlogK)
+// Space Complexity - O(1)
+
+class Solution
 {
-    int val;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
+    ListNode *mergeTwoLists(ListNode *a, ListNode *b)
+    {
+        ListNode *ans = new ListNode(INT_MIN), *head = ans;
+        for (; a && b; head = head->next)
+            if(a->val < b->val)
+                head->next = a, a = a->next;
+            else 
+                head->next = b, b = b->next;
+        head->next = a ? a : b;
+        return ans->next;
+    }
+
+public:
+    ListNode* mergeKLists(vector<ListNode*>& v)
+    {
+        if (v.empty())
+            return NULL;
+        for (int last = v.size() - 1; last;)
+            for (int l = 0, r = last; l < r;)
+            {
+                v[l] = mergeTwoLists(v[l], v[r]);
+                l++, r--;
+                if (l >= r)
+                    last = r;
+            }
+        return v[0];
+    }
 };
 
 
@@ -52,39 +80,10 @@ public:
 };
 
 
-
-
-
-// Time complexity - O(N^2)
-// Space complexity - O(N)
-
-class Solution
-{
-public:
-    ListNode *mergeKLists(vector<ListNode *> &lists)
-    {
-        if (lists.empty()) return NULL;
-
-        ListNode *ans = new ListNode(INT_MIN);
-        for (ListNode *li : lists)
-        {
-            ListNode *temp = new ListNode(INT_MIN), *head = temp;
-            while (ans && li)
-            {
-                if(ans->val < li->val) head->next = ans, ans = ans->next;
-                else head->next = li, li = li->next;
-                head = head->next;
-            }
-            head->next = ans ? ans : li;
-            ans = temp -> next;
-        }
-        return ans->next;
-    }
-};
-
-
-
+// Time complexity - O(NlogN)
+// Space complexity - O(1)
 // Merge two lists at a time
+
 class Solution
 {
     ListNode *mergeTwoLists(ListNode *l1, ListNode *l2)
@@ -112,16 +111,44 @@ public:
     }
 };
 
+// Merge Two lists recursively
+class Solution
+{
+    ListNode *mergeTwoLists(ListNode *a, ListNode *b)
+    {
+        if (!a || !b)
+            return a ? a : b;
+        ListNode *res = NULL;
+        if (a->val <= b->val)
+            res = a, res->next = mergeTwoLists(a->next, b);
+        else
+            res = b, res->next = mergeTwoLists(a, b->next);
+        return res;
+    }
+
+public:
+    ListNode *mergeKLists(vector<ListNode *> &lists)
+    {
+        if (lists.empty()) return NULL;
+
+        ListNode *ans = new ListNode(INT_MIN);
+        for (ListNode *li : lists)
+            ans = mergeTwoLists(ans, li);
+        return ans->next;
+    }
+};
+
 
 
 
 // cheat way
+// Time Complexity - O(NlogN) - Where N is total number of nodes in merged LinkedList
+// Space Complexity - O(N)
 class Solution
 {
 public:
     ListNode *mergeKLists(vector<ListNode *> &lists)
     {
-
         ListNode *head = new ListNode(), *temp = head;
         vector<int> v;
         for (ListNode *i : lists)
