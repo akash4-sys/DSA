@@ -171,6 +171,7 @@
 | 263.  | [Ugly Number](https://leetcode.com/problems/ugly-number/)                                                                                                                                 |   Yes    |    Easy    |
 | 264.  | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)                                                                                                                           |   Yes    |   Medium   |
 | 279.  | [Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)                                                                                                             |   Yes    |   Medium   |
+| 287.  | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)                                                                                         |   Yes    |   Medium   |
 | 295.  | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)                                                                                   |   Yes    |    Hard    |
 | 297.  | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)                                                                 |   Yes    |    Hard    |
 | 300.  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                                                                                           |   Yes    |   Medium   |
@@ -482,6 +483,7 @@
 | 1833. | [Maximum Ice Cream Bars](https://leetcode.com/problems/maximum-ice-cream-bars/description/)                                                                                               |   Yes    |   Medium   |
 | 1863. | [Sum of All Subset XOR Totals](https://leetcode.com/problems/sum-of-all-subset-xor-totals/description/)                                                                                   |   Yes    |    Easy    |
 | 1870. | [Minimum Speed to Arrive on Time](https://leetcode.com/problems/minimum-speed-to-arrive-on-time/)                                                                                         |   Yes    |   Medium   |
+| 1871. | [Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)                                                                                                                 |   Yes    |   Medium   |
 | 1879. | [Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)                                                                                             |    No    |    Hard    |
 | 1886. | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)                                               |   Yes    |    Easy    |
 | 1905. | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)                                                                                                                     |   Yes    |   Medium   |
@@ -704,3 +706,4 @@
 | 2586  | [Count the Number of Vowel Strings in Range](https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/)                                                                   |   Yes    |    Easy    |
 | 2587  | [Rearrange Array to Maximize Prefix Score](https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/)                                                                       |   Yes    |   Medium   |
 | 2588  | [Count the Number of Beautiful Subarrays](https://leetcode.com/problems/count-the-number-of-beautiful-subarrays/description/)                                                             |   Yes    |   Medium   |
+| 2589  | [Minimum Time to Complete All Tasks](https://leetcode.com/problems/minimum-time-to-complete-all-tasks/description/)                                                                       |   Yes    |    Hard    |
