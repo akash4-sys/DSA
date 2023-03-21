@@ -258,6 +258,7 @@
 | 583.  | [Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)                                                                                       |   Yes    |   Medium   |
 | 587.  | [Erect the Fence](https://leetcode.com/problems/erect-the-fence/description/)                                                                                                             |   Yes    |    Hard    |
 | 576.  | [Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/description/)                                                                                                 |   Yes    |   Medium   |
+| 605.  | [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/)                                                                                                         |   Yes    |    Easy    |
 | 606.  | [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)                                                                                     |   Yes    |    Easy    |
 | 609.  | [Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)                                                                                             |   Yes    |   Medium   |
 | 617.  | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)                                                                                               |   Yes    |    Easy    |
@@ -540,6 +541,7 @@
 | 2317. | [Maximum XOR After Operations ](https://leetcode.com/problems/maximum-xor-after-operations/description/)                                                                                  |   Yes    |   Medium   |
 | 2326. | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)                                                                                                                       |   Yes    |   Medium   |
 | 2344. | [Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/description/)                                                         |   Yes    |    Hard    |
+| 2348. | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/)                                                                             |   Yes    |   Medium   |
 | 2351. | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)                                                                                               |   Yes    |    Easy    |
 | 2352. | [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)                                                                                                   |   Yes    |   Medium   |
 | 2353. | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/)                                                                                                 |   Yes    |   Medium   |
