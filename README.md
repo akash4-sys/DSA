@@ -62,6 +62,7 @@
 |  61.  | [Rotate List](https://leetcode.com/problems/rotate-list/)                                                                                                                                 |   Yes    |   Medium   |
 |  62.  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                                                                               |   Yes    |   Medium   |
 |  63.  | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)                                                                                                                         |   Yes    |   Medium   |
+|  64.  | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)                                                                                                                               |   Yes    |   Medium   |
 |  70.  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                                                                         |   Yes    |    Easy    |
 |  72.  | [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                                                                                             |   Yes    |    Hard    |
 |  74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                                                                   |   Yes    |   Medium   |
@@ -405,6 +406,7 @@
 | 1310. | [XOR Queries of a Subarray](https://leetcode.com/problems/xor-queries-of-a-subarray/description/)                                                                                         |   Yes    |   Medium   |
 | 1312. | [Minimum Insertion Steps to Make a String Palindrome](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/description/)                                     |   Yes    |    Hard    |
 | 1314. | [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)                                                                                                                       |   Yes    |   Medium   |
+| 1319. | [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/description/)                                               |   Yes    |   Medium   |
 | 1323. | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/description/)                                                                                                         |   Yes    |    Easy    |
 | 1328. | [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)                                                                                                                   |   Yes    |   Medium   |
 | 1329. | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)                                                                                                   |   Yes    |   Medium   |
@@ -538,6 +540,7 @@
 | 2296. | [Design a Text Editor](https://leetcode.com/problems/design-a-text-editor/)                                                                                                               |   Yes    |    Hard    |
 | 2305. | [Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/description/)                                                                                   |   Yes    |   Medium   |
 | 2306. | [Naming a Company](https://leetcode.com/problems/naming-a-company/)                                                                                                                       |   Yes    |    Hard    |
+| 2316. | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/)                             |   Yes    |   Medium   |
 | 2317. | [Maximum XOR After Operations ](https://leetcode.com/problems/maximum-xor-after-operations/description/)                                                                                  |   Yes    |   Medium   |
 | 2326. | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)                                                                                                                       |   Yes    |   Medium   |
 | 2344. | [Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/description/)                                                         |   Yes    |    Hard    |
@@ -709,3 +712,5 @@
 | 2587  | [Rearrange Array to Maximize Prefix Score](https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/)                                                                       |   Yes    |   Medium   |
 | 2588  | [Count the Number of Beautiful Subarrays](https://leetcode.com/problems/count-the-number-of-beautiful-subarrays/description/)                                                             |   Yes    |   Medium   |
 | 2589  | [Minimum Time to Complete All Tasks](https://leetcode.com/problems/minimum-time-to-complete-all-tasks/description/)                                                                       |   Yes    |    Hard    |
+| 2600  | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/)                                                                       |   Yes    |    Easy    |
+| 2601  | [Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/description/)                                                                       |   Yes    |    Medium    |
