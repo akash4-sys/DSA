@@ -57,3 +57,10 @@ int nCr(int n, int r)
 {
     return fact(n) / (fact(r) * fact(n - r));
 }
+
+// find min positive multiple of a number for k
+// i.e. for n = -10 & k = 3, minPos = 2
+int minPos(int n, int k)
+{
+    return ((n % k) + k) % k;
+}

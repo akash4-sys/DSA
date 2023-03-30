@@ -62,7 +62,7 @@
 |  61.  | [Rotate List](https://leetcode.com/problems/rotate-list/)                                                                                                                                 |   Yes    |   Medium   |
 |  62.  | [Unique Paths](https://leetcode.com/problems/unique-paths/)                                                                                                                               |   Yes    |   Medium   |
 |  63.  | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)                                                                                                                         |   Yes    |   Medium   |
-|  64.  | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)                                                                                                                               |   Yes    |   Medium   |
+|  64.  | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)                                                                                                           |   Yes    |   Medium   |
 |  70.  | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                                                                                                                         |   Yes    |    Easy    |
 |  72.  | [Edit Distance](https://leetcode.com/problems/edit-distance/)                                                                                                                             |   Yes    |    Hard    |
 |  74.  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                                                                                                   |   Yes    |   Medium   |
@@ -360,6 +360,7 @@
 | 979.  | [Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/description/)                                                                             |   Yes    |   Medium   |
 | 980.  | [Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/)                                                                                                           |   Yes    |    Hard    |
 | 981.  | [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)                                                                                                   |   Yes    |   Medium   |
+| 983.  | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/description/)                                                                                           |   Yes    |   Medium   |
 | 985.  | [Sum of Even Numbers After Queries](https://leetcode.com/problems/sum-of-even-numbers-after-queries/)                                                                                     |   Yes    |   Medium   |
 | 986.  | [Interval List Intersections](https://leetcode.com/problems/interval-list-intersections/)                                                                                                 |   Yes    |   Medium   |
 | 987.  | [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/)                                                                     |   Yes    |    Hard    |
@@ -425,6 +426,7 @@
 | 1395. | [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/description/)                                                                                                 |   Yes    |   Medium   |
 | 1392. | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/description/)                                                                                                   |   Yes    |    Hard    |
 | 1397. | [Find All Good Strings](https://leetcode.com/problems/find-all-good-strings/description/)                                                                                                 |   Yes    |    Hard    |
+| 1402. | [Reducing Dishes](https://leetcode.com/problems/reducing-dishes/description/)                                                                                                             |   Yes    |    Hard    |
 | 1408. | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)                                                                                                 |   Yes    |    Easy    |
 | 1409. | [Queries on Permuations with Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/description/)                                                                           |   Yes    |   Medium   |
 | 1411. | [Number of Ways to Paint N × 3 Grid](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/)                                                                                     |   Yes    |    Hard    |
@@ -712,5 +714,7 @@
 | 2587  | [Rearrange Array to Maximize Prefix Score](https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/)                                                                       |   Yes    |   Medium   |
 | 2588  | [Count the Number of Beautiful Subarrays](https://leetcode.com/problems/count-the-number-of-beautiful-subarrays/description/)                                                             |   Yes    |   Medium   |
 | 2589  | [Minimum Time to Complete All Tasks](https://leetcode.com/problems/minimum-time-to-complete-all-tasks/description/)                                                                       |   Yes    |    Hard    |
-| 2600  | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/)                                                                       |   Yes    |    Easy    |
-| 2601  | [Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/description/)                                                                       |   Yes    |    Medium    |
+| 2597  | [The Number of Beautiful Subsets](https://leetcode.com/problems/the-number-of-beautiful-subsets/description/)                                                                             |   Yes    |   Medium   |
+| 2598  | [Smallest Missing Non-negative Integer After Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/description/)                               |   Yes    |   Medium   |
+| 2600  | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/)                                                                                               |   Yes    |    Easy    |
+| 2601  | [Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/description/)                                                                                     |   Yes    |   Medium   |
