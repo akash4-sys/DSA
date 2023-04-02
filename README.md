@@ -176,6 +176,7 @@
 | 295.  | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)                                                                                   |   Yes    |    Hard    |
 | 297.  | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/)                                                                 |   Yes    |    Hard    |
 | 300.  | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                                                                                           |   Yes    |   Medium   |
+| 304.  | [Range Sum Query 2D - Immutable](https://leetcode.com/problems/range-sum-query-2d-immutable/)                                                                                             |   Yes    |   Medium   |
 | 307.  | [Range Sum Query - Mutable](https://leetcode.com/problems/range-sum-query-mutable/)                                                                                                       |   Yes    |   Medium   |
 | 309.  | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)                                                             |   Yes    |   Medium   |
 | 312.  | [Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)                                                                                                               |   Yes    |    Hard    |
@@ -286,6 +287,7 @@
 | 693.  | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)                                                                     |   Yes    |    Easy    |
 | 700.  | [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/)                                                                               |   Yes    |    Easy    |
 | 701.  | [Insert in a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)                                                                                         |   Yes    |   Medium   |
+| 704.  | [Binary Search](https://leetcode.com/problems/binary-search/description/)                                                                                                                 |   Yes    |    Easy    |
 | 705.  | [Design HashSet](https://leetcode.com/problems/design-hashset/)                                                                                                                           |   Yes    |    Easy    |
 | 706.  | [Design HashMap](https://leetcode.com/problems/design-hashmap/)                                                                                                                           |   Yes    |    Easy    |
 | 714.  | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)                                               |   Yes    |   Medium   |
@@ -434,6 +436,7 @@
 | 1438. | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)   |   Yes    |   Medium   |
 | 1442. | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/description/)                                   |   Yes    |   Medium   |
 | 1443. | [Minimum Time to Collect All Apples in a Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/description/)                                                   |   Yes    |   Medium   |
+| 1444. | [Number of Ways of Cutting a Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/description/)                                                                         |   Yes    |    Hard    |
 | 1447. | [Simplified Fractions](https://leetcode.com/problems/simplified-fractions/description/)                                                                                                   |   Yes    |   Medium   |
 | 1448. | [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)                                                                                         |   Yes    |   Medium   |
 | 1455. | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)                               |   Yes    |    Easy    |
@@ -540,6 +543,7 @@
 | 2289. | [Steps to Make Array Non-decreasing](https://leetcode.com/problems/steps-to-make-array-non-decreasing/)                                                                                   |   Yes    |   Medium   |
 | 2290. | [Minimum Obstacle Removal to Reach Corner](https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/)                                                                       |   Yes    |    Hard    |
 | 2296. | [Design a Text Editor](https://leetcode.com/problems/design-a-text-editor/)                                                                                                               |   Yes    |    Hard    |
+| 2300. | [Successful Pairs of Spells and Potions](https://leetcode.com/problems/successful-pairs-of-spells-and-potions/description/)                                                               |   Yes    |   Medium   |
 | 2305. | [Fair Distribution of Cookies](https://leetcode.com/problems/fair-distribution-of-cookies/description/)                                                                                   |   Yes    |   Medium   |
 | 2306. | [Naming a Company](https://leetcode.com/problems/naming-a-company/)                                                                                                                       |   Yes    |    Hard    |
 | 2316. | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/)                             |   Yes    |   Medium   |
@@ -718,3 +722,7 @@
 | 2598  | [Smallest Missing Non-negative Integer After Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/description/)                               |   Yes    |   Medium   |
 | 2600  | [K Items With the Maximum Sum](https://leetcode.com/problems/k-items-with-the-maximum-sum/)                                                                                               |   Yes    |    Easy    |
 | 2601  | [Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/description/)                                                                                     |   Yes    |   Medium   |
+| 2605  | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/description/)                                                       |   Yes    |   Medium   |
+| 2609  | [Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/description/)                               |   Yes    |    Easy    |
+| 2610  | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/description/)                                           |   Yes    |   Medium   |
+| 2611  | [Mice and Cheese](https://leetcode.com/problems/mice-and-cheese/description/)                                                                                                             |   Yes    |   Medium   |
