@@ -333,6 +333,7 @@
 | 875.  | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/)                                                                                                     |   Yes    |   Medium   |
 | 876.  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                                     |   Yes    |    Easy    |
 | 877.  | [Stone Game](https://leetcode.com/problems/stone-game/description/)                                                                                                                       |   Yes    |   Medium   |
+| 881.  | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)                                                                                                   |   Yes    |   Medium   |
 | 886.  | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/description/)                                                                                                   |   Yes    |   Medium   |
 | 889.  | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/description/)                     |   Yes    |   Medium   |
 | 890.  | [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/)                                                                                                       |   Yes    |   Medium   |

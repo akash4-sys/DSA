@@ -1,41 +1,29 @@
 #include "../../headers.h"
 
+static int dirs[4][2] = {{0, 1}, {1, 0}, {-1, 0}, {0, -1}};
 class Solution
 {
 public:
-    vector<vector<int>> dir = {{0, 1}, {1, 0}, {-1, 0}, {0, -1}};
-    bool checkForMore(vector<vector<int>> &grid, int i, int j)
+    bool dfs(vector<vector<int>> &m, int i, int j)
     {
-        if (i == 0 || j == 0 || i == grid.size() - 1 || j == grid[0].size() - 1)
-            return false;
-
-        bool ans = true;
-        for (auto d : dir)
-        {
-            int nr = i + d[0];
-            int nc = j + d[1];
-            if (nr >= 0 && nc >= 0 && nr < grid.size() && nc < grid[0].size() && grid[nr][nc] == 0)
-            {
-                grid[nr][nc] = 1;
-                ans = (ans & checkForMore(grid, nr, nc));
-            }
-        }
-        return ans;
+        if (i < 0 || j < 0 || i == m.size()|| j == m[0].size())
+            return 0;
+        if (m[i][j])
+            return 1;
+        m[i][j] = 1;
+        bool res = 1;
+        for (auto [dx, dy] : dirs)
+            res &= dfs(m, i + dx, j + dy);
+        return res;
     }
-    int closedIsland(vector<vector<int>> &grid)
+    
+    int closedIsland(vector<vector<int>> &m)
     {
         int ans = 0;
-        for (int i = 1; i < grid.size() - 1; i++)
-        {
-            for (int j = 1; j < grid[0].size() - 1; j++)
-            {
-                if (grid[i][j])
-                    continue;
-                grid[i][j] = 1;
-                if (checkForMore(grid, i, j))
-                    ans++;
-            }
-        }
+        for (int i = 0; i < m.size(); i++)
+            for (int j = 0; j < m[0].size(); j++)
+                if (!m[i][j])
+                    ans += dfs(m, i, j);
         return ans;
     }
 };

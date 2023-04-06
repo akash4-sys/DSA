@@ -14,20 +14,24 @@ using namespace std;
 #define II ({ int a; cin>>a; a; })
 #define LL ({ ll a; cin>>a ; a; })
 #define SS ({ string s; cin>>s; s; })
-#define pf(x) cout << x
-#define pl(x) cout << x << "\n"
-#define br cout << "\n"
+#define pf(x) cout << x << " "
+#define pl(x) cout << x << endl
+#define br cout << endl
 #define pv(v) { for(auto &x : v) pf(x)<<" "; }
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
 int solve()
 {
-    int n = II;
+    int n = II, res = 0;
     vec v(n);
     iv(v);
+    for (int x : v)
+        res ^= x;
 
-    if (n == )
+    if (n % 2 == 0)
+        return res ? -1 : 0;
+    return res;
 }
 
 int main()
