@@ -5,14 +5,15 @@ class Solution
 public:
     int minimumVisitedCells(vector<vector<int>> &v)
     {
-        vector<set<int>> r(v.size()), c(v[0].size());
-        for (int i = 0; i < v.size(); i++)
-            for (int j = 0; j < v.size(); j++)
+        int m = v.size(), n = v[0].size();
+        vector<set<int>> r(m), c(n);
+        for (int i = 0; i < m; i++)
+            for (int j = 0; j < n; j++)
             {
-                r[j].insert(i);
-                c[i].insert(j);
+                r[i].insert(j);
+                c[j].insert(i);
             }
-        
+
         queue<vector<int>> q;
         q.push({0, 0, 1});
         while (!q.empty())
@@ -20,29 +21,28 @@ public:
             auto cell = q.front();
             q.pop();
             int i = cell[0], j = cell[1], steps = cell[2];
-            if (i == v.size() - 1 && j == v[0].size() - 1)
+            if (i == m - 1 && j == n - 1)
                 return steps;
-            
-            auto it = c[i].lower_bound(j + 1);
-            while (it != c[i].end() && *it <= v[i][j] + j)
+
+            auto it = r[i].lower_bound(j + 1);
+            while (it != r[i].end() && *it <= v[i][j] + j)
             {
                 q.push({i, *it, steps + 1});
-                r[*it].erase(i);
-                c[i].erase(it++);
+                c[*it].erase(i);
+                r[i].erase(it++);
             }
 
-            it = r[j].lower_bound(i + 1);
-            while (it != r[j].end() && *it <= v[i][j] + i)
+            it = c[j].lower_bound(i + 1);
+            while (it != c[j].end() && *it <= v[i][j] + i)
             {
                 q.push({*it, j, steps + 1});
-                c[*it].erase(j);
-                r[j].erase(it++);
+                r[*it].erase(j);
+                c[j].erase(it++);
             }
         }
         return -1;
     }
 };
-
 
 // Time Complexity - TLE (Sometimes)
 // Space Complexity - O(N^3)
