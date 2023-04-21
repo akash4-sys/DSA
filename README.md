@@ -333,6 +333,7 @@
 | 875.  | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/description/)                                                                                                     |   Yes    |   Medium   |
 | 876.  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                                     |   Yes    |    Easy    |
 | 877.  | [Stone Game](https://leetcode.com/problems/stone-game/description/)                                                                                                                       |   Yes    |   Medium   |
+| 879.  | [](https://leetcode.com/problems/profitable-schemes/description/)                                                                                                                         |   Yes    |    Hard    |
 | 881.  | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)                                                                                                   |   Yes    |   Medium   |
 | 886.  | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/description/)                                                                                                   |   Yes    |   Medium   |
 | 889.  | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/description/)                     |   Yes    |   Medium   |
@@ -433,6 +434,7 @@
 | 1397. | [Find All Good Strings](https://leetcode.com/problems/find-all-good-strings/description/)                                                                                                 |   Yes    |    Hard    |
 | 1402. | [Reducing Dishes](https://leetcode.com/problems/reducing-dishes/description/)                                                                                                             |   Yes    |    Hard    |
 | 1408. | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)                                                                                                 |   Yes    |    Easy    |
+| 1406. | [Stone Game III](https://leetcode.com/problems/stone-game-iii/description/)                                                                                                               |   Yes    |    Hard    |
 | 1409. | [Queries on Permuations with Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/description/)                                                                           |   Yes    |   Medium   |
 | 1411. | [Number of Ways to Paint N × 3 Grid](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/)                                                                                     |   Yes    |    Hard    |
 | 1425. | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/)                                                                                                 |   Yes    |    Hard    |
@@ -574,6 +576,7 @@
 | 2380. | [Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/)                                                                       |   Yes    |   Medium   |
 | 2383. | [Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)                                                           |   Yes    |    Easy    |
 | 2384. | [Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/)                                                                                                   |   Yes    |   Medium   |
+| 2385. | [Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/description/)                                                 |   Yes    |   Medium   |
 | 2389. | [Longest Subsequence With Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)                                                                               |   Yes    |    Easy    |
 | 2390. | [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/)                                                                                               |   Yes    |   Medium   |
 | 2391. | [Minimum Amount of Time to Collect Garbage](https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/)                                                                     |   Yes    |   Medium   |
