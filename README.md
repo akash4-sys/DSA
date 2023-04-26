@@ -385,6 +385,7 @@
 | 1028. | [Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description/)                                                               |   Yes    |   Medium   |
 | 1026. | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/)                                                   |   Yes    |   Medium   |
 | 1036. | [Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/description/)                                                                                                     |   Yes    |    Hard    |
+| 1046. | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)                                                                                                     |   Yes    |    Easy    |
 | 1047. | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)                                                           |   Yes    |    Easy    |
 | 1061. | [Lexicographically Smallest Equivalent String](https://leetcode.com/problems/lexicographically-smallest-equivalent-string/description/)                                                   |   Yes    |   Medium   |
 | 1074. | [Number of Submatrices That Sum to Target](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target/)                                                                       |    No    |    Hard    |
@@ -437,6 +438,7 @@
 | 1406. | [Stone Game III](https://leetcode.com/problems/stone-game-iii/description/)                                                                                                               |   Yes    |    Hard    |
 | 1409. | [Queries on Permuations with Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/description/)                                                                           |   Yes    |   Medium   |
 | 1411. | [Number of Ways to Paint N × 3 Grid](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/)                                                                                     |   Yes    |    Hard    |
+| 1416. | [Restore The Array](https://leetcode.com/problems/restore-the-array/)                                                                                                                     |   Yes    |    Hard    |
 | 1425. | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/)                                                                                                 |   Yes    |    Hard    |
 | 1438. | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)   |   Yes    |   Medium   |
 | 1442. | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/description/)                                   |   Yes    |   Medium   |
@@ -557,6 +559,7 @@
 | 2316. | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/)                             |   Yes    |   Medium   |
 | 2317. | [Maximum XOR After Operations ](https://leetcode.com/problems/maximum-xor-after-operations/description/)                                                                                  |   Yes    |   Medium   |
 | 2326. | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)                                                                                                                       |   Yes    |   Medium   |
+| 2336. | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                                                                                                                       |   Yes    |   Medium   |
 | 2344. | [Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/description/)                                                         |   Yes    |    Hard    |
 | 2348. | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/)                                                                             |   Yes    |   Medium   |
 | 2351. | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/)                                                                                               |   Yes    |    Easy    |
@@ -744,3 +747,7 @@
 | 2644  | [Find the Maximum Divisibility Score](https://leetcode.com/problems/find-the-maximum-divisibility-score/)                                                                                 |   Yes    |    Easy    |
 | 2645  | [Minimum Additions to Make Valid String](https://leetcode.com/problems/minimum-additions-to-make-valid-string/description/)                                                               |   Yes    |   Medium   |
 | 2646  | [Minimize the Total Price of the Trips](https://leetcode.com/problems/minimize-the-total-price-of-the-trips/description/)                                                                 |   Yes    |    Hard    |
+| 2651  | [Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/)                                                                                           |   Yes    |    Easy    |
+| 2652  | [Sum Multiples](https://leetcode.com/problems/sum-multiples/)                                                                                                                             |   Yes    |    Easy    |
+| 2653  | [Sliding Subarray Beauty](https://leetcode.com/problems/sliding-subarray-beauty/)                                                                                                         |   Yes    |   Medium   |
+| 2654  | [Minimum Number of Operations to Make All Array Elements Equal to 1](https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/description/)       |   Yes    |   Medium   |

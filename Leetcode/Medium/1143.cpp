@@ -40,27 +40,23 @@ public:
 };
 
 
-#define vv vector<vector<int>>
 class Solution 
 {
-    int recurse(vv &dp, string &s, string &r, int i, int j)
+    int lcs(vector<vector<int>> &dp, string &s, string &r, int i, int j)
     {
-        if(i < 0 || j < 0)
+        if (i == s.size() || j == r.size())
             return 0;
-        if(dp[i][j] != -1)
+        if (dp[i][j] != -1)
             return dp[i][j];
-        if(s[i] == r[j])
-            dp[i][j] = recurse(dp, s, r, i - 1, j - 1) + 1;
-        else
-            dp[i][j] = max(recurse(dp, s, r, i - 1, j), recurse(dp, s, r, i, j - 1));
-        return dp[i][j];
+        if (s[i] == r[j])
+            return dp[i][j] = lcs(dp, s, r, i + 1, j + 1) + 1;
+        return dp[i][j] = max(lcs(dp, s, r, i + 1, j), lcs(dp, s, r, i, j + 1));
     }
 
 public:
     int longestCommonSubsequence(string s, string r) 
     {
-       vv dp(s.size() + 1, vector<int>(r.size() + 1, -1));
-       recurse(dp, s, r, s.size() - 1, r.size() - 1);
-       return dp[s.size() - 1][r.size() - 1];
+       vector dp(s.size(), vector<int>(r.size(), -1));
+       return lcs(dp, s, r, 0, 0);
     }
 };
