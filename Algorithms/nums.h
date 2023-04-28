@@ -22,10 +22,9 @@ void factors(int x)
     for (int i = 1, sq = sqrt(x); i <= sq; i++)
         if (x % i == 0)
         {
-            if (x / i == i)
-                cout << " " << i;
-            else
-                cout << " " << i << " " << x / i;
+            if (x / i != i)
+                cout << " " << x / i;
+            cout << " " << i;
         }
 }
 

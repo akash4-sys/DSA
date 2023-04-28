@@ -512,6 +512,7 @@
 | 1962. | [Remove Stones to Minimize the Total](https://leetcode.com/problems/remove-stones-to-minimize-the-total/description/)                                                                     |   Yes    |   Medium   |
 | 1971. | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)                                                                                               |   Yes    |    Easy    |
 | 1976. | [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)                                                                         |   Yes    |   Medium   |
+| 1994. | [The Number of Good Subsets](https://leetcode.com/problems/the-number-of-good-subsets/description/)                                                                                               |   Yes    |    Hard    |
 | 2001. | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/description/)                                                 |   Yes    |   Medium   |
 | 2007. | [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)                                                                           |   Yes    |   Medium   |
 | 2035. | [Partition Array Into Two Arrays to Minimize Sum Difference](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/description/)                       |   Yes    |    Hard    |
