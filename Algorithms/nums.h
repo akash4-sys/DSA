@@ -30,16 +30,16 @@ void factors(int x)
 
 // Binary Exponentiation
 // For very large values
-int power(long base, long n)
+long long power(long long a, long long b, long long mod)
 {
-    long ans = 1, mod = (long)1e9 + 7;
-    for (; n; n /= 2)
+    long long res = 1;
+    for (a %= mod; b > 0; b >>= 1)
     {
-        if (n % 2 == 1)
-            ans = (ans * base) % mod;
-        base = (base * base) % mod;
+        if (b & 1)
+            res = (res * a) % mod;
+        a = (a * a) % mod;
     }
-    return (ans - 2 + mod) % mod;
+    return res;
 }
 
 // factorial of a number

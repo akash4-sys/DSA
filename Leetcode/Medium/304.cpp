@@ -1,5 +1,7 @@
 #include "../../headers.h"
 
+// 2d prefix sum
+
 class NumMatrix
 {
     vector<vector<int>> pf;

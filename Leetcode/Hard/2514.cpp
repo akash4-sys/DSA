@@ -30,20 +30,6 @@ class Solution
         return modMul(res, res);
     }
 
-    // @ Iterative binary exponentiation - not working can't figure out why
-    // int binaryExponentiation(int a, int b) 
-    // {
-    //     int res = 1;
-    //     while (b)
-    //     {
-    //         if (b % 2)
-    //             res = modMul(res, res);
-    //         a = modMul(a, a);
-    //         b /= 2;
-    //     }
-    //     return res;
-    // }
-
     int modMulInv(int n)
     {
         return binaryExponentiation(n, mod - 2);
