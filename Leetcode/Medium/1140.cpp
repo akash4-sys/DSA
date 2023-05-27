@@ -47,33 +47,32 @@ public:
     }
 };
 
-
+// Latest Solution
 class Solution
 {
-    int recurse(vector<vector<vector<int>>> &dp, vector<int> &v, int m, int i, int t)
+    int dp[2][101][101];
+    int rec(vector<int>& v, int t, int m, int i)
     {
-        if(i >= v.size())
+        if (i == v.size())
             return 0;
-        if(dp[i][m][t] != -1)
-            return dp[i][m][t];
-        if(!t)
+        if (dp[t][m][i] != -1)
+            return dp[t][m][i];
+        
+        int sum = 0, res = t ? 0 : INT_MAX;
+        for (int j = i; j < min((m * 2) + i, (int)v.size()); j++)
         {
-            int ans = 0, sum = 0;
-            for(int x = 0; x < 2 * m && i + x < v.size(); x++)
-                sum += v[i + x], ans = max(ans, sum + recurse(dp, v, max(x + 1, m), i + x + 1, 1));
-            return dp[i][m][t] = ans;
+            sum += v[j];
+            int val = rec(v, !t, max(m, j - i + 1), j + 1);
+            res = t ? max(res, val + sum) : min(res, val);
         }
-        int ans = INT_MAX;
-        for(int x = 0; x < 2 * m && i + x < v.size(); x++)
-            ans = min(ans, recurse(dp, v, max(x + 1, m), i + x + 1, 0));
-        return dp[i][m][t] = ans;
+        return dp[t][m][i] = res;
     }
 
 public:
-    int stoneGameII(vector<int> &v)
+    int stoneGameII(vector<int>& v)
     {
-        vector<vector<vector<int>>> dp(v.size() + 1, vector<vector<int>>(v.size() + 1, vector<int>(2, -1)));
-        return recurse(dp, v, 1, 0, 0);
+        memset(dp, -1, sizeof(dp));
+        return rec(v, 1, 1, 0);
     }
 };
 
