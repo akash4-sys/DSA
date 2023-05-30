@@ -475,6 +475,7 @@
 | 1523. | [Count Odd Numbers in an Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/)                                                               |   Yes    |   Medium   |
 | 1531. | [String Compression II](https://leetcode.com/problems/string-compression-ii/description/)                                                                                                 |   Yes    |    Hard    |
 | 1544. | [Make The String Great](https://leetcode.com/problems/make-the-string-great/description/)                                                                                                 |   Yes    |    Easy    |
+| 1547. | [Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/)                                                                                     |   Yes    |    Hard    |
 | 1552. | [Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/description/)                                                                           |   Yes    |   Medium   |
 | 1557. | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)                                                             |   Yes    |   Medium   |
 | 1567. | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)                                                       |   Yes    |   Medium   |
@@ -483,6 +484,7 @@
 | 1579. | [Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/)                                   |   Yes    |    Hard    |
 | 1584. | [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)                                                                                           |   Yes    |   Medium   |
 | 1588. | [Sum of All Odd Length Subarrays](https://leetcode.com/problems/sum-of-all-odd-length-subarrays/description/)                                                                             |   Yes    |    Easy    |
+| 1603. | [Design Parking System](https://leetcode.com/problems/design-parking-system/description/)                                                                                                 |   Yes    |    Easy    |
 | 1615. | [Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/)                                                                                                               |   Yes    |   Medium   |
 | 1617. | [Count Subtrees With Max Distance Between Cities](https://leetcode.com/problems/count-subtrees-with-max-distance-between-cities/description/)                                             |   Yes    |    Hard    |
 | 1626. | [Best Team With No Conflicts](https://leetcode.com/problems/best-team-with-no-conflicts/description/)                                                                                     |   Yes    |   Medium   |
@@ -757,6 +759,7 @@
 | 2601  | [Prime Subtraction Operation](https://leetcode.com/problems/prime-subtraction-operation/description/)                                                                                     |   Yes    |   Medium   |
 | 2602  | [Minimum Operations to Make All Array Elements Equal](https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/description/)                                     |   Yes    |   Medium   |
 | 2605  | [Form Smallest Number From Two Digit Arrays](https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/description/)                                                       |   Yes    |   Medium   |
+| 2608  | [Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/)                                                                                                     |   Yes    |    Hard    |
 | 2609  | [Find the Longest Balanced Substring of a Binary String](https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/description/)                               |   Yes    |    Easy    |
 | 2610  | [Convert an Array Into a 2D Array With Conditions](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/description/)                                           |   Yes    |   Medium   |
 | 2611  | [Mice and Cheese](https://leetcode.com/problems/mice-and-cheese/description/)                                                                                                             |   Yes    |   Medium   |
@@ -792,3 +795,9 @@
 | 2696  | [Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/)                                                                             |   Yes    |   Medium   |
 | 2698  | [Find the Punishment Number of an Integer](https://leetcode.com/problems/find-the-punishment-number-of-an-integer/)                                                                       |   Yes    |   Medium   |
 | 2699  | [Modify Graph Edge Weights](https://leetcode.com/problems/modify-graph-edge-weights/)                                                                                                     |   Yes    |    Hard    |
+| 2706  | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)                                                                                                                   |   Yes    |    Easy    |
+| 2707  | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/)                                                                                               |   Yes    |   Medium   |
+| 2708  | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                                                                     |   Yes    |   Medium   |
+| 2710  | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/description/)                                                                     |   Yes    |    Easy    |
+| 2711  | [Difference of Number of Distinct Values on Diagonals](https://leetcode.com/problems/difference-of-number-of-distinct-values-on-diagonals/)                                               |   Yes    |   Medium   |
+| 2712  | [Minimum Cost to Make All Characters Equal](https://leetcode.com/problems/minimum-cost-to-make-all-characters-equal/description/)                                                         |   Yes    |   Medium   |
