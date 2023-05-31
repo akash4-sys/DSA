@@ -284,7 +284,7 @@
 | 653.  | [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)                                                                                       |   Yes    |    Easy    |
 | 658.  | [Find K Closest Elements](https://leetcode.com/problems/find-k-closest-elements/)                                                                                                         |   Yes    |   Medium   |
 | 659.  | [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/)                                                                     |   Yes    |   Medium   |
-| 662.  | [Maximum z of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)                                                                                       |   Yes    |   Medium   |
+| 662.  | [Maximum width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)                                                                                       |   Yes    |   Medium   |
 | 668.  | [Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement/description/)                                                                                              |   Yes    |   Medium   |
 | 673.  | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)                                                                       |   Yes    |   Medium   |
 | 684.  | [Redundant Connection](https://leetcode.com/problems/redundant-connection/)                                                                                                               |   Yes    |   Medium   |
@@ -440,8 +440,9 @@
 | 1372. | [Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/description/)                                                                   |   Yes    |   Medium   |
 | 1379. | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/)       |   Yes    |    Easy    |
 | 1383. | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)                                                                                             |   Yes    |    Hard    |
-| 1395. | [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/description/)                                                                                                 |   Yes    |   Medium   |
 | 1392. | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/description/)                                                                                                   |   Yes    |    Hard    |
+| 1395. | [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/description/)                                                                                                 |   Yes    |   Medium   |
+| 1396. | [Design Underground System](https://leetcode.com/problems/design-underground-system/)                                                                                                 |   Yes    |   Medium   |
 | 1397. | [Find All Good Strings](https://leetcode.com/problems/find-all-good-strings/description/)                                                                                                 |   Yes    |    Hard    |
 | 1402. | [Reducing Dishes](https://leetcode.com/problems/reducing-dishes/description/)                                                                                                             |   Yes    |    Hard    |
 | 1408. | [String Matching in an Array](https://leetcode.com/problems/string-matching-in-an-array/)                                                                                                 |   Yes    |    Easy    |
@@ -787,6 +788,7 @@
 | 2671  | [Frequency Tracker](https://leetcode.com/problems/frequency-tracker/)                                                                                                                     |   Yes    |   Medium   |
 | 2672  | [Number of Adjacent Elements With the Same Color](https://leetcode.com/problems/number-of-adjacent-elements-with-the-same-color/)                                                         |   Yes    |   Medium   |
 | 2673  | [Make Costs of Paths Equal in a Binary Tree](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree/)                                                                   |   Yes    |   Medium   |
+| 2679  | [Sum in a Matrix](https://leetcode.com/problems/sum-in-a-matrix/)                                                                               |   Yes    |    Medium    |
 | 2682  | [Find the Losers of the Circular Game](https://leetcode.com/problems/find-the-losers-of-the-circular-game/)                                                                               |   Yes    |    Easy    |
 | 2683  | [Neighboring Bitwise XOR](https://leetcode.com/problems/neighboring-bitwise-xor/)                                                                                                         |   Yes    |   Medium   |
 | 2684  | [Maximum Number of Moves in a Grid](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid/)                                                                                     |   Yes    |   Medium   |
@@ -798,6 +800,7 @@
 | 2706  | [Buy Two Chocolates](https://leetcode.com/problems/buy-two-chocolates/)                                                                                                                   |   Yes    |    Easy    |
 | 2707  | [Extra Characters in a String](https://leetcode.com/problems/extra-characters-in-a-string/)                                                                                               |   Yes    |   Medium   |
 | 2708  | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/description/)                                                                                     |   Yes    |   Medium   |
+| 2709  | [Greatest Common Divisor Traversal](https://leetcode.com/problems/greatest-common-divisor-traversal/)                                                                                     |   Yes    |   Hard   |
 | 2710  | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/description/)                                                                     |   Yes    |    Easy    |
 | 2711  | [Difference of Number of Distinct Values on Diagonals](https://leetcode.com/problems/difference-of-number-of-distinct-values-on-diagonals/)                                               |   Yes    |   Medium   |
 | 2712  | [Minimum Cost to Make All Characters Equal](https://leetcode.com/problems/minimum-cost-to-make-all-characters-equal/description/)                                                         |   Yes    |   Medium   |
