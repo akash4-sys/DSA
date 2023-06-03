@@ -438,6 +438,7 @@
 | 1356. | [Sort Integers by The Number of 1 Bits](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/)                                                                 |   Yes    |    Easy    |
 | 1368. | [Minimum Cost to Make at Least One Valid Path in a Grid](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/description/)                               |   Yes    |    Hard    |
 | 1372. | [Longest ZigZag Path in a Binary Tree](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/description/)                                                                   |   Yes    |   Medium   |
+| 1376. | [Time Needed to Inform All Employees](https://leetcode.com/problems/time-needed-to-inform-all-employees/description/)                                                                   |   Yes    |   Medium   |
 | 1379. | [Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/)       |   Yes    |    Easy    |
 | 1383. | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)                                                                                             |   Yes    |    Hard    |
 | 1392. | [Longest Happy Prefix](https://leetcode.com/problems/longest-happy-prefix/description/)                                                                                                   |   Yes    |    Hard    |
@@ -548,6 +549,7 @@
 | 2097. | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs/)                                                                                                   |   Yes    |    Hard    |
 | 2197. | [Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/description/)                                                                   |   Yes    |    Hard    |
 | 2100. | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)                                                                                           |   Yes    |   Medium   |
+| 2101. | [Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)                                                                                           |   Yes    |   Medium   |
 | 2115. | [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/)                                                 |   Yes    |   Medium   |
 | 2130. | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)                                                                                     |   Yes    |   Medium   |
 | 2131. | [Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)                                               |   Yes    |   Medium   |
@@ -804,3 +806,4 @@
 | 2710  | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/description/)                                                                     |   Yes    |    Easy    |
 | 2711  | [Difference of Number of Distinct Values on Diagonals](https://leetcode.com/problems/difference-of-number-of-distinct-values-on-diagonals/)                                               |   Yes    |   Medium   |
 | 2712  | [Minimum Cost to Make All Characters Equal](https://leetcode.com/problems/minimum-cost-to-make-all-characters-equal/description/)                                                         |   Yes    |   Medium   |
+| 2713  | [Maximum Strictly Increasing Cells in a Matrix](https://leetcode.com/problems/maximum-strictly-increasing-cells-in-a-matrix/description/)                                                         |   Yes    |   Hard   |

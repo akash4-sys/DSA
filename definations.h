@@ -31,12 +31,12 @@
 #define iv(v, n) { for(int i = 0; i < n; i++) cin >> v[i]; }
 
 // Misc
-#define directions {{1,0},{0,1},{-1,0},{0,-1},{1,1},{1,-1},{-1,1},{-1,-1}}      // last 4 are diagonal
 #define vowels {{'a', 1}, {'e', 1}, {'i', 1}, {'o', 1}, {'u', 1}}
 #define dfsExit(v, i, j) if (i < 0 || j < 0 || i >= v.size() || j >= v[0].size())
 
 int i, j, dx, dy;
 int x = i + dx, y = j + dy;
+int dirs[8][2] = {{1,0},{0,1},{-1,0},{0,-1},{1,1},{1,-1},{-1,1},{-1,-1}};      // last 4 are diagonal
 #define bfsExit(v, x, y) if (x >= 0 && x < v.size() && y >= 0 && y < v[0].size() && vis[x][y])
 
 #define fs first
