@@ -21,37 +21,19 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-int solve()
+long long solve()
 {
-    int n = II, on = 0;
-    unordered_map<int, priority_queue<int>> mp;
+    int n = II; 
+    map<int, priority_queue<int>> mp;
     for (int i = 0; i < n; i++) {
         int a = II, b = II;
         mp[a].push(b);
     }
 
-    int ans = 0;
-    vec v(n + 1, 0);
-    for (int i = 1; i <= n; i++)
-    {
-        if (!mp.count(i))
-            continue;
-        
-        auto pq = mp[i];
-        while (pq.size())
-        {
-            ans += pq.top();
-            pq.pop();
-            on++;
-            v[i]++;
-            int x = on;
-            on -= v[on];
-            v[on] = 0;
-            if (x == i) {
-                break;
-            }
-        }
-    }
+    long long ans = 0;
+    for (auto [a, pq] : mp)
+        for (int i = 0, k = pq.size(); i < min(a, k); i++)
+            ans += pq.top(), pq.pop();
     return ans;
 }
 
