@@ -6,16 +6,15 @@ public:
     int sumOfPower(vector<int> &v)
     {
         sort(v.begin(), v.end());
-        int n = v.size(), mod = 1e9 + 7;
-        long long ans = 0;
+        int mod = 1e9 + 7;
+        long long ans = 0, sum = 0;
 
-        for (int i = 0; i < n; i++)
+        for (int x : v)
         {
-            long long maxk = (2LL << i) % mod;
-            long long mink = (2LL << (n - i - 1)) % mod;
-            long long x = (maxk * v[i] * v[i]) % mod;
-            long long y = (mink * v[i]) % mod;
-            (ans += x + y) %= mod;
+            long long a = ((sum + x) * x) % mod;
+            (a *= x) %= mod;
+            (ans += a) %= mod;
+            sum = ((sum * 2) + x) % mod;
         }
         return ans;
     }

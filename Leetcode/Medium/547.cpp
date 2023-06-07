@@ -2,14 +2,12 @@
 
 class Solution
 {
-    void dfs(vector<vector<int>> &grid, int i)
+    void dfs(vector<vector<int>> &grid, int u)
     {
-        for(int j = 0; j < grid.size(); j++)
-            if(grid[i][j])
-            {
-                grid[i][j] = 0;
-                grid[j][i] = 0;
-                dfs(grid, j);
+        for(int v = 0; v < grid.size(); v++)
+            if(grid[u][v]) {
+                grid[u][v] = grid[v][u] = 0;
+                dfs(grid, v);
             }
     }
 
@@ -17,9 +15,9 @@ public:
     int findCircleNum(vector<vector<int>> &grid)
     {
         int ans = 0;
-        for (int i = 0; i < grid.size(); i++)
-            if(grid[i][i])
-                dfs(grid, i), ans++;
+        for (int u = 0; u < grid.size(); u++)
+            if(grid[u][u])
+                dfs(grid, u), ans++;
         return ans;
     }
 };
