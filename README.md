@@ -287,6 +287,7 @@
 | 662.  | [Maximum width of Binary Tree](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)                                                                                   |   Yes    |   Medium   |
 | 668.  | [Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement/description/)                                                                                              |   Yes    |   Medium   |
 | 673.  | [Number of Longest Increasing Subsequence](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)                                                                       |   Yes    |   Medium   |
+| 678.  | [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/)                                                                                           |   Yes    |   Medium   |
 | 684.  | [Redundant Connection](https://leetcode.com/problems/redundant-connection/)                                                                                                               |   Yes    |   Medium   |
 | 685.  | [Redundant Connection II](https://leetcode.com/problems/redundant-connection-ii/)                                                                                                         |   Yes    |    Hard    |
 | 686.  | [Repeated String Match](https://leetcode.com/problems/repeated-string-match/description/)                                                                                                 |   Yes    |   Medium   |
@@ -406,6 +407,7 @@
 | 1137. | [N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)                                                                                                           |   Yes    |    Easy    |
 | 1155. | [Number of Dice Rolls With Target Sum](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/description/)                                                                   |   Yes    |   Medium   |
 | 1143. | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)                                                                                                   |   Yes    |   Medium   |
+| 1146. | [Snapshot Array](https://leetcode.com/problems/snapshot-array/description/)                                                                                                   |   Yes    |   Medium   |
 | 1162. | [As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/description/)                                                                                   |   Yes    |   Medium   |
 | 1171. | [Remove Zero Sum Consecutive Nodes from Linked List](https://leetcode.com/problems/remove-zero-sum-consecutive-nodes-from-linked-list/)                                                   |   Yes    |   Medium   |
 | 1192. | [Critical Connections in a Network](https://leetcode.com/problems/critical-connections-in-a-network/)                                                                                     |   Yes    |    Hard    |
@@ -515,6 +517,7 @@
 | 1786. | [Number of Restricted Paths From First to Last Node](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/)                                                   |   Yes    |   Medium   |
 | 1791. | [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/)                                                                                                     |   Yes    |    Easy    |
 | 1799. | [Maximize Score After N Operations](https://leetcode.com/problems/maximize-score-after-n-operations/description/)                                                                         |   Yes    |    Hard    |
+| 1802. | [Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)                                                     |   Yes    |   Medium   |
 | 1819. | [Number of Different Subsequences GCDs](https://leetcode.com/problems/number-of-different-subsequences-gcds/description/)                                                                 |   Yes    |    Hard    |
 | 1822. | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/)                                                                             |   Yes    |    Easy    |
 | 1829. | [Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/description/)                                                                                       |   Yes    |   Medium   |
@@ -814,3 +817,9 @@
 | 2717  | [Semi-Ordered Permutation](https://leetcode.com/problems/semi-ordered-permutation/)                                                                                                       |   Yes    |    Easy    |
 | 2718  | [Sum of Matrix After Queries](https://leetcode.com/problems/sum-of-matrix-after-queries/)                                                                                                 |   Yes    |   Medium   |
 | 2719  | [Count of Integers](https://leetcode.com/problems/count-of-integers/description/)                                                                                                         |   Yes    |    Hard    |
+| 2729  | [Check if The Number is Fascinating](https://leetcode.com/problems/check-if-the-number-is-fascinating/)                                                         |   Yes    |   Easy   |
+| 2730  | [Find the Longest Semi-Repetitive Substring](https://leetcode.com/problems/find-the-longest-semi-repetitive-substring/solutions/)                                                         |   Yes    |   Medium   |
+| 2732  | [Find a Good Subset of the Matrix](https://leetcode.com/problems/find-a-good-subset-of-the-matrix/description/)                                                                           |   Yes    |    Hard    |
+| 2733  | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/)                                                                                                 |   Yes    |    Easy    |
+| 2734  | [Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)                                 |   Yes    |   Medium   |
+| 2735  | [Collecting Chocolates](https://leetcode.com/problems/collecting-chocolates/)                                                                                                             |   Yes    |   Medium   |

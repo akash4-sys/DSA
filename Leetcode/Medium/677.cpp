@@ -1,9 +1,4 @@
-#pragma once
-
-#include <iostream>
-#include <vector>
-
-using namespace std;
+#include "../../headers.h"
 
 class TrieNode
 {
@@ -16,7 +11,7 @@ class Trie
 {
     TrieNode *node;
 
-    void findall(TrieNode *root, vector<string> &res, string &s)            // DFS from root to find all strings
+    void findall(TrieNode *root, vector<string> &res, string &s)
     {
         if(root->isEnd)
             res.push_back(s);
@@ -44,23 +39,39 @@ public:
         root->isEnd = 1;
     }
 
-    bool search(string word)
-    {
-        TrieNode *root = node;
-        for(auto c: word)
-            if(root->child[c - 'a'])
-                root = root->child[c - 'a'];
-            else return false;
-        return root->isEnd;
-    }
-
-    bool startsWith(string word)
+    vector<string> startsWith(string word)
     {
         TrieNode *root = node;
         for(auto c : word)
             if(root->child[c - 'a'])
                 root = root->child[c - 'a'];
-            else return false;
-        return true;
+            else return {};
+
+        vector<string> res;
+        findall(root, res, word);
+        return res;
+    }
+};
+
+class MapSum
+{
+    unordered_map<string, int> mp;
+    Trie trie;
+public:
+    MapSum(){}
+
+    void insert(string key, int val)
+    {
+        mp[key] = val;
+        trie.insert(key);
+    }
+
+    int sum(string s)
+    {
+        auto vs = trie.startsWith(s);
+        int ans = 0;
+        for (string &r : vs)
+            ans += mp[r];
+        return ans;
     }
 };
