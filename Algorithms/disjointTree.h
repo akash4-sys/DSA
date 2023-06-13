@@ -3,14 +3,16 @@
 #include <vector>
 #include <numeric>
 
+using namespace std;
+
 class DSU
 {
-    std::vector<int> parent;
+    vector<int> parent;
 
 public:
     DSU(int n) : parent(n)
     {
-        std::iota(parent.begin(), parent.end(), 0);
+        iota(parent.begin(), parent.end(), 0);
     }
 
     int findParent(int u)
@@ -30,31 +32,28 @@ public:
 
 class DSUW
 {
-    std::vector<int> parent;
-
+    vector<int> par;
 public:
-    DSUW(int n) : parent(n, -1) {}
 
-    int findParent(int u)
+    DSUW(int n) : par(n, -1) {}
+
+    int findPar(int u)
     {
-        return (parent[u] < 0) ? u : parent[u] = findParent(parent[u]);
+        for (; par[u] > 0; u = par[u]);
+        return u;
+        // return (parent[u] < 0) ? u : parent[u] = findParent(parent[u]);  recursive
     }
 
     bool Union(int u, int v)
     {
-        int uPar = findParent(u), vPar = findParent(v);
-        if (uPar == vPar)
+        int up = findPar(u), vp = findPar(v);
+        if (up == vp)
             return 0;
-        if (parent[uPar] < parent[vPar])
-        {
-            parent[uPar] += parent[vPar];
-            parent[vPar] = uPar;
-        }
+        
+        if (par[up] < par[vp])
+            par[up] += par[vp], par[vp] = up;
         else
-        {
-            parent[vPar] += parent[uPar];
-            parent[uPar] = vPar;
-        }
+            par[vp] += par[up], par[up] = vp;
         return 1;
     }
 };
