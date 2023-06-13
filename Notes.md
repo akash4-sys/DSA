@@ -38,10 +38,41 @@ let x = 9
 
 so 9 is 2^3 + 1
 
+1 0 0 1
 
-1    0   0   1
-_    _   _   _
+---
+
 2^3 2^2 2^1 2^0
 
-
 ## [Subarrays](https://leetcode.com/problems/sum-of-subarray-minimums/solutions/178876/stack-solution-with-very-detailed-explanation-step-by-step/)
+
+<!-- Fill a double type array method -->
+fill_n(&dp[0][0], 12, -1.3);
+
+
+<!-- Input output Method -->
+#ifndef ONLINE_JUDGE
+freopen("input.txt", "r", stdin);
+freopen("output.txt", "w", stdout);
+#endif
+
+<!-- new syntax for 3d, 2d vec -->
+
+vector dp(n + 1 , vector(n, vector<int>(n, 0)));
+
+<!-- intialize all value with 99, it's a gnu function -->
+
+int dp[1000] = {[0 ... 1000] = 99};
+
+compile c++ file
+g++ main.cpp -o main.exe
+
+run it
+.\main
+
+for (auto r : v)
+{
+for (int x : r)
+cout << x << " ";
+cout << "\n";
+}
