@@ -57,6 +57,20 @@ int nCr(int n, int r)
     return fact(n) / (fact(r) * fact(n - r));
 }
 
+// Precompute NCR - pascals triangle method
+
+vector<vector<long long>> generate(int n)
+{
+    vector<vector<long long>> res(n);
+    for (int i = 0; i < n; i++)
+    {
+        res[i] = vector<long long>(i + 1, 1);
+        for (int j = 1; j < i; j++)
+            res[i][j] = res[i - 1][j - 1] + res[i - 1][j];
+    }
+    return res;
+}
+
 // find min positive multiple of a number for k
 // i.e. for n = -10 & k = 3, minPos = 2
 int minPos(int n, int k)
