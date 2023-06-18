@@ -103,6 +103,7 @@
 | 117.  | [Populating Next Right Pointers in Each Node II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)                                                           |   Yes    |   Medium   |
 | 118.  | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                                                                                                                      |   Yes    |    Easy    |
 | 119.  | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)                                                                                                                |   Yes    |    Easy    |
+| 120.  | [Triangle](https://leetcode.com/problems/triangle/)                                                                                                                                       |   Yes    |   Medium   |
 | 121.  | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)                                                                                         |   Yes    |    Easy    |
 | 122.  | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)                                                                                   |   Yes    |   Medium   |
 | 123.  | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)                                                                                 |   Yes    |    Hard    |
@@ -596,6 +597,7 @@
 | 2316. | [Count Unreachable Pairs of Nodes in an Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/description/)                             |   Yes    |   Medium   |
 | 2317. | [Maximum XOR After Operations ](https://leetcode.com/problems/maximum-xor-after-operations/description/)                                                                                  |   Yes    |   Medium   |
 | 2326. | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/)                                                                                                                       |   Yes    |   Medium   |
+| 2328. | [Number of Increasing Paths in a Grid](https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/description/)                                                                   |   Yes    |    Hard    |
 | 2336. | [Smallest Number in Infinite Set](https://leetcode.com/problems/smallest-number-in-infinite-set/description/)                                                                             |   Yes    |   Medium   |
 | 2344. | [Minimum Deletions to Make Array Divisible](https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/description/)                                                         |   Yes    |    Hard    |
 | 2348. | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/)                                                                             |   Yes    |   Medium   |
@@ -829,3 +831,6 @@
 | 2733  | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/)                                                                                                 |   Yes    |    Easy    |
 | 2734  | [Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)                                 |   Yes    |   Medium   |
 | 2735  | [Collecting Chocolates](https://leetcode.com/problems/collecting-chocolates/)                                                                                                             |   Yes    |   Medium   |
+| 2739  | [Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/description/)                                                                                             |   Yes    |   Easy   |
+| 2740  | [Find the Value of the Partition](https://leetcode.com/problems/find-the-value-of-the-partition/)                                                                                         |   Yes    |   Medium   |
+| 2741  | [Special Permutations](https://leetcode.com/problems/special-permutations/)                                                                                                               |   Yes    |   Medium   |
