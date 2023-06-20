@@ -76,3 +76,11 @@ for (int x : r)
 cout << x << " ";
 cout << "\n";
 }
+
+
+for (int i = 0; i <= c.size(); i++)
+{
+    for (int j = 0; j <= t.size(); j++)
+        cout << dp[i][j] << " ";
+    cout << endl;
+}
