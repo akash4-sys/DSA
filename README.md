@@ -399,6 +399,7 @@
 | 1025. | [Divisor Game](https://leetcode.com/problems/divisor-game/)                                                                                                                               |   Yes    |    Easy    |
 | 1028. | [Recover a Tree From Preorder Traversal](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/description/)                                                               |   Yes    |   Medium   |
 | 1026. | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/)                                                   |   Yes    |   Medium   |
+| 1027. | [Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/)                                                                                                                                 |   Yes    |   Medium   |
 | 1036. | [Escape a Large Maze](https://leetcode.com/problems/escape-a-large-maze/description/)                                                                                                     |   Yes    |    Hard    |
 | 1046. | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/)                                                                                                         |   Yes    |    Easy    |
 | 1047. | [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)                                                           |   Yes    |    Easy    |
@@ -558,7 +559,7 @@
 | 2063. | [Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/description/)                                                                                           |   Yes    |   Medium   |
 | 2071. | [Maximum Number of Tasks You Can Assign](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign/)                                                                           |   Yes    |    Hard    |
 | 2074. | [Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/)                                                                                 |   Yes    |   Medium   |
-| 2090. | [K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)                                                                                                   |   Yes    |    Medium    |
+| 2090. | [K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)                                                                                                   |   Yes    |   Medium   |
 | 2095. | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)                                                             |   Yes    |   Medium   |
 | 2097. | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs/)                                                                                                   |   Yes    |    Hard    |
 | 2197. | [Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/description/)                                                                   |   Yes    |    Hard    |
@@ -659,6 +660,7 @@
 | 2443. | [Sum of Number and Its Reverse](https://leetcode.com/problems/sum-of-number-and-its-reverse/description/)                                                                                 |   Yes    |   Medium   |
 | 2446. | [Determine if Two Events Have Conflict](https://leetcode.com/problems/determine-if-two-events-have-conflict/)                                                                             |   Yes    |    Easy    |
 | 2447. | [Number of Subarrays With GCD Equal to K](https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/description/)                                                             |   Yes    |   Medium   |
+| 2448. | [Minimum Cost to Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/description/)                                                                           |   Yes    |    Hard    |
 | 2451. | [Odd String Difference](https://leetcode.com/problems/odd-string-difference/)                                                                                                             |   Yes    |    Easy    |
 | 2452. | [Words Within Two Edits of Dictionary](https://leetcode.com/problems/words-within-two-edits-of-dictionary/)                                                                               |   Yes    |   Medium   |
 | 2453. | [Destroy Sequential Targets](https://leetcode.com/problems/destroy-sequential-targets/description/)                                                                                       |   Yes    |   Medium   |
@@ -833,6 +835,7 @@
 | 2732  | [Find a Good Subset of the Matrix](https://leetcode.com/problems/find-a-good-subset-of-the-matrix/description/)                                                                           |   Yes    |    Hard    |
 | 2733  | [Neither Minimum nor Maximum](https://leetcode.com/problems/neither-minimum-nor-maximum/)                                                                                                 |   Yes    |    Easy    |
 | 2734  | [Lexicographically Smallest String After Substring Operation](https://leetcode.com/problems/lexicographically-smallest-string-after-substring-operation/)                                 |   Yes    |   Medium   |
+| 2736  | [Maximum Sum Queries](https://leetcode.com/problems/maximum-sum-queries/description/)                                                                                                             |   Yes    |   Hard   |
 | 2735  | [Collecting Chocolates](https://leetcode.com/problems/collecting-chocolates/)                                                                                                             |   Yes    |   Medium   |
 | 2739  | [Total Distance Traveled](https://leetcode.com/problems/total-distance-traveled/description/)                                                                                             |   Yes    |    Easy    |
 | 2740  | [Find the Value of the Partition](https://leetcode.com/problems/find-the-value-of-the-partition/)                                                                                         |   Yes    |   Medium   |
