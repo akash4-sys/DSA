@@ -1,5 +1,28 @@
 #include "headers.h"
 
+// Time Complexity - O(NlogN)
+// Space Complxity - O(N)
+
+class Solution
+{
+public:
+    long long putMarbles(vector<int>& v, int k)
+    {
+        long long ans = 0;
+        vector<long long> sum;
+        for (int i = 1; i < v.size(); i++)
+            sum.push_back(v[i - 1] + v[i]);
+        
+        sort(sum.begin(), sum.end());
+        for (int i = 0; i < k - 1; i++)
+            ans += (sum[sum.size() - i - 1] - sum[i]);
+        return ans;
+    }
+};
+
+// Time Complexity - O(NlogN)
+// Space Complxity - O(N)
+
 class Solution 
 {
 public:

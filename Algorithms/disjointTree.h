@@ -39,7 +39,7 @@ public:
 
     int findPar(int u)
     {
-        for (; par[u] > 0; u = par[u]);
+        for (; par[u] > 0; u = par[u]);     // ! careful while using this
         return u;
         // return (parent[u] < 0) ? u : parent[u] = findParent(parent[u]);  recursive
     }
