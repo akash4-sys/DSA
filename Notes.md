@@ -84,3 +84,16 @@ for (int i = 0; i <= c.size(); i++)
         cout << dp[i][j] << " ";
     cout << endl;
 }
+
+auto comp = [&](auto &a, auto &b){
+    return a.second > b.second || (a.second == b.second && a.first < b.first);
+};
+typedef priority_queue<pair<string, int>, vector<pair<string, int>>, decltype(comp)> cpq;
+cpq pq(comp);
+
+
+
+<!-- upper_bound in 2d array -->
+
+     auto j = upper_bound(begin(e) + i, end(e), e[i][1], 
+        [](int t, const vector<int> &v) {return v[0] > t;}) - begin(e);
