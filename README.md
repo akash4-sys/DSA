@@ -200,6 +200,7 @@
 | 345.  | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)                                                                                       |   Yes    |    Easy    |
 | 347.  | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/editorial/)                                                                                               |   Yes    |   Medium   |
 | 352.  | [Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/description/)                                                                         |   Yes    |    Hard    |
+| 354.  | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/description/)                                                                                               |   Yes    |    Hard    |
 | 355.  | [Design Twitter](https://leetcode.com/problems/design-twitter/)                                                                                                                           |   Yes    |   Medium   |
 | 357.  | [Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/)                                                                                       |   Yes    |   Medium   |
 | 363.  | [Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)                                                                             |   Yes    |    Hard    |
@@ -225,6 +226,7 @@
 | 421.  | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)                                                               |   Yes    |   Medium   |
 | 429.  | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)                                                                                       |   Yes    |   Medium   |
 | 433.  | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)                                                                                           |   Yes    |   Medium   |
+| 435.  | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/description/)                                                                                         |   Yes    |   Medium   |
 | 437.  | [Path Sum III](https://leetcode.com/problems/path-sum-iii/description/)                                                                                                                   |   Yes    |   Medium   |
 | 438.  | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)                                                                                             |   Yes    |   Medium   |
 | 443.  | [String Compression](https://leetcode.com/problems/string-compression/description/)                                                                                                       |   Yes    |   Medium   |
@@ -312,6 +314,7 @@
 | 731.  | [My Calender II](https://leetcode.com/problems/my-calendar-ii/)                                                                                                                           |   Yes    |   Medium   |
 | 732.  | [My Calender III](https://leetcode.com/problems/my-calendar-iii/)                                                                                                                         |   Yes    |    Hard    |
 | 733.  | [Flood Fill](https://leetcode.com/problems/flood-fill/)                                                                                                                                   |   Yes    |    Easy    |
+| 735.  | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/description/)                                                                                                       |   Yes    |   Medium   |
 | 739.  | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)                                                                                                       |   Yes    |   Medium   |
 | 746.  | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)                                                                                                       |   Yes    |    Easy    |
 | 749.  | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)                                                                                                                         |   Yes    |   Medium   |
@@ -854,6 +857,7 @@
 | 2740  | [Find the Value of the Partition](https://leetcode.com/problems/find-the-value-of-the-partition/)                                                                                         |   Yes    |   Medium   |
 | 2741  | [Special Permutations](https://leetcode.com/problems/special-permutations/)                                                                                                               |   Yes    |   Medium   |
 | 2742  | [Painting the Walls](https://leetcode.com/problems/painting-the-walls/description/)                                                                                                       |   Yes    |    Hard    |
+| 2747  | [Count Zero Request Servers](https://leetcode.com/problems/count-zero-request-servers/)                                                                                                   |   Yes    |   Medium   |
 | 2748  | [Number of Beautiful Pairs](https://leetcode.com/problems/number-of-beautiful-pairs/description/)                                                                                         |   Yes    |    Easy    |
 | 2749  | [Minimum Operations to Make the Integer Zero](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/submissions/)                                                     |   Yes    |   Medium   |
 | 2750  | [Ways to Split Array Into Good Subarrays](https://leetcode.com/problems/ways-to-split-array-into-good-subarrays/description/)                                                             |   Yes    |   Medium   |
@@ -862,3 +866,7 @@
 | 2761  | [Prime Pairs With Target Sum](https://leetcode.com/problems/prime-pairs-with-target-sum/)                                                                                                 |   Yes    |   Medium   |
 | 2762  | [Continuous Subarrays](https://leetcode.com/problems/continuous-subarrays/)                                                                                                               |   Yes    |   Medium   |
 | 2763  | [Sum of Imbalance Numbers of All Subarrays](https://leetcode.com/problems/sum-of-imbalance-numbers-of-all-subarrays/description/)                                                         |   Yes    |    Hard    |
+| 2765  | [Longest Alternating Subarray](https://leetcode.com/problems/longest-alternating-subarray/)                                                                                                               |   Yes    |   Easy   |
+| 2766  | [Relocate Marbles](https://leetcode.com/problems/relocate-marbles/)                                                                                                               |   Yes    |   Medium   |
+| 2767  | [Partition String Into Minimum Beautiful Substrings](https://leetcode.com/problems/partition-string-into-minimum-beautiful-substrings/)                                                                                                               |   Yes    |   Medium   |
+| 2768  | [Number of Black Blocks](https://leetcode.com/problems/number-of-black-blocks/)                                                                                                               |   Yes    |   Medium   |
