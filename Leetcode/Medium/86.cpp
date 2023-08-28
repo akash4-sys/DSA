@@ -1,35 +1,21 @@
 #include "../../headers.h"
+#include "../../LinkedList.h"
 
-struct ListNode {
-    int val;
-    ListNode *next;
-    ListNode() : val(0), next(nullptr) {}
-    ListNode(int x) : val(x), next(nullptr) {}
-    ListNode(int x, ListNode *next) : val(x), next(next) {}
-};
-
-class Solution {
+class Solution
+{
 public:
-    ListNode* partition(ListNode* head, int x) {
-        ListNode *left = new ListNode();
-        ListNode *right = new ListNode();
-        ListNode *ans = left, *r = right;
-        while(head)
-        {
-            if(head->val < x)
-            {
-                left->next = head;
-                left = left->next;
-            }
+    ListNode* partition(ListNode* head, int x)
+    {
+        auto *sm = new ListNode(), *gt = new ListNode();
+        auto *l = sm, *r = gt;
+        for (; head; head = head->next)
+            if (head->val < x)
+               l = l->next = head;
             else
-            {
-                right->next = head;
-                right = right->next;
-            }
-            head = head->next;
-        }
-        right->next = NULL;
-        left->next= r->next;
-        return ans->next;
+                r = r->next = head;
+        
+        r->next = NULL;
+        l->next = gt->next;
+        return sm->next;
     }
 };

@@ -27,7 +27,7 @@ vector<int> lcs_index(string s, string r)
 // returns longest common subsequence
 string lcs(string s, string r)
 {
-    vector<vector<string>> dp(s.size() + 1, vector<string>(r.size() + 1, ""));
+    vector dp(s.size() + 1, vector<string>(r.size() + 1, ""));
     for (int i = 0; i < s.size(); i++)
         for (int j = 0; j < r.size(); j++)
         {

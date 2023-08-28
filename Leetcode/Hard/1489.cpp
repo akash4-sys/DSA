@@ -3,69 +3,61 @@
 class DSU
 {
     vector<int> par;
-
+    
 public:
-    DSU(int n) : par(n)
-    {
+    DSU(int n) : par(n) {
         iota(par.begin(), par.end(), 0);
     }
 
-    int find(int x)
-    {
-        return x == par[x] ? x : par[x] = find(par[x]);
+    int find(int u) {
+        return u == par[u] ? u : par[u] = find(par[u]);
     }
 
-    bool Union(int x, int y)
-    {
-        int xp = find(x), yp = find(y);
-        if (xp == yp)
-            return false;
-        par[xp] = yp;
-        return true;
+    bool Union(int u, int v) {
+        int up = find(u), vp = find(v);
+        if (up == vp)
+            return 0;
+        par[up] = vp;
+        return 1;
     }
 };
 
 class Solution
 {
-    int n;
-    int findMST(vector<vector<int>> &edges, int skip, int force = -1)
+    int mstWeight(vector<vector<int>> &edges, int n, int skipV = -1, int addEdge = -1)
     {
-        int minW = 0;
+        int minWeight = 0;
         DSU uf(n);
-        if(force != -1)
-            uf.Union(edges[force][0], edges[force][1]), minW += edges[force][2];
-
+        if (addEdge != -1)
+            uf.Union(edges[addEdge][0], edges[addEdge][1]), minWeight += edges[addEdge][2];
+        
         for (int i = 0; i < edges.size(); i++)
-        {
-            if (i == skip)
-                continue;
-            if (uf.Union(edges[i][0], edges[i][1]))
-                minW += edges[i][2];
-        }
-
-        for(int i = 0; i < n; i++)
-            if(uf.find(i) != uf.find(0))
+            if (i != skipV && uf.Union(edges[i][0], edges[i][1]))
+                minWeight += edges[i][2];
+        
+        for (int i = 0; i < n; i++)
+            if (uf.find(i) != uf.find(0))
                 return INT_MAX;
-        return minW;
+        return minWeight;
     }
 
 public:
     vector<vector<int>> findCriticalAndPseudoCriticalEdges(int n, vector<vector<int>> &edges)
     {
-        this->n = n;
-        vector<int> crit, pCrit;
-        for(int i = 0; i < n; i++)
+        for (int i = 0; i < edges.size(); i++)
             edges[i].push_back(i);
-        sort(edges.begin(), edges.end(), [](auto &e1, auto &e2) { return e1[2] < e2[2]; });
-        
-        int minW = findMST(edges, -1);
-        for(int i = 0; i < edges.size(); i++)
-            if(findMST(edges, i) > minW)
-                crit.push_back(i);
-            else if(findMST(edges, -1, i) == minW)
-                pCrit.push_back(i);
-        
-        return { crit, pCrit };
+        sort(edges.begin(), edges.end(), [&](const auto &a, const auto &b){
+            return a[2] < b[2];
+        });
+
+        vector<int> critIdx, pCritIdx;
+        int minWeight = mstWeight(edges, n);
+        for (int i = 0; i < edges.size(); i++)
+            if (mstWeight(edges, n, i) > minWeight)
+                critIdx.push_back(edges[i][3]);
+            else if (mstWeight(edges, n, -1, i) == minWeight)
+                pCritIdx.push_back(edges[i][3]);
+        return {critIdx, pCritIdx};
     }
 };
 

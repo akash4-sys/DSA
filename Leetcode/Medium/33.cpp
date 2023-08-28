@@ -1,30 +1,49 @@
 #include "../../headers.h"
 
-class Solution {
+class Solution
+{
 public:
-    int search(vector<int>& nums, int target) {
-        if(nums.size() == 0) return -1;
-        if(nums.size() == 1) return (nums[0] == target)? 0 : -1;
-        
-        int st = 0;
-        int end = nums.size()-1;
-        while(st <= end){
-            int mid = (end + st)/2;
+    int search(vector<int> &v, int t)
+    {
+        for (int l = 0, r = v.size(); l < r; )
+        {
+            int mid = (l + r) / 2;
+            int x = v[mid] < v[0] == t < v[0] ? v[mid] : (t < v[0] ? INT_MIN : INT_MAX);
+            if (x == t)
+                return mid;
+            x < t ? l = mid + 1 : r = mid;
+        }
+        return -1;
+    }
+};
 
-            if(nums[mid] == target) return mid;
-            if(st == end) break;
-            if(st == mid) { 
-                st++; 
-                continue; 
-            }
 
-            if(nums[st] <= nums[mid]){
-                if(nums[st] <= target && target <= nums[mid]) end = mid;
-                else st = mid;
+
+class Solution
+{
+public:
+    int search(vector<int> &v, int t)
+    {
+        int left = 0, right = v.size() - 1;
+        while (left <= right)
+        {
+            int mid = left + (right - left) / 2;
+            if (v[mid] == t)
+                return mid;
+
+            else if (v[mid] >= v[left])
+            {
+                if (t >= v[left] && t < v[mid])
+                    right = mid - 1;
+                else
+                    left = mid + 1;
             }
-            else{
-                if(target < nums[st] && nums[mid] < target) st = mid;
-                else end = mid;
+            else
+            {
+                if (t <= v[right] && t > v[mid])
+                    left = mid + 1;
+                else
+                    right = mid - 1;
             }
         }
         return -1;
