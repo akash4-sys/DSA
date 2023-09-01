@@ -230,6 +230,7 @@
 | 410.  | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/description/)                                                                                             |   Yes    |    Hard    |
 | 413.  | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)                                                                                                                     |   Yes    |   Medium   |
 | 417.  | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                                                                                 |   Yes    |   Medium   |
+| 420.  | [Strong Password Checker](https://leetcode.com/problems/strong-password-checker/description/)                                                                                                 |   Yes    |   Hard   |
 | 421.  | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)                                                               |   Yes    |   Medium   |
 | 429.  | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)                                                                                       |   Yes    |   Medium   |
 | 433.  | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)                                                                                           |   Yes    |   Medium   |
@@ -463,6 +464,7 @@
 | 1318. | [Minimum Flips to Make a OR b Equal to c](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/description/)                                                             |   Yes    |   Medium   |
 | 1319. | [Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/description/)                                               |   Yes    |   Medium   |
 | 1323. | [Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/description/)                                                                                                         |   Yes    |    Easy    |
+| 1326. | [Minimum Number of Taps to Open to Water a Garden](https://leetcode.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/description/)                                           |   Yes    |    Hard    |
 | 1328. | [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome/)                                                                                                                   |   Yes    |   Medium   |
 | 1329. | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)                                                                                                   |   Yes    |   Medium   |
 | 1334. | [Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) |   Yes    |   Medium   |
@@ -649,6 +651,7 @@
 | 2360. | [Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/description/)                                                                                           |   Yes    |    Hard    |
 | 2363. | [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)                                                                                                                 |   Yes    |    Easy    |
 | 2364. | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)                                                                                                     |    No    |   Medium   |
+| 2366. | [Minimum Replacements to Sort the Array](https://leetcode.com/problems/minimum-replacements-to-sort-the-array/)                                                                           |   Yes    |    Hard    |
 | 2367. | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)                                                                                             |   Yes    |    Easy    |
 | 2368. | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)                                                                                     |   Yes    |   Medium   |
 | 2375. | [Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/)                                                                       |   Yes    |   Medium   |
