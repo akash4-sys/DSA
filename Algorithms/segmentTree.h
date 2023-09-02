@@ -13,35 +13,35 @@ using namespace std;
 
 class SegmentTree
 {
-    vector<int> t;
+    vector<int> tree;
     int n;
 
 public:
     SegmentTree(vector<int> &v)
     {
         n = v.size();
-        t = vector<int>(n * 2, 0);
+        tree = vector<int>(n * 2, 0);
         for (int i = 0; i < n; i++)
-            t[i + n] = v[i];
+            tree[i + n] = v[i];
         for (int i = n - 1; i > 0; --i)
-            t[i] = t[2 * i] + t[(2 * i) + 1];       // *
+            tree[i] = tree[2 * i] + tree[(2 * i) + 1];       // *
     }
 
     void update(int i, int val)
     {
-        for (t[i += n] = val; i > 1;)
-            t[i >>= 1] = t[2 * i] + t[(2 * i) + 1];          // *
+        for (tree[i += n] = val; i > 1;)
+            tree[i >>= 1] = tree[2 * i] + tree[(2 * i) + 1];          // *
     }
 
-    int query(int l, int r)
+    int query(int left, int right)
     {
         int res = 0;
-        for (l += n, r += n + 1; l < r; l >>= 1, r >>= 1)
+        for (left += n, right += n + 1; left < right; left >>= 1, right >>= 1)
         {
-            if (l & 1)
-                res += t[l++];          // *
-            if (r & 1)
-                res += t[--r];          // *
+            if (left & 1)
+                res += tree[left++];          // *
+            if (right & 1)
+                res += tree[--right];          // *
         }
         return res;
     }
@@ -49,60 +49,68 @@ public:
 
 
 
-// Recursive
+// Recursive segment tree is more general
+
+#define ll long long
+
 class SegmentTree
 {
-    vector<int> t;
-    int n;
-    int build(vector<int> &v, int i, int l, int r)
+    ll n;
+    vector<ll> tree;
+
+    ll buildTree(vector<int> &v, int i, int left, int right)
     {
-        if (l == r)
-            return t[i] = v[l];
-        int mid = l + (r - l) / 2;
-        return t[i] = build(v, 2 * i, l, mid) + build(v, (2 * i) + 1, mid + 1, r);
+        if (left == right)
+            return tree[i] = v[left];
+
+        ll mid = left + (right - left) / 2;
+        ll leftTree = buildTree(v, 2 * i, left, mid);
+        ll rightTree = buildTree(v, (2 * i) + 1, mid + 1, right);
+        return tree[i] = leftTree + rightTree;
     }
 
-    void updateUtil(int pos, int val, int i, int l, int r)
+    ll query(int left, int right, int i, int tree_left, int tree_right)
     {
-        if (pos < l || pos > r)
+        if (tree_left > right || tree_right < left)
+            return 0;
+        if (tree_left >= left && tree_right <= right)
+            return tree[i];
+
+        ll mid = tree_left + (tree_right - tree_left) / 2;
+        ll leftTree = query(left, right, 2 * i, tree_left, mid);
+        ll rightTree = query(left, right, 2 * i + 1, mid + 1, tree_right);
+        return leftTree + rightTree;
+    }
+
+    void update(int idx, int val, int i, int left, int right)
+    {
+        if (idx < left || idx > right)
             return;
-        if (l == r)
-        {
-            t[i] += val;
+
+        if (left == right) {
+            tree[i] = val;
             return;
         }
 
-        int mid = l + (r - l) / 2;
-        updateUtil(pos, val, i * 2, l, mid);
-        updateUtil(pos, val, (i * 2) + 1, mid + 1, r);
-        t[i] = t[i * 2] + t[(i * 2) + 1];
-    }
-
-    int queryUtil(int st, int en, int i, int l, int r)
-    {
-        if (l > en || r < st)
-            return 0;
-        if (l >= st && r <= en)
-            return t[i];
-        int mid = l + (r - l) / 2;
-        return queryUtil(st, en, i * 2, l, mid) + queryUtil(st, en, (i * 2) + 1, mid + 1, r);
+        ll mid = left + (right - left) / 2;
+        update(idx, val, i * 2, left, mid);
+        update(idx, val, (i * 2) + 1, mid + 1, right);
+        tree[i] = tree[i * 2] + tree[i * 2 + 1];
     }
 
 public:
     SegmentTree(vector<int> &v)
     {
         n = v.size();
-        t = vector<int>(v.size() * 4, 0);
-        build(v, 1, 0, v.size() - 1);
+        tree = vector<ll>(n * 4, 0);
+        buildTree(v, 1, 0, v.size() - 1);
     }
 
-    void update(int pos, int val)
-    {
-        updateUtil(pos, val, 1, 0, n - 1);
+    void update(int idx, int val) {
+        return update(idx, val, 1, 0, n - 1);
     }
 
-    int query(int l, int r)
-    {
-        return queryUtil(l, r, 1, 0, n - 1);
+    ll query(int left, int right) {
+        return query (left, right, 1, 0, n - 1);
     }
 };

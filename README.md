@@ -230,7 +230,7 @@
 | 410.  | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/description/)                                                                                             |   Yes    |    Hard    |
 | 413.  | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)                                                                                                                     |   Yes    |   Medium   |
 | 417.  | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                                                                                 |   Yes    |   Medium   |
-| 420.  | [Strong Password Checker](https://leetcode.com/problems/strong-password-checker/description/)                                                                                                 |   Yes    |   Hard   |
+| 420.  | [Strong Password Checker](https://leetcode.com/problems/strong-password-checker/description/)                                                                                             |   Yes    |    Hard    |
 | 421.  | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)                                                               |   Yes    |   Medium   |
 | 429.  | [N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)                                                                                       |   Yes    |   Medium   |
 | 433.  | [Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/description/)                                                                                           |   Yes    |   Medium   |
@@ -332,6 +332,7 @@
 | 746.  | [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)                                                                                                       |   Yes    |    Easy    |
 | 749.  | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/)                                                                                                                         |   Yes    |   Medium   |
 | 753.  | [Cracking the Safe](https://leetcode.com/problems/cracking-the-safe/description/)                                                                                                         |   Yes    |    Hard    |
+| 765.  | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/description/)                                                                                                             |   Yes    |    Hard    |
 | 766.  | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/)                                                                                                             |   Yes    |    Easy    |
 | 767.  | [Reorganize String](https://leetcode.com/problems/reorganize-string/description/)                                                                                                         |   Yes    |   Medium   |
 | 778.  | [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/description/)                                                                                                   |   Yes    |    Hard    |
@@ -909,6 +910,7 @@
 | 2787  | [Ways to Express an Integer as Sum of Powers](https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers)                                                                  |   Yes    |   Medium   |
 | 2788  | [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator)                                                                                                    |   Yes    |    Easy    |
 | 2789  | [Largest Element in an Array after Merge Operations](https://leetcode.com/problems/largest-element-in-an-array-after-merge-operations)                                                    |   Yes    |   Medium   |
+| 2790  | [Maximum Number of Groups With Increasing Length](https://leetcode.com/problems/maximum-number-of-groups-with-increasing-length/description/)                                             |   Yes    |    Hard    |
 | 2791  | [Count Paths That Can Form a Palindrome in a Tree](https://leetcode.com/problems/count-paths-that-can-form-a-palindrome-in-a-tree)                                                        |   Yes    |    Hard    |
 | 2798  | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target)                                                                            |   Yes    |    Easy    |
 | 2799  | [Count Complete Subarrays in an Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array)                                                                                |   Yes    |   Medium   |
