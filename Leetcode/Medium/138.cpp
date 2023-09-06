@@ -38,16 +38,36 @@ public:
         }
 
         Node *ans = new Node(0), *h = ans;
-
         while(head)
         {
             h->next = head->next;
             h = h->next;
-
             head->next = head->next->next;
             head = head->next;
         }
-
         return ans->next;
+    }
+};
+
+
+// Time Complexity - O(N)
+// Space Complexity - O(N)
+
+class Solution
+{
+public:
+    Node* copyRandomList(Node* head)
+    {
+        map<Node *, Node *> mp;
+        Node *h = head;
+        for (; h; h = h->next)
+            mp[h] = new Node(h->val);
+        
+        h = head;
+        for (; h; h = h->next) {
+            mp[h]->next = mp[h->next];
+            mp[h]->random = mp[h->random];
+        }
+        return mp[head];
     }
 };

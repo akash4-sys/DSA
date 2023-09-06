@@ -322,6 +322,7 @@
 | 714.  | [Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)                                               |   Yes    |   Medium   |
 | 718.  | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)                                                                                 |   Yes    |   Medium   |
 | 720.  | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/description/)                                                                                       |   Yes    |   Medium   |
+| 725.  | [Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/description/)                                                                                       |   Yes    |   Medium   |
 | 728.  | [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/description/)                                                                                                 |   Yes    |    Easy    |
 | 729.  | [My Calender I](https://leetcode.com/problems/my-calendar-i/)                                                                                                                             |   Yes    |   Medium   |
 | 731.  | [My Calender II](https://leetcode.com/problems/my-calendar-ii/)                                                                                                                           |   Yes    |   Medium   |
@@ -928,3 +929,7 @@
 | 2840  | [Check if Strings Can be Made Equal With Operations II](https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/description/)                                 |   Yes    |   Medium   |
 | 2841  | [Maximum Sum of Almost Unique Subarray](https://leetcode.com/problems/maximum-sum-of-almost-unique-subarray/description/)                                                                 |   Yes    |   Medium   |
 | 2842  | [Count K-Subsequences of a String With Maximum Beauty](https://leetcode.com/problems/count-k-subsequences-of-a-string-with-maximum-beauty/description/)                                   |   Yes    |    Hard    |
+| 2843  | [Count Symmetric Integers](https://leetcode.com/problems/count-symmetric-integers/)                                                                                                       |   Yes    |    Easy    |
+| 2844  | [Minimum Operations to Make a Special Number](https://leetcode.com/problems/minimum-operations-to-make-a-special-number/description/)                                                     |   Yes    |   Medium   |
+| 2845  | [Count of Interesting Subarrays](https://leetcode.com/problems/count-of-interesting-subarrays/description/)                                                                               |   Yes    |   Medium   |
+| 2846  | [Minimum Edge Weight Equilibrium Queries in a Tree](https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree/description/)                                         |   Yes    |    Hard    |
