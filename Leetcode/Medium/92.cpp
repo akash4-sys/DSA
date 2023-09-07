@@ -12,23 +12,23 @@ struct ListNode
 class Solution
 {
 public:
-    ListNode *reverseBetween(ListNode *head, int left, int right)
+    ListNode *reverseBetween(ListNode *head, int l, int r)
     {
-        ListNode *ans = new ListNode();
-        ListNode *r, *l = ans;
-        ans -> next = head;
-        for (int i = 0; i < left - 1; i++)
+        auto h = new ListNode(0);
+        h->next = head;
+
+        auto prev = h;
+        for (int i = 1; i < l; i++)
+            prev = prev->next;
+        
+        auto curr = prev->next;
+        for (; l < r; l++)
         {
-            l = l->next;
+            auto temp = curr->next;
+            curr->next = temp->next;
+            temp->next = prev->next;
+            prev->next = temp;
         }
-        r = l->next;
-        for (int i = 0; i < right - left; i++)
-        {
-            ListNode *temp = l->next;
-            l->next = r->next;
-            r->next = r->next->next;
-            l->next->next = temp;
-        }
-        return ans->next;
+        return h->next;
     }
 };
