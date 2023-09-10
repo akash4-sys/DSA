@@ -936,3 +936,7 @@
 | 2844  | [Minimum Operations to Make a Special Number](https://leetcode.com/problems/minimum-operations-to-make-a-special-number/description/)                                                     |   Yes    |   Medium   |
 | 2845  | [Count of Interesting Subarrays](https://leetcode.com/problems/count-of-interesting-subarrays/description/)                                                                               |   Yes    |   Medium   |
 | 2846  | [Minimum Edge Weight Equilibrium Queries in a Tree](https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree/description/)                                         |   Yes    |    Hard    |
+| 2848  | [Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)                                                                                         |   Yes    |    Easy    |
+| 2849  | [Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/description/)                                           |   Yes    |   Medium   |
+| 2850  | [Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/description/)                                                           |   Yes    |   Medium   |
+| 2851  | []()                                                                                                                                                                                      |   Yes    |    Hard    |
