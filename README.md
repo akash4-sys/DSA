@@ -119,6 +119,7 @@
 | 130.  | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)                                                                                                                   |   Yes    |   Medium   |
 | 131.  | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)                                                                                                         |   Yes    |   Medium   |
 | 134.  | [Gas Station](https://leetcode.com/problems/gas-station/description/)                                                                                                                     |   Yes    |   Medium   |
+| 135.  | [Candy](https://leetcode.com/problems/candy/description/)                                                                                                                     |   Yes    |   Hard   |
 | 136.  | [Single Number I](https://leetcode.com/problems/single-number-i/description/)                                                                                                             |   Yes    |    Easy    |
 | 137.  | [Single Number II](https://leetcode.com/problems/single-number-ii/description/)                                                                                                           |   Yes    |   Medium   |
 | 138.  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                                                             |   Yes    |   Medium   |
@@ -455,6 +456,7 @@
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                                                       |   Yes    |   Medium   |
 | 1255. | [Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/description/)                                                                 |   Yes    |    Hard    |
 | 1268. | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                                                         |   Yes    |   Medium   |
+| 1282. | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/description/)                                   |   Yes    |   Medium   |
 | 1284. | [ Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/description/)            |   Yes    |    Hard    |
 | 1290. | [Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)                                                     |   Yes    |    Easy    |
 | 1293. | [Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/description/)                                       |   Yes    |    Hard    |
@@ -542,6 +544,7 @@
 | 1639. | [Number of Ways to Form a Target String Given a Dictionary](https://leetcode.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/)                                     |   Yes    |    Hard    |
 | 1641. | [Count Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/description/)                                                                                              |   Yes    |   Medium   |
 | 1646. | [Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)                                                                                           |   Yes    |    Easy    |
+| 1647. | [Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/description/)                               |   Yes    |   Medium   |
 | 1649. | [Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)                                                                       |   Yes    |    Hard    |
 | 1657. | [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/description/)                                                                       |   Yes    |   Medium   |
 | 1668. | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)                                                                                                 |   Yes    |    Easy    |
@@ -920,6 +923,7 @@
 | 2806  | [Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/)                                                                           |   Yes    |    Easy    |
 | 2807  | [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/)                                                           |   Yes    |   Medium   |
 | 2808  | [Minimum Seconds to Equalize a Circular Array](https://leetcode.com/problems/minimum-seconds-to-equalize-a-circular-array/description/)                                                   |   Yes    |   Medium   |
+| 2809  | [Minimum Time to Make Array Sum At Most x](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/)                                                                                          |   Yes    |    Hard    |
 | 2828  | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)                                                                       |   Yes    |    Easy    |
 | 2829  | [Determine the Minimum Sum of a k-avoiding Array](https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array)                                                          |   Yes    |   Medium   |
 | 2830  | [Maximize the Profit as the Salesman](https://leetcode.com/problems/maximize-the-profit-as-the-salesman)                                                                                  |   Yes    |   Medium   |
