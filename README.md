@@ -119,7 +119,7 @@
 | 130.  | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)                                                                                                                   |   Yes    |   Medium   |
 | 131.  | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)                                                                                                         |   Yes    |   Medium   |
 | 134.  | [Gas Station](https://leetcode.com/problems/gas-station/description/)                                                                                                                     |   Yes    |   Medium   |
-| 135.  | [Candy](https://leetcode.com/problems/candy/description/)                                                                                                                     |   Yes    |   Hard   |
+| 135.  | [Candy](https://leetcode.com/problems/candy/description/)                                                                                                                                 |   Yes    |    Hard    |
 | 136.  | [Single Number I](https://leetcode.com/problems/single-number-i/description/)                                                                                                             |   Yes    |    Easy    |
 | 137.  | [Single Number II](https://leetcode.com/problems/single-number-ii/description/)                                                                                                           |   Yes    |   Medium   |
 | 138.  | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)                                                                                             |   Yes    |   Medium   |
@@ -230,6 +230,7 @@
 | 407.  | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/)                                                                                                           |   Yes    |    Hard    |
 | 410.  | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/description/)                                                                                             |   Yes    |    Hard    |
 | 413.  | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/)                                                                                                                     |   Yes    |   Medium   |
+| 416.  | [Parition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)                                                                                                    |   Yes    |   Medium   |
 | 417.  | [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)                                                                                                 |   Yes    |   Medium   |
 | 420.  | [Strong Password Checker](https://leetcode.com/problems/strong-password-checker/description/)                                                                                             |   Yes    |    Hard    |
 | 421.  | [Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/description/)                                                               |   Yes    |   Medium   |
@@ -473,6 +474,7 @@
 | 1329. | [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/)                                                                                                   |   Yes    |   Medium   |
 | 1334. | [Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) |   Yes    |   Medium   |
 | 1335. | [Minimum Difficulty Of Job Schedule](https://leetcode.com/problems/minimum-difficulty-of-a-job-schedule/)                                                                                 |   Yes    |    Hard    |
+| 1337. | [The K Weakest Rows in a Matrix](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/)                                                                                           |   Yes    |    Easy    |
 | 1338. | [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/)                                                                                             |   Yes    |   Medium   |
 | 1339. | [Maximum Product of Splitted Binary Tree](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/description/)                                                             |   Yes    |   Medium   |
 | 1342. | [Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)                                                                   |   Yes    |    Easy    |
@@ -923,7 +925,11 @@
 | 2806  | [Account Balance After Rounded Purchase](https://leetcode.com/problems/account-balance-after-rounded-purchase/)                                                                           |   Yes    |    Easy    |
 | 2807  | [Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/)                                                           |   Yes    |   Medium   |
 | 2808  | [Minimum Seconds to Equalize a Circular Array](https://leetcode.com/problems/minimum-seconds-to-equalize-a-circular-array/description/)                                                   |   Yes    |   Medium   |
-| 2809  | [Minimum Time to Make Array Sum At Most x](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/)                                                                                          |   Yes    |    Hard    |
+| 2809  | [Minimum Time to Make Array Sum At Most x](https://leetcode.com/problems/minimum-time-to-make-array-sum-at-most-x/)                                                                       |   Yes    |    Hard    |
+| 2810  | [Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard)                                                                                                                          |   Yes    |    Easy    |
+| 2811  | [Check if it is Possible to Split Array](https://leetcode.com/problems/check-if-it-is-possible-to-split-array)                                                                            |   Yes    |   Medium   |
+| 2812  | [Find the Safest Path in a Grid](https://leetcode.com/problems/find-the-safest-path-in-a-grid/description/)                                                                               |   Yes    |   Medium   |
+| 2813  | [Maximum Elegance of a K-Length Subsequence](https://leetcode.com/problems/maximum-elegance-of-a-k-length-subsequence/description/)                                                       |   Yes    |    Hard    |
 | 2828  | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)                                                                       |   Yes    |    Easy    |
 | 2829  | [Determine the Minimum Sum of a k-avoiding Array](https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array)                                                          |   Yes    |   Medium   |
 | 2830  | [Maximize the Profit as the Salesman](https://leetcode.com/problems/maximize-the-profit-as-the-salesman)                                                                                  |   Yes    |   Medium   |
@@ -943,4 +949,3 @@
 | 2848  | [Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)                                                                                         |   Yes    |    Easy    |
 | 2849  | [Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/description/)                                           |   Yes    |   Medium   |
 | 2850  | [Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/description/)                                                           |   Yes    |   Medium   |
-| 2851  | []()                                                                                                                                                                                      |   Yes    |    Hard    |
