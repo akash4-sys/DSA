@@ -219,6 +219,7 @@
 | 382.  | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)                                                                                                         |   Yes    |   Medium   |
 | 383.  | [Ransom Note](https://leetcode.com/problems/ransom-note/)                                                                                                                                 |   Yes    |    Easy    |
 | 384.  | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)                                                                                                                       |   Yes    |   Medium   |
+| 389.  | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)                                                                                                                       |   Yes    |   Easy   |
 | 392.  | [Is Subsequence](https://leetcode.com/problems/is-subsequence/)                                                                                                                           |   Yes    |    Easy    |
 | 393.  | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)                                                                                                                       |   Yes    |   Medium   |
 | 394.  | [Decode String](https://leetcode.com/problems/decode-string/description/)                                                                                                                 |   Yes    |   Medium   |
@@ -345,6 +346,7 @@
 | 792.  | [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/)                                                                                         |   Yes    |   Medium   |
 | 796.  | [Rotate String](https://leetcode.com/problems/rotate-string)                                                                                                                              |   Yes    |    Easy    |
 | 797.  | [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/)                                                                                         |   Yes    |   Medium   |
+| 799.  | [Champangne Tower](https://leetcode.com/problems/champagne-tower/description/)                                                                                                            |   Yes    |   Medium   |
 | 802.  | [Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/)                                                                                                     |   Yes    |   Medium   |
 | 804.  | [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)                                                                                                         |   Yes    |    Easy    |
 | 808.  | [Soup Servings](https://leetcode.com/problems/soup-servings)                                                                                                                              |   Yes    |   Medium   |
@@ -418,6 +420,7 @@
 | 993.  | [Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/)                                                                                               |   Yes    |    Easy    |
 | 994.  | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/description/)                                                                                                             |   Yes    |   Medium   |
 | 997.  | [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)                                                                                                                 |   Yes    |   Medium   |
+| 1001. | [Grid Illumination](https://leetcode.com/problems/grid-illumination/description/)                                                                                                         |   Yes    |    Hard    |
 | 1004. | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii)                                                                                                        |   Yes    |   Medium   |
 | 1008. | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/description/)                                   |   Yes    |   Medium   |
 | 1009. | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/description/)                                                                                 |   Yes    |    Easy    |
@@ -549,6 +552,7 @@
 | 1647. | [Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/description/)                               |   Yes    |   Medium   |
 | 1649. | [Create Sorted Array through Instructions](https://leetcode.com/problems/create-sorted-array-through-instructions/)                                                                       |   Yes    |    Hard    |
 | 1657. | [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/description/)                                                                       |   Yes    |   Medium   |
+| 1658. | [Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description/)                                                               |   Yes    |   Medium   |
 | 1668. | [Maximum Repeating Substring](https://leetcode.com/problems/maximum-repeating-substring/)                                                                                                 |   Yes    |    Easy    |
 | 1669. | [Merge In Between Linked Lists](https://leetcode.com/problems/merge-in-between-linked-lists/)                                                                                             |   Yes    |   Medium   |
 | 1675. | [Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/description/)                                                                                     |   Yes    |    Hard    |
@@ -949,3 +953,7 @@
 | 2848  | [Points That Intersect With Cars](https://leetcode.com/problems/points-that-intersect-with-cars/)                                                                                         |   Yes    |    Easy    |
 | 2849  | [Determine if a Cell Is Reachable at a Given Time](https://leetcode.com/problems/determine-if-a-cell-is-reachable-at-a-given-time/description/)                                           |   Yes    |   Medium   |
 | 2850  | [Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/description/)                                                           |   Yes    |   Medium   |
+| 2864  | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/description/)                                                                                         |   Yes    |    Easy    |
+| 2865  | [Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i/)                                                                                                                   |   Yes    |   Medium   |
+| 2866  | [Beautiful Towers II](https://leetcode.com/problems/beautiful-towers-ii/)                                                                                                                   |   Yes    |   Medium   |
+| 2867  | [Count Valid Paths in a Tree](https://leetcode.com/problems/count-valid-paths-in-a-tree/description/)                                                                                                                   |   Yes    |   Hard   |
