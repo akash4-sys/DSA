@@ -192,6 +192,7 @@
 | 309.  | [Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/)                                                             |   Yes    |   Medium   |
 | 312.  | [Burst Balloons](https://leetcode.com/problems/burst-balloons/description/)                                                                                                               |   Yes    |    Hard    |
 | 315.  | [Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)                                                                                 |   Yes    |    Hard    |
+| 316.  | [Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/description/)                                                                                           |   Yes    |   Medium   |
 | 319.  | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/description/)                                                                                                                 |   Yes    |   Medium   |
 | 322.  | [Coin Change](https://leetcode.com/problems/coin-change/)                                                                                                                                 |   Yes    |   Medium   |
 | 326.  | [Power of Three](https://leetcode.com/problems/power-of-three/)                                                                                                                           |   Yes    |    Easy    |
@@ -219,7 +220,7 @@
 | 382.  | [Linked List Random Node](https://leetcode.com/problems/linked-list-random-node/)                                                                                                         |   Yes    |   Medium   |
 | 383.  | [Ransom Note](https://leetcode.com/problems/ransom-note/)                                                                                                                                 |   Yes    |    Easy    |
 | 384.  | [Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)                                                                                                                       |   Yes    |   Medium   |
-| 389.  | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)                                                                                                                       |   Yes    |   Easy   |
+| 389.  | [Find the Difference](https://leetcode.com/problems/find-the-difference/description/)                                                                                                     |   Yes    |    Easy    |
 | 392.  | [Is Subsequence](https://leetcode.com/problems/is-subsequence/)                                                                                                                           |   Yes    |    Easy    |
 | 393.  | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)                                                                                                                       |   Yes    |   Medium   |
 | 394.  | [Decode String](https://leetcode.com/problems/decode-string/description/)                                                                                                                 |   Yes    |   Medium   |
@@ -377,6 +378,7 @@
 | 876.  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                                                                                     |   Yes    |    Easy    |
 | 877.  | [Stone Game](https://leetcode.com/problems/stone-game/description/)                                                                                                                       |   Yes    |   Medium   |
 | 879.  | [Profitable Schemes](https://leetcode.com/problems/profitable-schemes/description/)                                                                                                       |   Yes    |    Hard    |
+| 880.  | [Decoded String at Index](https://leetcode.com/problems/decoded-string-at-index/description/)                                                                                             |   Yes    |   Medium   |
 | 881.  | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/)                                                                                                   |   Yes    |   Medium   |
 | 886.  | [Possible Bipartition](https://leetcode.com/problems/possible-bipartition/description/)                                                                                                   |   Yes    |   Medium   |
 | 889.  | [Construct Binary Tree from Preorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/description/)                     |   Yes    |   Medium   |
@@ -955,5 +957,5 @@
 | 2850  | [Minimum Moves to Spread Stones Over Grid](https://leetcode.com/problems/minimum-moves-to-spread-stones-over-grid/description/)                                                           |   Yes    |   Medium   |
 | 2864  | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/description/)                                                                                         |   Yes    |    Easy    |
 | 2865  | [Beautiful Towers I](https://leetcode.com/problems/beautiful-towers-i/)                                                                                                                   |   Yes    |   Medium   |
-| 2866  | [Beautiful Towers II](https://leetcode.com/problems/beautiful-towers-ii/)                                                                                                                   |   Yes    |   Medium   |
-| 2867  | [Count Valid Paths in a Tree](https://leetcode.com/problems/count-valid-paths-in-a-tree/description/)                                                                                                                   |   Yes    |   Hard   |
+| 2866  | [Beautiful Towers II](https://leetcode.com/problems/beautiful-towers-ii/)                                                                                                                 |   Yes    |   Medium   |
+| 2867  | [Count Valid Paths in a Tree](https://leetcode.com/problems/count-valid-paths-in-a-tree/description/)                                                                                     |   Yes    |    Hard    |
