@@ -5,15 +5,13 @@ class Solution
 public:
     string reverseWords(string s)
     {
-        string ans, t = " ";
-        for(char c: s)
+        stringstream ss(s);
+        string r, ans = "";
+        while (ss >> r)
         {
-            if(c == ' ')
-                reverse(t.begin(), t.end()), ans += t, t = "";
-            t += c;
+            reverse(r.begin(), r.end());
+            ans += r + " ";
         }
-        reverse(t.begin(), t.end());
-        ans += t;
         ans.pop_back();
         return ans;
     }
