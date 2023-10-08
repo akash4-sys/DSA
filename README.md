@@ -166,6 +166,7 @@
 | 225.  | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)                                                                                               |   Yes    |    Easy    |
 | 226.  | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)                                                                                                       |   Yes    |    Easy    |
 | 228.  | [Summary Ranges](https://leetcode.com/problems/summary-ranges/description/)                                                                                                               |   Yes    |    Easy    |
+| 229.  | [Majority Element II](https://leetcode.com/problems/majority-element-ii/description)                                                                                                      |   Yes    |   Medium   |
 | 230.  | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/)                                                                                 |   Yes    |   Medium   |
 | 231.  | [Power of Two](https://leetcode.com/problems/power-of-two/)                                                                                                                               |   Yes    |    Easy    |
 | 232.  | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)                                                                                   |   Yes    |    Easy    |
@@ -503,6 +504,7 @@
 | 1409. | [Queries on Permuations with Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/description/)                                                                           |   Yes    |   Medium   |
 | 1411. | [Number of Ways to Paint N × 3 Grid](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/)                                                                                     |   Yes    |    Hard    |
 | 1416. | [Restore The Array](https://leetcode.com/problems/restore-the-array/)                                                                                                                     |   Yes    |    Hard    |
+| 1420. | [Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/description/)           |   Yes    |    Hard    |
 | 1425. | [Constrained Subsequence Sum](https://leetcode.com/problems/constrained-subsequence-sum/)                                                                                                 |   Yes    |    Hard    |
 | 1438. | [Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)   |   Yes    |   Medium   |
 | 1442. | [Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/description/)                                   |   Yes    |   Medium   |
@@ -513,6 +515,7 @@
 | 1455. | [Check If a Word Occurs As a Prefix of Any Word in a Sentence](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)                               |   Yes    |    Easy    |
 | 1456. | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/description/)                             |   Yes    |   Medium   |
 | 1457. | [Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)                                                                     |   Yes    |   Medium   |
+| 1458. | [Max Dot Product of Two Subsequences](https://leetcode.com/problems/constrained-subsequence-sum/https://leetcode.com/problems/max-dot-product-of-two-subsequences/description)            |   Yes    |    Hard    |
 | 1462. | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/description/)                                                                                                       |   Yes    |   Medium   |
 | 1466. | [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)                                           |   Yes    |   Medium   |
 | 1475. | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)                                                           |   Yes    |    Easy    |
@@ -524,7 +527,7 @@
 | 1494. | [Parallel Courses II](https://leetcode.com/problems/parallel-courses-ii/)                                                                                                                 |    No    |    Hard    |
 | 1498. | [Number of Subsequences That Satisfy the Given Sum Condition](https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/description/)                     |   Yes    |   Medium   |
 | 1502. | [Can Make Arithmetic Progression From Sequence](https://leetcode.com/problems/can-make-arithmetic-progression-from-sequence/description/)                                                 |   Yes    |    Easy    |
-| 1512. | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)                                                                                             |   Yes    |   Easy   |
+| 1512. | [Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/description/)                                                                                                   |   Yes    |    Easy    |
 | 1514. | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/)                                                                                             |   Yes    |   Medium   |
 | 1519. | [Number of Nodes in the Sub-Tree With the Same Label](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/description/)                                     |   Yes    |   Medium   |
 | 1525. | [Number of Good Ways to Split a String](https://leetcode.com/problems/number-of-good-ways-to-split-a-string/description/)                                                                 |   Yes    |   Medium   |
@@ -945,6 +948,7 @@
 | 2824  | [Count Pairs Whose Sum is Less than Target](https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/)                                                                     |   Yes    |    Easy    |
 | 2825  | [Make String a Subsequence Using Cyclic Increments](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments/description/)                                         |   Yes    |   Medium   |
 | 2826  | [Sorting Three Groups](https://leetcode.com/problems/sorting-three-groups/description/)                                                                                                   |   Yes    |   Medium   |
+| 2827  | [Number of Beautiful Integers in the Range](https://leetcode.com/problems/number-of-beautiful-integers-in-the-range/description/)                                                         |   Yes    |   Medium   |
 | 2828  | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)                                                                       |   Yes    |    Easy    |
 | 2829  | [Determine the Minimum Sum of a k-avoiding Array](https://leetcode.com/problems/determine-the-minimum-sum-of-a-k-avoiding-array)                                                          |   Yes    |   Medium   |
 | 2830  | [Maximize the Profit as the Salesman](https://leetcode.com/problems/maximize-the-profit-as-the-salesman)                                                                                  |   Yes    |   Medium   |
@@ -976,3 +980,7 @@
 | 2874  | [Maximum Value of an Ordered Triplet II](https://leetcode.com/problems/maximum-value-of-an-ordered-triplet-ii/)                                                                           |   Yes    |   Medium   |
 | 2875  | [Minimum Size Subarray in Infinite Array](https://leetcode.com/problems/minimum-size-subarray-in-infinite-array/description/)                                                             |   Yes    |   Medium   |
 | 2876  | [Count Visited Nodes in a Directed Graph](https://leetcode.com/problems/count-visited-nodes-in-a-directed-graph/description/)                                                             |   Yes    |    Hard    |
+| 2894  | [Divisible and Non-divisible Sums Difference](https://leetcode.com/problems/divisible-and-non-divisible-sums-difference/)                                                                 |   Yes    |    Easy    |
+| 2895  | [Minimum Processing Time](https://leetcode.com/problems/minimum-processing-time/)                                                                                                         |   Yes    |   Medium   |
+| 2896  | [Apply Operations to Make Two Strings Equal](https://leetcode.com/problems/apply-operations-to-make-two-strings-equal/description/)                                                       |   Yes    |   Medium   |
+| 2897  | [Apply Operations on Array to Maximize Sum of Squares](https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/)                                               |   Yes    |    Hard    |
