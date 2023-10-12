@@ -15,21 +15,32 @@ using namespace std;
 #define LL ({ ll a; cin>>a ; a; })
 #define SS ({ string s; cin>>s; s; })
 #define pf(x) cout << x << " "
-#define pl(x) cout << x << "\n"
-#define br cout << "\n"
-#define pv(v) { for(auto &x : v) pf(x); }
+#define pl(x) cout << x << endl
+#define br cout << endl
+#define pv(v) { for(auto &x : v) pf(x)<<" "; }
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-int solve()
+string solve()
 {
+    int n = II, c = 0;
+    string s = SS, ans = "";
+    map<string, int> mp;
+    for (int i = 1; i < n; i++)
+    {
+        string r = string(1, s[i - 1]) + string(1, s[i]);
+        mp[r]++;
+    }
+
+    for (auto x : mp)
+        if (c < x.second)
+            c = x.second, ans = x.first;
+    return ans;
 }
 
 int main()
 {
     fast;
-    int tc = II;
-    while (tc--)
-        pl(solve());
+    pl(solve());
     return 0;
 }

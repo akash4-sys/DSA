@@ -15,21 +15,31 @@ using namespace std;
 #define LL ({ ll a; cin>>a ; a; })
 #define SS ({ string s; cin>>s; s; })
 #define pf(x) cout << x << " "
-#define pl(x) cout << x << "\n"
-#define br cout << "\n"
+#define pl(x) cout << x << endl
+#define br cout << endl
 #define pv(v) { for(auto &x : v) pf(x); }
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-int solve()
+vec solve()
 {
+    int n = II;
+    vec v(n), ans;
+    iv(v);
+
+    unordered_set<int> st;
+    for (int i = n - 1; i >= 0; i--)
+        if (!st.count(v[i]))
+            ans.push_back(v[i]), st.insert(v[i]);
+    
+    reverse(all(ans));
+    pl(ans.size());
+    return ans;
 }
 
 int main()
 {
     fast;
-    int tc = II;
-    while (tc--)
-        pl(solve());
+    pv(solve());
     return 0;
 }
