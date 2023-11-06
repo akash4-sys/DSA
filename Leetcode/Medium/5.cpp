@@ -1,5 +1,24 @@
 #include "../../headers.h"
 
+class Solution
+{
+    string ans = "";
+    void check(string &s, int l, int r)
+    {
+        for (; l >= 0 && r < s.size() && s[l] == s[r]; l--, r++);
+        if (ans.size() < r - l)
+            ans = s.substr(l + 1, r - l - 1);
+    }
+
+public:
+    string longestPalindrome(string &s)
+    {
+        for (int i = 0; i < s.size(); i++)
+            check(s, i, i), check(s, i, i + 1);
+        return ans;
+    }
+};
+
 // Manacher's Algorithm
 class Solution
 {
@@ -11,7 +30,7 @@ public:
             return "";
         if (N == 1)
             return s;
-            
+
         // Pos count considering string length to be even as well
         N = 2 * N + 1;
         vector<int> lps(N);
@@ -33,12 +52,14 @@ public:
                 lps[i]++;
             }
 
-            if(lps[i] > maxLpsLen){
+            if (lps[i] > maxLpsLen)
+            {
                 maxLpsLen = lps[i];
                 maxLpsCenterPos = i;
             }
 
-            if(i + lps[i] > R){
+            if (i + lps[i] > R)
+            {
                 C = i;
                 R = i + lps[i];
             }
@@ -46,7 +67,7 @@ public:
         start = (maxLpsCenterPos - maxLpsLen) / 2;
         end = start + maxLpsLen - 1;
         string ans = "";
-        for(int i=start; i<=end; i++)
+        for (int i = start; i <= end; i++)
         {
             ans += s[i];
         }
@@ -54,7 +75,8 @@ public:
     }
 };
 
-int main(){
+int main()
+{
     Solution sol;
-    cout<<sol.longestPalindrome("babad");
+    cout << sol.longestPalindrome("babad");
 }

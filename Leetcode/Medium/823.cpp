@@ -22,3 +22,32 @@ public:
         return ans;
     }
 };
+
+
+class Solution
+{
+    int mod = 1e9 + 7;
+    unordered_map<int, long long> dp;
+
+    int rec(unordered_set<int> &st, int n)
+    {
+        if (dp.count(n))
+            return dp[n];
+
+        long long res = 1;
+        for (int x : st)
+            if (n % x == 0 && st.count(n / x))
+                (res += (1LL * rec(st, x) * rec(st, n / x)) % mod) %= mod;
+        return dp[n] = res;
+    }
+
+public:
+    int numFactoredBinaryTrees(vector<int> &v)
+    {
+        unordered_set<int> st(v.begin(), v.end());
+        int ans = 0;
+        for (int n : v)
+            (ans += rec(st, n)) %= mod;
+        return ans;
+    }
+};

@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<int>
+#define vec vector<ll>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -21,28 +21,31 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-void solve()
+ll solve()
 {
-    int n = II;
-    multiset<int> l, r;
-    for (int i = 0; i < n; i++)
-    {
-        char c;
-        cin >> c;
-        int low = II, high = II;
-        if (c == '+')
-            l.insert(low), r.insert(high);
-        else
-            l.erase(l.find(low)), r.erase(r.find(high));
+    ll n = LL, ans = 0;
+    vec v(n);
+    iv(v);
 
-        bool ans = l.upper_bound(*r.begin()) == l.end();
-        !ans ? pl("YES") : pl("NO");
-    }
+    for (int i = 1; i < n; i++)
+        if (v[i] < v[i - 1])
+        {
+            ll a = 64 - __builtin_clzll(v[i - 1]);
+            ll b = 64 - __builtin_clzll(v[i]);
+            ll op = a - b;
+            v[i] <<= op;
+            if (v[i] < v[i - 1])
+                op++, v[i] <<= 1;
+            ans += op;
+        }
+    return ans;
 }
 
 int main()
 {
     fast;
-    solve();
+    int tc = II;
+    while (tc--)
+        pl(solve());
     return 0;
 }
