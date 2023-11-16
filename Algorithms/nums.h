@@ -30,6 +30,7 @@ void factors(int x)
 
 // Binary Exponentiation
 // For very large values
+// For multiplicative inverse just pass value of b as mod - 2
 long long power(long long a, long long b, long long mod)
 {
     long long res = 1;

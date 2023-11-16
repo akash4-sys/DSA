@@ -32,6 +32,7 @@
 
 // Misc
 #define vowels {{'a', 1}, {'e', 1}, {'i', 1}, {'o', 1}, {'u', 1}}
+#define completeVowels {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'}
 #define dfsExit(v, i, j) if (i < 0 || j < 0 || i >= v.size() || j >= v[0].size())
 
 int i, j, dx, dy;
