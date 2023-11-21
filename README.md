@@ -589,6 +589,7 @@
 | 1793. | [Maximum Score of a Good Subarray](https://leetcode.com/problems/maximum-score-of-a-good-subarray/description)                                                                            |   Yes    |    Hard    |
 | 1799. | [Maximize Score After N Operations](https://leetcode.com/problems/maximize-score-after-n-operations/description/)                                                                         |   Yes    |    Hard    |
 | 1802. | [Maximum Value at a Given Index in a Bounded Array](https://leetcode.com/problems/maximum-value-at-a-given-index-in-a-bounded-array/)                                                     |   Yes    |   Medium   |
+| 1814. | [Count Nice Pairs in an Array](https://leetcode.com/problems/count-nice-pairs-in-an-array/description)                                                                                    |   Yes    |   Medium   |
 | 1819. | [Number of Different Subsequences GCDs](https://leetcode.com/problems/number-of-different-subsequences-gcds/description/)                                                                 |   Yes    |    Hard    |
 | 1822. | [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/)                                                                             |   Yes    |    Easy    |
 | 1829. | [Maximum XOR for Each Query](https://leetcode.com/problems/maximum-xor-for-each-query/description/)                                                                                       |   Yes    |   Medium   |
@@ -601,6 +602,7 @@
 | 1871. | [Jump Game VII](https://leetcode.com/problems/jump-game-vii/description/)                                                                                                                 |   Yes    |   Medium   |
 | 1879. | [Minimum XOR Sum of Two Arrays](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/)                                                                                             |    No    |    Hard    |
 | 1886. | [Determine Whether Matrix Can Be Obtained By Rotation](https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/)                                               |   Yes    |    Easy    |
+| 1887. | [Reduction Operations to Make the Array Elements Equal](https://leetcode.com/problems/reduction-operations-to-make-the-array-elements-equal/description)                                  |   Yes    |   Medium   |
 | 1905. | [Count Sub Islands](https://leetcode.com/problems/count-sub-islands/)                                                                                                                     |   Yes    |   Medium   |
 | 1921. | [Eliminate Maximum Number of Monsters](https://leetcode.com/problems/eliminate-maximum-number-of-monsters/)                                                                               |   Yes    |   Medium   |
 | 1926. | [Nearest Exit from Entrance in Maze](https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/description/)                                                                       |   Yes    |   Medium   |
@@ -614,7 +616,7 @@
 | 1970. | [Last Day Where You Can Still Cross](https://leetcode.com/problems/last-day-where-you-can-still-cross/description/)                                                                       |   Yes    |    Hard    |
 | 1971. | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)                                                                                               |   Yes    |    Easy    |
 | 1976. | [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)                                                                         |   Yes    |   Medium   |
-| 1980. | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/description)                                                                                       |   Yes    |    Medium    |
+| 1980. | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/description)                                                                                          |   Yes    |   Medium   |
 | 1994. | [The Number of Good Subsets](https://leetcode.com/problems/the-number-of-good-subsets/description/)                                                                                       |   Yes    |    Hard    |
 | 2001. | [Number of Pairs of Interchangeable Rectangles](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles/description/)                                                 |   Yes    |   Medium   |
 | 2007. | [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/)                                                                           |   Yes    |   Medium   |
