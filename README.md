@@ -544,6 +544,7 @@
 | 1547. | [Minimum Cost to Cut a Stick](https://leetcode.com/problems/minimum-cost-to-cut-a-stick/description/)                                                                                     |   Yes    |    Hard    |
 | 1552. | [Magnetic Force Between Two Balls](https://leetcode.com/problems/magnetic-force-between-two-balls/description/)                                                                           |   Yes    |   Medium   |
 | 1557. | [Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/)                                                             |   Yes    |   Medium   |
+| 1561. | [Maximum Number of Coins You Can Get](https://leetcode.com/problems/maximum-number-of-coins-you-can-get/description)                                                                      |   Yes    |   Medium   |
 | 1567. | [Maximum Length of Subarray With Positive Product](https://leetcode.com/problems/maximum-length-of-subarray-with-positive-product/)                                                       |   Yes    |   Medium   |
 | 1569. | [Number of Ways to Reorder Array to Get Same BST](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)                                                         |   Yes    |    Hard    |
 | 1572. | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/)                                                                                                     |   Yes    |    Easy    |
@@ -571,6 +572,7 @@
 | 1675. | [Minimize Deviation in Array](https://leetcode.com/problems/minimize-deviation-in-array/description/)                                                                                     |   Yes    |    Hard    |
 | 1680. | [Concatenation of Consecutive Binary Numbers](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers/)                                                                 |   Yes    |   Medium   |
 | 1684. | [Count the Number of Consistent Strings](https://leetcode.com/problems/count-the-number-of-consistent-strings/description/)                                                               |   Yes    |    Easy    |
+| 1685. | [Sum of Absolute Differences in a Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/description)                                                  |   Yes    |   Medium   |
 | 1696. | [Jump Game VI](https://leetcode.com/problems/jump-game-vi/)                                                                                                                               |   Yes    |   Medium   |
 | 1704. | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/description/)                                                                   |   Yes    |    Easy    |
 | 1706. | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)                                                                                                       |   Yes    |   Medium   |
@@ -1037,3 +1039,5 @@
 | 2933  | [High-Access Employees](https://leetcode.com/problems/high-access-employees/description/)                                                                                                 |   Yes    |   Medium   |
 | 2934  | [Minimum Operations to Maximize Last Elements in Arrays](https://leetcode.com/problems/minimum-operations-to-maximize-last-elements-in-arrays/description/)                               |   Yes    |   Medium   |
 | 2935  | [Maximum Strong Pair XOR II](https://leetcode.com/problems/maximum-strong-pair-xor-ii/description/)                                                                                       |   Yes    |    Hard    |
+| 2938  | [Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/description/)                                                                               |   Yes    |   Medium   |
+| 2940  | [Find Building Where Alice and Bob Can Meet](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/description)                                                        |   Yes    |    Hard    |
