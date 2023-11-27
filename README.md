@@ -578,6 +578,7 @@
 | 1706. | [Where Will the Ball Fall](https://leetcode.com/problems/where-will-the-ball-fall/)                                                                                                       |   Yes    |   Medium   |
 | 1720. | [Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)                                                                                                                   |   Yes    |    Easy    |
 | 1721. | [Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)                                                                                         |   Yes    |   Medium   |
+| 1727. | [Largest Submatrix With Rearrangements](https://leetcode.com/problems/largest-submatrix-with-rearrangements/description)                                                                  |   Yes    |   Medium   |
 | 1732. | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/description/)                                                                                         |   Yes    |    Easy    |
 | 1735. | [Count Ways to Make Array With Product](https://leetcode.com/problems/count-ways-to-make-array-with-product/description/)                                                                 |   Yes    |    Hard    |
 | 1743. | [Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/description)                                                                  |   Yes    |   Medium   |
@@ -1041,3 +1042,7 @@
 | 2935  | [Maximum Strong Pair XOR II](https://leetcode.com/problems/maximum-strong-pair-xor-ii/description/)                                                                                       |   Yes    |    Hard    |
 | 2938  | [Separate Black and White Balls](https://leetcode.com/problems/separate-black-and-white-balls/description/)                                                                               |   Yes    |   Medium   |
 | 2940  | [Find Building Where Alice and Bob Can Meet](https://leetcode.com/problems/find-building-where-alice-and-bob-can-meet/description)                                                        |   Yes    |    Hard    |
+| 2942  | [Find Words Containing Character](https://leetcode.com/problems/find-words-containing-character/)                                                                                         |   Yes    |    Easy    |
+| 2943  | [Maximize Area of Square Hole in Grid](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/description/)                                                                   |   Yes    |   Medium   |
+| 2944  | [Minimum Number of Coins for Fruits](https://leetcode.com/problems/minimum-number-of-coins-for-fruits/)                                                                                   |   Yes    |   Medium   |
+| 2945  | [Find Maximum Non-decreasing Array Length](https://leetcode.com/problems/find-maximum-non-decreasing-array-length/description/)                                                           |   Yes    |    Hard    |
