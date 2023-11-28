@@ -226,6 +226,7 @@
 | 393.  | [UTF-8 Validation](https://leetcode.com/problems/utf-8-validation/)                                                                                                                       |   Yes    |   Medium   |
 | 394.  | [Decode String](https://leetcode.com/problems/decode-string/description/)                                                                                                                 |   Yes    |   Medium   |
 | 399.  | [Evaluate Division](https://leetcode.com/problems/evaluate-division/)                                                                                                                     |   Yes    |   Medium   |
+| 400.  | [Nth Digit](https://leetcode.com/problems/nth-digit/description/)                                                                                                             |   Yes    |   Medium   |
 | 402.  | [Remove K Digits](https://leetcode.com/problems/remove-k-digits/description/)                                                                                                             |   Yes    |   Medium   |
 | 403.  | [Frog Jump](https://leetcode.com/problems/frog-jump/description/)                                                                                                                         |   Yes    |    Hard    |
 | 405.  | [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/)                                                                             |   Yes    |    Easy    |
@@ -638,6 +639,7 @@
 | 2090. | [K Radius Subarray Averages](https://leetcode.com/problems/k-radius-subarray-averages/)                                                                                                   |   Yes    |   Medium   |
 | 2095. | [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/)                                                             |   Yes    |   Medium   |
 | 2097. | [Valid Arrangement of Pairs](https://leetcode.com/problems/valid-arrangement-of-pairs/)                                                                                                   |   Yes    |    Hard    |
+| 2147. | [Number of Ways to Divide a Long Corridor](https://leetcode.com/problems/number-of-ways-to-divide-a-long-corridor/description)                                                            |   Yes    |    Hard    |
 | 2197. | [Replace Non-Coprime Numbers in Array](https://leetcode.com/problems/replace-non-coprime-numbers-in-array/description/)                                                                   |   Yes    |    Hard    |
 | 2100. | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)                                                                                           |   Yes    |   Medium   |
 | 2101. | [Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)                                                                                                   |   Yes    |   Medium   |
@@ -1046,3 +1048,4 @@
 | 2943  | [Maximize Area of Square Hole in Grid](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/description/)                                                                   |   Yes    |   Medium   |
 | 2944  | [Minimum Number of Coins for Fruits](https://leetcode.com/problems/minimum-number-of-coins-for-fruits/)                                                                                   |   Yes    |   Medium   |
 | 2945  | [Find Maximum Non-decreasing Array Length](https://leetcode.com/problems/find-maximum-non-decreasing-array-length/description/)                                                           |   Yes    |    Hard    |
+| 2948  | [Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/description/)                       |   Yes    |   Medium   |
