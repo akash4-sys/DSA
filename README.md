@@ -1048,4 +1048,6 @@
 | 2943  | [Maximize Area of Square Hole in Grid](https://leetcode.com/problems/maximize-area-of-square-hole-in-grid/description/)                                                                   |   Yes    |   Medium   |
 | 2944  | [Minimum Number of Coins for Fruits](https://leetcode.com/problems/minimum-number-of-coins-for-fruits/)                                                                                   |   Yes    |   Medium   |
 | 2945  | [Find Maximum Non-decreasing Array Length](https://leetcode.com/problems/find-maximum-non-decreasing-array-length/description/)                                                           |   Yes    |    Hard    |
+| 2947  | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                           |   Yes    |    Medium    |
 | 2948  | [Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/description/)                       |   Yes    |   Medium   |
+| 2949  | [Count Beautiful Substrings II](https://leetcode.com/problems/count-beautiful-substrings-ii/description/)                                                           |   Yes    |    Hard    |
