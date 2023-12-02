@@ -29,7 +29,7 @@ class SegmentTree
     // binary search over prefix sum array of segment tree for index of sum just greater than given sum (like upper_bound)
     ll upper_bound(ll sum, int i = 1, int tree_left = 0, int tree_right = -1)
     {
-        if (tree_right == -1)
+        if (tree_right == -1) 
             tree_right = n - 1;
         if (tree_left == tree_right)
             return tree[i] >= sum ? tree_left : n;
@@ -83,40 +83,35 @@ public:
 
 
 // Iterative
-// lines that are marked with * are usually customized
 
 class SegmentTree
 {
-    vector<int> tree;
+    vector<int> t;
     int n;
-
 public:
-    SegmentTree(vector<int> &v)
+    SegmentTree(int _n): n(_n), t(2 * _n, 0) {}
+
+    void update(int pos, int val)
     {
-        n = v.size();
-        tree = vector<int>(n * 2, 0);
-        for (int i = 0; i < n; i++)
-            tree[i + n] = v[i];
-        for (int i = n - 1; i > 0; --i)
-            tree[i] = tree[2 * i] + tree[(2 * i) + 1];       // *
+        pos += n;
+        t[pos] = val;
+        while (pos > 1)
+            pos >>= 1, t[pos] = max(t[2 * pos], t[2 * pos + 1]);
     }
 
-    void update(int i, int val)
+    int query(int low, int high)
     {
-        for (tree[i += n] = val; i > 1;)
-            tree[i >>= 1] = tree[2 * i] + tree[(2 * i) + 1];          // *
-    }
-
-    int query(int left, int right)
-    {
-        int res = 0;
-        for (left += n, right += n + 1; left < right; left >>= 1, right >>= 1)
+        low += n, high += n;
+        int ans = 0;
+        while (low < high)
         {
-            if (left & 1)
-                res += tree[left++];          // *
-            if (right & 1)
-                res += tree[--right];          // *
+            if (low & 1)
+                ans = max(ans, t[low++]);
+            if (high & 1)
+                ans = max(ans, t[--high]);
+            low >>= 1;
+            high >>= 1;
         }
-        return res;
+        return ans;
     }
 };
