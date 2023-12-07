@@ -17,32 +17,40 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x)<<" "; }
+#define pv(v) { for(auto &x : v) pf(x); }
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-double solve()
+string solve()
 {
-    long double n = II, b = II * 1.0, h = II * 1.0;
-    vector<double> v(n);
-    iv(v);
-
-    long double ans = 0.5 * b * h;
-    for (int i = 0; i < n - 1; i++)
-        if (v[i + 1] - v[i] < h)
-        {
-            long double k = (h - v[i + 1] + v[i]) / h, top = k * b;
-            ans += (b + top) * 0.5 * (v[i + 1] - v[i]);
-        }
+    string s = SS;
+    unordered_map<int, int> mp;
+    stack<int> l, u;
+    for (int i = 0; i < s.size(); i++)
+    {
+        if (isupper(s[i]) && s[i] == 'B' && u.size())
+            mp[u.top()]++, mp[i]++,  u.pop();
+        else if (islower(s[i]) && s[i] == 'b' && l.size())
+            mp[l.top()]++, mp[i]++, l.pop();
         else
-            ans += (0.5 * b * h);
+        {
+            if (isupper(s[i]))
+                u.push(i);
+            if (islower(s[i]))
+                l.push(i);
+        }
+    }
+
+    string ans = "";
+    for (int i = 0; i < s.size(); i++)
+        if (!mp.count(i) && s[i] != 'B' && s[i] != 'b')
+            ans += s[i];
     return ans;
 }
 
 int main()
 {
     fast;
-    cout.precision(10); cout.setf(ios::fixed);
     int tc = II;
     while (tc--)
         pl(solve());

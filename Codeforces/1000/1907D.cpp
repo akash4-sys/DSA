@@ -17,32 +17,45 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x)<<" "; }
+#define pv(v) { for(auto &x : v) pf(x); }
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-double solve()
+bool poss(vv &v, int k)
 {
-    long double n = II, b = II * 1.0, h = II * 1.0;
-    vector<double> v(n);
-    iv(v);
+    int l = 0, r = 0;
+    for (auto &a : v)
+    {
+        l = max(l - k, a[0]);
+        r = min(r + k, a[1]);
+        if (l > r)
+            return 0;
+    }
+    return 1;
+}
 
-    long double ans = 0.5 * b * h;
-    for (int i = 0; i < n - 1; i++)
-        if (v[i + 1] - v[i] < h)
-        {
-            long double k = (h - v[i + 1] + v[i]) / h, top = k * b;
-            ans += (b + top) * 0.5 * (v[i + 1] - v[i]);
-        }
+int solve()
+{
+    int n = II, ans = 0;
+    vv v(n, vec(2));
+    for (int i = 0; i < n; i++)
+        cin >> v[i][0] >> v[i][1];
+    
+    int l = 0, r = 1e9;
+    while (l <= r)
+    {
+        int mid = (l + r) / 2;
+        if (poss(v, mid))
+            ans = mid, r = mid - 1;
         else
-            ans += (0.5 * b * h);
+            l = mid + 1;
+    }
     return ans;
 }
 
 int main()
 {
     fast;
-    cout.precision(10); cout.setf(ios::fixed);
     int tc = II;
     while (tc--)
         pl(solve());

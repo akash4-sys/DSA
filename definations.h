@@ -19,6 +19,9 @@
 // Fast
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 
+// increase precision
+#define cout.precision(10); cout.setf(ios::fixed);
+
 // I/O
 #define II ({ int a; cin>>a; a; })
 #define LL ({ Long a; cin>>a ; a; })

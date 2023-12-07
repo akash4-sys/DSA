@@ -198,6 +198,7 @@
 | 322.  | [Coin Change](https://leetcode.com/problems/coin-change/)                                                                                                                                 |   Yes    |   Medium   |
 | 326.  | [Power of Three](https://leetcode.com/problems/power-of-three/)                                                                                                                           |   Yes    |    Easy    |
 | 328.  | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                                                                                                               |   Yes    |   Medium   |
+| 330.  | [Patching Array](https://leetcode.com/problems/patching-array/description/)                                                                                                               |   Yes    |    Hard    |
 | 331.  | [Verify Preorder Serialization of a Binary Tree](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/description/)                                               |   Yes    |   Medium   |
 | 332.  | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/description/)                                                                                                 |   Yes    |    Hard    |
 | 334.  | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/)                                                                               |   Yes    |   Medium   |
@@ -467,6 +468,7 @@
 | 1250. | [Check If It Is a Good Array](https://leetcode.com/problems/check-if-it-is-a-good-array/description/)                                                                                     |   Yes    |    Hard    |
 | 1254. | [Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)                                                                                                       |   Yes    |   Medium   |
 | 1255. | [Maximum Score Words Formed by Letters](https://leetcode.com/problems/maximum-score-words-formed-by-letters/description/)                                                                 |   Yes    |    Hard    |
+| 1266. | [Minimum Time Visiting all Nodes](https://leetcode.com/problems/minimum-time-visiting-all-points/description/)                                                                            |   Yes    |    Easy    |
 | 1268. | [Search Suggestions System](https://leetcode.com/problems/search-suggestions-system/description/)                                                                                         |   Yes    |   Medium   |
 | 1269. | [Number of Ways to Stay in the Same Place After Some Steps](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)                                     |   Yes    |    Hard    |
 | 1282. | [Group the People Given the Group Size They Belong To](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/description/)                                   |   Yes    |   Medium   |
@@ -1053,3 +1055,6 @@
 | 2947  | [Count Beautiful Substrings I](https://leetcode.com/problems/count-beautiful-substrings-i/description/)                                                                                   |   Yes    |   Medium   |
 | 2948  | [Make Lexicographically Smallest Array by Swapping Elements](https://leetcode.com/problems/make-lexicographically-smallest-array-by-swapping-elements/description/)                       |   Yes    |   Medium   |
 | 2949  | [Count Beautiful Substrings II](https://leetcode.com/problems/count-beautiful-substrings-ii/description/)                                                                                 |   Yes    |    Hard    |
+| 2952  | [Minimum Number of Coins to be Added](https://leetcode.com/problems/minimum-number-of-coins-to-be-added/description/)                                                                     |   Yes    |   Medium   |
+| 2953  | [Count Complete Substrings](https://leetcode.com/problems/count-complete-substrings/)                                                                                                     |   Yes    |   Medium   |
+| 2954  | [Count the Number of Infection Sequences](https://leetcode.com/problems/count-the-number-of-infection-sequences/description/)                                                             |   Yes    |    Hard    |
