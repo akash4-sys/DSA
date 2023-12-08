@@ -23,8 +23,8 @@ using namespace std;
 
 string solve()
 {
-    int n = II, last = n * (n + 1) / 2, p = 0, x;
-    unordered_set<int> st;
+    ll n = LL, last = n * (n + 1) / 2, p = 0, x;
+    unordered_set<ll> st;
     for (int i = 1; i < n; i++)
     {
         cin >> x;

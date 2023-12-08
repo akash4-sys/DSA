@@ -9,80 +9,65 @@ using namespace std;
 // @ lazy segment tree can be used to update data over a range
 // vector lazy stores pending updates
 
-// recursive
+#define ll long long
 
 class LazySegmentTree
 {
-    vector<int> t, lazy;
-    int n;
-    int build(vector<int> &v, int i, int l, int r)
+    ll n;
+    vector<ll> tree, lazy;
+
+    ll buildTree(vector<ll> &v, int i, int left, int right)
     {
-        if (l == r)
-            return t[i] = v[l];
-        int mid = l + (r - l) / 2;
-        return t[i] = build(v, 2 * i, l, mid) + build(v, (2 * i) + 1, mid + 1, r);
-    }
+        if (left == right)
+            return tree[i] = v[left];
 
-    void lazyValApply(int l, int r, int i)
-    {
-        if (!lazy[i])
-            return;
-        t[i] += (r - l + 1) * lazy[i];
-        if (l != r)
-            lazy[i * 2] += lazy[i], lazy[(i * 2) + 1] += lazy[i];
-        lazy[i] = 0;
-    }
-
-    void updateUtil(int val, int st, int en, int i, int l, int r)
-    {
-        lazyValApply(l, r, i);
-        if (l > r || l > en || r < st)
-            return;
-
-        if (l >= st && r <= en)
-        {
-            t[i] += (r - l + 1) * val;
-            if (l != r)
-                lazy[i * 2] += lazy[i], lazy[(i * 2) + 1] += lazy[i];
-            return;
-        }
-
-        int mid = l + (r - l) / 2;
-        updateUtil(val, st, en, i * 2, l, mid);
-        updateUtil(val, st, en, i * 2 + 1, mid + 1, r);
-        t[i] = t[i * 2] + t[i * 2 + 1];
-    }
-
-    int queryUtil(int st, int en, int i, int l, int r)
-    {
-        if (l > en || r < st)
-            return 0;
-        lazyValApply(l, r, i);
-        if (l >= st && r <= en)
-            return t[i];
-        int mid = l + (r - l) / 2;
-        return queryUtil(st, en, i * 2, l, mid) + queryUtil(st, en, (i * 2) + 1, mid + 1, r);
+        ll mid = left + (right - left) / 2;
+        ll leftTree = buildTree(v, 2 * i, left, mid);
+        ll rightTree = buildTree(v, (2 * i) + 1, mid + 1, right);
+        return tree[i] = leftTree + rightTree;
     }
 
 public:
-    LazySegmentTree(vector<int> &v)
+    LazySegmentTree(vector<ll> &v)
     {
         n = v.size();
-        lazy = t = vector<int>(v.size() * 4, 0);
-        build(v, 1, 0, v.size() - 1);
+        lazy = tree = vector<ll>(n * 4, 0);
+        buildTree(v, 1, 0, n - 1);
     }
 
-    void update(int val, int l, int r)
+    ll query(int l, int r, int i = 1, int tl = 0, int tr = -1)
     {
-        updateUtil(val, l, r, 1, 0, n - 1);
+        if (tr == -1) 
+            tr = n - 1;
+        if (l > r)
+            return 0;
+        if (l == tl && r == tr)
+            return tree[i] + ((tr - tl + 1LL) * lazy[i]);
+
+        int mid = (tl + tr) / 2;
+        ll queryLeft = query(l, min(r, mid), i * 2, tl, mid);
+        ll queryRight = query(max(l, mid + 1), r, i * 2 + 1, mid + 1, tr);
+        return (r - l + 1LL) * lazy[i] + queryLeft + queryRight;
     }
 
-    int query(int l, int r)
+    void update(int l, int r, int val = 1, int i = 1, int tl = 0, int tr = -1)
     {
-        return queryUtil(l, r, 1, 0, n - 1);
+        if (tr == -1) 
+            tr = n - 1;
+        if (l == tl && r == tr)
+            lazy[i] += val;
+        else if (l <= r)
+        {
+            lazy[i * 2] += lazy[i];
+            lazy[i * 2 + 1] += lazy[i];
+            lazy[i] = 0;
+            int mid = (tl + tr) / 2;
+            update(l, min(r, mid), val, i * 2, tl, mid);
+            update(max(l, mid + 1), r, val, i * 2 + 1, mid + 1, tr);
+            tree[i] = query(tl, mid, i * 2, tl, mid) + query(mid + 1, tr, i * 2 + 1, mid + 1, tr);
+        }
     }
 };
-
 
 // iterative
 

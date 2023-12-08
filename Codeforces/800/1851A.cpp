@@ -27,8 +27,7 @@ ll solve()
     vec v(n);
     iv(v);
     for (ll x : v)
-        if (abs(h - x) > 0 && abs(h - x) % k == 0 && abs(h - k) < m)
-            ans++;
+        ans += (h != x) && abs(h - x) % k == 0 && abs(h - x) <= (m - 1) * k;
     return ans;
 }
 
