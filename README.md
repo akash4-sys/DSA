@@ -711,6 +711,7 @@
 | 2360. | [Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/description/)                                                                                           |   Yes    |    Hard    |
 | 2363. | [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)                                                                                                                 |   Yes    |    Easy    |
 | 2364. | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)                                                                                                     |    No    |   Medium   |
+| 2365. | [Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/submissions/)                                                                                                                 |   Yes    |    Medium    |
 | 2366. | [Minimum Replacements to Sort the Array](https://leetcode.com/problems/minimum-replacements-to-sort-the-array/)                                                                           |   Yes    |    Hard    |
 | 2367. | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)                                                                                             |   Yes    |    Easy    |
 | 2368. | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)                                                                                     |   Yes    |   Medium   |

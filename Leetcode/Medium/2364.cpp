@@ -1,19 +1,17 @@
 #include "headers.h"
 
-// duplicates can be removed
-
-class Solution {
+class Solution
+{
 public:
-    long long countBadPairs(vector<int>& nums) {
-        long long count = 0;
-        for(int i = 0; i < nums.size() - 1; i++)
-        {
-            for(int j = i+1; j < nums.size(); j++)
-            {
-                if(j - i != nums[j] - nums[i])
-                    count++;
-            }
-        }
-        return count;
+    long long countBadPairs(vector<int> &v)
+    {
+        long long ans = 0, n = v.size();
+        unordered_map<int, int> mp;
+        for (int i = 0; i < n; i++)
+            v[i] -= i, mp[v[i]]++;
+        
+        for (int i = 0; i < n; i++)
+            ans += ((n - i) - mp[v[i]]), mp[v[i]]--;
+        return ans;
     }
 };
