@@ -711,7 +711,7 @@
 | 2360. | [Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/description/)                                                                                           |   Yes    |    Hard    |
 | 2363. | [Merge Similar Items](https://leetcode.com/problems/merge-similar-items/)                                                                                                                 |   Yes    |    Easy    |
 | 2364. | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)                                                                                                     |    No    |   Medium   |
-| 2365. | [Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/submissions/)                                                                                                                 |   Yes    |    Medium    |
+| 2365. | [Task Scheduler II](https://leetcode.com/problems/task-scheduler-ii/submissions/)                                                                                                         |   Yes    |   Medium   |
 | 2366. | [Minimum Replacements to Sort the Array](https://leetcode.com/problems/minimum-replacements-to-sort-the-array/)                                                                           |   Yes    |    Hard    |
 | 2367. | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)                                                                                             |   Yes    |    Easy    |
 | 2368. | [Reachable Nodes With Restrictions](https://leetcode.com/problems/reachable-nodes-with-restrictions/)                                                                                     |   Yes    |   Medium   |
@@ -721,6 +721,8 @@
 | 2376. | [Count Special Integers](https://leetcode.com/problems/count-special-integers/)                                                                                                           |   Yes    |    Hard    |
 | 2379. | [Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/)                                                   |   Yes    |    Easy    |
 | 2380. | [Time Needed to Rearrange a Binary String](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/)                                                                       |   Yes    |   Medium   |
+| 2381. | [Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/)                                                                                                                 |   Yes    |   Medium   |
+| 2382. | [Maximum Segment Sum After Removals](https://leetcode.com/problems/maximum-segment-sum-after-removals/description/)                                                                       |   Yes    |    Hard    |
 | 2383. | [Minimum Hours of Training to Win a Competition](https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/)                                                           |   Yes    |    Easy    |
 | 2384. | [Largest Palindromic Number](https://leetcode.com/problems/largest-palindromic-number/)                                                                                                   |   Yes    |   Medium   |
 | 2385. | [Amount of Time for Binary Tree to Be Infected](https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/description/)                                                 |   Yes    |   Medium   |
@@ -745,8 +747,10 @@
 | 2418. | [Sort the People](https://leetcode.com/problems/sort-the-people/)                                                                                                                         |   Yes    |    Easy    |
 | 2420. | [Find All Good Indices](https://leetcode.com/problems/find-all-good-indices/)                                                                                                             |   Yes    |   Medium   |
 | 2421. | [Number of Good Paths](https://leetcode.com/problems/number-of-good-paths/description/)                                                                                                   |   Yes    |    Hard    |
+| 2423. | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/)                                                                     |   Yes    |    Easy    |
 | 2424. | [Longest Uploaded Prefix](https://leetcode.com/problems/longest-uploaded-prefix/)                                                                                                         |   Yes    |   Medium   |
 | 2425. | [Bitwise XOR of All Pairings](https://leetcode.com/problems/bitwise-xor-of-all-pairings/)                                                                                                 |   Yes    |   Medium   |
+| 2426. | [Number of Pairs Satisfying Inequality](https://leetcode.com/problems/number-of-pairs-satisfying-inequality/description/)                                                                 |   Yes    |    Hard    |
 | 2427. | [Number of Common Factors](https://leetcode.com/problems/number-of-common-factors/description/)                                                                                           |   Yes    |    Easy    |
 | 2428. | [Maximum Sum of an Hourglass](https://leetcode.com/problems/maximum-sum-of-an-hourglass/)                                                                                                 |   Yes    |   Medium   |
 | 2429. | [Minimize XOR](https://leetcode.com/problems/minimize-xor/description/)                                                                                                                   |   Yes    |   Medium   |
@@ -1084,3 +1088,4 @@
 | 2961  | [Double Modular Exponentiation](https://leetcode.com/problems/double-modular-exponentiation/)                                                                                             |   Yes    |   Medium   |
 | 2962  | [Count Subarrays Where Max Element Appears at Least K Times](https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/)                                   |   Yes    |   Medium   |
 | 2963  | [Count the Number of Good Partitions](https://leetcode.com/problems/count-the-number-of-good-partitions/)                                                                                 |   Yes    |    Hard    |
+| 2968  | [Apply Operations to Maximize Frequency Score](https://leetcode.com/problems/apply-operations-to-maximize-frequency-score/)                                                               |   Yes    |    Hard    |

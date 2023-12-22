@@ -3,28 +3,13 @@
 class Solution
 {
 public:
-    int xorAllNums(vector<int> &x, vector<int> &y)
+    int xorAllNums(vector<int> &a, vector<int> &b)
     {
-        int ans = INT_MIN, st = 0;
-        if(x.size() % 2 == 0 && y.size() % 2 == 0)
-            return 0;
-        
-        if(y.size() % 2 != 0)
-        {
-            ans = x[0];
-            for(int i = 1; i < x.size(); i++)
-                ans ^= x[i];
-        }
-        else
-            ans = y[0], st = 1;
-        
-        if(x.size() % 2 != 0)
-        {
-            if(ans == INT_MIN)
-                ans = y[0];
-            for(int i = st; i < y.size(); i++)
-                ans ^= y[i];
-        }
+        int n = a.size(), m = b.size(), ans = 0;
+        if (m % 2)
+            ans ^= accumulate(a.begin(), a.end(), 0, bit_xor<int>());
+        if (n % 2)
+            ans ^= accumulate(b.begin(), b.end(), 0, bit_xor<int>());
         return ans;
     }
 };
