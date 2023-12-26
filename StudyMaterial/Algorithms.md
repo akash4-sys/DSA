@@ -5,13 +5,11 @@
 #### [100+ Graph Algorithms](https://iq.opengenus.org/list-of-graph-algorithms/)
 
 
+# All algorithms till 2600 rating codeforces
+<!-- https://blog.shahjalalshohag.com/topic-list/ -->
 
-#### Questions
-[Blind 75 leetcode](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
 
-[One More List](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
-[GFG List](https://www.geeksforgeeks.org/top-algorithms-and-data-structures-for-competitive-programming/)
-
+# Interview Algorithms
 
 1. BFS
 2. DFS
