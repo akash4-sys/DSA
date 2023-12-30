@@ -23,18 +23,26 @@ class SegmentTree
         return tree[i] = leftTree + rightTree;
     }
 
+    ll treeSize(int n)
+    {
+        ll pow2 = 1;
+        while (pow2 < n)
+            pow2 = pow2 << 1;
+        return 2 * pow2 - 1;
+    }
+
 public:
     SegmentTree(vector<int> &v)
     {
-        n = v.size();
-        tree = vector<ll>(n * 4, 0);
-        buildTree(v, 1, 0, n - 1);
+        n = treeSize(n);
+        tree = vector<ll>(n, 0);
+        buildTree(v, 1, 0, n / 2);
     }
 
     ll query(int left, int right, int i = 1, int tree_left = 0, int tree_right = -1)
     {
         if (tree_right == -1)
-            tree_right = n - 1;
+            tree_right = n / 2;
         if (tree_left > right || tree_right < left)
             return 0;
         if (tree_left >= left && tree_right <= right)
@@ -49,10 +57,11 @@ public:
     void update(ll idx, ll val, int i = 1, int left = 0, int right = -1)
     {
         if (right == -1)
-            right = n - 1;
+            right = n / 2;
         if (idx < left || idx > right)
             return;
-        if (left == right) {
+        if (left == right)
+        {
             tree[i] = val;
             return;
         }
@@ -91,7 +100,7 @@ int main()
         salary_freq[employee[i]]++;
         buckets[bucketNum(employee[i])]++;
     }
-    
+
     SegmentTree tree(buckets);
     while (q--)
     {
