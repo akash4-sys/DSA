@@ -17,19 +17,20 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x)<<" "; }
+#define pv(v) { for(auto &x : v) pf(x); }
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
 int solve()
 {
     int n = II, m = II, ans = 0;
-    string x = SS, s = SS;
-    while (x.find(s) == string::npos && x.size() <= 100)
-        x += x, ans++;
-    if (x.find(s) == string::npos)
-        return -1;
-    return ans;
+    string s = SS, t = SS;
+    while (s.size() <= 100 && s.find(t) == string::npos)
+        s += s, ans++;
+    
+    if (s.find(t) != string::npos)
+        return ans;
+    return -1;
 }
 
 int main()

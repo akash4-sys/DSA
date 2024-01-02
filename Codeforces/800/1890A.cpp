@@ -20,23 +20,20 @@ using namespace std;
 #define pv(v) { for(auto &x : v) pf(x); }
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
+#define s second
 
-vec solve()
+string solve()
 {
     int n = II;
-    vec v(n);
-    iv(v);
-
-    vec ans = {v[0]};
-    for (int i = 1; i < n; i++)
-    {
-        if (v[i] < v[i - 1])
-            ans.push_back(max(v[i] - 1, 1));
-        ans.push_back(v[i]);
-    }
+    map<int, int> mp;
+    for (int i = 0; i < n; i++)
+        mp[II]++;
     
-    pl(ans.size());
-    return ans;
+    if (mp.size() > 2)
+        return "No";
+    if (abs(mp.begin()->s - mp.rbegin()->s) <= 1)
+        return "Yes";
+    return "No";
 }
 
 int main()
@@ -44,9 +41,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-    {
-        pv(solve());
-        br;
-    }
+        pl(solve());
     return 0;
 }
