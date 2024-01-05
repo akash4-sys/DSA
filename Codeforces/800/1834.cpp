@@ -21,19 +21,26 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-string solve()
+int solve()
 {
-    int n = II, odd = 0, even = 0;
+    int n = II, pos = 0, neg = 0, ans = 0;
     for (int i = 0; i < n; i++)
     {
         int a = II;
-        odd += a % 2 != 0;
-        even += a % 2 == 0;
+        pos += a > 0;
+        neg += a < 0;
     }
 
-    if (even == n || odd % 2 == 0)
-        return "YES";
-    return "NO";    
+    if (neg % 2)
+        pos++, neg--, ans++;
+    if (pos >= neg)
+        return ans;
+
+    int op = ceil((neg - pos) / 2.0);
+    neg -= op, pos += op, ans += op;
+    if (neg % 2)
+        pos++, neg--, ans++;
+    return ans;
 }
 
 int main()

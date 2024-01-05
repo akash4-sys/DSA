@@ -21,19 +21,28 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-string solve()
+void solve()
 {
-    int n = II, odd = 0, even = 0;
-    for (int i = 0; i < n; i++)
+    int n = II, k = II, x = II;
+    if (x != 1)
     {
-        int a = II;
-        odd += a % 2 != 0;
-        even += a % 2 == 0;
+        cout << "Yes\n" << n << endl;
+        for (int i = 1; i <= n; i++)
+            pf(1);
+        br;
+        return;
     }
 
-    if (even == n || odd % 2 == 0)
-        return "YES";
-    return "NO";    
+    if (k == 1 || (n % 2 == 0 && k < 2) || (n % 2 && k < 3)) {
+        pl("No");
+        return;
+    }
+
+    cout << "Yes\n" << n / 2 << endl;
+    for (int i = 1; i < (n / 2); i++)
+        pf(2);
+    (n % 2) ? pf(3) : pf(2);
+    br;
 }
 
 int main()
@@ -41,6 +50,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl(solve());
+        solve();
     return 0;
 }

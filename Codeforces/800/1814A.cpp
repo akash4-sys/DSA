@@ -23,17 +23,11 @@ using namespace std;
 
 string solve()
 {
-    int n = II, odd = 0, even = 0;
-    for (int i = 0; i < n; i++)
-    {
-        int a = II;
-        odd += a % 2 != 0;
-        even += a % 2 == 0;
-    }
-
-    if (even == n || odd % 2 == 0)
-        return "YES";
-    return "NO";    
+    ll n = LL, k = LL;
+    for (int i = 0; i <= 2; i++)
+        if (n - i * k >= 0 && (n - i * k) % 2 == 0)
+            return "Yes";
+    return "No";
 }
 
 int main()
