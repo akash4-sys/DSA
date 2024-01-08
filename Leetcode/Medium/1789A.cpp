@@ -21,24 +21,16 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-void solve()
+string solve()
 {
     int n = II;
+    vec v(n);
+    iv(v);
     for (int i = 0; i < n; i++)
-        int a = II;
-    
-    if (n % 2 == 0)
-    {
-        pl(2);
-        pf(1) << n << "\n" << 1 << " " << n << endl;
-        return;
-    }
-
-    pl(4);
-    pf(1) << n - 1 << endl;
-    pf(1) << n - 1 << endl;
-    pf(n - 1) << n << endl;
-    pf(n - 1) << n << endl;
+        for (int j = i + 1; j < n; j++)
+            if (gcd(v[i], v[j]) <= 2)
+                return "Yes";
+    return "No";
 }
 
 int main()
@@ -46,6 +38,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        solve();
+        pl(solve());
     return 0;
 }

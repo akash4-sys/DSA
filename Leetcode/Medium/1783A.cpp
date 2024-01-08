@@ -23,22 +23,20 @@ using namespace std;
 
 void solve()
 {
-    int n = II;
-    for (int i = 0; i < n; i++)
-        int a = II;
-    
-    if (n % 2 == 0)
-    {
-        pl(2);
-        pf(1) << n << "\n" << 1 << " " << n << endl;
+    int n = II, sum = 0;
+    vec v(n);
+    iv(v);
+
+    if (v[0] == v.back()) {
+        pl("NO");
         return;
     }
 
-    pl(4);
-    pf(1) << n - 1 << endl;
-    pf(1) << n - 1 << endl;
-    pf(n - 1) << n << endl;
-    pf(n - 1) << n << endl;
+    if (n > 2)
+        swap(v[1], v.back());
+    pl("YES");
+    pv(v);
+    br;
 }
 
 int main()

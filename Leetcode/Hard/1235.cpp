@@ -1,78 +1,55 @@
 #include "../../headers.h"
 
-struct Job
-{
-    int s, f, p;
-};
-
 class Solution
 {
-    vector<Job> jobs;
-    int nonConflicting(int i)       // to optimize it even further do binary search over here
-    {
-        for(int j = i - 1; j >= 0; j--)
-            if(jobs[j].f <= jobs[i].s)
-                return j;
-        return -1;
-    }
-
 public:
-    int jobScheduling(vector<int> &st, vector<int> &et, vector<int> &p)
+    int jobScheduling(vector<int> &s, vector<int> &en, vector<int> &p)
     {
-        for(int i = 0; i < st.size(); i++)
-            jobs.push_back({st[i], et[i], p[i]});
-        sort(jobs.begin(), jobs.end(), [&](Job &x, Job &y) { 
-            return x.f < y.f;
-        });
+        vector<vector<int>> v;
+        for (int i = 0; i < s.size(); i++)
+            v.push_back({s[i], en[i], p[i]});
 
-        vector<int> dp(jobs.size(), -1);
-        dp[0] = jobs[0].p;
-        for(int i = 1; i < jobs.size(); i++)
+        sort(v.begin(), v.end());
+        vector<int> dp(v.size() + 1, 0);
+        for (int i = v.size() - 1; i >= 0; i--)
         {
-            int it = nonConflicting(i), c = jobs[i].p;
-            if(it != -1)
-                c += dp[it];
-            dp[i] = max(c, dp[i - 1]);
+            int k = lower_bound(v.begin() + i, v.end(), vector<int>{v[i][1], -1, -1}, [&](auto &a, auto &b){
+                return a[0] < b[0];
+            }) - v.begin();
+            dp[i] = max(dp[k] + v[i][2], dp[i + 1]);
         }
-        return dp.back();
+        return dp[0];
     }
 };
+
 
 
 class Solution
 {
-    vector<Job> jobs;
-    vector<int> dp;
-    int nonConflicting(int i)
-    {
-        for(int j = i - 1; j >= 0; j--)
-            if(jobs[j].f <= jobs[i].s)
-                return j;
-        return -1;
-    }
+    int dp[50001];
+    vector<vector<int>> v;
 
-    int maxProfit(int i)
+    int rec(int i)
     {
-        if(i < 0)
+        if (i == v.size())
             return 0;
-        if(!i)
-            return jobs[i].p;
-        if(dp[i] != -1)
+        if (dp[i] != -1)
             return dp[i];
-        return dp[i] = max(jobs[i].p + maxProfit(nonConflicting(i)), maxProfit(i - 1));
+        
+        int k = lower_bound(v.begin() + i, v.end(), vector<int>{v[i][1], -1, -1}, [&](auto &a, auto &b){
+            return a[0] < b[0];
+        }) - v.begin();
+        return dp[i] = max(rec(k) + v[i][2], rec(i + 1));
     }
 
 public:
-    int jobScheduling(vector<int> &st, vector<int> &et, vector<int> &p)
+    int jobScheduling(vector<int> &s, vector<int> &en, vector<int> &p)
     {
-        for(int i = 0; i < st.size(); i++)
-            jobs.push_back({st[i], et[i], p[i]});
-        sort(jobs.begin(), jobs.end(), [&](Job &x, Job &y) { 
-            return x.f < y.f;
-        });
-        dp = vector<int>(jobs.size(), -1);
-        return maxProfit(jobs.size() - 1);
+        for (int i = 0; i < s.size(); i++)
+            v.push_back({s[i], en[i], p[i]});
+
+        sort(v.begin(), v.end());
+        memset(dp, -1, sizeof(dp));
+        return rec(0);
     }
 };
-
-// @lc app=leetcode id=1235 lang=cpp

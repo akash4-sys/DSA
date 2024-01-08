@@ -14,29 +14,28 @@ using namespace std;
 #define II ({ int a; cin>>a; a; })
 #define LL ({ ll a; cin>>a ; a; })
 #define SS ({ string s; cin>>s; s; })
-#define pf(x) cout << x
-#define pl(x) cout << x << "\n"
-#define br cout << "\n"
-#define pv(v) { for(auto &x : v) pf(x)<<" "; }
-#define pvv(vv) { for(auto &v : vv) pv(v), br; }
-#define iv(v, n) { for(int i = 0; i < n; i++) cin >> v[i]; }
+#define pf(x) cout << x << " "
+#define pl(x) cout << x << endl
+#define br cout << endl
+#define pv(v) { for(auto &x : v) pf(x); }
+#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+int solve()
 {
-    ll n = II, mul = 1, x = 1;
-    vector<ll> v(n);
-    for (int i = 0; i < n; i++)
-    {
-        cin>>v[i];
-        x += v[i] == 2;
+    int n = II, two = 0, pf_two = 0;
+    vec v(n);
+    for (int i = 0; i < n; i++) {
+        v[i] = II;
+        two += v[i] == 2;
     }
     
-    for (ll i = 0; i < n - 1; i++)
-    {
-        mul += v[i] == 2;
-        x -= v[i] == 2;
-        if (mul == x)
-            return i + 1;
+    pf_two += v[0] == 2, two -= v[0] == 2;
+    for (int i = 1; i < n; i++) {
+        if (two == pf_two)
+            return i;
+        pf_two += v[i] == 2;
+        two -= v[i] == 2;
     }
     return -1;
 }

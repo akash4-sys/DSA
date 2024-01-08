@@ -21,24 +21,12 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-void solve()
+string solve()
 {
-    int n = II;
-    for (int i = 0; i < n; i++)
-        int a = II;
-    
-    if (n % 2 == 0)
-    {
-        pl(2);
-        pf(1) << n << "\n" << 1 << " " << n << endl;
-        return;
-    }
-
-    pl(4);
-    pf(1) << n - 1 << endl;
-    pf(1) << n - 1 << endl;
-    pf(n - 1) << n << endl;
-    pf(n - 1) << n << endl;
+    ll n = LL, k = LL, sum = LL;
+    ll minsum = k * (k + 1) / 2;
+    ll maxsum = (n * (n + 1) / 2) - ((n - k) * (n - k + 1) / 2);
+    return sum >= minsum && sum <= maxsum ? "YES" : "NO";
 }
 
 int main()
@@ -46,6 +34,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        solve();
+        pl(solve());
     return 0;
 }

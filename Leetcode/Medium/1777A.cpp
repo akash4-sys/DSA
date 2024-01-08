@@ -21,24 +21,24 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-void solve()
+int solve()
 {
-    int n = II;
+    int n = II, odd = 0, even = 0, ans = 0;
     for (int i = 0; i < n; i++)
-        int a = II;
-    
-    if (n % 2 == 0)
     {
-        pl(2);
-        pf(1) << n << "\n" << 1 << " " << n << endl;
-        return;
+        int a = II;
+        if (a % 2) {
+            odd++;
+            ans += max(even - 1, 0);
+            even = 0;
+        } else {
+            even++;
+            ans += max(odd - 1, 0);
+            odd = 0;
+        }
     }
-
-    pl(4);
-    pf(1) << n - 1 << endl;
-    pf(1) << n - 1 << endl;
-    pf(n - 1) << n << endl;
-    pf(n - 1) << n << endl;
+    ans += max(even - 1, 0) + max(odd - 1, 0);
+    return ans;
 }
 
 int main()
@@ -46,6 +46,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        solve();
+        pl(solve());
     return 0;
 }
