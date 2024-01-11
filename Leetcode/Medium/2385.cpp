@@ -1,6 +1,39 @@
 #include "../../headers.h"
 #include "../../treestructure.h"
 
+// Time Complexity - O(N)
+// Space Complexity - O(N)
+
+class Solution {
+    int ans = 0;
+    pair<int, bool> dfs(TreeNode *root, int start) {
+        if (!root)
+            return {0, 0};
+
+        auto [ld, ls] = dfs(root->left, start);
+        auto [rd, rs] = dfs(root->right, start);
+
+        if (root->val == start) {
+            ans = max({ans, ld, rd});
+            return {0, 1};
+        }
+        if (ls || rs) {
+            ans = max(ans, ld + rd + 1);
+            return {(ls ? ld : rd) + 1, 1};
+        }
+        return {max(ld, rd) + 1, 0};
+    }
+
+public:
+    int amountOfTime(TreeNode* root, int start) {
+        dfs(root, start);
+        return ans;
+    }
+};
+
+
+
+
 class Solution
 {
     int ans = 0, s;

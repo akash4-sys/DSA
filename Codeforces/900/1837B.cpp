@@ -23,19 +23,17 @@ using namespace std;
 
 int solve()
 {
+    int n = II, ans = 0, l = 0, r = 0;
     string s = SS;
-    int one = 0, zero = 0, n = s.size();
     for (char &c : s)
-        one += c == '1', zero += c == '0';
-    
-    for (int i = 0; i < n; i++)
-    {
-        if ((s[i] == '1' && !zero) || (s[i] == '0' && !one))
-            return n - i;
-        one -= s[i] == '0';
-        zero -= s[i] == '1';
-    }
-    return 0;
+        if (c == '>') {
+            l = 0;
+            ans = max(ans, ++r);
+        } else {
+            r = 0;
+            ans = max(ans, ++l);
+        }
+    return ans + 1;
 }
 
 int main()

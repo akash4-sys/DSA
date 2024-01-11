@@ -21,21 +21,23 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-int solve()
+ll solve()
 {
-    string s = SS;
-    int one = 0, zero = 0, n = s.size();
-    for (char &c : s)
-        one += c == '1', zero += c == '0';
+    int n = II, k = II, m = ceil(n / 2.0);
+    vec v(n * k + 1);
+    for (int i = 1; i <= n * k; i++)
+        v[i] = II;
     
-    for (int i = 0; i < n; i++)
+    ll ans = 0;
+    ll j = (n * k) - m + (n % 2 != 0), i = 0;
+    ll d = m + (n % 2 == 0);
+    while (i < j)
     {
-        if ((s[i] == '1' && !zero) || (s[i] == '0' && !one))
-            return n - i;
-        one -= s[i] == '0';
-        zero -= s[i] == '1';
+        ans += v[j];
+        j -= d;
+        i += (n - d);
     }
-    return 0;
+    return ans;
 }
 
 int main()

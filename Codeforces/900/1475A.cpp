@@ -21,21 +21,14 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-int solve()
+string solve()
 {
-    string s = SS;
-    int one = 0, zero = 0, n = s.size();
-    for (char &c : s)
-        one += c == '1', zero += c == '0';
-    
-    for (int i = 0; i < n; i++)
-    {
-        if ((s[i] == '1' && !zero) || (s[i] == '0' && !one))
-            return n - i;
-        one -= s[i] == '0';
-        zero -= s[i] == '1';
-    }
-    return 0;
+    ll n = LL;
+    while (n > 1 && n % 2 == 0)
+        n /= 2;
+    if (n != 1 && n % 2)
+        return "YES";
+    return "NO";
 }
 
 int main()

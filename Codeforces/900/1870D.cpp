@@ -17,32 +17,42 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x); }
+#define pv(v) { for(auto &x : v) pl(x); }
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-int solve()
+vector<string> solve()
 {
-    string s = SS;
-    int one = 0, zero = 0, n = s.size();
-    for (char &c : s)
-        one += c == '1', zero += c == '0';
-    
+    int n = II, q = II, odd = 0;
+    vec v(n);
     for (int i = 0; i < n; i++)
     {
-        if ((s[i] == '1' && !zero) || (s[i] == '0' && !one))
-            return n - i;
-        one -= s[i] == '0';
-        zero -= s[i] == '1';
+        int a = II;
+        odd += a % 2 != 0;
+        v[i] = odd;
     }
-    return 0;
+
+    vector<string> ans;
+    for (int i = 0; i < q; i++)
+    {
+        int l = II - 1, r = II - 1, k = II, len = r - l + 1;
+        int oddLeft = odd - (v[r] - (l ? v[l - 1] : 0));
+        if (k % 2)
+            oddLeft += len;
+        if (oddLeft % 2)
+            ans.push_back("YES");
+        else
+            ans.push_back("NO");
+    }
+    return ans;
 }
 
 int main()
 {
     fast;
     int tc = II;
-    while (tc--)
-        pl(solve());
+    while (tc--) {
+        pv(solve());
+    }
     return 0;
 }

@@ -17,26 +17,32 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x)<<" "; }
+#define pv(v) { for(auto &x : v) pf(x); }
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
 string solve()
 {
-    int a = II, b = II, c = II;
-
-    int new_a = b - (c - b);
-    if(new_a >= a && new_a % a == 0 && new_a != 0)
-        return "YES";
-
-    int new_b = a + (c - a)/2;
-    if(new_b >= b && (c-a)%2 == 0 && new_b % b == 0 && new_b != 0)
-        return "YES";
-
-    int new_c = a + 2*(b - a);
-    if(new_c >= c && new_c % c == 0 && new_c != 0)
+    int a = II, b = II, c = II, d = -1;
+    if (b - a == c - b)
         return "YES";
     
+    // For A
+    d = c - b;
+    int new_a = b - d;
+    if (new_a > 0 && new_a % a == 0)
+        return "YES";
+    
+    // For C
+    d = b - a;
+    int new_c = b + d;
+    if (new_c > 0 && new_c % c == 0)
+        return "YES";
+    
+    // For B
+    int new_b = a + ((c - a) / 2);
+    if ((c - a) % 2 == 0 && new_b % b == 0)
+        return "YES";
     return "NO";
 }
 

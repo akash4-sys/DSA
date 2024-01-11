@@ -23,19 +23,13 @@ using namespace std;
 
 int solve()
 {
-    string s = SS;
-    int one = 0, zero = 0, n = s.size();
-    for (char &c : s)
-        one += c == '1', zero += c == '0';
-    
-    for (int i = 0; i < n; i++)
+    int n = II, ans = 0;
+    for (int i = 1; i <= n; i++)
     {
-        if ((s[i] == '1' && !zero) || (s[i] == '0' && !one))
-            return n - i;
-        one -= s[i] == '0';
-        zero -= s[i] == '1';
+        int a = II;
+        ans = gcd(ans, abs(a - i));
     }
-    return 0;
+    return ans;
 }
 
 int main()

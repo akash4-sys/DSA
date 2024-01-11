@@ -23,19 +23,14 @@ using namespace std;
 
 int solve()
 {
-    string s = SS;
-    int one = 0, zero = 0, n = s.size();
-    for (char &c : s)
-        one += c == '1', zero += c == '0';
-    
-    for (int i = 0; i < n; i++)
-    {
-        if ((s[i] == '1' && !zero) || (s[i] == '0' && !one))
-            return n - i;
-        one -= s[i] == '0';
-        zero -= s[i] == '1';
-    }
-    return 0;
+    int n = II, cnt = 0;
+    vec v(n);
+    iv(v);
+
+    for (int i = 1; i < n; i++)
+        cnt += (v[i] == 0 && v[i - 1] != 0);
+    cnt += v.back() != 0;
+    return min(cnt, 2);
 }
 
 int main()

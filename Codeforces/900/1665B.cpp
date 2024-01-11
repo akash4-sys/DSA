@@ -21,21 +21,23 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-int solve()
+ll solve()
 {
-    string s = SS;
-    int one = 0, zero = 0, n = s.size();
-    for (char &c : s)
-        one += c == '1', zero += c == '0';
-    
-    for (int i = 0; i < n; i++)
-    {
-        if ((s[i] == '1' && !zero) || (s[i] == '0' && !one))
-            return n - i;
-        one -= s[i] == '0';
-        zero -= s[i] == '1';
+    ll n = LL, fq = 0, ans = 0;
+    unordered_map<ll, ll> mp;
+    for (int i = 0; i < n; i++) {
+        int a = II;
+        fq = max(fq, ++mp[a]);
     }
-    return 0;
+
+    ll m = n - fq;
+    while (m > 0)
+    {
+        ans += min(m, fq) + 1;
+        m -= fq;
+        fq *= 2;
+    }
+    return ans;
 }
 
 int main()
