@@ -15,14 +15,35 @@ using namespace std;
 #define LL ({ ll a; cin>>a ; a; })
 #define SS ({ string s; cin>>s; s; })
 #define pf(x) cout << x << " "
-#define pl(x) cout << x << "\n"
-#define br cout << "\n"
-#define pv(v) {{ for(auto &x : v) pf(x); } br;}
+#define pl(x) cout << x << endl
+#define br cout << endl
+#define pv(v) { for(auto &x : v) pf(x); }
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
 int solve()
 {
+    int n = II, a = 0, b = INT_MAX;
+    vec v;
+    for (int i = 0; i < n; i++)
+    {
+        int type = II, x = II;
+        if (type == 1)
+            a = max(a, x);
+        else if (type == 2)
+            b = min(b, x);
+        else if (type == 3)
+            v.push_back(x);
+    }
+
+    if (b < a)
+        return 0;
+
+    int cnt = b - a + 1;
+    for (int x : v)
+        if (x >= a && x <= b)
+            cnt--;
+    return cnt;
 }
 
 int main()

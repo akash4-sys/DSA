@@ -1,5 +1,48 @@
 #include "../../headers.h"
 
+class RandomizedSet {
+    unordered_set<int> st;
+
+    // overkill function
+    float randf(float lo, float hi) {
+        float random = ((float) rand()) / (float) RAND_MAX;
+        float diff = hi - lo;
+        float r = random * diff;
+        return lo + r;
+    }
+
+    int randomIndex(int lo, int hi) {
+        int n = hi - lo + 1;
+        int i = rand() % n;
+        if (i < 0) i = -i;
+        return lo + i;
+    }
+
+public:
+    RandomizedSet() {}
+    
+    bool insert(int val) {
+        if (st.count(val))
+            return 0;
+        st.insert(val);
+        return 1;
+    }
+    
+    bool remove(int val) {
+        if (!st.count(val))
+            return 0;
+        st.erase(val);
+        return 1;
+    }
+    
+    int getRandom() {
+        int n = st.size(), i = rand() % n;
+        auto it = st.begin();
+        advance(it, i);
+        return *it;
+    }
+};
+
 class RandomizedSet
 {
     unordered_map<int, int> ump;

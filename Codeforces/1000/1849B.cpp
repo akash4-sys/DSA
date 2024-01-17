@@ -17,25 +17,26 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x)<<" "; }
+#define pv(v) { for(auto &x : v) pf(x); }
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+vec solve()
 {
-    ll n = LL, k = LL, q = LL; 
-    vec v(n);
-    iv(v);
+    int n = II, k = II;
+    vv v;
+    for (int i = 1; i <= n; ++i) {
+        int a = II, r = a % k ? (a % k) : k;
+        v.push_back({r, i});
+    }
 
-    ll ans = 0;
-    for (int i = 0, j = 0; i <= n; i++)
-        if (i == n || v[i] > q)
-        {
-            ll x = i - j;
-            if (x >= k)
-                ans += (((x - k + 1) * (x - k + 2) * 1LL) / 2);
-            j = i + 1;
-        }
+    sort(all(v), [&](auto &a, auto &b){
+        return a[0] > b[0] || (a[0] == b[0] && a[1] < b[1]);
+    });
+
+    vector<int> ans;
+    for (auto &r : v)
+        ans.push_back(r[1]);
     return ans;
 }
 
@@ -43,7 +44,9 @@ int main()
 {
     fast;
     int tc = II;
-    while (tc--)
-        pl(solve());
+    while (tc--) {
+        pv(solve());
+        br;
+    }
     return 0;
 }

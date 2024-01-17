@@ -1,3 +1,5 @@
+
+
 #ifdef __INTELLISENSE__
 #include "../../headers.h"
 #else
@@ -15,21 +17,32 @@ using namespace std;
 #define LL ({ ll a; cin>>a ; a; })
 #define SS ({ string s; cin>>s; s; })
 #define pf(x) cout << x << " "
-#define pl(x) cout << x << "\n"
-#define br cout << "\n"
-#define pv(v) {{ for(auto &x : v) pf(x); } br;}
+#define pl(x) cout << x << endl
+#define br cout << endl
+#define pv(v) { for(auto &x : v) pf(x); }
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-int solve()
+ll solve()
 {
+    ll n = LL, d = LL, ans = 0, r = n;
+    vec v(n);
+    iv(v);
+    sort(all(v), greater<int>());
+    for (int i = 0; i < n; i++)
+    {
+        int players_needed = ceil((d + 1.0) / v[i]);
+        if (players_needed > r)
+            break;
+        r -= players_needed;
+        ans++;
+    }
+    return ans;
 }
 
 int main()
 {
     fast;
-    int tc = II;
-    while (tc--)
-        pl(solve());
+    pl(solve());
     return 0;
 }

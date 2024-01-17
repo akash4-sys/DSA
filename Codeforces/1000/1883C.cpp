@@ -17,50 +17,29 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x)<<" "; }
+#define pv(v) { for(auto &x : v) pf(x); }
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-int check(vec &v)
-{
-    int two = 0, odd = 0;
-    for (int x : v)
-    {
-        if (x % 2 == 0)
-        {
-            while (x % 2 == 0)
-                x /= 2, two++;
-        }
-        else
-            odd++;
-    }
-
-    if (two >= 2)
-        return 0;
-    if (two == 1 && odd >= 1)
-        return 1;
-    return 2;
-}
-
 int solve()
 {
-    int n = II, k = II, ans = INT_MAX;
-    vec v(n);
-    iv(v);
-
-    for (int x : v)
+    int n = II, k = II, ans = INT_MAX, even = 0, odd = 0;
+    for (int i = 0; i < n; i++)
     {
-        int r = (x / k) + 1;
-        if (x % k == 0)
-            return 0;
-        if (x < k)
-            ans = min(ans, k - x);
-        else
-            ans = min(ans, (k * r) - x);
+        int a = II;
+        if (a % k == 0)
+            ans = 0;
+        even += (a % 2 == 0);
+        odd += (a % 2 != 0);
+        ans = min(ans, k - (a % k));
     }
 
-    if (k == 4)
-        ans = min(ans, check(v));
+    if (k == 4) {
+        if (even >= 2 || !ans)
+            return 0;
+        if (odd + even >= 2)
+            ans = min(ans, 2 - even);
+    }
     return ans;
 }
 

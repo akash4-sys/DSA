@@ -595,6 +595,7 @@
 | 1735. | [Count Ways to Make Array With Product](https://leetcode.com/problems/count-ways-to-make-array-with-product/description/)                                                                 |   Yes    |    Hard    |
 | 1743. | [Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/description)                                                                  |   Yes    |   Medium   |
 | 1751. | [Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/description/)                                           |   Yes    |    Hard    |
+| 1755. | [Closest Subseqeunce Sum](https://leetcode.com/problems/closest-subsequence-sum/description/)                                                                  |   Yes    |   Hard   |
 | 1759. | [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/description)                                                                  |   Yes    |   Medium   |
 | 1764. | [Form Array by Concatenating Subarrays of Another Array](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/description/)                               |   Yes    |   Medium   |
 | 1768. | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)                                                                                                     |   Yes    |    Easy    |
