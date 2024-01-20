@@ -17,26 +17,20 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x); }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pv(v) {{ for(auto &x : v) pf(x); } br;}
+#define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
 ll solve()
 {
-    ll n = LL, m = LL;
-    vec a(n), b(m);
-    iv(a); iv(b);
-    sort(all(a)), sort(all(b));
-
-    ll x = 0, y = n - 1, p = 0, q = m - 1, ans = 0;
-    while (x <= y)
+    ll w = LL, h = LL, t = 4, ans = 0;
+    while (t--)
     {
-        ll d2 = abs(a[x] - b[q]), d3 = abs(a[y] - b[p]);
-        ll mx = max({d2, d3});
-        if (mx == d2)
-            ans += d2, x++, q--;
-        else if (mx == d3)
-            ans += d3, y--, p++;
+        ll m = LL, mx = 0, mn = INT_MAX, a;
+        while (m--)
+            a = II, mx = max(mx, a), mn = min(mn, a);
+        ll x = t >= 2 ? h : w;
+        ans = max(ans, (mx - mn) * x);
     }
     return ans;
 }

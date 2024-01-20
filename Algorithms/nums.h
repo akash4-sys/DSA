@@ -78,3 +78,14 @@ int minPos(int n, int k)
 {
     return ((n % k) + k) % k;
 }
+
+
+// XOR of First N Natural numbers
+int xor_of_N(int n)
+{
+    if (n % 4 == 3)
+        return 0;
+    if (n % 4 == 1)
+        return 1;
+    return n + (n % 4 == 2);
+}

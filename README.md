@@ -263,6 +263,7 @@
 | 477.  | [Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/description/)                                                                                               |   Yes    |   Medium   |
 | 486.  | [Predict the Winner](https://leetcode.com/problems/predict-the-winner/description/)                                                                                                       |   Yes    |   Medium   |
 | 491.  | [Non-decreasing Subsequences](https://leetcode.com/problems/non-decreasing-subsequences/description/)                                                                                     |   Yes    |   Medium   |
+| 493.  | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)                                                                                                                             |   Yes    |    Hard    |
 | 496.  | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/)                                                                                               |   Yes    |    Easy    |
 | 503.  | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/description/)                                                                                             |   Yes    |   Medium   |
 | 502.  | [IPO](https://leetcode.com/problems/ipo/description/)                                                                                                                                     |   Yes    |    Hard    |
@@ -595,7 +596,7 @@
 | 1735. | [Count Ways to Make Array With Product](https://leetcode.com/problems/count-ways-to-make-array-with-product/description/)                                                                 |   Yes    |    Hard    |
 | 1743. | [Restore the Array From Adjacent Pairs](https://leetcode.com/problems/restore-the-array-from-adjacent-pairs/description)                                                                  |   Yes    |   Medium   |
 | 1751. | [Maximum Number of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/description/)                                           |   Yes    |    Hard    |
-| 1755. | [Closest Subseqeunce Sum](https://leetcode.com/problems/closest-subsequence-sum/description/)                                                                  |   Yes    |   Hard   |
+| 1755. | [Closest Subseqeunce Sum](https://leetcode.com/problems/closest-subsequence-sum/description/)                                                                                             |   Yes    |    Hard    |
 | 1759. | [Count Number of Homogenous Substrings](https://leetcode.com/problems/count-number-of-homogenous-substrings/description)                                                                  |   Yes    |   Medium   |
 | 1764. | [Form Array by Concatenating Subarrays of Another Array](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array/description/)                               |   Yes    |   Medium   |
 | 1768. | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)                                                                                                     |   Yes    |    Easy    |
@@ -656,7 +657,7 @@
 | 2100. | [Find Good Days to Rob the Bank](https://leetcode.com/problems/find-good-days-to-rob-the-bank/)                                                                                           |   Yes    |   Medium   |
 | 2101. | [Detonate the Maximum Bombs](https://leetcode.com/problems/detonate-the-maximum-bombs/)                                                                                                   |   Yes    |   Medium   |
 | 2115. | [Find All Possible Recipes from Given Supplies](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/description/)                                                 |   Yes    |   Medium   |
-| 2125. | [Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/description/)                                                                                     |   Yes    |   Medium   |
+| 2125. | [Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/description/)                                                                             |   Yes    |   Medium   |
 | 2130. | [Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)                                                                                     |   Yes    |   Medium   |
 | 2131. | [Longest Palindrome by Concatenating Two Letter Words](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words/)                                               |   Yes    |   Medium   |
 | 2136. | [Earliest Possible Day of Full Bloom](https://leetcode.com/problems/earliest-possible-day-of-full-bloom/description/)                                                                     |   Yes    |    Hard    |
@@ -677,6 +678,7 @@
 | 2188. | [Minimum Time to Finish the Race](https://leetcode.com/problems/minimum-time-to-finish-the-race/description/)                                                                             |   Yes    |    Hard    |
 | 2192. | [All Ancestors of a Node in a Directed Acyclic Graph](https://leetcode.com/problems/all-ancestors-of-a-node-in-a-directed-acyclic-graph/)                                                 |   Yes    |   Medium   |
 | 2193. | [Minimum Number of Moves to Make Palindrome](https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/description/)                                                       |   Yes    |    Hard    |
+| 2195. | [Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/description/)                                                                     |   Yes    |    Medium    |
 | 2200. | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/)                                                                     |   Yes    |    Easy    |
 | 2201. | [Count Artifacts That Can Be Extracted](https://leetcode.com/problems/count-artifacts-that-can-be-extracted/)                                                                             |   Yes    |   Medium   |
 | 2202. | [Maximize the Topmost Element After K Moves](https://leetcode.com/problems/maximize-the-topmost-element-after-k-moves/)                                                                   |   Yes    |   Medium   |
@@ -1105,7 +1107,7 @@
 | 2965  | [Divide Array Into Arrays With Max Difference](https://leetcode.com/contest/weekly-contest-376/problems/divide-array-into-arrays-with-max-difference/)                                    |   Yes    |   Medium   |
 | 2967  | [Minimum Cost to Make Array Equalindromic](https://leetcode.com/contest/weekly-contest-376/problems/minimum-cost-to-make-array-equalindromic/)                                            |   Yes    |   Medium   |
 | 2968  | [Apply Operations to Maximize Frequency Score](https://leetcode.com/problems/apply-operations-to-maximize-frequency-score/)                                                               |   Yes    |    Hard    |
-| 2974  | [Minimum Number Game](https://leetcode.com/contest/weekly-contest-377/problems/minimum-number-game/)                                                                                      |   Yes    |   Easy   |
+| 2974  | [Minimum Number Game](https://leetcode.com/contest/weekly-contest-377/problems/minimum-number-game/)                                                                                      |   Yes    |    Easy    |
 | 2975  | [Maximum Square Area by Removing Fences From a Field](https://leetcode.com/contest/weekly-contest-377/problems/maximum-square-area-by-removing-fences-from-a-field/)                      |   Yes    |   Medium   |
 | 2976  | [Minimum Cost to Convert String I](https://leetcode.com/contest/weekly-contest-377/problems/minimum-cost-to-convert-string-i/)                                                            |   Yes    |   Medium   |
-| 2977  | [Minimum Cost to Convert String II](https://leetcode.com/contest/weekly-contest-377/problems/minimum-cost-to-convert-string-ii/)                                                          |   Yes    |   Hard   |
+| 2977  | [Minimum Cost to Convert String II](https://leetcode.com/contest/weekly-contest-377/problems/minimum-cost-to-convert-string-ii/)                                                          |   Yes    |    Hard    |

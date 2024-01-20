@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<int>
+#define vec vector<ll>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -17,26 +17,24 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x); }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pv(v) {{ for(auto &x : v) pf(x); } br;}
+#define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
 ll solve()
 {
-    ll n = LL, m = LL;
-    vec a(n), b(m);
-    iv(a); iv(b);
-    sort(all(a)), sort(all(b));
+    ll n = LL;
+    vec v(n);
+    iv(v);
 
-    ll x = 0, y = n - 1, p = 0, q = m - 1, ans = 0;
-    while (x <= y)
-    {
-        ll d2 = abs(a[x] - b[q]), d3 = abs(a[y] - b[p]);
-        ll mx = max({d2, d3});
-        if (mx == d2)
-            ans += d2, x++, q--;
-        else if (mx == d3)
-            ans += d3, y--, p++;
+    n--;
+    ll ans = 0, p = -1;
+    for (ll a : v) {
+        if (a != p) {
+            ans += ((n * (n - 1LL)) / 2LL);
+            p = a;
+        }
+        n--;
     }
     return ans;
 }

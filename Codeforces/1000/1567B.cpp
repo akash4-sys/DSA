@@ -17,28 +17,27 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x); }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pv(v) {{ for(auto &x : v) pf(x); } br;}
+#define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
-{
-    ll n = LL, m = LL;
-    vec a(n), b(m);
-    iv(a); iv(b);
-    sort(all(a)), sort(all(b));
+int xor_of_N(int n) {
+    if (n % 4 == 3)
+        return 0;
+    if (n % 4 == 1)
+        return 1;
+    return n + (n % 4 == 2);
+}
 
-    ll x = 0, y = n - 1, p = 0, q = m - 1, ans = 0;
-    while (x <= y)
-    {
-        ll d2 = abs(a[x] - b[q]), d3 = abs(a[y] - b[p]);
-        ll mx = max({d2, d3});
-        if (mx == d2)
-            ans += d2, x++, q--;
-        else if (mx == d3)
-            ans += d3, y--, p++;
-    }
-    return ans;
+int solve()
+{
+    int a = II, b = II;
+    int x = xor_of_N(a - 1);
+    if (x == b)
+        return a;
+    if ((x ^ b) != a)
+        return a + 1;
+    return a + 2;
 }
 
 int main()
