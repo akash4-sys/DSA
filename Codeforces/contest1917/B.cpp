@@ -21,17 +21,49 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+unordered_map<string, ll> dp;
+
+ll rec(string &s)
+{
+    if (s.empty())
+        return 0;
+    if (dp.count(s))
+        return 0;
+    
+    ll res = 1;
+    // Type 1 operation
+    char a = s.back();
+    s.pop_back();
+    res += rec(s);
+
+    // Type 2 operation
+    if (s.size())
+    {
+        char b = s.back();
+        s.pop_back();
+        s += a;
+        res += rec(s);
+        s.pop_back();
+        s += b;
+    }
+
+    s += a;
+    return dp[s] = res;
+}
+
+int solve()
 {
     int n = II;
     string s = SS;
-
+    reverse(all(s));
+    return rec(s);
 }
 
 int main()
 {
     fast;
     int tc = II;
-    while (tc--) 
+    while (tc--)
+        pl(solve());
     return 0;
 }

@@ -89,3 +89,10 @@ int xor_of_N(int n)
         return 1;
     return n + (n % 4 == 2);
 }
+
+
+// ceil divide function when just conversion to double won't work
+// or you can convert to long double
+long long ceil_div(long long a, long long b) {
+    return (a + b - 1) / b;
+}
