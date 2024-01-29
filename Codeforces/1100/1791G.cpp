@@ -21,21 +21,15 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+int solve()
 {
-    ll n = LL, k = LL, l = k * 2 - 1, r = n - 1, m = 0;
+    int n = II, c = II, i = 0;
     vec v(n);
-    iv(v);
+    for (int i = 0; i < n; i++)
+        v[i] = LL + i + 1;
     sort(all(v));
-
-    ll sum = accumulate(v.begin() + l + 1, v.end(), 0LL), ans = sum;
-    while (l > 0)
-    {
-        sum = sum + v[l] + v[l - 1] - v[r];
-        ans = max(ans, sum);
-        l -= 2, r--;
-    }
-    return ans;
+    for (ll sum = 0; i < n && sum + v[i] <= c; sum += v[i++]);
+    return i;
 }
 
 int main()

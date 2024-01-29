@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<ll>
+#define vec vector<int>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -21,25 +21,31 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
-{
-    ll n = LL, k = LL, l = k * 2 - 1, r = n - 1, m = 0;
-    vec v(n);
-    iv(v);
-    sort(all(v));
+vv gcdPairs;
 
-    ll sum = accumulate(v.begin() + l + 1, v.end(), 0LL), ans = sum;
-    while (l > 0)
-    {
-        sum = sum + v[l] + v[l - 1] - v[r];
-        ans = max(ans, sum);
-        l -= 2, r--;
-    }
-    return ans;
+int solve()
+{
+    int n = II, cost = -1;
+    unordered_map<int, int> mp;
+    vec v(n);
+    for (int i = 0; i < n; i++)
+        v[i] = II, mp[v[i]] = i + 1;
+    
+    for (auto &[a, i] : mp)
+        for (int b : gcdPairs[a])
+            if (mp.count(b))
+                cost = max(cost, i + mp[b]);
+    return cost;
 }
 
 int main()
 {
+    gcdPairs = vv(1001);
+    for (int i = 1; i <= 1000; i++)
+        for (int j = 1; j <= 1000; j++)
+            if (__gcd(i, j) == 1)
+                gcdPairs[i].push_back(j);
+
     fast;
     int tc = II;
     while (tc--)

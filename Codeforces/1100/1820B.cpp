@@ -23,20 +23,19 @@ using namespace std;
 
 ll solve()
 {
+    ll ans = 0, n = 0, ones = 0;
     string s = SS;
     s += s;
-    ll ones = 0, n = 0, ans = 0;
-    for (char &c : s) {
-        ones = c == '1' ? ones + 1 : 0;
+    for (char &c : s)
+    {
+        ones += c == '1';
         n = max(n, ones);
+        if (c == '0')
+            ones = 0;
     }
-
-    ll m = s.size() / 2;
-    if (n > m)
-        return m * m;
-    
-    ll a = (n + 1) / 2, b = (n + 2) / 2;
-    return a * b;
+    if (n > s.size() / 2)
+        return (n * n) / 4;
+    return ((n + 1) * (n + 1)) / 4;
 }
 
 int main()

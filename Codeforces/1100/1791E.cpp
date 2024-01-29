@@ -23,19 +23,15 @@ using namespace std;
 
 ll solve()
 {
-    ll n = LL, k = LL, l = k * 2 - 1, r = n - 1, m = 0;
-    vec v(n);
-    iv(v);
-    sort(all(v));
-
-    ll sum = accumulate(v.begin() + l + 1, v.end(), 0LL), ans = sum;
-    while (l > 0)
+    ll n = LL, neg = 0, mn = INT_MAX, sum = 0;
+    for (int i = 0; i < n; i++)
     {
-        sum = sum + v[l] + v[l - 1] - v[r];
-        ans = max(ans, sum);
-        l -= 2, r--;
+        ll a = LL;
+        neg += a < 0;
+        mn = min(mn, abs(a));
+        sum += abs(a);
     }
-    return ans;
+    return sum - (neg % 2 ? mn * 2 : 0);
 }
 
 int main()

@@ -23,17 +23,18 @@ using namespace std;
 
 ll solve()
 {
-    ll n = LL, k = LL, l = k * 2 - 1, r = n - 1, m = 0;
-    vec v(n);
+    ll n = LL, x = LL, l = 1, r = INT_MAX, ans = 0;
+    vec v(n), sum;
     iv(v);
-    sort(all(v));
-
-    ll sum = accumulate(v.begin() + l + 1, v.end(), 0LL), ans = sum;
-    while (l > 0)
+    while (l <= r)
     {
-        sum = sum + v[l] + v[l - 1] - v[r];
-        ans = max(ans, sum);
-        l -= 2, r--;
+        ll h = (r - l) / 2 + l, water = 0;
+        for (ll a : v)
+            water += max(h - a, 0LL);
+        if (water <= x)
+            ans = max(ans, h), l = h + 1;
+        else
+            r = h - 1;
     }
     return ans;
 }

@@ -21,21 +21,30 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+vec solve()
 {
-    ll n = LL, k = LL, l = k * 2 - 1, r = n - 1, m = 0;
-    vec v(n);
-    iv(v);
-    sort(all(v));
+    ll n = LL, m = LL, p = INT_MAX;
+    vec a(n), q(m);
+    iv(a); iv(q);
 
-    ll sum = accumulate(v.begin() + l + 1, v.end(), 0LL), ans = sum;
-    while (l > 0)
-    {
-        sum = sum + v[l] + v[l - 1] - v[r];
-        ans = max(ans, sum);
-        l -= 2, r--;
-    }
-    return ans;
+    vector<unordered_set<int>> v(31);
+    for (int i = 0; i < n; i++)
+        for (ll p = 1; p <= 30; p++)
+            if (a[i] % (1LL << p) == 0)
+                v[p].insert(i);
+    
+    for (ll x : q)
+        if (x < p)
+        {
+            for (ll i : v[x])
+            {
+                a[i] += (1LL << (x - 1));
+                if (a[i] % 2 == 0)
+                    v[1].insert(i);
+            }
+            p = x;
+        }
+    return a;
 }
 
 int main()
@@ -43,6 +52,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl(solve());
+        pv(solve());
     return 0;
 }

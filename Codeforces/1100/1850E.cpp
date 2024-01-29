@@ -23,17 +23,22 @@ using namespace std;
 
 ll solve()
 {
-    ll n = LL, k = LL, l = k * 2 - 1, r = n - 1, m = 0;
+    ll n = LL, c = LL, ans = 0;
     vec v(n);
     iv(v);
-    sort(all(v));
-
-    ll sum = accumulate(v.begin() + l + 1, v.end(), 0LL), ans = sum;
-    while (l > 0)
+    for (ll l = 1, r = 1e9; l <= r;)
     {
-        sum = sum + v[l] + v[l - 1] - v[r];
-        ans = max(ans, sum);
-        l -= 2, r--;
+        ll w = (r - l) / 2 + l, area = 0;
+        for (ll s : v)
+        {
+            area += (w * 2 + s) * (w * 2 + s);
+            if (area > c)
+                break;
+        }
+        if (area <= c)
+            ans = max(ans, w), l = w + 1;
+        else
+            r = w - 1;
     }
     return ans;
 }

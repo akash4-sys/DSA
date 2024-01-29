@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<ll>
+#define vec vector<int>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -21,21 +21,27 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+void f(vec &v, int x, int &k)
 {
-    ll n = LL, k = LL, l = k * 2 - 1, r = n - 1, m = 0;
-    vec v(n);
-    iv(v);
-    sort(all(v));
-
-    ll sum = accumulate(v.begin() + l + 1, v.end(), 0LL), ans = sum;
-    while (l > 0)
+    for (int i = 0; i < v.size(); i++)
     {
-        sum = sum + v[l] + v[l - 1] - v[r];
-        ans = max(ans, sum);
-        l -= 2, r--;
+        int t = k | v[i], f = 1;
+        for (int j = 0; j < 32 && f; j++)
+            if (!(x & (1 << j)) && (t & (1 << j)))
+                f = 0;
+        if (!f)
+            return;
+        k = t;
     }
-    return ans;
+}
+
+string solve()
+{
+    int n = II, x = II, k = 0;
+    vec a(n), b(n), c(n);
+    iv(a); iv(b); iv(c);
+    f(a, x, k), f(b, x, k), f(c, x, k);
+    return k == x ? "Yes" : "No";
 }
 
 int main()

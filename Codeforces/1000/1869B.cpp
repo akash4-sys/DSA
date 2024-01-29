@@ -21,25 +21,19 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll minDist(vv &v, ll k, ll a)
-{
-    ll sx = v[a][0], sy = v[a][1], mind = LLONG_MAX;
-    for (ll i = 0; i < k; i++)
-        mind = min(mind, abs(sx - v[i][0]) + abs(sy - v[i][1]));
-    return mind;
-}
-
 ll solve()
 {
-    ll n = II, k = II, a = II - 1, b = II - 1;
+    ll n = LL, k = LL, a = LL - 1, b = LL - 1, da = 1e10, db = da;
     vv v(n);
     for (int i = 0; i < n; i++)
-        v[i] = {II, II};
+        v[i] = {LL, LL};
     
     ll dist = abs(v[a][0] - v[b][0]) + abs(v[a][1] - v[b][1]);
-    if (k == 0)
-        return dist;
-    return min(dist, minDist(v, k, a) + minDist(v, k, b));
+    for (ll i = 0; i < k; i++) {
+        da = min(da, abs(v[a][0] - v[i][0]) + abs(v[a][1] - v[i][1]));
+        db = min(db, abs(v[b][0] - v[i][0]) + abs(v[b][1] - v[i][1]));
+    }
+    return min(dist, da + db);
 }
 
 int main()

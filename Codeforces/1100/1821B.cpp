@@ -17,27 +17,21 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x)<<" "; }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pv(v) {{ for(auto &x : v) pf(x); } br;}
+#define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
 void solve()
 {
-    int n = II;
+    int n = II, l = 0, r = n - 1;
     vec a(n), b(n);
-    iv (a);
-    iv (b);
+    iv(a); iv(b);
 
-    int l, r;
-    for (int i = 0; i < n; i++)
-        if (a[i] != b[i]) {
-            l = r = i;
-            break;
-        }
-    
+    for (; l < n && a[l] == b[l]; l++);
+    for (; r >= 0 && a[r] == b[r]; r--);
     for (; l > 0 && b[l - 1] <= b[l]; l--);
-    for (; r < n - 1 && b[r] <= b[r + 1]; r++);
-    pf(l + 1) << r + 1 << endl;
+    for (; r < n - 1 && b[r + 1] >= b[r]; r++);
+    pf(l + 1) << (r + 1) << endl;
 }
 
 int main()
