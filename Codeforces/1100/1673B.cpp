@@ -17,18 +17,20 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x)<<" "; }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pv(v) {{ for(auto &x : v) pf(x); } br;}
+#define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+string solve()
 {
-    ll n = LL, x = LL, y = LL;
-    ll a = (n / x) - (n / (x * y / __gcd(x, y)));
-    ll b = (n / y) - (n / (x * y / __gcd(x, y)));
-    ll total = (n * (n + 1)) / 2;
-    ll m = total - ((n - a) * (n - a + 1) / 2);
-    return m - ((b * (b + 1)) / 2);
+    string s = SS;
+    int n = s.size(), mask = 0, i = 0;
+    for (; i < n && !(mask & (1 << (s[i] - 'a'))); i++)
+        mask |= (1 << (s[i] - 'a'));
+    for (int j = i; j < n; j++)
+        if (s[j] != s[j - i])
+            return "NO";
+    return "YES";
 }
 
 int main()

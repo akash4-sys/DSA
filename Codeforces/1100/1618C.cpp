@@ -23,20 +23,18 @@ using namespace std;
 
 ll solve()
 {
-    ll n = LL, ans = 0, sum = 0;
-    map<int, int> mp;
+    ll n = LL, x = 0, y = 0;
+    vec v(n);
+    iv(v);
     for (int i = 0; i < n; i++)
-        mp[LL]++;
+        i % 2 ? y = gcd(y, v[i]) : x = gcd(x, v[i]);
     
-    for (auto &[len, cnt] : mp)
-    {
-        if (cnt >= 3)
-            ans += cnt * (cnt - 1) * (cnt - 2) / 6;
-        else if (cnt >= 2)
-            ans += cnt * (cnt - 1) / 2 * sum;
-        sum += cnt;
-    }
-    return ans;
+    for (int i = 0; i < n; i++)
+        if (x && i % 2 && v[i] % x == 0)
+            x = 0;
+        else if (y && i % 2 == 0 && v[i] % y == 0)
+            y = 0;
+    return max(x, y);
 }
 
 int main()

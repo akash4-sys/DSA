@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<ll>
+#define vec vector<int>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -23,20 +23,11 @@ using namespace std;
 
 ll solve()
 {
-    ll n = LL, ans = 0, sum = 0;
-    map<int, int> mp;
-    for (int i = 0; i < n; i++)
-        mp[LL]++;
-    
-    for (auto &[len, cnt] : mp)
-    {
-        if (cnt >= 3)
-            ans += cnt * (cnt - 1) * (cnt - 2) / 6;
-        else if (cnt >= 2)
-            ans += cnt * (cnt - 1) / 2 * sum;
-        sum += cnt;
-    }
-    return ans;
+    ll n = LL, x = LL, y = LL;
+    ll c = n / lcm(x, y), a = n / x - c, b = n / y - c, r = n - a;
+    ll xsum = ((n * (n + 1)) - (r * (r + 1))) / 2;
+    ll ysum = (b * (b + 1)) / 2;
+    return xsum - ysum;
 }
 
 int main()

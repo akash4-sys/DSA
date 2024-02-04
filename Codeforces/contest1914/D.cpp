@@ -6,47 +6,34 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<ll>
-#define vv vector<vec>
-#define vvv vector<vv>
 #define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
-#define LL ({ ll a; cin>>a ; a; })
-#define SS ({ string s; cin>>s; s; })
-#define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
-#define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x); }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
-#define iv(v) { for(auto &x : v) cin >> x; }
+#define f first
+#define s second
 
-vec max3(vec &a)
+int solve()
 {
-    ll mx1 = -1, mx2 = -1, mx3 = -1;
-    for (int i = 0; i < a.size(); i++)
-        if (mx1 == -1 || a[i] > a[mx1])
-            mx3 = mx2, mx2 = mx1, mx1 = i;
-        else if (mx2 == -1 || a[i] > a[mx2])
-            mx3 = mx2, mx2 = i;
-        else if (mx3 == -1 || a[i] > a[mx3])
-            mx3 = i;
-    return {mx1, mx2, mx3};
-}
+    int n = II, ans = 0;
+    vector<vector<pair<int, int>>> v;
+    for (int k = 0; k < 3; k++)
+    {
+        vector<pair<int, int>> a;
+        for (int i = 0; i < n; i++)
+            a.push_back({II, i});
+        sort(all(a));
+        v.push_back({a.back(), a[n - 2], a[n - 3]});
+    }
 
-ll solve()
-{
-    ll n = LL, ans = 0;
-    vec a(n), b(n), c(n);
-    iv(a);
-    iv(b);
-    iv(c);
-
-    for (int x : max3(a))
-        for (int y : max3(b))
-            for (int z : max3(c))
-                if (x != y && x != z && y != z)
-                    ans = max(ans, a[x] + b[y] + c[z]);
+    for (int i = 0; i < 3; i++)
+        for (int j = 0; j < 3; j++)
+            for (int k = 0; k < 3; k++)
+            {
+                int x = v[0][i].s, y = v[1][j].s, z = v[2][k].s;
+                if (x != y && y != z && z != x)
+                    ans = max(ans, v[0][i].f + v[1][j].f + v[2][k].f);
+            }
     return ans;
 }
 

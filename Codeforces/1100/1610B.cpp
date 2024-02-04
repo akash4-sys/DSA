@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<ll>
+#define vec vector<int>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -21,22 +21,28 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+bool check(vec &v, int x, int l, int r)
 {
-    ll n = LL, ans = 0, sum = 0;
-    map<int, int> mp;
-    for (int i = 0; i < n; i++)
-        mp[LL]++;
-    
-    for (auto &[len, cnt] : mp)
-    {
-        if (cnt >= 3)
-            ans += cnt * (cnt - 1) * (cnt - 2) / 6;
-        else if (cnt >= 2)
-            ans += cnt * (cnt - 1) / 2 * sum;
-        sum += cnt;
-    }
-    return ans;
+    for (; l <= r; l++, r--)
+        if (v[l] != v[r])
+        {
+            if (!x)
+                return check(v, v[l], l + 1, r) || check(v, v[r], l, r - 1);
+            if (x == v[l])
+                return check(v, x, l + 1, r);
+            if (x == v[r])
+                return check(v, x, l, r - 1);
+            return 0;
+        }
+    return 1;
+}
+
+string solve()
+{
+    int n = II;
+    vec v(n);
+    iv(v);
+    return check(v, 0, 0, n - 1) ? "YES" : "NO";
 }
 
 int main()

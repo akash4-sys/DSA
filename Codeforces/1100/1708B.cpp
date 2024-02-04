@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<ll>
+#define vec vector<int>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -21,22 +21,22 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+void solve()
 {
-    ll n = LL, ans = 0, sum = 0;
-    map<int, int> mp;
-    for (int i = 0; i < n; i++)
-        mp[LL]++;
-    
-    for (auto &[len, cnt] : mp)
+    int n = II, l = II, r = II;
+    vec ans;
+    for (int i = 1; i <= n; i++)
     {
-        if (cnt >= 3)
-            ans += cnt * (cnt - 1) * (cnt - 2) / 6;
-        else if (cnt >= 2)
-            ans += cnt * (cnt - 1) / 2 * sum;
-        sum += cnt;
+        int x = l % i ? l + (i - (l % i)) : l;
+        if (x > r) {
+            pl("NO");
+            return;
+        }
+        ans.push_back(x);
     }
-    return ans;
+
+    pl("YES");
+    pv(ans);
 }
 
 int main()
@@ -44,6 +44,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl(solve());
+        solve();
     return 0;
 }
