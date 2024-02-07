@@ -23,15 +23,21 @@ using namespace std;
 
 vec solve()
 {
-    int n = II, m = n * (n - 1) / 2;
-    vec v(m), ans;
+    int n = II, x = 1, y = n, ans = 0;
+    vec v(n);
     iv(v);
-    sort(all(v));
-
-    for (int i = 0; i < m; i += --n)
-        ans.push_back(v[i]);
-    ans.push_back(1e9);
-    return ans;
+    for (int l = 0, r = n - 1; l <= r;)
+    {
+        int a;
+        if (min(v[l], v[r]) <= x)
+            x++, a = min(v[l], v[r]);
+        else if (max(v[l], v[r]) >= y)
+            y--, a = max(v[l], v[r]);
+        else
+            return {l + 1, r + 1};
+        a == v[l] ? l++ : r--;
+    }
+    return {-1};
 }
 
 int main()

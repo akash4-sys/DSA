@@ -17,30 +17,25 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x); }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pv(v) {{ for(auto &x : v) pf(x); } br;}
+#define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
 int solve()
 {
     int n = II, ans = 0;
-    multiset<int> st;
-    for (int i = 0; i < n; i++) {
-        int x = II;
-        st.insert(x);
-    }
-
-    while (!st.empty())
-    {
-        auto it = st.begin();
-        for (int x = *it; it != st.end();)
-        {
-            auto it2 = st.find(++x);
-            st.erase(it);
-            it = it2;
+    vec v(n);
+    map<int, int> mp;
+    for (int i = 0; i < n; i++)
+        v[i] = II, mp[v[i]]++;
+    
+    sort(all(v));
+    for (int a : v)
+        if (mp[a]) {
+            for (int s = a; mp.count(s) && mp[s]; s++)
+                mp[s]--;
+            ans++;
         }
-        ans++;
-    }
     return ans;
 }
 

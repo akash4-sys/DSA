@@ -23,14 +23,11 @@ using namespace std;
 
 vec solve()
 {
-    int n = II, m = n * (n - 1) / 2;
-    vec v(m), ans;
-    iv(v);
-    sort(all(v));
-
-    for (int i = 0; i < m; i += --n)
-        ans.push_back(v[i]);
-    ans.push_back(1e9);
+    int n = II, k = II, l = 1, r = n;
+    vec ans(n);
+    for (int i = 0; i < k; i++)
+        for (int j = i; j < n; j += k)
+            ans[j] = i % 2 ? r-- : l++;
     return ans;
 }
 

@@ -21,17 +21,13 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-vec solve()
+void solve()
 {
-    int n = II, m = n * (n - 1) / 2;
-    vec v(m), ans;
-    iv(v);
-    sort(all(v));
-
-    for (int i = 0; i < m; i += --n)
-        ans.push_back(v[i]);
-    ans.push_back(1e9);
-    return ans;
+    int n = II;
+    vector<char> ch(n, 'a');
+    for (int i = 0; i < n; i++)
+        cout << ch[II]++;
+    br;
 }
 
 int main()
@@ -39,6 +35,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pv(solve());
+        solve();
     return 0;
 }

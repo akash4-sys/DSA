@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<int>
+#define vec vector<ll>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -21,16 +21,25 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-vec solve()
+ll solve()
 {
-    int n = II, m = n * (n - 1) / 2;
-    vec v(m), ans;
-    iv(v);
-    sort(all(v));
+    ll n = LL, m = LL, ans = 0;
+    vv v(n, vec(m));
+    for (auto &r : v)
+        iv(r);
 
-    for (int i = 0; i < m; i += --n)
-        ans.push_back(v[i]);
-    ans.push_back(1e9);
+    for (int j = 0; j < m; j++)
+    {
+        vec c;
+        ll sum = 0;
+        for (int i = 0; i < n; i++)
+            sum += v[i][j], c.push_back(v[i][j]);
+        
+        sort(all(c));
+        sum -= c[0];
+        for (int i = 1; i < n; i++)
+            ans += abs(sum - (c[i - 1] * (n - i))), sum -= c[i];
+    }
     return ans;
 }
 
@@ -39,6 +48,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pv(solve());
+        pl(solve());
     return 0;
 }

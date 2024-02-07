@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<int>
+#define vec vector<ll>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -23,14 +23,21 @@ using namespace std;
 
 vec solve()
 {
-    int n = II, m = n * (n - 1) / 2;
-    vec v(m), ans;
-    iv(v);
-    sort(all(v));
+    ll n = LL, q = LL, mx = 0;
+    vec v(n), ans, psum = {0};
+    for (int i = 0; i < n; i++)
+    {
+        ll a = LL;
+        mx = max(mx, a);
+        v[i - 1] = mx;
+        psum.push_back(psum.back() + a);
+    }
 
-    for (int i = 0; i < m; i += --n)
-        ans.push_back(v[i]);
-    ans.push_back(1e9);
+    for (int i = 0; i < q; i++) {
+        ll k = LL;
+        int j = upper_bound(all(v), k) - v.begin() - 1;
+        ans.push_back(psum[j]);
+    }
     return ans;
 }
 
