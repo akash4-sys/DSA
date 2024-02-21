@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// ! zArray[0] = 0, though it should be equal to s.size()
+
 class zAlgorithm
 {
     vector<int> zAlgo(string &s)

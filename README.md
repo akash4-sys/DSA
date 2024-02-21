@@ -15,7 +15,7 @@
 |  11.  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                                                                                                     |   Yes    |   Medium   |
 |  12.  | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                                                                                                                       |   Yes    |   Medium   |
 |  13.  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                                                                                                       |   Yes    |    Easy    |
-|  14.  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/submissions/)                                                                                                 |   Yes    |    Easy    |
+|  14.  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                                                                                 |   Yes    |    Easy    |
 |  15.  | [3Sum](https://leetcode.com/problems/3sum)                                                                                                                                                |   Yes    |   Medium   |
 |  16.  | [3Sum Closest](https://leetcode.com/problems/3sum-closest/)                                                                                                                               |   Yes    |   Medium   |
 |  17.  | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)                                                                             |   Yes    |   Medium   |
@@ -527,7 +527,7 @@
 | 1457. | [Pseudo-Palindromic Paths in a Binary Tree](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)                                                                     |   Yes    |   Medium   |
 | 1458. | [Max Dot Product of Two Subsequences](https://leetcode.com/problems/constrained-subsequence-sum/https://leetcode.com/problems/max-dot-product-of-two-subsequences/description)            |   Yes    |    Hard    |
 | 1462. | [Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/description/)                                                                                                       |   Yes    |   Medium   |
-| 1463. | [Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/description/)                                                                                                       |   Yes    |   Hard   |
+| 1463. | [Cherry Pickup II](https://leetcode.com/problems/cherry-pickup-ii/description/)                                                                                                           |   Yes    |    Hard    |
 | 1466. | [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)                                           |   Yes    |   Medium   |
 | 1475. | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)                                                           |   Yes    |    Easy    |
 | 1486. | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/description/)                                                                                         |   Yes    |    Easy    |
@@ -1114,3 +1114,4 @@
 | 2976  | [Minimum Cost to Convert String I](https://leetcode.com/problems/minimum-cost-to-convert-string-i/)                                                                                       |   Yes    |   Medium   |
 | 2977  | [Minimum Cost to Convert String II](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/)                                                                                     |   Yes    |    Hard    |
 | 3027  | [Find the Number of Ways to Place People II](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/description/)                                                       |   Yes    |    Hard    |
+| 3030  | [Find the Grid of Region Average](https://leetcode.com/problems/find-the-grid-of-region-average/description/)                                                                             |   Yes    |   Medium   |

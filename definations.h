@@ -29,7 +29,7 @@
 #define pf(x) cout<<x
 #define pl(x) cout<<x<<"\n"
 #define br cout<<"\n"
-#define pv(v) ({ for(auto &x : v) pf(x)<<" "; })
+#define pv(v) {{ for(auto &x : v) cout << x << " "; } cout << endl;}
 #define pvv(vv) ({ for(auto &v : vv) pv(v), br; })
 #define iv(v, n) { for(int i = 0; i < n; i++) cin >> v[i]; }
 
