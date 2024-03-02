@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<ll>
+#define vec vector<int>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -15,14 +15,25 @@ using namespace std;
 #define LL ({ ll a; cin>>a ; a; })
 #define SS ({ string s; cin>>s; s; })
 #define pf(x) cout << x << " "
-#define pl(x) cout << x << "\n"
-#define br cout << "\n"
+#define pl(x) cout << x << endl
+#define br cout << endl
 #define pv(v) {{ for(auto &x : v) pf(x); } br;}
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+vec solve()
 {
+    int n = II;
+    vec ans;
+    queue<int> q;
+    for (int i = 0; i < n; i++)
+    {
+        q.push(II);
+        while (q.front() < q.size())
+            q.pop();
+        ans.push_back(q.size());
+    }
+    return ans;
 }
 
 int main()
@@ -30,6 +41,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl(solve());
+        pv(solve());
     return 0;
 }

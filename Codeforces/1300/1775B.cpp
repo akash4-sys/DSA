@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<ll>
+#define vec vector<int>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -15,14 +15,38 @@ using namespace std;
 #define LL ({ ll a; cin>>a ; a; })
 #define SS ({ string s; cin>>s; s; })
 #define pf(x) cout << x << " "
-#define pl(x) cout << x << "\n"
-#define br cout << "\n"
+#define pl(x) cout << x << endl
+#define br cout << endl
 #define pv(v) {{ for(auto &x : v) pf(x); } br;}
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+bool check(map<int, int> &mp, vec &pos)
 {
+    for (int &p : pos)
+        if (mp[p] < 2)
+            return 0;
+    return 1;
+}
+
+string solve()
+{
+    int n = II;
+    map<int, int> mp;
+    vv v;
+    for (int i = 0; i < n; i++)
+    {
+        int m = II;
+        vec bit(m);
+        for (int j = 0; j < m; j++)
+            bit[j] = II, mp[bit[j]]++;
+        v.push_back(bit);
+    }
+
+    for (auto &pos : v)
+        if (check(mp, pos))
+            return "YES";
+    return "NO";
 }
 
 int main()

@@ -1,4 +1,62 @@
-#include "headers.h"
+#include "../../headers.h"
+
+
+class DSU
+{
+    vector<int> parent;
+
+public:
+    DSU(int n) : parent(n) { iota(parent.begin(), parent.end(), 0); }
+
+    int par(int u)
+    {
+        return parent[u] == u ? u : parent[u] = par(parent[u]);
+    }
+
+    bool Union(int u, int v)
+    {
+        int uPar = par(u), vPar = par(v);
+        if (uPar == vPar)
+            return 0;
+        parent[uPar] = vPar;
+        return 1;
+    }
+};
+
+class Solution
+{
+    unordered_set<int> pf(int n)
+    {
+        unordered_set<int> s;
+        if (n == 2)
+            s.insert(n);
+        for (int i = 2, sq = sqrt(n); i <= sq; i++)
+            for (; !(n % i); n /= i)
+                s.insert(i);
+        if (n > 2)
+            s.insert(n);
+        return s;
+    }
+
+public:
+    bool canTraverseAllPairs(vector<int> &v)
+    {
+        DSU uf(1e5 + 1);
+        for (int a : v)
+            for (int p : pf(a))
+                uf.Union(a, p);
+
+        for (int i = 1; i < v.size(); i++)
+            if (uf.par(v[i - 1]) != uf.par(v[i]) || v[i - 1] == 1)
+                return 0;
+        return 1;
+    }
+};
+
+
+
+// Time Complexity - O(NlogN)
+// Space Complexity - O(N)
 
 vector<int> prime;
 void sieve(int n)

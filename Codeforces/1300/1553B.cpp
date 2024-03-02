@@ -5,24 +5,24 @@
 using namespace std;
 #endif
 
-#define ll long long
-#define vec vector<ll>
-#define vv vector<vec>
-#define vvv vector<vv>
 #define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
-#define LL ({ ll a; cin>>a ; a; })
 #define SS ({ string s; cin>>s; s; })
-#define pf(x) cout << x << " "
-#define pl(x) cout << x << "\n"
-#define br cout << "\n"
-#define pv(v) {{ for(auto &x : v) pf(x); } br;}
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
-#define iv(v) { for(auto &x : v) cin >> x; }
+#define pl(x) cout << x << endl
 
-ll solve()
+string solve()
 {
+    string s = SS, p = SS;
+    for (int i = 0; i < s.size(); i++)
+    {
+        string a = s.substr(0, i + 1), b = s.substr(0, i);
+        reverse(all(b));
+        a += b;
+        if (a.find(p) != string::npos)
+            return "YES";
+    }
+    return "NO";
 }
 
 int main()
