@@ -17,34 +17,15 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x)<<" "; }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pv(v) {{ for(auto &x : v) pf(x); } br;}
+#define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
-
-void primef(int n, unordered_map<int, int> &mp)
-{
-    if (n == 2)
-        mp[n]++;
-    for (int i = 2, sq = sqrt(n); i <= sq; i++)
-        for (; !(n % i); n /= i)
-            mp[i]++;
-    if (n > 2)
-        mp[n]++;
-}
 
 string solve()
 {
     ll n = LL;
-    vec v(n);
-    iv(v);
-    unordered_map<int, int> mp;
-    for (auto x : v)
-        primef(x, mp);
-    
-    for (auto x : mp)
-        if (x.second % n != 0)
-            return "NO";
-    return "YES";
+    string s = SS;
+    return s.find('0') != string::npos ? "YES" : "NO";
 }
 
 int main()

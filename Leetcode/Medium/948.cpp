@@ -3,24 +3,19 @@
 class Solution
 {
 public:
-    int bagOfTokensScore(vector<int> &t, int p)
+    int bagOfTokensScore(vector<int> &tokens, int power)
     {
-        if(!t.size())
-            return 0;
-        int score = 0, i = 0, j = t.size() - 1;
-        if(i == j && p >= t[0])
-            return 1;
-        sort(t.begin(), t.end());
-        if(p < t[0])
-            return 0;
-        while (i < j)
+        sort(tokens.begin(), tokens.end());
+        int score = 0, ans = 0, n = tokens.size();
+        for (int l = 0, r = n - 1; l <= r && score >= 0; r--)
         {
-            while (p >= t[i])
-                p -= t[i++], score++;
+            while (l <= r && tokens[l] <= power)
+                power -= tokens[l++], score++;
 
-            if (score > 0 && i < j)
-                p += t[j--], score--;
+            ans = max(ans, score);
+            power += tokens[r];
+            score--;
         }
-        return score + (i == j && p >= t[i]);
+        return ans;
     }
 };

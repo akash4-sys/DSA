@@ -17,23 +17,35 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x)<<" "; }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pv(v) {{ for(auto &x : v) pf(x); } br;}
+#define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
 string solve()
 {
-    ll n = LL;
-    for (ll k = 2; k <= log2(n); k++)
+    ll n = LL, l = 2, r = 1e9;
+    while (l <= r)
     {
-        for (ll r = 1; r <= 30; r++)
+        ll k = (l + r) / 2;
+        set<ll> st;
+        for (ll sum = 1 + k, leafs = k * k; sum + leafs <= n; leafs *= k)
+            st.insert(sum += leafs);
+        
+        auto it = st.lower_bound(n);
+        if (*it == n)
+            return "YES";
+        if (*it > n)
+            r = k - 1;
+        else
+            l = k + 1;
     }
+    return "NO";
 }
 
 int main()
 {
     fast;
-    int tc = II;
+    int tc = LL;
     while (tc--)
         pl(solve());
     return 0;
