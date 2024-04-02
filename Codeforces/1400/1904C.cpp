@@ -23,36 +23,29 @@ using namespace std;
 
 ll solve()
 {
-    ll n = LL, m = LL, k = LL, d = LL;
-    vv v(n, vec(m));
-    for (auto &r : v)
-        iv(r);
+    ll n = LL, k = LL;
+    vec v(n);
+    iv(v);
+    if (k > 2)
+        return 0;
     
-    vec cost;
-    for (auto &r : v)
-    {
-        vec dp(m, 1e9);
-        multiset<ll> st = {1};
-        dp[0] = 1;
-        for (int j = 1; j < m - 1; j++)
+    sort(all(v));
+    ll ans = v[0];
+    for (int i = 1; i < n; i++)
+        ans = min(ans, v[i] - v[i - 1]);
+    
+    if (k == 1)
+        return ans;
+    
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < n; j++)
         {
-            dp[j] = *st.begin() + r[j] + 1;
-            if (j - d - 1 >= 0)
-                st.erase(st.find(dp[j - d - 1]));
-            st.insert(dp[j]);
+            ll d = v[i] - v[j], k = lower_bound(all(v), d) - v.begin();
+            if (k < n)
+                ans = min(ans, v[k] - d);
+            if (k > 0)
+                ans = min(ans, d - v[k - 1]);
         }
-        cost.push_back(*st.begin() + 1);
-    }
-
-    ll sum = 0;
-    for (int i = 0; i < k; i++)
-        sum += cost[i];
-    
-    ll ans = sum;
-    for (int i = 1; i < n - k + 1; i++) {
-        sum += cost[i + k - 1] - cost[i - 1];
-        ans = min(ans, sum);
-    }
     return ans;
 }
 

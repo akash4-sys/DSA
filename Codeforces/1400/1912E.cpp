@@ -21,39 +21,21 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+string solve()
 {
-    ll n = LL, m = LL, k = LL, d = LL;
-    vv v(n, vec(m));
-    for (auto &r : v)
-        iv(r);
-    
-    vec cost;
-    for (auto &r : v)
+    int n = II, m = II, digits = 0;
+    vec zero(n);
+    for (int i = 0; i < n; i++) 
     {
-        vec dp(m, 1e9);
-        multiset<ll> st = {1};
-        dp[0] = 1;
-        for (int j = 1; j < m - 1; j++)
-        {
-            dp[j] = *st.begin() + r[j] + 1;
-            if (j - d - 1 >= 0)
-                st.erase(st.find(dp[j - d - 1]));
-            st.insert(dp[j]);
-        }
-        cost.push_back(*st.begin() + 1);
+        int a = II;
+        for (; a % 10 == 0; a /= 10, zero[i]++);
+        for (; a; a /= 10, digits++);
     }
 
-    ll sum = 0;
-    for (int i = 0; i < k; i++)
-        sum += cost[i];
-    
-    ll ans = sum;
-    for (int i = 1; i < n - k + 1; i++) {
-        sum += cost[i + k - 1] - cost[i - 1];
-        ans = min(ans, sum);
-    }
-    return ans;
+    sort(all(zero), greater<int>());
+    for (int i = 1; i < n; i += 2)
+        digits += zero[i];
+    return digits > m ? "Sasha" : "Anna"; 
 }
 
 int main()

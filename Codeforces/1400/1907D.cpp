@@ -21,39 +21,36 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+bool possible(vv &v, int k)
 {
-    ll n = LL, m = LL, k = LL, d = LL;
-    vv v(n, vec(m));
-    for (auto &r : v)
-        iv(r);
-    
-    vec cost;
-    for (auto &r : v)
+    ll l = -k, r = k;
+    for (auto &seg : v)
     {
-        vec dp(m, 1e9);
-        multiset<ll> st = {1};
-        dp[0] = 1;
-        for (int j = 1; j < m - 1; j++)
-        {
-            dp[j] = *st.begin() + r[j] + 1;
-            if (j - d - 1 >= 0)
-                st.erase(st.find(dp[j - d - 1]));
-            st.insert(dp[j]);
-        }
-        cost.push_back(*st.begin() + 1);
+        if ((seg[0] <= l && l <= seg[1]) ||
+            (seg[0] <= r && r <= seg[1]) ||
+            (l <= seg[0] && r >= seg[1])
+        )
+            l = max(l, seg[0]), r = min(r, seg[1]);
+        else
+            return 0;
+        l -= k;
+        r += k;
     }
+    return 1;
+}
 
-    ll sum = 0;
-    for (int i = 0; i < k; i++)
-        sum += cost[i];
+int solve()
+{
+    int n = II, l = 0, r = 1e9 + 1;
+    vv v(n, vec(2, 0));
+    for (auto &seg : v)
+        iv(seg);
     
-    ll ans = sum;
-    for (int i = 1; i < n - k + 1; i++) {
-        sum += cost[i + k - 1] - cost[i - 1];
-        ans = min(ans, sum);
+    while (l <= r) {
+        int mid = l + ((r - l) / 2);
+        (possible(v, mid)) ? r = mid - 1 : l = mid + 1;
     }
-    return ans;
+    return l;
 }
 
 int main()

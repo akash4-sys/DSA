@@ -1,5 +1,3 @@
-
-
 #ifdef __INTELLISENSE__
 #include "../../headers.h"
 #else
@@ -18,49 +16,34 @@ using namespace std;
 #define SS ({ string s; cin>>s; s; })
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
-#define br cout << endl
-#define pv(v) {{ for(auto &x : v) pf(x); } br;}
-#define pvv(mat) { for(auto &r : mat) pv(r); }
-#define iv(v) { for(auto &x : v) cin >> x; }
-
-bool rec(vv &v, vv &dp, int n, int x, int u, int i)
-{
-    if (i == v.size())
-        return u == x;
-    if (dp[i][u] != -1)
-        return dp[i][u];
-    
-    if (v[i][1] == 1)
-        return dp[i][u] = rec(v, dp, n, x, (u + v[i][0]) % n, i + 1);
-    if (v[i][1] == 0)
-        return dp[i][u] = rec(v, dp, n, x, ((u - v[i][0]) + n) % n, i + 1);
-
-    bool a = rec(v, dp, n, x, (u + v[i][0]) % n, i + 1);
-    bool b = rec(v, dp, n, x, ((u - v[i][0]) + n) % n, i + 1);
-    return dp[i][u] =  a || b;
-}
 
 void solve()
 {
-    int n = II, m = II, x = II - 1;
-    vv v;
-    for (int i = 0; i < m; i++) {
+    int n = II, m = II, x = II - 1, i = 0;
+    set<int> st[2];
+    st[i].insert(x);
+
+    while (m--)
+    {
         int r = II;
         char c;
         cin >> c;
-        int d = c == '0' ? 0 : (c == '1' ? 1 : 2);
-        v.push_back({r, d});
+        while (!st[i].empty())
+        {
+            int u = *st[i].begin();
+            st[i].erase(st[i].begin());
+            if (c == '?' || c == '0')
+                st[i ^ 1].insert((u + r) % n);
+            if (c == '?' || c == '1')
+                st[i ^ 1].insert((u - r + n) % n);
+        }
+        i ^= 1;
     }
     
-    reverse(all(v));
-    vec ans;
-    vv dp(m + 1, vec(n + 1, -1));
-    for (int i = 0; i < n; i++)
-        if (rec(v, dp, n, x, i, 0))
-            ans.push_back(i + 1);
-    
-    pl(ans.size());
-    pv(ans);
+    pl(st[i].size());
+    for (auto u : st[i])
+        pf(u + 1);
+    cout << endl;
 }
 
 int main()

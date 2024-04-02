@@ -21,39 +21,35 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+bool isBinary(int n)
 {
-    ll n = LL, m = LL, k = LL, d = LL;
-    vv v(n, vec(m));
-    for (auto &r : v)
-        iv(r);
-    
-    vec cost;
-    for (auto &r : v)
-    {
-        vec dp(m, 1e9);
-        multiset<ll> st = {1};
-        dp[0] = 1;
-        for (int j = 1; j < m - 1; j++)
-        {
-            dp[j] = *st.begin() + r[j] + 1;
-            if (j - d - 1 >= 0)
-                st.erase(st.find(dp[j - d - 1]));
-            st.insert(dp[j]);
-        }
-        cost.push_back(*st.begin() + 1);
-    }
+    for (; n; n /= 10)
+        if (n % 10 != 0 && n % 10 != 1)
+            return 0;
+    return 1;
+}
 
-    ll sum = 0;
-    for (int i = 0; i < k; i++)
-        sum += cost[i];
+int rec(int n)
+{
+    if (isBinary(n))
+        return 1;
     
-    ll ans = sum;
-    for (int i = 1; i < n - k + 1; i++) {
-        sum += cost[i + k - 1] - cost[i - 1];
-        ans = min(ans, sum);
-    }
-    return ans;
+    for (int i = 2, sq = sqrt(n); i <= sq; i++)
+        if (n % i == 0)
+        {
+            int m = n / i;
+            if (m != i && isBinary(m) && rec(n / m))
+                return 1;
+            if (isBinary(i) && rec(n / i))
+                return 1;
+        }
+    return 0;
+}
+
+string solve()
+{
+    int n = II;
+    return rec(n) ? "YES" : "NO";
 }
 
 int main()

@@ -23,37 +23,17 @@ using namespace std;
 
 ll solve()
 {
-    ll n = LL, m = LL, k = LL, d = LL;
-    vv v(n, vec(m));
-    for (auto &r : v)
-        iv(r);
-    
-    vec cost;
-    for (auto &r : v)
-    {
-        vec dp(m, 1e9);
-        multiset<ll> st = {1};
-        dp[0] = 1;
-        for (int j = 1; j < m - 1; j++)
-        {
-            dp[j] = *st.begin() + r[j] + 1;
-            if (j - d - 1 >= 0)
-                st.erase(st.find(dp[j - d - 1]));
-            st.insert(dp[j]);
-        }
-        cost.push_back(*st.begin() + 1);
-    }
-
-    ll sum = 0;
+    int a = II, b = II, k = II;
+    vector<int> cntb(a + 1, 0), cntg(b + 1, 0), boy(k), girl(k);
     for (int i = 0; i < k; i++)
-        sum += cost[i];
+        boy[i] = II, cntb[boy[i]]++;
+    for (int i = 0; i < k; i++)
+        girl[i] = II, cntg[girl[i]]++;
     
-    ll ans = sum;
-    for (int i = 1; i < n - k + 1; i++) {
-        sum += cost[i + k - 1] - cost[i - 1];
-        ans = min(ans, sum);
-    }
-    return ans;
+    ll ans = 0;
+    for (int i = 0; i < k; i++)
+        ans += (k - cntb[boy[i]] - cntg[girl[i]] + 1);
+    return ans / 2;
 }
 
 int main()
