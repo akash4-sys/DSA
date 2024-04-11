@@ -26,6 +26,7 @@ public:
     void sieve(int n)
     {
         vector<int> prime(n + 1, 1);
+        prime[1] = 0;
         for (int p = 2; p * p <= n; p++)
             for (int i = p * p; i <= n && prime[p]; i += p)
                 prime[i] = 0;

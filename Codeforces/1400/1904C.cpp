@@ -6,45 +6,33 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<ll>
-#define vv vector<vec>
-#define vvv vector<vv>
 #define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-#define II ({ int a; cin>>a; a; })
-#define LL ({ ll a; cin>>a ; a; })
-#define SS ({ string s; cin>>s; s; })
-#define pf(x) cout << x << " "
-#define pl(x) cout << x << endl
-#define br cout << endl
-#define pv(v) {{ for(auto &x : v) pf(x); } br;}
-#define pvv(mat) { for(auto &r : mat) pv(r); }
-#define iv(v) { for(auto &x : v) cin >> x; }
+#define LL ({ ll a; cin>>a; a; })
 
 ll solve()
 {
     ll n = LL, k = LL;
-    vec v(n);
-    iv(v);
-    if (k > 2)
+    vector<ll> v(n);
+    for (ll &a : v)
+        a = LL;
+    if (k >= 3)
         return 0;
     
     sort(all(v));
     ll ans = v[0];
-    for (int i = 1; i < n; i++)
-        ans = min(ans, v[i] - v[i - 1]);
-    
-    if (k == 1)
-        return ans;
-    
     for (int i = 0; i < n; i++)
-        for (int j = 0; j < n; j++)
+        for (int j = i + 1; j < n; j++)
         {
-            ll d = v[i] - v[j], k = lower_bound(all(v), d) - v.begin();
-            if (k < n)
-                ans = min(ans, v[k] - d);
-            if (k > 0)
-                ans = min(ans, d - v[k - 1]);
+            ll d = v[j] - v[i];
+            ans = min(ans, d);
+            if (k == 2)
+            {
+                int x = lower_bound(all(v), d) - v.begin();
+                ans = min(ans, v[x] - d);
+                if (x >= 1)
+                    ans = min(ans, d - v[x - 1]);
+            }
         }
     return ans;
 }
@@ -52,8 +40,8 @@ ll solve()
 int main()
 {
     fast;
-    int tc = II;
+    int tc = LL;
     while (tc--)
-        pl(solve());
+        cout << solve() << "\n";
     return 0;
 }
