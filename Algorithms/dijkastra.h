@@ -27,6 +27,11 @@ public:
             auto [w, u] = pq.top();
             pq.pop();
             vis[u] = 1;
+
+            // this condition prevents algo to visit a node where shorter distance that current distance is already found - useful optimization
+            // under strict constraints
+
+            if (w >= dist[u])
             for (auto [v, wt] : adj[u])
                 if (!vis[v] && dist[u] + wt < dist[v])
                     dist[v] = dist[u] + wt, pq.push({dist[v], v});   
