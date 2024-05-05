@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<int>
+#define vec vector<ll>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -23,26 +23,12 @@ using namespace std;
 
 int solve()
 {
-    int n = II;
-    vv g(n);
-    for (int i = 0; i < n; i++)
-    {
-        int u = II - 1, v = II - 1;
-        g[u].push_back(v);
-        g[v].push_back(u);
-        if (u == v)
-            return 0;
-    }
-
-    vec vis(n, 0);
-    for (int i = 0; i < n; i++)
-        if (!vis[i])
-        {
-            int len = dfs(i, i);
-            if (len % 2)
-                return 0;
-        }
-    return 1;
+    int n = II, m = II, k = II;
+    if (n == 1)
+        return 0;
+    if (n <= m)
+        return k < n - 1;
+    return (n - ceil(n / (m * 1.0))) > k;
 }
 
 int main()

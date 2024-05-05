@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<int>
+#define vec vector<ll>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -21,28 +21,36 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-int solve()
+void solve()
 {
     int n = II;
-    vv g(n);
+    string s = SS;
+    vector<int> one_idx, zero_idx, ans;
     for (int i = 0; i < n; i++)
-    {
-        int u = II - 1, v = II - 1;
-        g[u].push_back(v);
-        g[v].push_back(u);
-        if (u == v)
-            return 0;
+        if (s[i] == '1')
+            one_idx.push_back(i);
+        else
+            zero_idx.push_back(i);
+    
+    int p = one_idx.size(), q = zero_idx.size();
+    if (!p || !q) {
+        pl(0);
+        return;
     }
+    
+    for (int i = 0, j = q - 1; i < p && j >= 0 && one_idx[i] < zero_idx[j]; i++, j--)
+        ans.push_back(one_idx[i] + 1);
+    
+    if (ans.size()) {
+        pl(1);
+        for (int j = q - ans.size(); j < q; j++)
+            ans.push_back(zero_idx[j] + 1);
 
-    vec vis(n, 0);
-    for (int i = 0; i < n; i++)
-        if (!vis[i])
-        {
-            int len = dfs(i, i);
-            if (len % 2)
-                return 0;
-        }
-    return 1;
+        pf(ans.size());
+        pv(ans);
+        return;
+    }
+    pl(0);
 }
 
 int main()
@@ -50,6 +58,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl((solve() ? "yes" : "no"));
+        solve();
     return 0;
 }

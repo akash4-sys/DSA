@@ -24,25 +24,13 @@ using namespace std;
 int solve()
 {
     int n = II;
-    vv g(n);
-    for (int i = 0; i < n; i++)
-    {
-        int u = II - 1, v = II - 1;
-        g[u].push_back(v);
-        g[v].push_back(u);
-        if (u == v)
-            return 0;
-    }
+    vec v(n);
+    iv(v);
 
-    vec vis(n, 0);
     for (int i = 0; i < n; i++)
-        if (!vis[i])
-        {
-            int len = dfs(i, i);
-            if (len % 2)
-                return 0;
-        }
-    return 1;
+        if (v[v[i] - 1] == i + 1)
+            return 2;
+    return 3;
 }
 
 int main()
@@ -50,6 +38,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl((solve() ? "yes" : "no"));
+        pl(solve());
     return 0;
 }

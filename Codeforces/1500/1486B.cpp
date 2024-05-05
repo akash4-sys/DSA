@@ -10,16 +10,16 @@ using namespace std;
 
 long long solve()
 {
-    long long ans = 0;
-    int n = II, x = II, y = II;
-    map<pair<int, int>, long long> mp;
+    int n = II;
+    vector<int> x(n), y(n);
     for (int i = 0; i < n; i++)
-    {
-        int a = II, xc = (x - (a % x)) % x;
-        ans += mp[{a % x, a % y}];
-        mp[{xc, a % y}]++;
-    }
-    return ans;
+        x[i] = II, y[i] = II;
+    
+    sort(x.begin(), x.end());
+    sort(y.begin(), y.end());
+    long long d1 = x[n / 2] - x[(n - 1) / 2] + 1;
+    long long d2 = y[n / 2] - y[(n - 1) / 2] + 1;
+    return d1 * d2;
 }
 
 int main()

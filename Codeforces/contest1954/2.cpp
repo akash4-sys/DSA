@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<int>
+#define vec vector<ll>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -21,28 +21,28 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
+// you can delete from anywhere, so that's what is wrong
+
 int solve()
 {
-    int n = II;
-    vv g(n);
-    for (int i = 0; i < n; i++)
-    {
-        int u = II - 1, v = II - 1;
-        g[u].push_back(v);
-        g[v].push_back(u);
-        if (u == v)
-            return 0;
-    }
-
-    vec vis(n, 0);
-    for (int i = 0; i < n; i++)
-        if (!vis[i])
-        {
-            int len = dfs(i, i);
-            if (len % 2)
-                return 0;
+    int n = II, ans = -1;
+    vec v(n);
+    iv(v);
+    if (count(all(v), v[0]) == n)
+        return -1;
+    
+    for (int i = 1; i < n; i++)
+        if (v[i] != v[i - 1]) {
+            ans = i;
+            break;
         }
-    return 1;
+    
+    for (int i = n - 2; i >= 0; i--)
+        if (v[i] != v[i + 1]) {
+            ans = min(ans, n - i - 1);
+            break;
+        }
+    return ans;
 }
 
 int main()
@@ -50,6 +50,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl((solve() ? "yes" : "no"));
+        pl(solve());
     return 0;
 }

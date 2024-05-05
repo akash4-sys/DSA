@@ -8,18 +8,20 @@ using namespace std;
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
 
-long long solve()
+int solve()
 {
-    long long ans = 0;
-    int n = II, x = II, y = II;
-    map<pair<int, int>, long long> mp;
-    for (int i = 0; i < n; i++)
+    int n = II;
+    vector<int> v(n), dp(n + 1, 0);
+    for (int &a : v)
+        a = II;
+    
+    for (int i = n - 1; i >= 0; i--)
     {
-        int a = II, xc = (x - (a % x)) % x;
-        ans += mp[{a % x, a % y}];
-        mp[{xc, a % y}]++;
+        dp[i] = dp[i + 1];
+        if (i + v[i] < n)
+            dp[i] = max(dp[i], dp[i + v[i] + 1] + v[i] + 1);
     }
-    return ans;
+    return n - dp[0];
 }
 
 int main()

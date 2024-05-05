@@ -8,23 +8,30 @@ using namespace std;
 #define ll long long
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
-#define pl(x) cout << x << endl
 
 ll solve()
 {
-    int n = II, k = II, c = 0, v = 0;
-    map<int, int> mp;
-    for (int i = 0; i < n; i++)
-    {
-        int a = II, r = k - (a % k);
-        if (a % k == 0)
-            continue;
-        if (++mp[r] > c)
-            c = mp[r], v = r;
-        else if (mp[r] == c)
-            v = max(v, r);
+    ll n = II, k = II, x = 0;
+    map<ll, ll> mp;
+    priority_queue<ll, vector<ll>, greater<ll>> pq;
+    for (int i = 0; i < n; i++) {
+        ll a = II, r = a % k;
+        if (r) {
+            ll p = k - r + (mp[r] * k);
+            pq.push(p);
+            mp[r]++;
+        }
     }
-    return max(1LL * k * (c - 1) + v + 1LL, 0LL);
+
+    while (!pq.empty()) {
+        ll a = pq.top();
+        pq.pop();
+        if (a < x)
+            a += k, pq.push(a);
+        else
+            x += (a - x), x++;
+    }
+    return x;
 }
 
 int main()
@@ -32,6 +39,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl(solve());
+        cout << solve() << "\n";
     return 0;
 }

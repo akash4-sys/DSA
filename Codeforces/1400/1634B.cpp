@@ -13,7 +13,7 @@ string solve()
     long long n = LL, x = LL, y = LL;
     while (n--)
         x += LL;
-    return (x % 2 == 0) == (y % 2 == 0) ? "Alice" : "Bob";
+    return (x % 2) == (y % 2) ? "Alice" : "Bob";
 }
 
 int main()

@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<int>
+#define vec vector<ll>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -21,28 +21,30 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-int solve()
+bool isPrime(ll n)
 {
-    int n = II;
-    vv g(n);
-    for (int i = 0; i < n; i++)
-    {
-        int u = II - 1, v = II - 1;
-        g[u].push_back(v);
-        g[v].push_back(u);
-        if (u == v)
+    if (n == 1)
+        return 0;
+    for (ll i = 2, sq = sqrt(n); i <= sq; i++)
+        if (n % i == 0)
             return 0;
-    }
-
-    vec vis(n, 0);
-    for (int i = 0; i < n; i++)
-        if (!vis[i])
-        {
-            int len = dfs(i, i);
-            if (len % 2)
-                return 0;
-        }
     return 1;
+}
+
+string solve()
+{
+    string s = SS;
+    for (int i = 0; i < 512; i++)
+    {
+        string r = "";
+        for (int j = 0; j < 9; j++)
+            if (i & (1 << j))
+                r += s[j];
+        
+        if (r.size() >= 2 && isPrime(stoll(r)))
+            return r;
+    }
+    return "-1";
 }
 
 int main()
@@ -50,6 +52,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl((solve() ? "yes" : "no"));
+        pl(solve());
     return 0;
 }

@@ -1,3 +1,4 @@
+
 #ifdef __INTELLISENSE__
 #include "../../headers.h"
 #else
@@ -6,7 +7,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<int>
+#define vec vector<ll>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -21,28 +22,25 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-int solve()
+ll rec(vec &v, int i, int k)
+{
+    if (i == v.size())
+        return 0;
+    
+    ll res = INT_MIN, sum = 0;
+    for (int j = i; j < v.size(); j++) {
+        sum += v[j];
+        res = max(res, rec(v, j + 1, k + 1) + (sum * k));
+    }
+    return res;
+}
+
+ll solve()
 {
     int n = II;
-    vv g(n);
-    for (int i = 0; i < n; i++)
-    {
-        int u = II - 1, v = II - 1;
-        g[u].push_back(v);
-        g[v].push_back(u);
-        if (u == v)
-            return 0;
-    }
-
-    vec vis(n, 0);
-    for (int i = 0; i < n; i++)
-        if (!vis[i])
-        {
-            int len = dfs(i, i);
-            if (len % 2)
-                return 0;
-        }
-    return 1;
+    vec v(n);
+    iv(v);
+    return rec(v, 0, 1);
 }
 
 int main()
@@ -50,6 +48,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl((solve() ? "yes" : "no"));
+        pl(solve());
     return 0;
 }

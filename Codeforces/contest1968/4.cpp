@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<int>
+#define vec vector<ll>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -21,28 +21,33 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-int solve()
+string solve()
 {
-    int n = II;
-    vv g(n);
-    for (int i = 0; i < n; i++)
-    {
-        int u = II - 1, v = II - 1;
-        g[u].push_back(v);
-        g[v].push_back(u);
-        if (u == v)
-            return 0;
-    }
-
-    vec vis(n, 0);
-    for (int i = 0; i < n; i++)
-        if (!vis[i])
-        {
-            int len = dfs(i, i);
-            if (len % 2)
-                return 0;
+    ll n = LL, k = LL, bp = LL, sp = LL;
+    vec p(n + 1), a(n + 1);
+    for (int i = 1; i <= n; i++)
+        p[i] = LL;
+    for (int i = 1; i <= n; i++)
+        a[i] = LL;
+    
+    function<ll(int)> calc = [&](int i) -> ll {
+        ll K = k;
+        vec vis(n + 1, 0);
+        ll sum = 0, score = 0;
+        while (!vis[i] && K) {
+            score = max(score, (K * a[i]) + sum);
+            sum += a[i];
+            K--;
+            vis[i] = 1;
+            i = p[i];
         }
-    return 1;
+        return score;
+    };
+
+    ll b = calc(bp), s = calc(sp);
+    if (b == s)
+        return "Draw";
+    return b < s ? "Sasha" : "Bodya";
 }
 
 int main()
@@ -50,6 +55,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl((solve() ? "yes" : "no"));
+        pl(solve());
     return 0;
 }

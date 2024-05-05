@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<int>
+#define vec vector<ll>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -23,26 +23,11 @@ using namespace std;
 
 int solve()
 {
-    int n = II;
-    vv g(n);
-    for (int i = 0; i < n; i++)
-    {
-        int u = II - 1, v = II - 1;
-        g[u].push_back(v);
-        g[v].push_back(u);
-        if (u == v)
-            return 0;
-    }
-
-    vec vis(n, 0);
-    for (int i = 0; i < n; i++)
-        if (!vis[i])
-        {
-            int len = dfs(i, i);
-            if (len % 2)
-                return 0;
-        }
-    return 1;
+    string a = SS, b = SS;
+    for (int i = 0; i < a.size() - 1; i++)
+        if (a[i] == '0' && b[i] == '0' && a[i + 1] == '1' && b[i + 1] == '1')
+            return 1;
+    return 0;
 }
 
 int main()
@@ -50,6 +35,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl((solve() ? "yes" : "no"));
+        pl((solve() ? "YES" : "NO"));
     return 0;
 }
