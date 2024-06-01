@@ -10,15 +10,21 @@ using namespace std;
 #define LL ({ ll a; cin>>a ; a; })
 #define pl(x) cout << x << endl
 
-bool solve()
+ll dist(ll x, ll y) {
+    return (x * x) + (y * y);
+}
+
+ll solve()
 {
-    ll n = LL;
-    if (n > 1099)
-        return 1;
-    for (int x = 0; x <= n; x += 111)
-        if ((n - x) % 11 == 0)
-            return 1;
-    return 0;
+    ll r = LL, ans = 0, R = r * r, R1 = (r + 1) * (r + 1), y = r;
+    for (ll x = 0; x <= r; x++)
+    {
+        while (dist(x, y) >= R1)
+            y--;
+        for (ll y1 = y; dist(x, y1) >= R && y1; y1--)
+            ans++;
+    }
+    return ans * 4;
 }
 
 int main()
@@ -26,6 +32,6 @@ int main()
     fast;
     int tc = LL;
     while (tc--)
-        pl((solve() ? "YES" : "NO"));
+        pl(solve());
     return 0;
 }

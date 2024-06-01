@@ -15,7 +15,7 @@
 |  11.  | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)                                                                                                     |   Yes    |   Medium   |
 |  12.  | [Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                                                                                                                       |   Yes    |   Medium   |
 |  13.  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                                                                                                       |   Yes    |    Easy    |
-|  14.  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                                                                                 |   Yes    |    Easy    |
+|  14.  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                                                                                                             |   Yes    |    Easy    |
 |  15.  | [3Sum](https://leetcode.com/problems/3sum)                                                                                                                                                |   Yes    |   Medium   |
 |  16.  | [3Sum Closest](https://leetcode.com/problems/3sum-closest/)                                                                                                                               |   Yes    |   Medium   |
 |  17.  | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)                                                                             |   Yes    |   Medium   |
@@ -1115,3 +1115,5 @@
 | 2977  | [Minimum Cost to Convert String II](https://leetcode.com/problems/minimum-cost-to-convert-string-ii/)                                                                                     |   Yes    |    Hard    |
 | 3027  | [Find the Number of Ways to Place People II](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-ii/description/)                                                       |   Yes    |    Hard    |
 | 3030  | [Find the Grid of Region Average](https://leetcode.com/problems/find-the-grid-of-region-average/description/)                                                                             |   Yes    |   Medium   |
+| 3093  | [Longest Common Suffix Queries](https://leetcode.com/problems/longest-common-suffix-queries/)                                                                                             |   Yes    |    Hard    |
+| 3132  | [Find Edges in Shortest Paths](https://leetcode.com/problems/find-edges-in-shortest-paths/description/)                                                                                   |   Yes    |    Hard    |

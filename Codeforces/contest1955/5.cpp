@@ -8,32 +8,25 @@ using namespace std;
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
 #define SS ({ string s; cin>>s; s; })
-#define pl(x) cout << x << endl
 
 int solve()
 {
     int n = II;
     string s = SS;
-    for (int k = n; k; k--)
+    for (int k = n; k > 1; k--)
     {
-        string r = s;
-        int cnt = 0;
-        vector<int> op(n + 1, 0);
-        for (int i = 0; i < n; i++)
-        {
-            cnt -= op[i];
-            r[i] ^= (cnt & 1);
-            if (r[i] == '0')
-            {
-                if (i + k > n)
-                    break;
-                cnt++;
-                op[i + k]++;
-                r[i] = '1';
+        int x = 0, flag = 1;
+        vector<int> v(n + 1, 0);
+        for (int i = 0; i < n && flag; i++) {
+            x ^= v[i];
+            if ((s[i] - '0') ^ x == 0) {
+                if (i + k <= n)
+                    x ^= 1, v[i + k] ^= 1;
+                else
+                    flag = 0;
             }
         }
-
-        if (r.find('0') == string::npos)
+        if (flag)
             return k;
     }
     return 1;
@@ -44,6 +37,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl(solve());
+        cout << solve() << "\n";
     return 0;
 }

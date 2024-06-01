@@ -89,5 +89,6 @@
         "xlocmes": "cpp",
         "xloctime": "cpp",
         "xmemory": "cpp"
-    }
+    },
+    "circleci.persistedProjectSelection": []
 }

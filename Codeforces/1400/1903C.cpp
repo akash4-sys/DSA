@@ -1,4 +1,5 @@
 
+
 #ifdef __INTELLISENSE__
 #include "../../headers.h"
 #else
@@ -7,47 +8,28 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<ll>
-#define vv vector<vec>
-#define vvv vector<vv>
-#define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
-#define LL ({ ll a; cin>>a ; a; })
-#define SS ({ string s; cin>>s; s; })
-#define pf(x) cout << x << " "
-#define pl(x) cout << x << endl
-#define br cout << endl
-#define pv(v) {{ for(auto &x : v) pf(x); } br;}
-#define pvv(mat) { for(auto &r : mat) pv(r); }
-#define iv(v) { for(auto &x : v) cin >> x; }
 
-ll rec(vec &v, int i, int k)
-{
-    if (i == v.size())
-        return 0;
-    
-    ll res = INT_MIN, sum = 0;
-    for (int j = i; j < v.size(); j++) {
-        sum += v[j];
-        res = max(res, rec(v, j + 1, k + 1) + (sum * k));
-    }
-    return res;
-}
-
-ll solve()
-{
-    int n = II;
-    vec v(n);
-    iv(v);
-    return rec(v, 0, 1);
-}
+// Problem is very tough, it's underrated a same is copy is 1900 rated
+// Reached at this concusion but code was too complicated so ended up thinking its wrong
 
 int main()
 {
     fast;
     int tc = II;
     while (tc--)
-        pl(solve());
+    {
+        ll n = II, sum = 0, ans = 0;
+        vector<ll> v(n);
+        for (int i = 0; i < n; i++)
+            v[i] = II;
+        
+        for (int i = n - 1; i > 0; i--) {
+            sum += v[i];
+            ans += (sum >= 0) ? sum : 0;
+        }
+        cout << ans + sum + v[0] << "\n";
+    }
     return 0;
 }
