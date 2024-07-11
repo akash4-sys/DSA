@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<int>
+#define vec vector<ll>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -17,37 +17,18 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x); }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pv(v) {{ for(auto &x : v) pf(x); } br;}
+#define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-void rotate(vector<vector<int>> &grid)
+ll solve()
 {
-    int n = grid.size();
-    for (int i = 0; i < n / 2; i++)
-        for (int j = i; j < n - i - 1; j++)
-        {
-            int temp = grid[i][j];
-            grid[i][j] = grid[n - j - 1][i];
-            grid[n - j - 1][i] = grid[n - i - 1][n - j - 1];
-            grid[n - i - 1][n - j - 1] = grid[j][n - i - 1];
-            grid[j][n - i - 1] = temp;
-        }
-}
-
-bool ok(vv &v) {
-    return v[0][0] < v[0][1] && v[1][0] < v[1][1] && v[0][0] < v[1][0] && v[0][1] < v[1][1];
-}
-
-string solve()
-{
-    vv v(2, vec(2, 0));
-    for (auto &r : v)
-        iv(r);
-    
-    for (int cnt = 0; cnt < 4 && !ok(v); cnt++)
-        rotate(v);
-    return ok(v) ? "YES" : "NO";
+    int n = II;
+    string s = SS, r = SS;
+    for (int i = 0; i < n; i++)
+        if (s[i] != r[i] && (s[i] == 'R' || r[i] == 'R'))
+            return 0;
+    return 1;
 }
 
 int main()
@@ -55,6 +36,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl(solve());
+        pl((solve() ? "YES" : "NO"));
     return 0;
 }

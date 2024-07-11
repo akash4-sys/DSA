@@ -12,9 +12,9 @@ class Trie
     TrieNode *node;
 
 public:
-    Trie() : node(new TrieNode()) {}
+    Trie(): node(new TrieNode()) {}
 
-    void insert(string word)
+    void insert(string &word)
     {
         TrieNode *root = node;
         for (auto c : word)
@@ -26,48 +26,39 @@ public:
         root->isEnd = 1;
     }
 
-    bool search(string word)
+    string prefix(string &word)
     {
+        string prefix = "";
         TrieNode *root = node;
-        for (auto c : word)
-            if (root->child[c - 'a'])
-                root = root->child[c - 'a'];
-            else
-                return false;
-        return root->isEnd;
+        for(auto &c : word)
+        {
+            if(!root->child[c - 'a'])
+                return "";
+            root = root->child[c - 'a'];
+            prefix += c;
+            if (root->isEnd)
+                return prefix;
+        }
+        return "";
     }
 };
-
 
 class Solution
 {
 public:
-    string replaceWords(vector<string> &dict, string s)
+    string replaceWords(vector<string> &words, string &sentence)
     {
         Trie trie;
-        for (auto w : dict)
-            trie.insert(w);
+        for (auto &word : words)
+            trie.insert(word);
         
-        string ans = "", q = "";
-        int f = 0;
-        for (auto c : s)
-        {
-            if(c == ' ')
-            {
-                if(!f) ans += q + " ";
-                f = 0;
-                q = "";
-                continue;
-            }
-            q += c;
-            if (!f && trie.search(q))
-                ans += q + " ", f = 1;
+        stringstream ss(sentence);
+        string word, ans = "";
+        while (ss >> word) {
+            string res = trie.prefix(word);
+            ans += (res.size() ? res : word) + " ";
         }
-        if (!f) ans += q + " ";
         ans.pop_back();
         return ans;
     }
 };
-
-
-// @lc app=leetcode id=648 lang=cpp

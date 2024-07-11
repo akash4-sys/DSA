@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<int>
+#define vec vector<ll>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -17,29 +17,36 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x); }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pv(v) {{ for(auto &x : v) pf(x); } br;}
+#define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
+#define st set<string>
+
+void f(vec &ans, st &st1, st &st2, st &st3, int i) {
+    for (auto &s : st1)
+        if (!st2.count(s) && !st3.count(s))
+            ans[i] += 3;
+        else if (st2.count(s) && !st3.count(s))
+            ans[i] += 1;
+        else if (!st2.count(s) && st3.count(s))
+            ans[i] += 1;
+}
 
 vec solve()
 {
-    int k = II, n = II, d = 1, op = 0;
-    vec v(n + 1, 0), ans;
-    for (int i = 1; i <= n; d++)
-    {
-        v[i] = 1;
-        op++;
-        i += d;
-    }
+    int n = II;
+    set<string> st1, st2, st3;
+    for (int i = 0; i < n; i++)
+        st1.insert(SS);
+    for (int i = 0; i < n; i++)
+        st2.insert(SS);
+    for (int i = 0; i < n; i++)
+        st3.insert(SS);
 
-    int left = max(k - op, 0);
-    for (int i = n; i > 0 && left; i--)
-        if (!v[i])
-            v[i] = 1, left--;
-
-    for (int i = 1; i <= n && ans.size() < k; i++)
-        if (v[i])
-            ans.push_back(i);
+    vec ans(3, 0);
+    f(ans, st1, st2, st3, 0);
+    f(ans, st2, st1, st3, 1);
+    f(ans, st3, st2, st1, 2);
     return ans;
 }
 
@@ -48,9 +55,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-    {
         pv(solve());
-        br;
-    }
     return 0;
 }

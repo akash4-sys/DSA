@@ -7,17 +7,22 @@ using namespace std;
 
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
-#define pl(x) cout << x << endl
+#define pl(x) cout << x << "\n"
 
-bool solve()
+bool f(int a, int b, int x, int x1, int x2)
+{
+    if (x2 - x1 == 0)
+        return !(a || b);
+    if (a >= b)
+        return x - x1 >= a - b;
+    return x2 - x >= b - a;
+}
+
+int solve()
 {
     int a = II, b = II, c = II, d = II;
     int x = II, y = II, x1 = II, y1 = II, x2 = II, y2 = II;
-    x += b - a;
-    y += d - c;
-    int xx = x1 <= x && x <= x2 && (x2 > x1 || a + b == 0);
-    int yy = y1 <= y && y <= y2 && (y2 > y1 || c + d == 0);
-    return xx && yy;
+    return f(a, b, x, x1, x2) && f(c, d, y, y1, y2);
 }
 
 int main()

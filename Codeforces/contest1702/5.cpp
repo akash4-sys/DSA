@@ -5,43 +5,53 @@
 using namespace std;
 #endif
 
-#define ll long long
-#define vec vector<int>
-#define vv vector<vec>
-#define vvv vector<vv>
-#define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
-#define LL ({ ll a; cin>>a ; a; })
-#define SS ({ string s; cin>>s; s; })
-#define pf(x) cout << x << " "
-#define pl(x) cout << x << endl
-#define br cout << endl
-#define pv(v) {{ for(auto &x : v) pf(x); } br;}
-#define pvv(mat) { for(auto &r : mat) pv(r); }
-#define iv(v) { for(auto &x : v) cin >> x; }
 
-int solve()
+class DSU
 {
-    int n = II;
-    vv g(n);
-    for (int i = 0; i < n; i++)
-    {
-        int u = II - 1, v = II - 1;
-        g[u].push_back(v);
-        g[v].push_back(u);
-        if (u == v)
-            return 0;
+    vector<int> parent;
+public:
+    DSU(int n) : parent(n) {
+        iota(parent.begin(), parent.end(), 0);
     }
 
-    vec vis(n, 0);
+    int findParent(int u) {
+        return parent[u] == u ? u : parent[u] = findParent(parent[u]);
+    }
+
+    bool Union(int u, int v)
+    {
+        int uPar = findParent(u), vPar = findParent(v);
+        if (uPar == vPar)
+            return 1;
+        parent[uPar] = vPar;
+        return 0;
+    }
+};
+
+bool solve()
+{
+    int n = II;
+    vector<int> cnt(n);
+    vector<vector<int>> v(n);
+    for (int i = 0; i < n; i++) {
+        int a = II - 1, b = II - 1;
+        v[i] = {a, b};
+        cnt[a]++, cnt[b]++;
+    }
+
     for (int i = 0; i < n; i++)
-        if (!vis[i])
-        {
-            int len = dfs(i, i);
-            if (len % 2)
-                return 0;
-        }
+        if (cnt[i] != 2)
+            return 0;
+    
+    DSU dsu(n * 2 + 1);
+    for (auto &p : v)
+        dsu.Union(p[0], p[1] + n), dsu.Union(p[0] + n, p[1]);
+    
+    for (int i = 0; i < n; i++)
+        if (dsu.findParent(i) == dsu.findParent(i + n))
+            return 0;
     return 1;
 }
 
@@ -50,6 +60,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl((solve() ? "yes" : "no"));
+        cout << (solve() ? "YES" : "NO") << "\n";
     return 0;
 }

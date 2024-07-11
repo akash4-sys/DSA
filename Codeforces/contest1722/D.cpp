@@ -17,30 +17,37 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
 #define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x); }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
+#define pv(v) {{ for(auto &x : v) pf(x); } br;}
+#define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+vec solve()
 {
-    ll n = LL;
-    vec v(n);
-    iv(v);
-
-    int mn = 0, mx = 1e9;
-    for (int i = 0; i < n - 1; i++)
-    {
-        int x = v[i], y = v[i + 1];
-        int midl = (x + y) / 2, midr = (x + y + 1) / 2;
-        if (x < y)
-            mx = min(mx, midl);
-        if (x > y)
-            mn = max(mn, midr);
-    }
+    int n = II;
+    string s = SS;
+    vec v(n, 0), ans(n, 0);
+    for (int i = 0; i <= n / 2; i++)
+        v[i] = n - i - 1;
+    for (int i = (n / 2) + 1; i < n; i++)
+        v[i] = i;
+    if (n % 2 == 0)
+        v[n / 2] = n / 2;
     
-    if (mn <= mx)
-        return mn;
-    return -1;
+    ll sum = 0;
+    vec diff(n, 0);
+    for (int i = 0; i < n; i++) {
+        int d = (s[i] == 'L' ? i : n - i - 1);
+        if (d < v[i])
+            diff[i] = v[i] - d;
+        sum += d;
+    }
+    sort(all(diff), greater<ll>());
+
+    for (int i = 0; i < n; i++) {
+        sum += diff[i];
+        ans[i] = sum;
+    }
+    return ans;
 }
 
 int main()
@@ -48,6 +55,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl(solve());
+        pv(solve());
     return 0;
 }

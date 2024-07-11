@@ -1,9 +1,6 @@
-#ifdef __INTELLISENSE__
-#include "../../headers.h"
-#else
 #include <bits/stdc++.h>
+
 using namespace std;
-#endif
 
 #define ll long long
 #define vec vector<ll>

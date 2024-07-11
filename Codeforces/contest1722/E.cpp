@@ -6,7 +6,7 @@ using namespace std;
 #endif
 
 #define ll long long
-#define vec vector<int>
+#define vec vector<ll>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -14,31 +14,41 @@ using namespace std;
 #define II ({ int a; cin>>a; a; })
 #define LL ({ ll a; cin>>a ; a; })
 #define SS ({ string s; cin>>s; s; })
-#define pf(x) cout << x << " "
 #define pl(x) cout << x << endl
-#define br cout << endl
-#define pv(v) { for(auto &x : v) pf(x); }
-#define pvv(mat) { for(auto &r : mat) {pv(r); br;} }
-#define iv(v) { for(auto &x : v) cin >> x; }
 
-string solve()
+class Prefix2D
 {
-    int n = II, a = 0, b = 0, c = 0;
-    vec v(n);
-    iv(v);
-
-    for (int i = 0, k = n; i < n; i++, k--)
+    vv pf;
+public:
+    Prefix2D(vv &m)
     {
-        a += i + 1 != v[i];
-        b += k != v[i];
-        c += i + 1 != v[i] && k != v[i];
+        pf = vv(m.size() + 1, vec(m[0].size() + 1, 0));
+        for (int i = 0; i < m.size(); i++)
+            for (int j = 0; j < m[0].size(); j++)
+                pf[i + 1][j + 1] = (pf[i + 1][j] + pf[i][j + 1] + m[i][j]) - pf[i][j];
     }
-    
-    if (a + c <= b)
-        return "First";
-    if (b + c < a)
-        return "Second";
-    return "Tie";
+
+    ll sumRegion(int x1, int y1, int x2, int y2) {
+        ll above = pf[x2 + 1][y1], left = pf[x1][y2 + 1], topLeft = pf[x1][y1];
+        return pf[x2 + 1][y2 + 1] + topLeft - left - above;
+    }
+};
+
+void solve()
+{
+    int n = II, q = II;
+    vv v(1001, vec(1001, 0));
+    for (int i = 0; i < n; i++) {
+        int h = II, w = II;
+        v[h][w] += h * w;
+    }
+
+    Prefix2D pf(v);
+    while (q--)
+    {
+        int hs = II, ws = II, hb = II, wb = II;
+        cout << pf.sumRegion(hs + 1, ws + 1, hb - 1, wb - 1) << "\n";
+    }
 }
 
 int main()
@@ -46,6 +56,6 @@ int main()
     fast;
     int tc = II;
     while (tc--)
-        pl(solve());
+        solve();
     return 0;
 }

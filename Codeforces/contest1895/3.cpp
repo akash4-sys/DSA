@@ -6,9 +6,8 @@ using namespace std;
 #endif
 
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
-#define SS ({ string s; cin>>s; s; })
 
-int strsum(string &s) {
+int ssum(string &s) {
     int sum = 0;
     for (char &c : s)
         sum += (c - '0');
@@ -20,28 +19,24 @@ int main()
     int n;
     cin >> n;
     vector<string> v(n);
-    for (auto &s : v)
-        s = SS;
-    
-    vector<vector<int>> len_sum(6, vector<int>(46, 0));
-    for (auto &s : v)
-        len_sum[s.size()][strsum(s)]++;
+    vector<int> a;
+    vector<vector<int>> len(6, vector<int>(46, 0));
+    for (auto &s : v) {
+        cin >> s;
+        a.push_back(ssum(s));
+        len[s.size()][a.back()]++;
+    }
 
     long long ans = 0;
-    for (auto &s : v)
-        for (int sum = strsum(s), a = s.size(), b = a % 2; b <= a; b += 2)
+    for (int i = 0; i < n; i++)
+        for (int j = v[i].size(), r = j - 1, l = 0, sf = 0, pf = 0; j > 0; j -= 2, r--, l++)
         {
-            int len = a + b, pf = 0, sf = 0;
-            for (int i = 0; i < len / 2; i++)
-                pf += (s[i] - '0');
-            for (int i = a - 1, m = len / 2; i >= 0 && m; m--, i--)
-                sf += (s[i] - '0');
-            
-            ans += len_sum[b][max(pf * 2 - sum, 0)];
-            if (a != b)
-                ans += len_sum[b][max(sf * 2 - sum, 0)];
+            ans += len[j][max(a[i] - (pf * 2), 0)];
+            if (j != v[i].size())
+                ans += len[j][max(a[i] - (sf * 2), 0)];
+            sf += (v[i][r] - '0');
+            pf += (v[i][l] - '0');
         }
-    
     cout << ans;
     return 0;
 }

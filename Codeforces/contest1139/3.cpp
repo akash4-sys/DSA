@@ -10,7 +10,8 @@ using namespace std;
 #define II ({ int a; cin>>a; a; })
 #define p pair<int, int>
 
-ll power(ll a, ll b, ll mod) {
+ll power(ll a, ll b, ll mod = 1e9 + 7)
+{
     ll res = 1;
     for (a %= mod; b > 0; b >>= 1)
     {
@@ -23,8 +24,7 @@ ll power(ll a, ll b, ll mod) {
 
 int main()
 {
-    fast;
-    ll n = II, k = II;
+    ll n = II, k = II, remove = n, mod = 1e9 + 7;
     vector<vector<p>> g(n);
     for (int i = 1; i < n; i++) {
         int u = II - 1, v = II - 1, x = II;
@@ -33,21 +33,19 @@ int main()
     }
 
     vector<int> vis(n, 0);
-    function<ll(ll)> dfs = [&](ll u) -> ll {
+    function<int(int)> dfs = [&](int u) -> int {
         vis[u] = 1;
-        ll res = 1;
-        for (auto [v, x] : g[u])
-            if (x == 0 && !vis[v])
-                res += dfs(v);
+        int res = 0;
+        for (auto &[v, x] : g[u])
+            if (!vis[v] && !x)
+                res += dfs(v) + 1;
         return res;
     };
 
-    ll mod = 1e9 + 7, ans = power(n, k, mod);
-    for (int i = 0; i < n; i++)
-        if (!vis[i]) {
-            ll cnt = dfs(i);
-            ans = (ans - power(cnt, k, mod) + mod) % mod;
-        }
-    cout << ans;
+    for (int i = 0; i < n; i++) {
+        ll edges = dfs(i);
+        (remove += (edges ? (power(edges + 1, k) - edges - 1 + mod) % mod : 0)) %= mod;
+    }
+    cout << ((power(n, k) - remove) % mod + mod) % mod;
     return 0;
 }

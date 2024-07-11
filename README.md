@@ -379,6 +379,7 @@
 | 864.  | [Shortest Path to Get All Keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/description/)                                                                                 |   Yes    |    Hard    |
 | 863.  | [All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/)                                                                     |   Yes    |   Medium   |
 | 865.  | [Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/)                                                     |   Yes    |   Medium   |
+| 867.  | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)                                                                                                               |   Yes    |   Easy   |
 | 869.  | [Reordered Power of 2](https://leetcode.com/problems/reordered-power-of-2/)                                                                                                               |   Yes    |   Medium   |
 | 871.  | [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/)                                                                                     |   Yes    |    Hard    |
 | 872.  | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/description/)                                                                                                       |   Yes    |    Easy    |
