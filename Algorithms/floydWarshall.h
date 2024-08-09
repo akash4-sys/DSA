@@ -4,6 +4,8 @@
 
 using namespace std;
 
+// minimum distance between each node in a graph
+
 void floydWarshall(vector<vector<long long>> &dist)
 {
     int n = dist.size();

@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 #define ll long long
@@ -11,21 +12,35 @@ using namespace std;
 #define LL ({ ll a; cin>>a ; a; })
 #define SS ({ string s; cin>>s; s; })
 #define pf(x) cout << x << " "
-#define pl(x) cout << x << "\n"
-#define br cout << "\n"
+#define pl(x) cout << x << endl
+#define br cout << endl
 #define pv(v) {{ for(auto &x : v) pf(x); } br;}
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
 ll solve()
 {
+    int n = II, res = 0;
+    if (n % 2 == 0)
+        return 0;
+    
+    string s = to_string(n);
+    if ((s[0] - '0') % 2 == 0)
+        return 1;
 
+    while (n) {
+        if (n % 2 == 0)
+            res = 1;
+        n /= 10;
+    }
+    return res ? 2 : -1;
 }
 
 int main()
 {
     fast;
-    for (int tc = II; tc; tc--)
+    int tc = II;
+    while (tc--)
         pl(solve());
     return 0;
 }

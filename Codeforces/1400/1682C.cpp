@@ -1,8 +1,9 @@
 #include <bits/stdc++.h>
+
 using namespace std;
 
 #define ll long long
-#define vec vector<ll>
+#define vec vector<int>
 #define vv vector<vec>
 #define vvv vector<vv>
 #define all(v) v.begin(), v.end()
@@ -11,21 +12,33 @@ using namespace std;
 #define LL ({ ll a; cin>>a ; a; })
 #define SS ({ string s; cin>>s; s; })
 #define pf(x) cout << x << " "
-#define pl(x) cout << x << "\n"
-#define br cout << "\n"
+#define pl(x) cout << x << endl
+#define br cout << endl
 #define pv(v) {{ for(auto &x : v) pf(x); } br;}
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+int solve()
 {
-
+    int n = II, distinct = 0, dups = 0;
+    vec v(n);
+    iv(v);
+    map<int, int> mp;
+    for (int &a : v)
+        mp[a]++;
+    
+    for (auto &[a, cnt] : mp) {
+        distinct += cnt == 1;
+        dups += cnt > 1;
+    }
+    return dups + ((distinct + 1) / 2);
 }
 
 int main()
 {
     fast;
-    for (int tc = II; tc; tc--)
+    int tc = II;
+    while (tc--)
         pl(solve());
     return 0;
 }
