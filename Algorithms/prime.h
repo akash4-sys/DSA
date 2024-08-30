@@ -1,8 +1,8 @@
 #pragma once
 
-#include "vector"
-#include "cmath"
-#include "unordered_set"
+#include <vector>
+#include <cmath>
+#include <set>
 
 using namespace std;
 
@@ -36,25 +36,21 @@ public:
     // Time Complexity - O(N)
     void msieve(int n)
     {
-        vector<long long> isprime(100, true), SPF(100);
-        vector<long long>  prime;
-        isprime[0] = isprime[1] = false;
-        for (long long int i = 2; i < n; i++)
+        vector<int> smallest_prime_fact(n + 1, 0), prime;
+        smallest_prime_fact[1] = 1;
+        for (int i = 2; i <= n; i++)
         {
-            if (isprime[i])
-                prime.push_back(i), SPF[i] = i;
-            for (long long int j = 0; j < (int)prime.size() && i * prime[j] < n && prime[j] <= SPF[i]; j++)
-            {
-                isprime[i * prime[j]] = false;
-                SPF[i * prime[j]] = prime[j];
-            }
+            if (!smallest_prime_fact[i])
+                smallest_prime_fact[i] = i, prime.push_back(i);
+            for (int j = 0; j < prime.size() && i * prime[j] <= n && prime[j] <= smallest_prime_fact[i]; j++)
+                smallest_prime_fact[i * prime[j]] = prime[j];
         }
     }
 
     // Time Complexity - O(sqrt(n))
-    void distinctPrimeFactors(int n)
+    set<int> distinctPrimeFactors(int n)
     {
-        unordered_set<int> s;
+        set<int> s;
         if (n == 2)
             s.insert(n);
         for (int i = 2, sq = sqrt(n); i <= sq; i++)
@@ -62,5 +58,6 @@ public:
                 s.insert(i);
         if (n > 2)
             s.insert(n);
+        return s;
     }
 };
