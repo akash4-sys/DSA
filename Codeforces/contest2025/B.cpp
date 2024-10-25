@@ -17,33 +17,33 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+long long power(long long a, long long b, long long mod)
 {
-    ll n = LL, k = LL, money = 0, days = 0, ans = LLONG_MAX;
-    vec a(n), b(n - 1);
-    iv(a); iv(b);
-    b.push_back(0);
+    long long res = 1;
+    for (a %= mod; b > 0; b >>= 1)
+    {
+        if (b & 1)
+            res = (res * a) % mod;
+        a = (a * a) % mod;
+    }
+    return res;
+}
 
-    for (int i = 0; i < n; i++)
-        if (money < k)
-        {
-            ans = min(ans, days + (ll)ceil(((k - money) * 1.0) / a[i]));
-            if (b[i] <= money) {
-                days++;
-                money -= b[i];
-                continue;
-            }
-            ll d = ceil(((b[i] - money) * 1.0) / a[i]);
-            money += (a[i] * d) - b[i];
-            days += d + 1;
-        }
-    return ans;
+ll solve(ll n, ll k)
+{
+    if (!k || n == k)
+        return 1;
+    return power(2, k, 1e9 + 7);
 }
 
 int main()
 {
     fast;
-    for (int tc = II; tc; tc--)
-        pl(solve());
+    int t = II;
+    vector<ll> vn(t), vc(t);
+    iv(vn);
+    iv(vc);
+    for (int i = 0; i < t; i++)
+        pl(solve(vn[i], vc[i]));
     return 0;
 }

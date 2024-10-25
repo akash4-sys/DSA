@@ -1,18 +1,7 @@
-#pragma once
-#include <vector>
+#include <bits/stdc++.h>
+using namespace std;
 
-// @ ex: 1999F , author: jiangly
-// @ Mod Int starts here ............
-
-// ! Things that don't work with this code
-// 1. increment, decrement
-// 2. a += b == c, where a is MInt
-// ! ---------------------------------------------
-
-// ! don't use #define
 using ll = long long;
-
-// ! don't use 1e9 + 7
 constexpr int P = 1000000007;
 
 template<typename T>
@@ -136,55 +125,31 @@ using ModInt = ModIntBase<int, P>;
 
 template<ll P>
 using ModInt64 = ModIntBase<ll, P>;
-using MInt = ModInt<P>;         // define every variable with Mint
+using MInt = ModInt<P>;
 
-// @ Combinatorics
-// ! doesn't work without mod part
+#define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
+#define II ({ int a; cin>>a; a; })
+#define pl(x) cout << x << "\n"
 
-struct Comb {
-    int n;
-    std::vector<MInt> _fac;
-    std::vector<MInt> _invfac;
-    std::vector<MInt> _inv;
-    
-    Comb() : n{0}, _fac{1}, _invfac{1}, _inv{0} {}
-    Comb(int n) : Comb() {
-        init(n);
-    }
-    
-    void init(int m) {
-        if (m <= n) return;
-        _fac.resize(m + 1);
-        _invfac.resize(m + 1);
-        _inv.resize(m + 1);
-        
-        for (int i = n + 1; i <= m; i++) {
-            _fac[i] = _fac[i - 1] * i;
-        }
-        _invfac[m] = _fac[m].inv();
-        for (int i = m; i > n; i--) {
-            _invfac[i - 1] = _invfac[i] * i;
-            _inv[i] = _invfac[i] * _fac[i - 1];
-        }
-        n = m;
-    }
-    
-    MInt fac(int m) {
-        if (m > n) init(2 * m);
-        return _fac[m];
-    }
-    MInt invfac(int m) {
-        if (m > n) init(2 * m);
-        return _invfac[m];
-    }
-    MInt inv(int m) {
-        if (m > n) init(2 * m);
-        return _inv[m];
-    }
-    MInt nCr(int n, int m) {
-        if (n < m || m < 0) return 0;
-        return fac(n) * invfac(m) * invfac(n - m);
-    }
-} comb;
+MInt solve()
+{
+    int n = II;
+    MInt N = n, sum = 0, total = 0;
+    MInt pairs = (N * (N - 1)) / 2;
+    vector<MInt> v(n);
+    for (int i = 0; i < n; i++)
+        v[i] = II;
+    for (int i = n - 1; i >= 0; i--)
+        total += v[i];
+    for (int i = 0; i < n; i++)
+        total -= v[i], sum += (total * v[i]);
+    return sum / pairs;
+}
 
-// use as comb.function(), return data type is MInt
+int main()
+{
+    fast;
+    for (int tc = II; tc; tc--)
+        cout << solve() << endl;
+    return 0;
+}

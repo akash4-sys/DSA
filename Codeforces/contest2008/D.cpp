@@ -17,33 +17,37 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+void solve()
 {
-    ll n = LL, k = LL, money = 0, days = 0, ans = LLONG_MAX;
-    vec a(n), b(n - 1);
-    iv(a); iv(b);
-    b.push_back(0);
+    int n = II;
+    vec v(n + 1), vis2(n + 1, 0), ans(n + 1, 0), vis(n + 1, 0);
+    for (int i = 1; i <= n; i++)
+        v[i] = II;
+    string s = '#' + SS;
 
-    for (int i = 0; i < n; i++)
-        if (money < k)
+    for (int i = 1; i <= n; i++)
+        if (!vis[i])
         {
-            ans = min(ans, days + (ll)ceil(((k - money) * 1.0) / a[i]));
-            if (b[i] <= money) {
-                days++;
-                money -= b[i];
-                continue;
+            int cnt = 0;
+            for (int j = i; !vis2[j]; j = v[j]) {
+                // cout << j << " ";
+                cnt += ((s[j] - '0') == 0);
+                vis2[j] = 1;
             }
-            ll d = ceil(((b[i] - money) * 1.0) / a[i]);
-            money += (a[i] * d) - b[i];
-            days += d + 1;
+            // br;
+            for (int j = i; !vis[j]; j = v[j])
+                vis[j] = 1, ans[j] = cnt;
         }
-    return ans;
+
+    for (int i = 1; i <= n; i++)
+        cout << ans[i] << " ";
+    br;
 }
 
 int main()
 {
     fast;
     for (int tc = II; tc; tc--)
-        pl(solve());
+        solve();
     return 0;
 }

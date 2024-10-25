@@ -2,7 +2,7 @@
 using namespace std;
 
 #define ll long long
-#define vec vector<ll>
+#define vec vector<int>
 #define vv vector<vec>
 #define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
@@ -17,26 +17,25 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+int solve()
 {
-    ll n = LL, k = LL, money = 0, days = 0, ans = LLONG_MAX;
-    vec a(n), b(n - 1);
-    iv(a); iv(b);
-    b.push_back(0);
-
-    for (int i = 0; i < n; i++)
-        if (money < k)
-        {
-            ans = min(ans, days + (ll)ceil(((k - money) * 1.0) / a[i]));
-            if (b[i] <= money) {
-                days++;
-                money -= b[i];
-                continue;
+    int n = II, ans = 0, m = n / 3, cnt[3] = {0};
+    vec v(n);
+    for (int &a : v)
+        a = II % 3, cnt[a]++;
+    
+    if (cnt[0] == cnt[1] && cnt[1] == cnt[2] && cnt[0] == m)
+        return 0;
+    
+    for (int r = 0; r < 3; r++)
+        for (int i = 1; i < 3 && cnt[r] > m; i++)
+            if (cnt[(r + i) % 3] < m)
+            {
+                int k = min(m - cnt[(r + i) % 3], cnt[r] - m);
+                cnt[r] -= k;
+                cnt[(r + i) % 3] += k;
+                ans += (k * i);
             }
-            ll d = ceil(((b[i] - money) * 1.0) / a[i]);
-            money += (a[i] * d) - b[i];
-            days += d + 1;
-        }
     return ans;
 }
 

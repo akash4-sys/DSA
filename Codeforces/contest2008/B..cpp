@@ -12,38 +12,26 @@ using namespace std;
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << "\n"
 #define br cout << "\n"
-#define pyn(x) cout << (x ? "YES" : "NO") << "\n"
+#define pyn(x) cout << (x ? "Yes" : "No") << "\n"
 #define pv(v) {{ for(auto &x : v) pf(x); } br;}
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+bool solve()
 {
-    ll n = LL, k = LL, money = 0, days = 0, ans = LLONG_MAX;
-    vec a(n), b(n - 1);
-    iv(a); iv(b);
-    b.push_back(0);
-
-    for (int i = 0; i < n; i++)
-        if (money < k)
-        {
-            ans = min(ans, days + (ll)ceil(((k - money) * 1.0) / a[i]));
-            if (b[i] <= money) {
-                days++;
-                money -= b[i];
-                continue;
-            }
-            ll d = ceil(((b[i] - money) * 1.0) / a[i]);
-            money += (a[i] * d) - b[i];
-            days += d + 1;
-        }
-    return ans;
+    int n = II, i = 0;
+    string s = SS;
+    while (i < n && s[i] == '1')
+        i++;    
+    if (i == n)
+        return n == 4;
+    return (i - 1) * (i - 1) == n;
 }
 
 int main()
 {
     fast;
     for (int tc = II; tc; tc--)
-        pl(solve());
+        pyn(solve());
     return 0;
 }

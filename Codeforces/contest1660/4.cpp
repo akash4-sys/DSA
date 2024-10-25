@@ -1,84 +1,54 @@
-#ifdef __INTELLISENSE__
-#include "../../headers.h"
-#else
 #include <bits/stdc++.h>
 using namespace std;
-#endif
 
-#define vec vector<int>
 #define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
-#define pf(x) cout << x << " "
-#define pl(x) cout << x << endl
-#define br cout << endl
-#define pv(v) {{ for(auto &x : v) pf(x); } br;}
-#define iv(v) { for(auto &x : v) cin >> x; }
 
-vec f(vec &v, int x, int y)
+void solve()
 {
-    int n = v.size();
-    if (x > y)
-        return {n, 0, 0};
-    
-    int two = 0, neg = 0;
-    for (int i = x; i <= y; i++)
-        neg += (v[i] < 0), two += (abs(v[i]) == 2);
-    if (neg % 2 == 0)
-        return {x, n - y - 1, two};
-    
-    vec res;
-    for (int i = x, k = 1, c = 0; i <= y && k; i++)
+    int n = II, two = 0, neg = 0, prod = -1, x = -1, y = -1;
+    vector<int> v(n + 1, 0), cnt2 = {0}, cntN = {0}, idx = {0};
+    for (int i = 1; i <= n; i++) {
+        cin >> v[i];
+        neg += v[i] < 0;
+        two += abs(v[i]) == 2;
+        cnt2.push_back(two);
+        cntN.push_back(neg);
+        if (!v[i])
+            idx.push_back(i);
+    }
+
+    v.push_back(0);
+    cnt2.push_back(cnt2.back());
+    cntN.push_back(cntN.back());
+    idx.push_back(n + 1);
+
+    for (int i = 1; i < idx.size(); i++)
     {
-        c += abs(v[i]) == 2;
-        if (v[i] < 0)
-            res = {i + 1, n - y - 1, two - c}, k = 0;
-    }
-    
-    for (int i = y, k = 1, c = 0; i >= x && k; i--)
-        if (v[i] < 0)
+        int l = idx[i - 1], r = idx[i];
+        neg = cntN[r] - cntN[l];
+        two = cnt2[r] - cnt2[l];
+        if (neg % 2 == 0 && two >= prod)
+            prod = two, x = idx[i - 1], y = idx[i];
+        
+        if (neg % 2)
         {
-            c += abs(v[i]) == 2;
-            if (v[i] < 0) {
-                if (res.back() < two - c)
-                    res = {x, n - i, two - c};
-                k = 0;
-            }
+            for (; v[l] >= 0; l++);
+            if ((two = cnt2[r] - cnt2[l]) >= prod)
+                prod = two, x = l, y = r;
+            for (; v[r] >= 0; r--);
+            if ((two = cnt2[r - 1] - cnt2[idx[i - 1]]) >= prod)
+                prod = two, x = idx[i - 1], y = r;
         }
-    return res;
-}
-
-vec solve()
-{
-    int n = II, j = 0;
-    vec v(n), ans = {n, 0, 0};
-    iv(v);
-    if (count(all(v), 0) == 0) {
-        vec res = f(v, 0, n - 1);
-        res.pop_back();
-        return res;
     }
-    
-    for (int i = 0; i < n; i++)
-        if (v[i] == 0) {
-            vec res = f(v, j, i - 1);
-            if (res.back() > ans.back())
-                ans = res;
-            j = i + 1;
-        }
-    
-    vec res = f(v, j, v.size() - 1);
-    if (res.back() > ans.back())
-        ans = res;
-    ans.pop_back();
-    return ans;
+    cout << x << " " << n - y + 1 << "\n";
 }
 
 int main()
 {
     fast;
-    int tc = II;
-    while (tc--)
-        pv(solve());
+    for (int tc = II; tc; tc--)
+        solve();
     return 0;
 }

@@ -37,7 +37,7 @@ public:
     void msieve(int n)
     {
         vector<int> smallest_prime_fact(n + 1, 0), prime;
-        smallest_prime_fact[1] = 1;
+        smallest_prime_fact[1] = 1; 
         for (int i = 2; i <= n; i++)
         {
             if (!smallest_prime_fact[i])

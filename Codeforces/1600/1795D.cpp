@@ -1,19 +1,8 @@
-#pragma once
-#include <vector>
+#include <bits/stdc++.h>
+using namespace std;
 
-// @ ex: 1999F , author: jiangly
-// @ Mod Int starts here ............
-
-// ! Things that don't work with this code
-// 1. increment, decrement
-// 2. a += b == c, where a is MInt
-// ! ---------------------------------------------
-
-// ! don't use #define
 using ll = long long;
-
-// ! don't use 1e9 + 7
-constexpr int P = 1000000007;
+constexpr int P = 998244353;
 
 template<typename T>
 constexpr T power(T a, ll b) {
@@ -136,10 +125,7 @@ using ModInt = ModIntBase<int, P>;
 
 template<ll P>
 using ModInt64 = ModIntBase<ll, P>;
-using MInt = ModInt<P>;         // define every variable with Mint
-
-// @ Combinatorics
-// ! doesn't work without mod part
+using MInt = ModInt<P>;
 
 struct Comb {
     int n;
@@ -187,4 +173,23 @@ struct Comb {
     }
 } comb;
 
-// use as comb.function(), return data type is MInt
+int main()
+{
+    int n;
+    cin >> n;
+    vector<int> w(n);
+    for (auto &wt : w)
+        cin >> wt;
+    
+    MInt res = comb.nCr(n / 3, n / 6);
+    for (int i = 0; i < n; i += 3)
+    {
+        MInt x = min({w[i], w[i + 1], w[i + 2]}), cnt = 0;
+        for (int j = i; j < i + 3; j++)
+            if (w[j] == x)
+                cnt += 1;
+        res *= cnt;
+    }
+    cout << res;
+    return 0;
+}

@@ -53,11 +53,6 @@ long long fact(int x)
     return res;
 }
 
-int nCr(int n, int r)
-{
-    return fact(n) / (fact(r) * fact(n - r));
-}
-
 // Precompute NCR - pascals triangle method
 
 vector<vector<long long>> generate(int n)

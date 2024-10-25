@@ -2,7 +2,7 @@
 using namespace std;
 
 #define ll long long
-#define vec vector<ll>
+#define vec vector<long double>
 #define vv vector<vec>
 #define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
@@ -19,24 +19,29 @@ using namespace std;
 
 ll solve()
 {
-    ll n = LL, k = LL, money = 0, days = 0, ans = LLONG_MAX;
-    vec a(n), b(n - 1);
-    iv(a); iv(b);
-    b.push_back(0);
+    int n = II;
+    vec v(n);
+    iv(v);
+    if (n <= 2)
+        return -1;
+    
+    sort(all(v));
+    ll l = 0, r = 1e18, ans = r + 1, sum = accumulate(all(v), 0LL);
+    for (auto &a : v)
+        a *= 2LL;
 
-    for (int i = 0; i < n; i++)
-        if (money < k)
-        {
-            ans = min(ans, days + (ll)ceil(((k - money) * 1.0) / a[i]));
-            if (b[i] <= money) {
-                days++;
-                money -= b[i];
-                continue;
-            }
-            ll d = ceil(((b[i] - money) * 1.0) / a[i]);
-            money += (a[i] * d) - b[i];
-            days += d + 1;
-        }
+    while (l <= r)
+    {
+        ll x = (l + r) / 2;
+        long double avg = (sum + x) / (n * 1.0);
+        ll i = lower_bound(all(v), avg) - v.begin();
+        if (i >= 0 && v[i] >= avg)
+            i--;
+        if (i + 1 > n / 2.0)
+            r = x - 1, ans = min(ans, x);
+        else
+            l = x + 1;
+    }
     return ans;
 }
 

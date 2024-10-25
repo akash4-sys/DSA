@@ -1,8 +1,5 @@
 #include "../../headers.h"
 
-// Good Question
-// Something went wrong tle for preety small case
-
 class BIT
 {
     vector<int> bit;

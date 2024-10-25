@@ -14,36 +14,43 @@ using namespace std;
 #define br cout << "\n"
 #define pyn(x) cout << (x ? "YES" : "NO") << "\n"
 #define pv(v) {{ for(auto &x : v) pf(x); } br;}
-#define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
-{
-    ll n = LL, k = LL, money = 0, days = 0, ans = LLONG_MAX;
-    vec a(n), b(n - 1);
-    iv(a); iv(b);
-    b.push_back(0);
+int dp[200001];
 
-    for (int i = 0; i < n; i++)
-        if (money < k)
-        {
-            ans = min(ans, days + (ll)ceil(((k - money) * 1.0) / a[i]));
-            if (b[i] <= money) {
-                days++;
-                money -= b[i];
-                continue;
-            }
-            ll d = ceil(((b[i] - money) * 1.0) / a[i]);
-            money += (a[i] * d) - b[i];
-            days += d + 1;
-        }
-    return ans;
+bool rec(vec &v, vv &idx, int i)
+{
+    if (i == v.size())
+        return 1;
+    if (dp[i] != -1)
+        return dp[i];
+    
+    int res = 0;
+    if (i + v[i] < v.size())
+        res |= rec(v, idx, i + v[i] + 1);
+    for (auto &j : idx[i])
+        res |= rec(v, idx, j + 1);
+    return dp[i] = res;
+}
+
+bool solve()
+{
+    int n = II;
+    vec v(n);
+    iv(v);
+    vv idx(n);
+    for (int i = n - 1; i >= 0; i--)
+        if (i >= v[i])
+            idx[i - v[i]].push_back(i);
+
+    memset(dp, -1, sizeof(dp));
+    return rec(v, idx, 0);
 }
 
 int main()
 {
     fast;
     for (int tc = II; tc; tc--)
-        pl(solve());
+        pyn(solve());
     return 0;
 }

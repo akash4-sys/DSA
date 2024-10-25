@@ -5,28 +5,32 @@ using namespace std;
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define LL ({ ll a; cin>>a ; a; })
 
-ll bs(ll x, ll y, ll a, ll b)
+ll solve()
 {
-    ll l = 0, r = min(x / a, y / b), ans = 0;
-    while (l <= r) {
-        ll n = (l + r) / 2;
-        ll rx = x - (n * a), ry = y - (n * b);
-        ll m = min(rx / b, ry / a);
-        if (n + m >= ans)
-            ans = n + m, l = n + 1;
+    ll x = LL, y = LL, a = LL, b = LL;
+    if (a == b)
+        return min(x, y) / a;
+    
+    if (a < b)
+        swap(a, b);
+
+    ll l = 0, r = 1e9 + 100;
+    while (r - l > 1) {
+        ll m = (l + r) / 2;
+        ll right = floorl((x - m * b) * 1.0l / (a - b));
+        ll left = ceill((y - m * a) * 1.0l / (b - a));
+        if (max(left, 0ll) <= min(right, m))
+            l = m;
         else
-            r = n - 1;
+            r = m;
     }
-    return ans;
+    return l;
 }
 
 int main()
 {
     fast;
-    for (int tc = LL; tc; tc--) {
-        ll x = LL, y = LL, a = LL, b = LL;
-        ll res = max(bs(x, y, a, b), bs(x, y, b, a));
-        cout << res << "\n";
-    }
+    for (int tc = LL; tc; tc--)
+        cout << solve() << "\n";
     return 0;
 }

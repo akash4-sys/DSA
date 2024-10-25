@@ -17,26 +17,21 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
+ll sum(ll k) { return (k * (k + 1)) / 2; }
+
 ll solve()
 {
-    ll n = LL, k = LL, money = 0, days = 0, ans = LLONG_MAX;
-    vec a(n), b(n - 1);
-    iv(a); iv(b);
-    b.push_back(0);
-
-    for (int i = 0; i < n; i++)
-        if (money < k)
-        {
-            ans = min(ans, days + (ll)ceil(((k - money) * 1.0) / a[i]));
-            if (b[i] <= money) {
-                days++;
-                money -= b[i];
-                continue;
-            }
-            ll d = ceil(((b[i] - money) * 1.0) / a[i]);
-            money += (a[i] * d) - b[i];
-            days += d + 1;
-        }
+    ll n = II, k = II, l = k, r = n + k - 1, ans = LLONG_MAX;
+    while (l <= r) {
+        ll m = (l + r) / 2;
+        ll a = sum(m) - sum(k - 1), b = sum(n + k - 1) - sum(m);
+        ll diff = b - a;
+        ans = min(ans, abs(diff));
+        if (diff < 0)
+            r = m - 1;
+        else
+            l = m + 1;
+    }
     return ans;
 }
 

@@ -17,33 +17,34 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-ll solve()
+void solve()
 {
-    ll n = LL, k = LL, money = 0, days = 0, ans = LLONG_MAX;
-    vec a(n), b(n - 1);
-    iv(a); iv(b);
-    b.push_back(0);
+    ll n = II, q = II;
+    vec ans, v(n);
+    iv(v);
+    map<ll, ll> mp;
+    for (int i = 0; i < n - 1; i++)
+        if (v[i] + 1 <= v[i + 1] - 1)
+        {
+            ll cnt = v[i + 1] - v[i] - 1;
+            ll segs = (i + 1) * (n - i - 1);
+            mp[segs] += cnt;
+        }
 
     for (int i = 0; i < n; i++)
-        if (money < k)
-        {
-            ans = min(ans, days + (ll)ceil(((k - money) * 1.0) / a[i]));
-            if (b[i] <= money) {
-                days++;
-                money -= b[i];
-                continue;
-            }
-            ll d = ceil(((b[i] - money) * 1.0) / a[i]);
-            money += (a[i] * d) - b[i];
-            days += d + 1;
-        }
-    return ans;
+        mp[(i * (n - i)) + (n - i - 1)]++;
+
+    while (q--) {
+        ll k = LL;
+        cout << (mp.count(k) ? mp[k] : 0) << " ";
+    }
+    br;
 }
 
 int main()
 {
     fast;
     for (int tc = II; tc; tc--)
-        pl(solve());
+        solve();
     return 0;
 }

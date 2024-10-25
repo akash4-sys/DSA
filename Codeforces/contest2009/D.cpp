@@ -19,24 +19,24 @@ using namespace std;
 
 ll solve()
 {
-    ll n = LL, k = LL, money = 0, days = 0, ans = LLONG_MAX;
-    vec a(n), b(n - 1);
-    iv(a); iv(b);
-    b.push_back(0);
+    ll n = II, ans = 0;
+    vv v(2, vec(n + 1, 0));
+    for (int i = 0; i < n; i++) {
+        ll x = LL, y = LL;
+        v[y][x] = 1;
+    }
 
-    for (int i = 0; i < n; i++)
-        if (money < k)
-        {
-            ans = min(ans, days + (ll)ceil(((k - money) * 1.0) / a[i]));
-            if (b[i] <= money) {
-                days++;
-                money -= b[i];
-                continue;
-            }
-            ll d = ceil(((b[i] - money) * 1.0) / a[i]);
-            money += (a[i] * d) - b[i];
-            days += d + 1;
-        }
+    ll cnt[2] = {0};
+    for (int i = 0; i < 2; i++)
+        cnt[i] = accumulate(all(v[i]), 0);
+    for (int i = 0; i <= n; i++)
+        if (v[0][i] && v[1][i])
+            ans += (cnt[0] + cnt[1] - 2);
+    
+    for (int y = 0; y < 2; y++)
+        for (int x = 1; x < n; x++)
+            if (v[y][x] && v[y ^ 1][x - 1] && v[y ^ 1][x + 1])
+                ans++;
     return ans;
 }
 
