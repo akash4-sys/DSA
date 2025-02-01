@@ -5,6 +5,49 @@
 
 using namespace std;
 
+// @ Lowest common ancestor
+
+class LCA
+{
+    int n, maxDepth;
+    vector<int> depth;
+    vector<vector<int>> ancestor;
+
+    void dfs(vector<vector<int>> &g, int u, int par, int d) {
+        ancestor[u][0] = par;
+        depth[u] = d;
+        for (int i = 1; i < maxDepth; i++)
+            ancestor[u][i] = ancestor[ancestor[u][i - 1]][i - 1];
+        for (int &v : g[u])
+            if (v != par)
+                dfs(g, v, u, d + 1);
+    }
+
+public:
+    LCA(int n, vector<vector<int>> &g) {
+        this->n = n;
+        maxDepth = log2(n) + 1;
+        ancestor.resize(n, vector<int>(maxDepth, -1));
+        depth.resize(n, 0);
+        dfs(g, 0, 0, 0);
+    }
+
+    int lca(int u, int v) {
+        if (depth[u] > depth[v])
+                swap(u, v);
+
+        for (int k = 0; (1 << k) <= depth[v] - depth[u]; k++)
+            if ((1 << k) & depth[v] - depth[u])
+                v = ancestor[v][k];
+
+        for (int k = maxDepth - 1; k >= 0; k--)
+            if (ancestor[u][k] != ancestor[v][k])
+                u = ancestor[u][k], v = ancestor[v][k];
+        return u == v ? u : ancestor[u][0];
+    }
+};
+
+
 class TreeAncestor
 {
     int n, maxDepth;

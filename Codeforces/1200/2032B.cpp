@@ -6,38 +6,31 @@ using namespace std;
 #define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
-#define LL ({ ll a; cin>>a ; a; })
-#define SS ({ string s; cin>>s; s; })
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << "\n"
 #define br cout << "\n"
-#define pyn(x) cout << (x ? "YES" : "NO") << "\n"
 #define pv(v) {{ for(auto &x : v) pf(x); } br;}
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-vec solve()
+void solve()
 {
-    int n = II, d = 0, k = 0;
-    string s = SS;
-    vector<int> ans;
-    map<pair<int, int>, int> mp;
-    for (char &c : s) {
-        d += c == 'D';
-        k += c == 'K';
-        int g = __gcd(d, k);
-        if (g == 0)
-            ans.push_back(max(d, k)), mp[{d, k}]++;
-        else
-            ans.push_back(++mp[{d / g, k / g}]);
+    int n = II, k = II;
+    if (n == 1) {
+        cout << "1\n1\n";
+        return;
     }
-    return ans;
+    if (k == 1 || k == n) {
+        pl(-1);
+        return;
+    }
+    cout << "3\n1 " << k - (k % 2) << " " << k + (k % 2) + 1 << "\n";
 }
 
 int main()
 {
     fast;
     for (int tc = II; tc; tc--)
-        pv(solve());
+        solve();
     return 0;
 }

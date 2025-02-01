@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#define ll long long
 #define vec vector<int>
 #define vv vector<vec>
 #define all(v) v.begin(), v.end()
@@ -16,20 +17,29 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-vec solve()
+ll solve()
 {
-    int n = II, d = 0, k = 0;
-    string s = SS;
-    vector<int> ans;
-    map<pair<int, int>, int> mp;
-    for (char &c : s) {
-        d += c == 'D';
-        k += c == 'K';
-        int g = __gcd(d, k);
-        if (g == 0)
-            ans.push_back(max(d, k)), mp[{d, k}]++;
-        else
-            ans.push_back(++mp[{d / g, k / g}]);
+    int n = II;
+    vector<vector<int>> v(n, vec(n, 0));
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < n; j++) {
+            int a = II;
+            v[i][j] = a < 0 ? abs(a) : 0;
+        }
+    
+    ll ans = 0;
+    for (int j = 0; j < n; j++) {
+        int cnt = 0;
+        for (int i = 0, k = j; i < n && k < n; i++, k++)
+            cnt = max(cnt, v[i][k]);
+        ans += cnt;
+    }
+
+    for (int i = 1; i < n; i++) {
+        int cnt = 0;
+        for (int j = 0, k = i; j < n && k < n; j++, k++)
+            cnt = max(cnt, v[k][j]);
+        ans += cnt;
     }
     return ans;
 }
@@ -38,6 +48,6 @@ int main()
 {
     fast;
     for (int tc = II; tc; tc--)
-        pv(solve());
+        pl(solve());
     return 0;
 }

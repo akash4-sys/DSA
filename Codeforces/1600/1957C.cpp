@@ -8,24 +8,27 @@ using namespace std;
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
 #define LL ({ ll a; cin>>a ; a; })
-#define SS ({ string s; cin>>s; s; })
-#define pf(x) cout << x << " "
-#define pl(x) cout << x << "\n"
-#define br cout << "\n"
-#define pyn(x) cout << (x ? "YES" : "NO") << "\n"
-#define pv(v) {{ for(auto &x : v) pf(x); } br;}
-#define pvv(mat) { for(auto &r : mat) pv(r); }
-#define iv(v) { for(auto &x : v) cin >> x; }
 
 ll solve()
 {
+    ll n = LL, k = LL, moves = 0, mod = 1e9 + 7;
+    for (int i = 0, r, c; i < k; i++) {
+        cin >> r >> c;
+        moves += 2 - (r == c);
+    }
     
+    ll rem = n - moves, a = 1, b = 1;
+    for (int i = 2; i <= rem; i++) {
+        ll c = (b + (2LL * (i - 1) * a) % mod) % mod;
+        a = b;
+        b = c;
+    }
+    return b;
 }
-
 int main()
 {
     fast;
     for (int tc = II; tc; tc--)
-        pl(solve());
+        cout << solve() << "\n";
     return 0;
 }

@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define vec vector<int>
+#define ll long long
+#define vec vector<ll>
 #define vv vector<vec>
 #define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
@@ -16,28 +17,36 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-vec solve()
+ll f(ll m, ll two, ll three) {
+    if (m % 2)
+        return 0;
+    if (m / 2 <= two || m == 0)
+        return 1;
+    m -= min(m / 6, three) * 6;
+    return m / 2 <= two;
+}
+
+ll solve()
 {
-    int n = II, d = 0, k = 0;
     string s = SS;
-    vector<int> ans;
-    map<pair<int, int>, int> mp;
-    for (char &c : s) {
-        d += c == 'D';
-        k += c == 'K';
-        int g = __gcd(d, k);
-        if (g == 0)
-            ans.push_back(max(d, k)), mp[{d, k}]++;
-        else
-            ans.push_back(++mp[{d / g, k / g}]);
-    }
-    return ans;
+    ll sum = 0, two = 0, three = 0;
+    for (char &c : s)
+        sum += (c - '0'), two += c == '2', three += c == '3';
+    
+    ll m = (9 - (sum % 9)) % 9;
+    if (f(m, two, three))
+        return 1;
+    if (f(m + 9, two, three))
+        return 1;
+    if (f(m + 18, two, three))
+        return 1;
+    return 0;
 }
 
 int main()
 {
     fast;
     for (int tc = II; tc; tc--)
-        pv(solve());
+        pyn(solve());
     return 0;
 }

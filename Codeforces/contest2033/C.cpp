@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#define ll long long
 #define vec vector<int>
 #define vv vector<vec>
 #define all(v) v.begin(), v.end()
@@ -16,21 +17,18 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-vec solve()
+ll solve()
 {
-    int n = II, d = 0, k = 0;
-    string s = SS;
-    vector<int> ans;
-    map<pair<int, int>, int> mp;
-    for (char &c : s) {
-        d += c == 'D';
-        k += c == 'K';
-        int g = __gcd(d, k);
-        if (g == 0)
-            ans.push_back(max(d, k)), mp[{d, k}]++;
-        else
-            ans.push_back(++mp[{d / g, k / g}]);
-    }
+    int n = II, ans = 0;
+    vec v(n);
+    iv(v);
+
+    for (int i = 1; i < n / 2; i++)
+        if (v[i] == v[i - 1] || v[n - i - 1] == v[n - i])
+            swap(v[i], v[n - i - 1]);
+    
+    for (int i = 1; i < n; i++)
+        ans += v[i] == v[i - 1];
     return ans;
 }
 
@@ -38,6 +36,6 @@ int main()
 {
     fast;
     for (int tc = II; tc; tc--)
-        pv(solve());
+        pl(solve());
     return 0;
 }

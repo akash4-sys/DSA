@@ -2,12 +2,8 @@
 using namespace std;
 
 #define vec vector<int>
-#define vv vector<vec>
-#define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
-#define LL ({ ll a; cin>>a ; a; })
-#define SS ({ string s; cin>>s; s; })
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << "\n"
 #define br cout << "\n"
@@ -16,20 +12,27 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-vec solve()
+int solve()
 {
-    int n = II, d = 0, k = 0;
-    string s = SS;
-    vector<int> ans;
-    map<pair<int, int>, int> mp;
-    for (char &c : s) {
-        d += c == 'D';
-        k += c == 'K';
-        int g = __gcd(d, k);
-        if (g == 0)
-            ans.push_back(max(d, k)), mp[{d, k}]++;
-        else
-            ans.push_back(++mp[{d / g, k / g}]);
+    int n = II, ans = n - 1;
+    vec v(n);
+    iv(v);
+    sort(v.begin(), v.end());
+    map<int, int> mp;
+    for (int i = 0; i < n; i++)
+        mp[v[i]] = i;
+    
+    for (auto &it : mp)
+    {
+        int res = n - it.second - 1, l = 0, r = it.second - 1, mn = n;
+        while (l <= r) {
+            int mid = (l + r) / 2;
+            if (v[mid] + v[mid + 1] > it.first)
+                r = mid - 1, mn = min(mn, mid);
+            else
+                l = mid + 1;
+        }
+        ans = min(ans, res + mn);
     }
     return ans;
 }
@@ -38,6 +41,6 @@ int main()
 {
     fast;
     for (int tc = II; tc; tc--)
-        pv(solve());
+        pl(solve());
     return 0;
 }

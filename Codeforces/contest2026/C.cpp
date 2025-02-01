@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define vec vector<int>
+#define ll long long
+#define vec vector<ll>
 #define vv vector<vec>
 #define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
@@ -16,28 +17,22 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-vec solve()
+ll solve()
 {
-    int n = II, d = 0, k = 0;
+    ll n = II, paired = 0, free = 0;
     string s = SS;
-    vector<int> ans;
-    map<pair<int, int>, int> mp;
-    for (char &c : s) {
-        d += c == 'D';
-        k += c == 'K';
-        int g = __gcd(d, k);
-        if (g == 0)
-            ans.push_back(max(d, k)), mp[{d, k}]++;
-        else
-            ans.push_back(++mp[{d / g, k / g}]);
-    }
-    return ans;
+    for (int i = n - 1; i >= 0; i--)
+        if (s[i] == '0')
+            paired += paired ? -1 : 0;
+        else if (i > paired)
+            free += i + 1, paired++;
+    return (n * (n + 1)) / 2 - free;
 }
 
 int main()
 {
     fast;
     for (int tc = II; tc; tc--)
-        pv(solve());
+        pl(solve());
     return 0;
 }

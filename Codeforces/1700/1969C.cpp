@@ -2,11 +2,10 @@
 using namespace std;
 
 #define ll long long
-#define vec vector<ll>
+#define vec vector<int>
 #define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
-#define LL ({ ll a; cin>>a ; a; })
 #define pf(x) cout << x << " "
 #define pl(x) cout << x << "\n"
 #define br cout << "\n"
@@ -16,24 +15,21 @@ using namespace std;
 
 ll solve()
 {
-    ll n = LL, m = LL + 1, sum = 0;
-    vec a(n), idx(n, 0), cnt(n + m, 0);
-    iv(a);
-
-    for (int i = 1; i < m; i++) {
-        int j = II - 1, val = II;
-        cnt[a[j]] += i - idx[j];
-        a[j] = val;
-        cnt[val]++;
-        idx[j] = i + 1;
-    }
-
+    int n = II, k = II;
+    vec v(n);
+    iv(v);
+    vector<vector<ll>> dp(n + 1, vector<ll>(k + 1, LLONG_MAX));
+    dp[0][0] = 0;
     for (int i = 0; i < n; i++)
-        cnt[a[i]] += m - idx[i];
-    
-    for (ll &c : cnt)
-        sum += (c * (c - 1)) / 2;
-    return (n * m * (m - 1)) - sum;
+        for (int j = 0; j <= k; j++)
+        {
+            ll x = LLONG_MAX;
+            for (int d = 0; j + d <= k && i + d < n; ++d) {
+                x = min(x, (ll)v[i + d]);
+                dp[i + d + 1][j + d] = min(dp[i + d + 1][j + d], dp[i][j] + (d + 1) * x);
+            }
+        }
+    return *min_element(dp[n].begin(), dp[n].end());
 }
 
 int main()

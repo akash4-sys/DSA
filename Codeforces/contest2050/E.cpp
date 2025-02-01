@@ -16,28 +16,31 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-vec solve()
+vv dp;
+
+int rec(string &s, string &a, string &b, int i, int j) {
+    if (dp[i + 1][j + 1] != -1)
+        return dp[i + 1][j + 1];
+
+    int res = 0;
+    if (i + 1 < a.size())
+        res = rec(s, a, b, i + 1, j) + (s[i + j + 2] == a[i + 1]);
+    if (j + 1 < b.size())
+        res = max(res, rec(s, a, b, i, j + 1) + (s[i + j + 2] == b[j + 1]));
+    return dp[i + 1][j + 1] = res;
+}
+
+int solve()
 {
-    int n = II, d = 0, k = 0;
-    string s = SS;
-    vector<int> ans;
-    map<pair<int, int>, int> mp;
-    for (char &c : s) {
-        d += c == 'D';
-        k += c == 'K';
-        int g = __gcd(d, k);
-        if (g == 0)
-            ans.push_back(max(d, k)), mp[{d, k}]++;
-        else
-            ans.push_back(++mp[{d / g, k / g}]);
-    }
-    return ans;
+    string a = SS, b = SS, s = SS;
+    dp = vv(a.size() + 1, vec(b.size() + 1, -1));
+    return s.size() - rec(s, a, b, -1, -1);
 }
 
 int main()
 {
     fast;
     for (int tc = II; tc; tc--)
-        pv(solve());
+        pl(solve());
     return 0;
 }

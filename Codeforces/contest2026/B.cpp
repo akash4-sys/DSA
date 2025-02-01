@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define vec vector<int>
+#define ll long long
+#define vec vector<ll>
 #define vv vector<vec>
 #define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
@@ -16,20 +17,33 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-vec solve()
+ll solve()
 {
-    int n = II, d = 0, k = 0;
-    string s = SS;
-    vector<int> ans;
-    map<pair<int, int>, int> mp;
-    for (char &c : s) {
-        d += c == 'D';
-        k += c == 'K';
-        int g = __gcd(d, k);
-        if (g == 0)
-            ans.push_back(max(d, k)), mp[{d, k}]++;
-        else
-            ans.push_back(++mp[{d / g, k / g}]);
+    ll n = II, ans = 0;
+    vec v(n);
+    iv(v);
+    if (n == 1)
+        return 1;
+
+    if (n % 2 == 0) {
+        for (int i = 0; i < n; i += 2)
+            ans = max(ans, v[i + 1] - v[i]);
+        return ans;
+    }
+
+    ans = LLONG_MAX;
+    for (int i = 0; i < n; i += 2) {
+        ll res = 0;
+        for (int j = 0; j < n;) {
+            if (j == i) {
+                j++;
+                continue;
+            }
+            if (j + 1 < n)
+                res = max(res, v[j + 1] - v[j]);
+            j += 2;
+        }
+        ans = min(ans, res);
     }
     return ans;
 }
@@ -38,6 +52,6 @@ int main()
 {
     fast;
     for (int tc = II; tc; tc--)
-        pv(solve());
+        pl(solve());
     return 0;
 }

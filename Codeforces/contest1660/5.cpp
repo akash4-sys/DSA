@@ -1,9 +1,5 @@
-#ifdef __INTELLISENSE__
-#include "../../headers.h"
-#else
 #include <bits/stdc++.h>
 using namespace std;
-#endif
 
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
@@ -14,23 +10,19 @@ int main()
     int tc = II;
     while (tc--)
     {
-        int n = II, sum = 0, ans = n * n + 1;
-        vector<int> cnt(n, 0);
-        for (int i = 0; i < n; i++)
-        {
-            string s;
+        int n = II, cnt = 0, d = 0;
+        vector<string> v(n);
+        for (auto &s : v) {
             cin >> s;
-            for (int j = 0, k = (n - i) % n; j < n; j++)
-            {
-                cnt[k] += (s[j] == '1');
-                sum += (s[j] == '1');
-                k = (k + 1) % n;
-            }
+            cnt += count(s.begin(), s.end(), '1');
         }
-
-        for (int &c : cnt)
-            ans = min(ans, sum + n - c * 2);
-        cout << ans << "\n";
+        for (int k = 0; k < n; k++) {
+            int c = 0;
+            for (int i = 0, j = k, m = n; m; m--)
+                c += v[i][j] == '1', i = (i + 1) % n, j = (j + 1) % n;
+            d = max(d, c);
+        }
+        cout << cnt + n - (d * 2) << "\n";
     }
     return 0;
 }

@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define vec vector<int>
+#define ll long long
+#define vec vector<ll>
 #define vv vector<vec>
 #define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
@@ -16,20 +17,24 @@ using namespace std;
 #define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-vec solve()
+ll solve()
 {
-    int n = II, d = 0, k = 0;
-    string s = SS;
-    vector<int> ans;
-    map<pair<int, int>, int> mp;
-    for (char &c : s) {
-        d += c == 'D';
-        k += c == 'K';
-        int g = __gcd(d, k);
-        if (g == 0)
-            ans.push_back(max(d, k)), mp[{d, k}]++;
-        else
-            ans.push_back(++mp[{d / g, k / g}]);
+    ll n = LL, x = LL, y = LL;
+    vec a(n);
+    iv(a);
+    ll sum = accumulate(all(a), 0LL);
+    ll mind = sum - y, maxd = sum - x;
+    if (mind <= 0)
+        mind = 0;
+    
+    sort(all(a));
+    ll ans = 0;
+    for (int i = 0; i < n; i++)
+    {
+        ll l = mind - a[i], r = maxd - a[i];
+        int j = lower_bound(a.begin() + i + 1, a.end(), l) - a.begin();
+        int k = upper_bound(a.begin() + i + 1, a.end(), r) - a.begin() - 1;
+        ans += (k - j + 1);
     }
     return ans;
 }
@@ -38,6 +43,6 @@ int main()
 {
     fast;
     for (int tc = II; tc; tc--)
-        pv(solve());
+        pl(solve());
     return 0;
 }

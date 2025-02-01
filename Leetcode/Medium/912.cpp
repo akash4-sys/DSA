@@ -89,11 +89,8 @@ class Solution
         int pivotVal = v[high], i = low - 1;
         for(int j = low; j < high; j++)
             if(v[j] < pivotVal)
-                i++, swap(v[j], v[i]);
-        i++;
-        int temp = v[i];
-        v[i] = pivotVal;
-        v[high] = temp;
+                swap(v[j], v[++i]);
+        swap(v[++i], v[high]);
         return i;
     }
 
