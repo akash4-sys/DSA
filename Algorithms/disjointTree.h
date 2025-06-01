@@ -34,26 +34,25 @@ class DSUW
 {
     vector<int> par;
 public:
-
     DSUW(int n) : par(n, -1) {}
 
-    int findPar(int u)
-    {
-        for (; par[u] > 0; u = par[u]);     // ! careful while using this
-        return u;
-        // return (parent[u] < 0) ? u : parent[u] = findParent(parent[u]);  recursive
+    int findPar(int u) {
+        return par[u] < 0 ? u : par[u] = findPar(par[u]);
+    }
+
+    int componentSize(int u) {
+        return -par[findPar(u)];
     }
 
     bool Union(int u, int v)
     {
-        int up = findPar(u), vp = findPar(v);
-        if (up == vp)
+        u = findPar(u), v = findPar(v);
+        if (u == v)
             return 0;
-        
-        if (par[up] < par[vp])
-            par[up] += par[vp], par[vp] = up;
-        else
-            par[vp] += par[up], par[up] = vp;
+        if (par[u] > par[v])
+            swap(u, v);
+        par[u] += par[v];
+        par[v] = u;
         return 1;
     }
 };

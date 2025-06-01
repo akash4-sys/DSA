@@ -1,5 +1,38 @@
 #include "../../headers.h"
 
+class Solution {
+public:
+    string shortestCommonSupersequence(string &s, string &r) {
+        int m = size(r), n = size(s);
+        vector<string> dp(m + 1, "");
+        for (int i = 0; i < n; i++)
+        {
+            string prev = "";
+            for (int j = 0; j < m; j++)
+            {
+                string cur = dp[j + 1];
+                if (s[i] == r[j] && size(dp[j + 1]) <= size(prev))
+                    dp[j + 1] = prev + r[j];
+                if (size(dp[j + 1]) < size(dp[j]))
+                    dp[j + 1] = dp[j];
+                prev = cur;
+            }
+        }
+        
+        int i = 0, j = 0;
+        string ans = "";
+        for (char &c : dp[m]) {
+            while (s[i] != c)
+                ans += s[i++];
+            while (r[j] != c)
+                ans += r[j++];
+            ans += c;
+            i++, j++;
+        }
+        return ans + s.substr(i) + r.substr(j);
+    }
+};
+
 class Solution
 {
     string lcs(string s, string r)

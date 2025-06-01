@@ -25,7 +25,7 @@ public:
         {
             auto [w, u] = pq.top();
             pq.pop();
-            if (w < dist[u])
+            if (w != dist[u])
                 continue;
             for (auto [v, wt] : adj[u])
                 if (dist[u] + wt < dist[v])

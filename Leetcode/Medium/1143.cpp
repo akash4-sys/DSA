@@ -42,21 +42,5 @@ public:
 
 class Solution 
 {
-    int lcs(vector<vector<int>> &dp, string &s, string &r, int i, int j)
-    {
-        if (i == s.size() || j == r.size())
-            return 0;
-        if (dp[i][j] != -1)
-            return dp[i][j];
-        if (s[i] == r[j])
-            return dp[i][j] = lcs(dp, s, r, i + 1, j + 1) + 1;
-        return dp[i][j] = max(lcs(dp, s, r, i + 1, j), lcs(dp, s, r, i, j + 1));
-    }
-
-public:
-    int longestCommonSubsequence(string s, string r) 
-    {
-       vector dp(s.size(), vector<int>(r.size(), -1));
-       return lcs(dp, s, r, 0, 0);
-    }
+    
 };

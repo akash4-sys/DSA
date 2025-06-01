@@ -1,7 +1,6 @@
 #include "../../headers.h"
 
-//  The reason i m using stack over here becoz that way we won't have to worry about having a visited array
-
+// Eulerian circuit for directed graph
 // @ Hierholzer’s algorithm for creating eulerian cicuit  -- checking is also kind of same
 
 class Solution
