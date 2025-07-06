@@ -1,11 +1,5 @@
-#pragma once
-
-#include <vector>
-#include <queue>
-
+#include <bits/stdc++.h>
 using namespace std;
-
-// @ Lowest common ancestor
 
 class LCA
 {
@@ -49,34 +43,21 @@ public:
     }
 };
 
-
-class TreeAncestor
+int main()
 {
-    int n, maxDepth;
-    vector<vector<int>> ancestor;
-public:
-    TreeAncestor(vector<int> &par)
-    {
-        n = par.size();
-        maxDepth = log2(n) + 1;
-        ancestor = vector(n, vector<int>(maxDepth, -1));
-        for (int i = 0; i < n; i++)
-            ancestor[i][0] = par[i];
-
-        for (int j = 1; j < maxDepth; j++)
-            for (int i = 0; i < n; i++)
-                if (ancestor[i][j - 1] != -1)
-                    ancestor[i][j] = ancestor[ancestor[i][j - 1]][j - 1];
+    int n, q;
+    cin >> n >> q;
+    vector<vector<int>> g(n);
+    for (int i = 1, u; i < n; i++) {
+        cin >> u;
+        g[u - 1].push_back(i);
     }
 
-    int getKthAncestor(int node, int k)
-    {
-        for (int i = 0; i < maxDepth; i++)
-            if (k & (1 << i)) {
-                node = ancestor[node][i];
-                if (node == -1)
-                    return -1;
-            }
-        return node;
+    LCA tree(n, g);
+    while (q--) {
+        int u, v;
+        cin >> u >> v;
+        cout << tree.lca(u - 1, v - 1) + 1 << "\n";
     }
-};
+    return 0;
+}

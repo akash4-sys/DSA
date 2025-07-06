@@ -1,67 +1,71 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+// Distance between any two nodes in a tree with only 1 child and atmost 1 cycle
  
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
 
-class LCA
+class TreeAncestor
 {
-    int n, maxDepth;
-    vector<int> depth;
+    int n, maxDepth = 30;
     vector<vector<int>> ancestor;
-
-    void dfs(vector<int> &g, int u, int par, int d) {
-        ancestor[u][0] = par;
-        depth[u] = d;
-        for (int i = 1; i < maxDepth; i++)
-            ancestor[u][i] = ancestor[ancestor[u][i - 1]][i - 1];
-        if (g[u] != par)
-            dfs(g, g[u], u, d + 1);
-    }
-
 public:
-    LCA(int n, vector<int> &g) {
+    TreeAncestor(int n, vector<int> &par)
+    {
         this->n = n;
-        maxDepth = log2(n) + 1;
-        ancestor.resize(n, vector<int>(maxDepth, -1));
-        depth.resize(n, 0);
-        dfs(g, 1, 0, 0);
+        ancestor = vector(n, vector<int>(maxDepth, -1));
+        for (int i = 0; i < n; i++)
+            ancestor[i][0] = par[i];
+        for (int j = 1; j < maxDepth; j++)
+            for (int i = 0; i < n; i++)
+                if (ancestor[i][j - 1] != -1)
+                    ancestor[i][j] = ancestor[ancestor[i][j - 1]][j - 1];
     }
 
-    int lca(int u, int v) {
-        int a = u, dist = 0;
-        if (depth[u] > depth[v])
-                swap(u, v);
-
-        for (int k = 0; (1 << k) <= depth[v] - depth[u]; k++)
-            if ((1 << k) & depth[v] - depth[u])
-                v = ancestor[v][k];
-
-        for (int k = maxDepth - 1; k >= 0; k--, dist++)
-            if (ancestor[u][k] != ancestor[v][k]) {
-                u = ancestor[u][k];
-                v = ancestor[v][k];
-            }
-        
-        return u == v ? u : ancestor[u][0];
-        if (u != a && ancestor[u][0] != a)
+    int kthNode(int node, int k)
+    {
+        if (k < 0)
             return -1;
-        return dist;
+        for (int i = 0; i < maxDepth; i++)
+            if (k & (1 << i)) {
+                node = ancestor[node][i];
+                if (node == -1)
+                    return -1;
+            }
+        return node;
     }
 };
- 
+
 int main()
 {
     fast;
     int n = II, q = II;
-    vector<int> g(n + 1);
-    for (int i = 1; i <= n; i++)
-        g[i] = II;
+    vector<int> v(n), len(n, 0), vis(n, 0);
+    for (int i = 0; i < n; i++)
+        v[i] = II - 1;
     
-    LCA tree(n + 1, g);
-    while (q--) {
-        int a = II, b = II;
-        cout << tree.lca(a, b) << "\n";
+    auto dfs = [&](auto &&dfs, int u){
+        if (vis[u])
+            return;
+        vis[u] = 1;
+        dfs(dfs, v[u]);
+        len[u] = len[v[u]] + 1;
+    };
+
+    for (int i = 0; i < n; i++)
+        dfs(dfs, i);
+    
+    TreeAncestor t(n, v);
+    while (q--) 
+    {
+        int a = II - 1, b = II - 1, u = t.kthNode(a, len[a]);
+        if (t.kthNode(a, len[a] - len[b]) == b)
+            cout << len[a] - len[b] << "\n";
+        else if (t.kthNode(u, len[u] - len[b]) == b)
+            cout << len[a] + len[u] - len[b] << "\n";
+        else
+            cout << "-1\n";
     }
     return 0;
 }

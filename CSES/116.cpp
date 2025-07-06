@@ -1,91 +1,62 @@
-#ifdef __INTELLISENSE__
-#include "../headers.h"
-#else
 #include <bits/stdc++.h>
 using namespace std;
-#endif
 
 #define ll long long
 
 class SegmentTree
 {
-    ll n;
-    vector<ll> tree;
-
-    ll buildTree(vector<ll> &v, int i, int left, int right)
-    {
-        if (left == right)
-            return tree[i] = v[left];
-
-        ll mid = left + (right - left) / 2;
-        ll leftTree = buildTree(v, 2 * i, left, mid);
-        ll rightTree = buildTree(v, (2 * i) + 1, mid + 1, right);
-        return tree[i] = leftTree + rightTree;
-    }
-
+    int n;
+    vector<ll> t;
 public:
-    SegmentTree(vector<ll> &v)
+    SegmentTree(vector<ll> &v): n(v.size()), t(n * 2, 0)
     {
-        n = v.size();
-        tree = vector<ll>(n * 4, 0);
-        buildTree(v, 1, 0, n - 1);
+        for (int i = 0; i < n; i++)
+            t[i + n] = v[i];
+        for (int i = n - 1; i > 0; i--)
+            t[i] = t[i << 1] + t[i << 1 | 1];
     }
 
-    ll query(int left, int right, int i = 1, int tree_left = 0, int tree_right = -1)
+    void update(int i, ll val)
     {
-        if (tree_right == -1)
-            tree_right = n - 1;
-        if (tree_left > right || tree_right < left)
-            return 0;
-        if (tree_left >= left && tree_right <= right)
-            return tree[i];
-
-        ll mid = tree_left + (tree_right - tree_left) / 2;
-        ll leftTree = query(left, right, 2 * i, tree_left, mid);
-        ll rightTree = query(left, right, 2 * i + 1, mid + 1, tree_right);
-        return leftTree + rightTree;
-    }
-
-    void update(int idx, ll val, int i = 1, int left = 0, int right = -1)
-    {
-        if (right == -1)
-            right = n - 1;
-        if (idx < left || idx > right)
-            return;
-        if (left == right) {
-            tree[i] = val;
-            return;
+        t[i += n] = val;
+        while (i > 1) {
+            i >>= 1;
+            t[i] = t[2 * i] + t[2 * i + 1];
         }
+    }
 
-        ll mid = left + (right - left) / 2;
-        update(idx, val, i * 2, left, mid);
-        update(idx, val, (i * 2) + 1, mid + 1, right);
-        tree[i] = tree[i * 2] + tree[i * 2 + 1];
+    ll query(int l, int r)
+    {
+        ll ans = 0;
+        for (l += n, r += n + 1; l < r; l >>= 1, r >>= 1) {
+            if (l & 1)
+                ans += t[l++];
+            if (r & 1)
+                ans += t[--r];
+        }
+        return ans;
     }
 };
-
-
+ 
 int main()
 {
     ll n, q, type, idx, val, l, r;
     cin >> n >> q;
     vector<ll> v(n);
-    for (ll i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
         cin >> v[i];
 
-    SegmentTree tree(v);
+    SegmentTree seg(v);
     while (q--)
     {
         cin >> type;
-        if (type == 1)
-        {
+        if (type == 1) {
             cin >> idx >> val;
-            tree.update(idx - 1, val);
+            seg.update(idx - 1, val);
         }
-        else
-        {
+        else {
             cin >> l >> r;
-            cout << tree.query(l - 1, r - 1) << endl;
+            cout << seg.query(l - 1, r - 1) << endl;
         }
     }
     return 0;
