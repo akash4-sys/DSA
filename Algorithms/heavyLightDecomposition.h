@@ -39,15 +39,15 @@ class HLD
         return ans;
     }
  
-    int dfs(int u, int p) 
+    int dfs(int u) 
     {
-        par[u] = p;
         int treeSize = 1, mxSubSize = 0;
         for (int &v : g[u])
-            if (v != p)
+            if (v != par[u])
             {
+                par[v] = u;
                 depth[v] = depth[u] + 1;
-                int subSize = dfs(v, u);
+                int subSize = dfs(v);
                 treeSize += subSize;
                 if (subSize > mxSubSize)
                     mxSubSize = subSize, heavy[u] = v;
@@ -71,7 +71,7 @@ class HLD
 public:
     HLD(int N): n(N), idx(n), par(n, 0), depth(n), heavy(n, -1), head(n) {
         segTree.resize(n * 2 + 1, 0);
-        dfs(0, 0);
+        dfs(0);
         decompose(0, 0);
         segBuild();
     }

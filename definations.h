@@ -23,9 +23,9 @@
 #define cout.precision(10); cout.setf(ios::fixed);
 
 // I/O
-#define II ({ int a; cin>>a; a; })
-#define LL ({ Long a; cin>>a ; a; })
-#define SS ({ string s; cin>>s; s; })
+#define II ({ int a; cin >> a ; a; })
+#define LL ({ long long a; cin >> a ; a; })
+#define SS ({ string s; cin >> s; s; })
 #define pf(x) cout<<x
 #define pl(x) cout<<x<<"\n"
 #define br cout<<"\n"

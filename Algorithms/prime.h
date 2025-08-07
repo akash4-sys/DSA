@@ -25,11 +25,16 @@ public:
 
     void sieve(int n)
     {
-        vector<int> prime(n + 1, 1);
-        prime[1] = 0;
+        vector<int> primes;
+        vector<int> isPrime(n + 1, 1);
+        isPrime[1] = 0;
         for (int p = 2; p * p <= n; p++)
-            for (int i = p * p; i <= n && prime[p]; i += p)
-                prime[i] = 0;
+            for (int i = p * p; i <= n && isPrime[p]; i += p)
+                isPrime[i] = 0;
+    
+        for (int i = 2; i <= n; i++)
+            if (isPrime[i])
+                primes.push_back(i);
     }
 
 

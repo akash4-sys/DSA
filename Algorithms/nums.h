@@ -17,15 +17,16 @@ int commonFactors(int a, int b)
 }
 
 // factors
-void factors(int x)
+vector<int> factors(int x)
 {
-    for (int i = 1, sq = sqrt(x); i <= sq; i++)
-        if (x % i == 0)
-        {
+    vector<int> f;
+    for (int i = 2, sq = sqrt(x); i <= sq; i++)
+        if (x % i == 0) {
             if (x / i != i)
-                cout << " " << x / i;
-            cout << " " << i;
+                f.push_back(x / i);
+            f.push_back(i);
         }
+    return f;
 }
 
 // Binary Exponentiation

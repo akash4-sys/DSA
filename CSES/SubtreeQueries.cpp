@@ -28,7 +28,7 @@ int main()
 {
     int n, q;
     cin >> n >> q;
-    vector<int> a(n), post, treeSize(n), idx(n);
+    vector<int> a(n), treeSize(n), idx(n);
     for (int &c : a)
         c = II;
     
@@ -40,6 +40,7 @@ int main()
     }
 
     BIT bit(n);
+    int timer = 0;
     auto dfs = [&](auto &&dfs, int u, int par) -> void {
         treeSize[u]++;
         for (int v : g[u])
@@ -47,9 +48,8 @@ int main()
                 dfs(dfs, v, u);
                 treeSize[u] += treeSize[v];
             }
-        post.push_back(u);
-        idx[u] = post.size() - 1;
-        bit.add(idx[u], a[post[idx[u]]]);
+        idx[u] = timer++;
+        bit.add(idx[u], a[u]);
     };
     dfs(dfs, 0, -1);
 
