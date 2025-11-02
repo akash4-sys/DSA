@@ -2,24 +2,28 @@
 using namespace std;
 #define ll long long
 
+// This is not logically correct but working
 class EdmondKarp
 {
     int n;
+    vector<int> par;
     vector<vector<ll>> g, cap;
 
-    bool reachable(vector<int> &par, int src, int dest)
+    ll reachable(int src, int dest)
     {
-        queue<int> q;
-        q.push(src);
+        queue<pair<int, ll>> q;
+        q.push({src, LLONG_MAX});
         while (!q.empty())
         {
-            int u = q.front();
+            auto [u, minFlow] = q.front();
             q.pop();
             if (u == dest)
-                return 1;
+                return max(minFlow, 0LL);
             for (auto &v : g[u])
-                if (par[v] == -1 && cap[u][v] > 0)
-                    par[v] = u, q.push(v);
+                if (par[v] == -1 && cap[u][v]) {
+                    par[v] = u;
+                    q.push({v, min(minFlow, cap[u][v])});
+                }
         }
         return 0;
     }
@@ -29,24 +33,22 @@ public:
         this->n = n;
         cap.resize(n, vector<ll>(n, 0));
         g.resize(n);
+        par.resize(n, -1);
         for (auto &e : edges) {
             g[e[0]].push_back(e[1]);
             g[e[1]].push_back(e[0]);
             cap[e[0]][e[1]] += e[2];
+
+            // Min cut comes out to be wrong if i set backward edge capacity to zero why?
             cap[e[1]][e[0]] += e[2];
         }
     }
 
     ll maxFlow(int src, int dest)
     {
-        ll flow = 0;
-        vector<int> par(n, -1);
-        while (reachable(par, src, dest))
+        ll flow = 0, minFlow;
+        while (minFlow = reachable(src, dest))
         {
-            ll minFlow = LLONG_MAX;
-            for (int u = dest; u != src; u = par[u])
-                minFlow = min(minFlow, cap[par[u]][u]);
-            
             flow += minFlow;
             for (int u = dest; u != src; u = par[u]) {
                 cap[par[u]][u] -= minFlow;
@@ -78,17 +80,17 @@ public:
         return ans;
     }
 };
-
+ 
 int main()
 {
-    int n, m, u, v;
+    int n, m, u, v, w = 1;
     cin >> n >> m;
     vector<vector<int>> edges;
     while (m--) {
         cin >> u >> v;
-        edges.push_back({u - 1, v - 1, 1});
+        edges.push_back({u - 1, v - 1, w});
     }
-
+ 
     EdmondKarp e(edges, n);
     auto a = e.cutMinEdges(0);
     cout << a.size() / 2 << endl;

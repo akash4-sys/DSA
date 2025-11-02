@@ -16,6 +16,8 @@ public:
                 pf[i + 1][j + 1] = (pf[i + 1][j] + pf[i][j + 1] + m[i][j]) - pf[i][j];
     }
 
+    // x1, y1 : topLeft coordinates
+    // x2, y2: bottomRight coordinates
     int sumRegion(int x1, int y1, int x2, int y2)
     {
         int above = pf[x2 + 1][y1], left = pf[x1][y2 + 1], topLeft = pf[x1][y1];
