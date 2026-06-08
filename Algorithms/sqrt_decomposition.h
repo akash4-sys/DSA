@@ -14,7 +14,8 @@ public:
     SparseTable(vector<int> &v)
     {
         n = v.size();
-        m = vector<vector<int>>(n + 1, vector<int>(LOG, 0));
+        LOG = ceil(log2(n)) + 1;
+        m = vector<vector<int>>(n, vector<int>(LOG, 0));
 
         for (int i = 0; i < n; i++)
             m[i][0] = v[i];

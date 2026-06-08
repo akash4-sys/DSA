@@ -2,48 +2,53 @@
 using namespace std;
 
 #define ll long long
-#define vec vector<ll>
+#define vec vector<int>
+#define vv vector<vec>
 #define all(v) v.begin(), v.end()
 #define fast ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL);
 #define II ({ int a; cin>>a; a; })
+#define LL ({ ll a; cin>>a ; a; })
+#define SS ({ string s; cin>>s; s; })
+#define pf(x) cout << x << " "
 #define pl(x) cout << x << "\n"
-#define pv(v) {{ for(auto &x : v) cout << x << " "; } cout << "\n";}
+#define br cout << "\n"
+#define pyn(x) cout << (x ? "YES" : "NO") << "\n"
+#define pv(v) {{ for(auto &x : v) pf(x); } br;}
+#define pvv(mat) { for(auto &r : mat) pv(r); }
 #define iv(v) { for(auto &x : v) cin >> x; }
 
-vector<int> minOp;
+vec op;
+
 int solve()
 {
-    int n = II, k = II, sum = 0;
-    vector<int> op(n), c(n);
-    for (int &b : op)
-        b = minOp[II], sum += b;
+    int n = II, K = II, maxCost = 0;
+    vec b(n), c(n);
+    for (auto &x : b)
+        x = op[II], maxCost += x;
     iv(c);
 
-    k = min(sum, k);
-    vector<int> dp(sum + 1, 0);
-    for (int i = n - 1; i >= 0; i--)
-    {
-        vector<int> dp2(sum + 1, 0);
-        for (int j = 0; j <= sum; j++) {
-            dp2[j] = dp[j];
-            if (j >= op[i])
-                dp2[j] = max(dp2[j], dp[j - op[i]] + c[i]);
-        }
-        swap(dp2, dp);
+    if (maxCost <= K)
+        return accumulate(all(c), 0);
+    
+    vector<int> dp(K + 1, 0);
+    for (int i = n - 1; i >= 0; i--) {
+        for (int k = K; k >= 0; k--)
+            if (k >= b[i])
+                dp[k] = max(dp[k], dp[k - b[i]] + c[i]);
     }
-    return *max_element(all(dp));
+    return dp[K];
 }
 
 int main()
 {
     fast;
-    minOp = vector<int>(1001, 1001);
-    minOp[1] = 0;
-    for (int i = 1; i < 1001; i++)
+    op.resize(1001, 1000);
+    op[1] = 0;
+    for (int i = 1; i <= 1000; i++)
         for (int x = 1; x <= i; x++) {
             int j = i + (i / x);
             if (j < 1001)
-                minOp[j] = min(minOp[j], minOp[i] + 1);
+                op[j] = min(op[j], op[i] + 1);
         }
 
     for (int tc = II; tc; tc--)

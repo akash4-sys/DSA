@@ -1,22 +1,17 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 #define ll long long
+#define II ({ int a; cin >> a ; a; })
 
 int main()
 {
-    int n;
-    cin >> n;
-    vector<ll> a(n), pfGCD(n);
-    for (ll i = 0, g = 0; i < n; i++) {
-        cin >> a[i];
-        g = __gcd(g, a[i]);
-        pfGCD[i] = g;
+    ll n = II, a = II, b = II;
+    ll k = __gcd(a, b), g = a * b;
+    for (int i = 2; i < n; i++) {
+        ll x = II;
+        g = __gcd(g, k * x);
+        k = __gcd(k, x);
     }
-
-    ll g = 0;
-    for (int i = n - 1; i > 0; i--)
-        g = __gcd(g, (a[i] * pfGCD[i - 1]) / __gcd(a[i], pfGCD[i - 1]));
-    cout << g;
+    cout << g / k;
     return 0;
 }
