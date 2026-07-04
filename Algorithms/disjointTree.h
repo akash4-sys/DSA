@@ -56,3 +56,30 @@ public:
         return 1;
     }
 };
+
+// Disjoint tree keeping track of min weight of each component in the 
+// root/par of that component
+
+class DSUW {
+    vector<int> par, minWt;
+public:
+    DSUW(int n): par(n, -1), minWt(n, INT_MAX) {}
+
+    int findPar(int u) {
+        return par[u] == -1 ? u : par[u] = findPar(par[u]);
+    }
+
+    int getWt(int u) {
+        return minWt[findPar(u)];
+    }
+
+    void Union(int u, int v, int wt) {
+        int uPar = findPar(u), vPar = findPar(v);
+        if (uPar == vPar) {
+            minWt[vPar] = min({minWt[uPar], minWt[vPar], wt});
+            return;
+        }
+        par[uPar] = vPar;
+        minWt[vPar] = min({minWt[uPar], minWt[vPar], wt});
+    }
+};
