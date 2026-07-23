@@ -5,6 +5,27 @@ using namespace std;
 
 // range min query, range max query
 
+// A compact implementation of the sparse table 
+    class SparseTable {
+        vector<vector<int>> mat;
+        SparseTable(vector<int> &v) {
+            int n = v.size();
+            mat.push_back(v);
+            for (int half_len = 1; half_len * 2 <= n; half_len *= 2) {
+                auto &prev = mat.back();
+                vector<int> cur;
+                for (int i = 0; i + half_len < (int)prev.size(); i++)
+                    cur.push_back(max(prev[i], prev[i + half_len]));
+                mat.push_back(move(cur));
+            }
+        }
+
+        int query(int l, int r) {
+            int bits = log2(r - l + 1);
+            return max(mat[bits][l], mat[bits][r - (1 << bits) + 1]);
+        }
+    };
+
 class SparseTable
 {
     int n, LOG = 18;

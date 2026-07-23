@@ -91,5 +91,6 @@
         "xmemory": "cpp",
         "cerrno": "cpp"
     },
-    "circleci.persistedProjectSelection": []
+    "chat.disableAIFeatures": true,
+    "editor.inlineSuggest.enabled": false
 }
